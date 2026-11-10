@@ -1,7 +1,7 @@
 {
  "_note": "Site-wide settings used by tools/build_pages.py and tools/indexnow.py. Change the domain here when it's bought (and add a CNAME file with the same domain). Leave an email blank until the address exists: blank addresses are left off the pages.",
  "name": "ReggaeLive",
- "domain": "reggaelive.com",
+ "domain": "livereggaemusic.com",
  "email_shows": "",
  "email_info": "",
  "indexnow_key": "65be0976b853793821d03e77d665d767"

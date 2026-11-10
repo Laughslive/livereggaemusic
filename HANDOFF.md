@@ -58,7 +58,7 @@ Background for a new Claude chat picking up this project. Read this, then `tools
      site on the real domain, or preview locally.
 2. **Ticketmaster key:** Settings → Secrets and variables → Actions → New repository secret `TM_API_KEY`.
    The same key as LaughsLive is fine. Then run "Ticketmaster reggae feed" from the Actions tab once.
-3. **Domain:** buy it and set its DNS for GitHub Pages. Add a `CNAME` file. Update `"domain"` in `data/site.json`.
+3. **Domain:** livereggaemusic.com (CNAME file and `data/site.json` are set). Point its DNS at GitHub Pages.
 4. **Email:** set up the addresses and fill them into `data/site.json`.
    - The Proton plan allows one custom domain, already used by laughslive.com. Either upgrade the plan or use another provider.
 5. **Search engines and analytics:**
