@@ -1,0 +1,544 @@
+{
+ "_note": "The one list of ReggaeLive cities. Used by tools/build_pages.py, fetch_ticketmaster.py and merge_ticketmaster.py. See tools/ADDING_A_CITY.md.",
+ "regions": [
+  "Northeast",
+  "Mid-Atlantic",
+  "South",
+  "Midwest",
+  "West"
+ ],
+ "cities": [
+  {
+   "code": "NYC",
+   "slug": "new-york-city",
+   "name": "New York City",
+   "short": "NYC",
+   "region": "Northeast",
+   "center": [
+    40.7549,
+    -73.984
+   ],
+   "states": [
+    "NY",
+    "NJ",
+    "CT"
+   ],
+   "nearby": "Manhattan, Brooklyn, Queens, Long Island, Westchester and North Jersey"
+  },
+  {
+   "code": "PHL",
+   "slug": "philadelphia",
+   "name": "Philadelphia",
+   "short": "Philadelphia",
+   "region": "Northeast",
+   "center": [
+    39.9526,
+    -75.1652
+   ],
+   "states": [
+    "PA",
+    "NJ",
+    "DE"
+   ],
+   "nearby": "the Main Line, Bucks County, South Jersey and Wilmington"
+  },
+  {
+   "code": "BOS",
+   "slug": "boston",
+   "name": "Boston",
+   "short": "Boston",
+   "region": "Northeast",
+   "center": [
+    42.3601,
+    -71.0589
+   ],
+   "states": [
+    "MA",
+    "NH",
+    "RI"
+   ],
+   "nearby": "Cambridge, Somerville, the North Shore, Worcester and Providence"
+  },
+  {
+   "code": "BAL",
+   "slug": "baltimore",
+   "name": "Baltimore",
+   "short": "Baltimore",
+   "region": "Mid-Atlantic",
+   "center": [
+    39.2904,
+    -76.6122
+   ],
+   "states": [
+    "MD",
+    "DC",
+    "VA",
+    "PA"
+   ],
+   "nearby": "Fells Point, Canton, Annapolis, Columbia and Towson"
+  },
+  {
+   "code": "DC",
+   "slug": "washington-dc",
+   "name": "Washington, D.C.",
+   "short": "Washington, D.C.",
+   "region": "Mid-Atlantic",
+   "center": [
+    38.9072,
+    -77.0369
+   ],
+   "states": [
+    "DC",
+    "MD",
+    "VA"
+   ],
+   "nearby": "Arlington, Alexandria, Bethesda, National Harbor and Northern Virginia"
+  },
+  {
+   "code": "PIT",
+   "slug": "pittsburgh",
+   "name": "Pittsburgh",
+   "short": "Pittsburgh",
+   "region": "Mid-Atlantic",
+   "center": [
+    40.4406,
+    -79.9959
+   ],
+   "states": [
+    "PA",
+    "WV",
+    "OH"
+   ],
+   "nearby": "the South Side, Homestead, the North Hills and Greensburg"
+  },
+  {
+   "code": "CLE",
+   "slug": "cleveland",
+   "name": "Cleveland",
+   "short": "Cleveland",
+   "region": "Midwest",
+   "center": [
+    41.4993,
+    -81.6944
+   ],
+   "states": [
+    "OH"
+   ],
+   "nearby": "Akron, Northfield Park, Kent and the East and West Sides"
+  },
+  {
+   "code": "NSH",
+   "slug": "nashville",
+   "name": "Nashville",
+   "short": "Nashville",
+   "region": "South",
+   "center": [
+    36.1627,
+    -86.7816
+   ],
+   "states": [
+    "TN"
+   ],
+   "nearby": "Franklin, Murfreesboro, East Nashville and the Gulch"
+  },
+  {
+   "code": "PWM",
+   "slug": "portland-maine",
+   "name": "Portland, Maine",
+   "short": "Portland, Maine",
+   "region": "Northeast",
+   "center": [
+    43.6591,
+    -70.2568
+   ],
+   "states": [
+    "ME"
+   ],
+   "nearby": "South Portland, Westbrook, Biddeford and Brunswick"
+  },
+  {
+   "code": "CHI",
+   "slug": "chicago",
+   "name": "Chicago",
+   "short": "Chicago",
+   "region": "Midwest",
+   "center": [
+    41.8781,
+    -87.6298
+   ],
+   "states": [
+    "IL",
+    "IN"
+   ],
+   "nearby": "Old Town, Wrigleyville, Schaumburg, Rosemont and the suburbs"
+  },
+  {
+   "code": "ATL",
+   "slug": "atlanta",
+   "name": "Atlanta",
+   "short": "Atlanta",
+   "region": "South",
+   "center": [
+    33.749,
+    -84.388
+   ],
+   "states": [
+    "GA"
+   ],
+   "nearby": "Midtown, Buckhead, Sandy Springs, Alpharetta and Decatur"
+  },
+  {
+   "code": "RIC",
+   "slug": "richmond",
+   "name": "Richmond",
+   "short": "Richmond",
+   "region": "Mid-Atlantic",
+   "center": [
+    37.5407,
+    -77.436
+   ],
+   "states": [
+    "VA"
+   ],
+   "nearby": "Short Pump, the Fan, Scott's Addition and Henrico"
+  },
+  {
+   "code": "ORF",
+   "slug": "norfolk-virginia-beach",
+   "name": "Norfolk & Virginia Beach",
+   "short": "Norfolk & Virginia Beach",
+   "region": "Mid-Atlantic",
+   "center": [
+    36.8508,
+    -76.2859
+   ],
+   "states": [
+    "VA",
+    "NC"
+   ],
+   "nearby": "Hampton Roads, Chesapeake, Newport News and Hampton"
+  },
+  {
+   "code": "HFD",
+   "slug": "hartford",
+   "name": "Hartford",
+   "short": "Hartford",
+   "region": "Northeast",
+   "center": [
+    41.7658,
+    -72.6734
+   ],
+   "states": [
+    "CT",
+    "MA"
+   ],
+   "nearby": "Manchester, West Hartford, New Britain and the Connecticut casinos"
+  },
+  {
+   "code": "NHV",
+   "slug": "new-haven",
+   "name": "New Haven",
+   "short": "New Haven",
+   "region": "Northeast",
+   "center": [
+    41.3083,
+    -72.9279
+   ],
+   "states": [
+    "CT",
+    "NY"
+   ],
+   "nearby": "Bridgeport, Milford, the Connecticut shoreline and Waterbury"
+  },
+  {
+   "code": "MIA",
+   "slug": "miami",
+   "name": "Miami",
+   "short": "Miami",
+   "region": "South",
+   "center": [
+    25.7617,
+    -80.1918
+   ],
+   "states": [
+    "FL"
+   ],
+   "nearby": "Miami Beach, Doral, Coral Gables, Fort Lauderdale and Hollywood"
+  },
+  {
+   "code": "TPA",
+   "slug": "tampa",
+   "name": "Tampa",
+   "short": "Tampa",
+   "region": "South",
+   "center": [
+    27.9506,
+    -82.4572
+   ],
+   "states": [
+    "FL"
+   ],
+   "nearby": "Ybor City, St. Petersburg, Clearwater and Lakeland"
+  },
+  {
+   "code": "ORL",
+   "slug": "orlando",
+   "name": "Orlando",
+   "short": "Orlando",
+   "region": "South",
+   "center": [
+    28.5384,
+    -81.3789
+   ],
+   "states": [
+    "FL"
+   ],
+   "nearby": "International Drive, Winter Park, Kissimmee and Sanford"
+  },
+  {
+   "code": "CIN",
+   "slug": "cincinnati",
+   "name": "Cincinnati",
+   "short": "Cincinnati",
+   "region": "Midwest",
+   "center": [
+    39.1031,
+    -84.512
+   ],
+   "states": [
+    "OH",
+    "KY",
+    "IN"
+   ],
+   "nearby": "Northern Kentucky, Liberty Township, West Chester and Dayton"
+  },
+  {
+   "code": "STL",
+   "slug": "st-louis",
+   "name": "St. Louis",
+   "short": "St. Louis",
+   "region": "Midwest",
+   "center": [
+    38.627,
+    -90.1994
+   ],
+   "states": [
+    "MO",
+    "IL"
+   ],
+   "nearby": "Westport, Chesterfield, the Delmar Loop and St. Charles"
+  },
+  {
+   "code": "MSP",
+   "slug": "minneapolis-st-paul",
+   "name": "Minneapolis–St. Paul",
+   "short": "Minneapolis–St. Paul",
+   "region": "Midwest",
+   "center": [
+    44.9778,
+    -93.265
+   ],
+   "states": [
+    "MN",
+    "WI"
+   ],
+   "nearby": "Uptown, Bloomington, Northeast and the Twin Cities suburbs"
+  },
+  {
+   "code": "MKE",
+   "slug": "milwaukee",
+   "name": "Milwaukee",
+   "short": "Milwaukee",
+   "region": "Midwest",
+   "center": [
+    43.0389,
+    -87.9065
+   ],
+   "states": [
+    "WI"
+   ],
+   "nearby": "the Third Ward, Wauwatosa, Racine and Kenosha"
+  },
+  {
+   "code": "DET",
+   "slug": "detroit",
+   "name": "Detroit",
+   "short": "Detroit",
+   "region": "Midwest",
+   "center": [
+    42.3314,
+    -83.0458
+   ],
+   "states": [
+    "MI"
+   ],
+   "nearby": "Royal Oak, Ferndale, Ann Arbor and Windsor"
+  },
+  {
+   "code": "DEN",
+   "slug": "denver",
+   "name": "Denver",
+   "short": "Denver",
+   "region": "West",
+   "center": [
+    39.7392,
+    -104.9903
+   ],
+   "states": [
+    "CO"
+   ],
+   "nearby": "LoDo, RiNo, Boulder, Aurora, Lakewood and the Denver Tech Center"
+  },
+  {
+   "code": "IND",
+   "slug": "indianapolis",
+   "name": "Indianapolis",
+   "short": "Indianapolis",
+   "region": "Midwest",
+   "center": [
+    39.7684,
+    -86.1581
+   ],
+   "states": [
+    "IN"
+   ],
+   "nearby": "Broad Ripple, Fountain Square, Carmel, Fishers and Bloomington"
+  },
+  {
+   "code": "AUS",
+   "slug": "austin",
+   "name": "Austin",
+   "short": "Austin",
+   "region": "South",
+   "center": [
+    30.2672,
+    -97.7431
+   ],
+   "states": [
+    "TX"
+   ],
+   "nearby": "Sixth Street, East Austin, South Congress, Round Rock and San Marcos"
+  },
+  {
+   "code": "DFW",
+   "slug": "dallas-fort-worth",
+   "name": "Dallas–Fort Worth",
+   "short": "Dallas–Fort Worth",
+   "region": "South",
+   "center": [
+    32.7767,
+    -96.797
+   ],
+   "states": [
+    "TX"
+   ],
+   "nearby": "Deep Ellum, Addison, Plano, Arlington, Fort Worth and Frisco"
+  },
+  {
+   "code": "PHX",
+   "slug": "phoenix",
+   "name": "Phoenix",
+   "short": "Phoenix",
+   "region": "West",
+   "center": [
+    33.4484,
+    -112.074
+   ],
+   "states": [
+    "AZ"
+   ],
+   "nearby": "Scottsdale, Tempe, Mesa, Chandler and Glendale"
+  },
+  {
+   "code": "LAS",
+   "slug": "las-vegas",
+   "name": "Las Vegas",
+   "short": "Las Vegas",
+   "region": "West",
+   "center": [
+    36.1147,
+    -115.1728
+   ],
+   "states": [
+    "NV",
+    "AZ"
+   ],
+   "nearby": "the Strip, Downtown and Fremont Street, Henderson and Summerlin"
+  },
+  {
+   "code": "LA",
+   "slug": "los-angeles",
+   "name": "Los Angeles",
+   "short": "Los Angeles",
+   "region": "West",
+   "center": [
+    34.0522,
+    -118.2437
+   ],
+   "states": [
+    "CA"
+   ],
+   "nearby": "Hollywood, West Hollywood, Santa Monica, the Valley, Pasadena, Long Beach and Orange County"
+  },
+  {
+   "code": "SFO",
+   "slug": "san-francisco-bay-area",
+   "name": "San Francisco Bay Area",
+   "short": "the Bay Area",
+   "region": "West",
+   "center": [
+    37.7749,
+    -122.4194
+   ],
+   "states": [
+    "CA"
+   ],
+   "nearby": "San Francisco, Oakland, Berkeley, San Jose, Palo Alto and Marin"
+  },
+  {
+   "code": "SEA",
+   "slug": "seattle",
+   "name": "Seattle",
+   "short": "Seattle",
+   "region": "West",
+   "center": [
+    47.6062,
+    -122.3321
+   ],
+   "states": [
+    "WA"
+   ],
+   "nearby": "Capitol Hill, Pioneer Square, Ballard, Bellevue, Tacoma and Everett"
+  },
+  {
+   "code": "HOU",
+   "slug": "houston",
+   "name": "Houston",
+   "short": "Houston",
+   "region": "South",
+   "center": [
+    29.7604,
+    -95.3698
+   ],
+   "states": [
+    "TX"
+   ],
+   "nearby": "Montrose, the Heights, Midtown, Sugar Land, Katy, the Woodlands and Galveston"
+  },
+  {
+   "code": "SAN",
+   "slug": "san-diego",
+   "name": "San Diego",
+   "short": "San Diego",
+   "region": "West",
+   "center": [
+    32.7157,
+    -117.1611
+   ],
+   "states": [
+    "CA"
+   ],
+   "nearby": "the Gaslamp, La Jolla, Pacific Beach, North Park, Chula Vista and Oceanside"
+  }
+ ]
+}

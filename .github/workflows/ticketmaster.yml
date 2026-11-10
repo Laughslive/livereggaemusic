@@ -1,0 +1,44 @@
+name: Ticketmaster reggae feed
+# Every morning: download Ticketmaster's reggae / dancehall / soca listings, merge them into the site,
+# rebuild the city pages, publish, and notify search engines. Runs without Claude.
+on:
+  schedule:
+    - cron: "43 9 * * *"   # daily, ~4-5am Eastern (offset from LaughsLive's run)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch reggae, dancehall and soca events
+        env:
+          TM_API_KEY: ${{ secrets.TM_API_KEY }}
+        run: |
+          python3 tools/fetch_ticketmaster.py
+          cp data/ticketmaster.json "$RUNNER_TEMP/tm.json"
+      - name: Merge into the site, rebuild city pages, publish
+        id: publish
+        run: |
+          git config user.name "ReggaeLive"
+          git config user.email "reggaelive@users.noreply.github.com"
+          # Other commits (e.g. the Claude update) may land while this runs: start from the latest main each try.
+          for i in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            cp "$RUNNER_TEMP/tm.json" data/ticketmaster.json
+            python3 tools/merge_ticketmaster.py index.html data/ticketmaster.json
+            python3 tools/check_script.py
+            python3 tools/build_pages.py
+            git add -A
+            if git diff --cached --quiet; then echo "No changes"; echo "pushed=no" >> "$GITHUB_OUTPUT"; exit 0; fi
+            git commit -q -m "Ticketmaster feed $(date -u +%F)"
+            if git push -q origin HEAD:main; then echo "pushed=yes" >> "$GITHUB_OUTPUT"; exit 0; fi
+            sleep 5
+          done
+          exit 1
+      - name: Notify search engines (IndexNow)
+        if: steps.publish.outputs.pushed == 'yes'
+        run: |
+          sleep 90
+          python3 tools/indexnow.py
