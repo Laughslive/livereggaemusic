@@ -21,7 +21,8 @@ Background for a new Claude chat picking up this project. Read this, then `tools
   - Never put the owner's personal email anywhere public or send it to outside services.
 - **Venue / promoter first.**
   - The official seller is the link fans get.
-  - Aggregators are backup only (list in `tools/update/common.md`).
+  - Resale and listing sites are the fallback: when there's no official seller, venue or artist link, the ticket
+    button goes to the resale page, labeled "Resale tickets" (owner's rule, Nov 10, 2026).
 - **Accuracy:** never guess times, prices, names or URLs. Skip a show with no stated start time.
 - **Genre scope** (owner's choice: "wider Caribbean", plus African music added Nov 10, 2026): reggae (incl. reggae-rock
   and Jamaican-style ska), dancehall, soca, calypso, and afrobeats/amapiano/highlife/afro-pop (type `AF`).

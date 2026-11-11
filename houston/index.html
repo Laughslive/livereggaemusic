@@ -288,9 +288,11 @@ const SITES={
 };
 for(const k in SITES) if(V[k]) V[k].site=SITES[k];
 const LISTING_SITE=/seatgeek|vividseats|stubhub|tickpick|gametime|ticketnetwork|ticketsmarter|eventticketscenter|tickets-center|concertfix|concerts50|concertarchives|songkick|bandsintown|jambase|allevents|evendo|happeningnext|eventbrowse|new-york\.events|americanarenas|eventworld|stereoboard|catchmovement|beatstorapon|discotech|etickets\.com|ticketx|karlobag|overlookmaps/;
+// Official seller first; the venue's own site next; a resale/listing page only when neither exists (owner's rule, Nov 10, 2026).
 function ticketLink(s){
-  if(!LISTING_SITE.test(s.url)) return {href:s.url,label:"Tickets & info"};
+  if(s.url&&!LISTING_SITE.test(s.url)) return {href:s.url,label:"Tickets & info"};
   if(s.v.site) return {href:s.v.site,label:"Tickets at venue"};
+  if(s.url) return {href:s.url,label:"Resale tickets"};
   return {href:"https://www.google.com/search?q="+encodeURIComponent(s.v.n+" "+s.v.b+" "+s.title+" tickets"),label:"Find tickets"};
 }
 const U={

@@ -4,9 +4,8 @@ public Platform API for Live Reggae Music's cities and save them to data/seatgee
 shape as data/ticketmaster.json, so tools/merge_ticketmaster.py can merge both.
 
 SeatGeek is used to FIND shows Ticketmaster misses (AXS, Eventbrite, Dice and box-office shows
-often appear there). It is a resale marketplace, so its links are never shown to fans: seatgeek.com
-matches LISTING_SITE in index.html, and the ticket button falls back to the venue's own site or a
-search. Hand-checked rows and Ticketmaster rows always win over SeatGeek rows.
+often appear there). It is a resale marketplace: seatgeek.com matches LISTING_SITE in index.html, so the ticket button
+goes to the venue's own site when known, and to the SeatGeek page ("Resale tickets") otherwise. Hand-checked rows and Ticketmaster rows always win over SeatGeek rows.
 
 Runs in GitHub Actions. The client id comes from the SEATGEEK_CLIENT_ID repository secret.
 If the secret is missing, it writes an empty list and exits normally, so the daily update still runs.

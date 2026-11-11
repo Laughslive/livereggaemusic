@@ -22,10 +22,10 @@ Live Reggae Music (livereggaemusic.com; name and domain in data/site.json) lists
   1. the show's own page on the venue's or promoter's site;
   2. its official primary ticket page — Ticketmaster, AXS, Eventbrite, Dice, Tixr, Etix, SeeTickets, Ticketweb, Prekindle, Venue Pilot, Caribtix, Showclix, the venue's own box office;
   3. the artist's official tour page.
-- **Aggregators are backup only:** concerts50, concertfix, new-york.events, americanarenas, eventworld, stereoboard, catchmovement, beatstorapon, discotech, jambase, bandsintown, songkick, seatgeek, vividseats, stubhub, tickpick, gametime and similar.
+- **Resale and listing sites are the fallback** (owner's rule, updated Nov 10, 2026: "go to resale if the official seller, venue or artist aren't available"): concerts50, concertfix, new-york.events, americanarenas, eventworld, stereoboard, catchmovement, beatstorapon, discotech, jambase, bandsintown, songkick, seatgeek, vividseats, stubhub, tickpick, gametime and similar.
   - Use them to discover shows, or as the source only when no official page can be found.
   - Then still look for the official page before falling back to the aggregator link.
-- **When there's no official link:** an aggregator link is acceptable only if the venue has a SITES entry or the show will still be useful with a "Find tickets" search button. LISTING_SITE in index.html must match the aggregator so the button never sends fans to a reseller.
+- **When there's no official link:** use the resale or listing page as the row's url. The ticket button then goes to the venue's own site (SITES) if there is one, and otherwise to that resale page, labeled "Resale tickets". Prefer real marketplaces (SeatGeek, StubHub, Vivid Seats, TickPick, Gametime) over pure listing sites. LISTING_SITE in index.html must match every resale/listing domain, so official links are always tried first.
 - **Watch for look-alikes.** Resale sites built to look like the artist, such as <artist>tour2026.com or *.pages.dev, are never sources.
 - **Accuracy.**
   - Never guess times, prices, names or URLs.
