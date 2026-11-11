@@ -23,15 +23,16 @@ Background for a new Claude chat picking up this project. Read this, then `tools
   - The official seller is the link fans get.
   - Aggregators are backup only (list in `tools/update/common.md`).
 - **Accuracy:** never guess times, prices, names or URLs. Skip a show with no stated start time.
-- **Genre scope** (owner's choice: "wider Caribbean"): reggae (incl. reggae-rock and Jamaican-style ska),
-  dancehall, soca, calypso. Not reggaeton/Latin, dubstep, ska-punk/2-tone, or afrobeats-only nights.
+- **Genre scope** (owner's choice: "wider Caribbean", plus African music added Nov 10, 2026): reggae (incl. reggae-rock
+  and Jamaican-style ska), dancehall, soca, calypso, and afrobeats/amapiano/highlife/afro-pop (type `AF`).
+  Not reggaeton/Latin, dubstep or ska-punk/2-tone.
 - **Secrets** go in GitHub Actions secrets, never in code. The repo may be public.
 - **Before acting:** explain GitHub steps in plain words, and ask before anything irreversible.
 - **Commits:** author `-c user.name="ReggaeLive" -c user.email="reggaelive@users.noreply.github.com"`,
   messages end with a `Co-Authored-By:` line.
 
 ## Differences from LaughsLive's code
-- **Show types:** `RG` Reggae, `DH` Dancehall, `SC` Soca & calypso, defined in the app script.
+- **Show types:** `RG` Reggae, `DH` Dancehall, `SC` Soca & calypso, `AF` Afrobeats & African, defined in the app script.
   - Flag `"fest"` = festival or carnival.
   - The artist search uses `?artist=` (it's `?comic=` on LaughsLive).
 - **`data/site.json`:** name, domain, email addresses and the IndexNow key, all in one place.
@@ -42,7 +43,10 @@ Background for a new Claude chat picking up this project. Read this, then `tools
     and by keyword, within the Music segment, 90 days ahead.
   - Keeps an event only if Ticketmaster files it under one of those genres, or (for keyword hits) its own name contains a genre word.
   - Each event records `why` it was kept, and the run prints a summary for tuning.
-  - It's about 11 searches × 34 cities ≈ 370 API calls a day, well under Ticketmaster's 5,000/day.
+  - **Artist watch list:** `data/watch_artists.json` (about 105 names, each with a type). Every artist is also searched
+    by name U.S.-wide, so their Ticketmaster shows come in even when Ticketmaster files them under Pop or Hip-Hop
+    (Tyla, for example). Names must match a listed performer or appear as whole words in the event name.
+  - In total it's about 700 API calls a day, well under Ticketmaster's 5,000/day.
 - **`tools/merge_ticketmaster.py`:**
   - Picks the show type from the genres and the event name.
   - Flags festivals.

@@ -1,4 +1,4 @@
-Update ReggaeLive with fresh reggae, dancehall, soca and calypso listings for the 15 Midwest and West areas. First read tools/update/common.md in the repository: it holds the rules, sourcing policy, data format and publish steps.
+Update ReggaeLive with fresh reggae, dancehall, soca, calypso and afrobeats/African listings for the 15 Midwest and West areas. First read tools/update/common.md in the repository: it holds the rules, sourcing policy, data format and publish steps.
 
 SET UP: attach the repository with the add_repo tool (access "push"), clone it and work in the clone. First remove hand-written rows whose date has passed.
 
@@ -25,6 +25,7 @@ Work one region at a time in that order, covering the next ~8 weeks. Publish aft
    - San Diego: Belly Up (Solana Beach), Music Box, Observatory North Park, House of Blues San Diego, Humphreys, Petco Park (Field of Dreamz).
    - San Francisco Bay Area: The Independent, The Regency Ballroom, The Fillmore, UC Theatre (Berkeley), Fox Theater (Oakland), The Catalyst (Santa Cruz), Moe's Alley (Santa Cruz is outside the 50-mile line; check the distance).
    - Seattle: Showbox, Showbox SoDo, Neptune, The Crocodile, Nectar Lounge, Marymoor Park (Redmond).
+   - African music: big African headliners often play United Center (Chicago), Little Caesars Arena (Detroit), Kia Forum and Crypto.com Arena (LA), Chase Center (SF), Climate Pledge Arena (Seattle); also search "afrobeats <city>" and "amapiano <city>" on Eventbrite and Dice.
    - Caribbean promoters in these cities: search "<city> dancehall", "<city> soca fete" and "<city> reggae night" on Eventbrite and Dice. Add the organizer pages you confirm to this file.
 
 2. CITY PASS (discovery, if room allows), as in east.md.

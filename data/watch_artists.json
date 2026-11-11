@@ -1,0 +1,425 @@
+{
+ "_note": "Artists the daily Ticketmaster download searches by name (U.S.-wide; shows outside the 34 areas are dropped by the merge). type: RG reggae, DH dancehall, SC soca & calypso, AF afrobeats & African. Add or remove names freely; keep this list and tools/update/east.md's watch list in step.",
+ "artists": [
+  {
+   "name": "Vybz Kartel",
+   "type": "RG"
+  },
+  {
+   "name": "Popcaan",
+   "type": "RG"
+  },
+  {
+   "name": "Dexta Daps",
+   "type": "RG"
+  },
+  {
+   "name": "Steel Pulse",
+   "type": "RG"
+  },
+  {
+   "name": "Groundation",
+   "type": "RG"
+  },
+  {
+   "name": "UB40",
+   "type": "RG"
+  },
+  {
+   "name": "SOJA",
+   "type": "RG"
+  },
+  {
+   "name": "Mike Love",
+   "type": "RG"
+  },
+  {
+   "name": "Christopher Martin",
+   "type": "RG"
+  },
+  {
+   "name": "Buju Banton",
+   "type": "RG"
+  },
+  {
+   "name": "Busy Signal",
+   "type": "RG"
+  },
+  {
+   "name": "Tarrus Riley",
+   "type": "RG"
+  },
+  {
+   "name": "Mavado",
+   "type": "RG"
+  },
+  {
+   "name": "I-Octane",
+   "type": "RG"
+  },
+  {
+   "name": "Capleton",
+   "type": "RG"
+  },
+  {
+   "name": "Sizzla",
+   "type": "RG"
+  },
+  {
+   "name": "Anthony B",
+   "type": "RG"
+  },
+  {
+   "name": "Vershon",
+   "type": "RG"
+  },
+  {
+   "name": "Gyptian",
+   "type": "RG"
+  },
+  {
+   "name": "Jahmiel",
+   "type": "RG"
+  },
+  {
+   "name": "Pressure Busspipe",
+   "type": "RG"
+  },
+  {
+   "name": "Protoje",
+   "type": "RG"
+  },
+  {
+   "name": "Chronixx",
+   "type": "RG"
+  },
+  {
+   "name": "Kabaka Pyramid",
+   "type": "RG"
+  },
+  {
+   "name": "Lutan Fyah",
+   "type": "RG"
+  },
+  {
+   "name": "Keznamdi",
+   "type": "RG"
+  },
+  {
+   "name": "Yaadcore",
+   "type": "RG"
+  },
+  {
+   "name": "Junior P",
+   "type": "RG"
+  },
+  {
+   "name": "Stephen Marley",
+   "type": "RG"
+  },
+  {
+   "name": "Ziggy Marley",
+   "type": "RG"
+  },
+  {
+   "name": "Damian Marley",
+   "type": "RG"
+  },
+  {
+   "name": "Ky-Mani Marley",
+   "type": "RG"
+  },
+  {
+   "name": "Lila Iké",
+   "type": "RG"
+  },
+  {
+   "name": "Alborosie",
+   "type": "RG"
+  },
+  {
+   "name": "Collie Buddz",
+   "type": "RG"
+  },
+  {
+   "name": "Shaggy",
+   "type": "RG"
+  },
+  {
+   "name": "Beres Hammond",
+   "type": "RG"
+  },
+  {
+   "name": "Koffee",
+   "type": "RG"
+  },
+  {
+   "name": "Skip Marley",
+   "type": "RG"
+  },
+  {
+   "name": "Julian Marley",
+   "type": "RG"
+  },
+  {
+   "name": "Third World",
+   "type": "RG"
+  },
+  {
+   "name": "Inner Circle",
+   "type": "RG"
+  },
+  {
+   "name": "Morgan Heritage",
+   "type": "RG"
+  },
+  {
+   "name": "Burning Spear",
+   "type": "RG"
+  },
+  {
+   "name": "The Wailers",
+   "type": "RG"
+  },
+  {
+   "name": "Rebelution",
+   "type": "RG"
+  },
+  {
+   "name": "Stick Figure",
+   "type": "RG"
+  },
+  {
+   "name": "Iration",
+   "type": "RG"
+  },
+  {
+   "name": "Slightly Stoopid",
+   "type": "RG"
+  },
+  {
+   "name": "Sublime",
+   "type": "RG"
+  },
+  {
+   "name": "Dirty Heads",
+   "type": "RG"
+  },
+  {
+   "name": "The Slackers",
+   "type": "RG"
+  },
+  {
+   "name": "Masicka",
+   "type": "DH"
+  },
+  {
+   "name": "Sean Paul",
+   "type": "DH"
+  },
+  {
+   "name": "Shenseea",
+   "type": "DH"
+  },
+  {
+   "name": "Skillibeng",
+   "type": "DH"
+  },
+  {
+   "name": "Tommy Lee Sparta",
+   "type": "DH"
+  },
+  {
+   "name": "Jah Bouks",
+   "type": "DH"
+  },
+  {
+   "name": "Beenie Man",
+   "type": "DH"
+  },
+  {
+   "name": "Gage",
+   "type": "DH"
+  },
+  {
+   "name": "Spragga Benz",
+   "type": "DH"
+  },
+  {
+   "name": "Spice",
+   "type": "DH"
+  },
+  {
+   "name": "Alkaline",
+   "type": "DH"
+  },
+  {
+   "name": "Bounty Killer",
+   "type": "DH"
+  },
+  {
+   "name": "Aidonia",
+   "type": "DH"
+  },
+  {
+   "name": "Valiant",
+   "type": "DH"
+  },
+  {
+   "name": "Teejay",
+   "type": "DH"
+  },
+  {
+   "name": "Govana",
+   "type": "DH"
+  },
+  {
+   "name": "Machel Montano",
+   "type": "SC"
+  },
+  {
+   "name": "Kes",
+   "type": "SC"
+  },
+  {
+   "name": "Bunji Garlin",
+   "type": "SC"
+  },
+  {
+   "name": "Patrice Roberts",
+   "type": "SC"
+  },
+  {
+   "name": "Skinny Fabulous",
+   "type": "SC"
+  },
+  {
+   "name": "Destra Garcia",
+   "type": "SC"
+  },
+  {
+   "name": "Nailah Blackman",
+   "type": "SC"
+  },
+  {
+   "name": "Calypso Rose",
+   "type": "SC"
+  },
+  {
+   "name": "Omah Lay",
+   "type": "AF"
+  },
+  {
+   "name": "Burna Boy",
+   "type": "AF"
+  },
+  {
+   "name": "Wizkid",
+   "type": "AF"
+  },
+  {
+   "name": "Davido",
+   "type": "AF"
+  },
+  {
+   "name": "Rema",
+   "type": "AF"
+  },
+  {
+   "name": "Tems",
+   "type": "AF"
+  },
+  {
+   "name": "Asake",
+   "type": "AF"
+  },
+  {
+   "name": "Ayra Starr",
+   "type": "AF"
+  },
+  {
+   "name": "Tyla",
+   "type": "AF"
+  },
+  {
+   "name": "Fireboy DML",
+   "type": "AF"
+  },
+  {
+   "name": "Olamide",
+   "type": "AF"
+  },
+  {
+   "name": "Tiwa Savage",
+   "type": "AF"
+  },
+  {
+   "name": "Yemi Alade",
+   "type": "AF"
+  },
+  {
+   "name": "Kizz Daniel",
+   "type": "AF"
+  },
+  {
+   "name": "Ruger",
+   "type": "AF"
+  },
+  {
+   "name": "CKay",
+   "type": "AF"
+  },
+  {
+   "name": "Black Sherif",
+   "type": "AF"
+  },
+  {
+   "name": "Sarkodie",
+   "type": "AF"
+  },
+  {
+   "name": "Stonebwoy",
+   "type": "AF"
+  },
+  {
+   "name": "Shatta Wale",
+   "type": "AF"
+  },
+  {
+   "name": "King Promise",
+   "type": "AF"
+  },
+  {
+   "name": "Diamond Platnumz",
+   "type": "AF"
+  },
+  {
+   "name": "Uncle Waffles",
+   "type": "AF"
+  },
+  {
+   "name": "Kabza De Small",
+   "type": "AF"
+  },
+  {
+   "name": "Angelique Kidjo",
+   "type": "AF"
+  },
+  {
+   "name": "Fally Ipupa",
+   "type": "AF"
+  },
+  {
+   "name": "Femi Kuti",
+   "type": "AF"
+  },
+  {
+   "name": "Seun Kuti",
+   "type": "AF"
+  },
+  {
+   "name": "Youssou N'Dour",
+   "type": "AF"
+  }
+ ]
+}

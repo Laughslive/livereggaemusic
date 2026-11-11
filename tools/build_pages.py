@@ -73,7 +73,7 @@ def static_list(code, shows):
     items = "".join(
         f"<li><b>{html.escape(s['title'])}</b> — {fmt_when(s['d'], s['t'])} — "
         f"{html.escape(s['venue'])}, {html.escape(s['area'])}</li>" for s in shows)
-    return (f'<section class="seo-list"><h2>Upcoming reggae, dancehall &amp; soca shows in {html.escape(name)}</h2>'
+    return (f'<section class="seo-list"><h2>Upcoming reggae, dancehall, soca &amp; afrobeats shows in {html.escape(name)}</h2>'
             f"<ul>{items}</ul></section>")
 
 def nav_html(current=None):
@@ -122,7 +122,7 @@ def head_html(title, desc, url):
 
 STATIC_PAGES = [
     ("about", f"About {NAME}: Where Our Reggae Listings Come From",
-     f"{NAME} lists reggae, dancehall, soca and calypso shows in 34 U.S. cities, from venues' and promoters' own pages, artists' tour pages and Ticketmaster."),
+     f"{NAME} lists reggae, dancehall, soca, calypso and afrobeats shows in 34 U.S. cities, from venues' and promoters' own pages, artists' tour pages and Ticketmaster."),
     ("privacy", f"Privacy | {NAME}",
      f"{NAME} has no accounts and sets no cookies. What the site stores on your device and the cookie-free analytics it uses."),
 ]
@@ -164,7 +164,7 @@ def static_page(title, desc, url, body):
             '<header><div class="bulbs" aria-hidden="true"><i></i><i></i><i></i></div>'
             '<a class="logo" href="/">Reggae<span class="onair">Live</span></a></header>\n'
             f"<main>\n{body}\n</main>\n" + block("nav", nav_html("_static")) +
-            f"\n<footer>{NAME} · reggae, dancehall &amp; soca near you</footer>\n</div>\n</body>\n</html>\n")
+            f"\n<footer>{NAME} · reggae, dancehall, soca &amp; afrobeats near you</footer>\n</div>\n</body>\n</html>\n")
 
 def set_title_desc(page, title, desc):
     page = re.sub(r"<title>.*?</title>", lambda m: f"<title>{html.escape(title)}</title>", page, count=1, flags=re.S)
@@ -201,8 +201,8 @@ def main():
     shows = city_shows()
 
     # Home page
-    title = f"{NAME}: Reggae, Dancehall & Soca Shows Near You"
-    desc = ("Find upcoming reggae, dancehall, soca and calypso shows near you, in cities including New York, Miami, "
+    title = f"{NAME}: Reggae, Dancehall, Soca & Afrobeats Shows Near You"
+    desc = ("Find upcoming reggae, dancehall, soca, calypso and afrobeats shows near you, in cities including New York, Miami, "
             "Atlanta, Washington D.C., Boston, Philadelphia, Houston, Los Angeles and the San Francisco Bay Area.")
     home = set_title_desc(base, title, desc)
     home = put_block(home, "head", head_html(title, desc, SITE + "/"), "</head>")
@@ -213,8 +213,8 @@ def main():
     for code, slug, name, short, nearby in CITIES:
         url = f"{SITE}/{slug}/"
         n = len(shows.get(code, []))
-        title = f"Reggae Shows in {short}: Reggae, Dancehall & Soca This Week | {NAME}"
-        desc = (f"Upcoming reggae, dancehall, soca and calypso shows in {name} and within 50 miles, including {nearby}. "
+        title = f"Reggae Shows in {short}: Reggae, Dancehall, Soca & Afrobeats | {NAME}"
+        desc = (f"Upcoming reggae, dancehall, soca, calypso and afrobeats shows in {name} and within 50 miles, including {nearby}. "
                 "Touring artists, sound systems and festivals, with links to the venue's or promoter's own tickets.")
         pg = set_title_desc(base, title, desc)
         pg = put_block(pg, "head", head_html(title, desc, url) + f"<script>window.LL_CITY={json.dumps(code)}</script>", "</head>")
@@ -222,7 +222,7 @@ def main():
         pg = pg.replace(f'<option value="{code}">', f'<option value="{code}" selected>', 1)
         pg = re.sub(r'(<input id="loc"[^>]*?) value="[^"]*"', r'\1 value=""', pg, count=1)
         pg = re.sub(r'<p class="tag">.*?</p>',
-                    lambda m: f'<p class="tag">Reggae, dancehall, soca and calypso in {html.escape(name)} and up to 50 miles around it, '
+                    lambda m: f'<p class="tag">Reggae, dancehall, soca, calypso and afrobeats in {html.escape(name)} and up to 50 miles around it, '
                               f'from sound-system nights to arena headliners. Enter where you are to see what\'s closest.</p>',
                     pg, count=1, flags=re.S)
         pg = pg.replace('<main id="results"></main>',

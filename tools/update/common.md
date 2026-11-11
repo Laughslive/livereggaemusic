@@ -1,17 +1,18 @@
 # ReggaeLive update — shared rules (read with east.md or west.md)
 
-ReggaeLive (placeholder name; domain in data/site.json) lists reggae, dancehall, soca and calypso shows within 50 miles of 34 U.S. city centers. It is served by GitHub Pages from this repository (branch main). index.html holds all show data and is THE source of truth — work directly in it. Each scheduled run follows east.md or west.md, which add the region's cities, venues and promoters to these rules.
+ReggaeLive (placeholder name; domain in data/site.json) lists reggae, dancehall, soca, calypso and African music (afrobeats, amapiano, highlife, afro-pop) shows within 50 miles of 34 U.S. city centers. It is served by GitHub Pages from this repository (branch main). index.html holds all show data and is THE source of truth — work directly in it. Each scheduled run follows east.md or west.md, which add the region's cities, venues and promoters to these rules.
 
 ## What counts
 - **RG Reggae:** roots, lovers rock, dub, reggae-rock (Rebelution, SOJA, Stick Figure, Slightly Stoopid and similar), and Jamaican-style ska/rocksteady bands (e.g. The Slackers).
 - **DH Dancehall:** dancehall artists and dancehall-billed concerts.
 - **SC Soca & calypso:** soca, calypso, steelpan and carnival fetes.
+- **AF Afrobeats & African** (owner added Nov 10, 2026): afrobeats, afro-pop, afro-fusion, amapiano, highlife, bongo flava, soukous/ndombolo and other African artists' concerts, plus afrobeats-billed nights with a named headliner or DJ. Afro Nation and similar festivals get the "fest" flag.
 - **Festivals:** add the flag "fest" for festivals, carnivals and J'ouvert events.
 - **Skip:**
   - reggaeton and other Latin acts, even when a site files them under reggae (e.g. Rawayana, Kapo);
   - dubstep and bass-music DJs (Svdden Death, Bear Grillz, Liquid Stranger…);
   - ska-punk and 2-tone acts (The English Beat, The Pietasters, Reel Big Fish);
-  - afrobeats-only or "Caribbean brunch" nights with no reggae/dancehall/soca billing;
+  - brunches and day parties with no named headliner or DJ;
   - open mics, karaoke and dance classes;
   - cruises and events outside the 50-mile areas.
 - **Recurring parties:** DJ nights and weekly parties count only when they have a named headliner or sound system and a stated start time. Keep them to the ones a fan would plan around, at most one row per party per week.
@@ -36,6 +37,7 @@ ReggaeLive (placeholder name; domain in data/site.json) lists reggae, dancehall,
 ## Ticketmaster feed
 - A GitHub Action (.github/workflows/ticketmaster.yml) runs every morning. It fetches Ticketmaster's reggae / dancehall / soca / calypso listings for all 34 cities into data/ticketmaster.json, merges them into index.html with tools/merge_ticketmaster.py, rebuilds the city pages and publishes.
 - Don't research Ticketmaster-sold arena and theater shows. Spend the time on what Ticketmaster misses: Eventbrite, Dice and Tixr events, promoter concerts, clubs, sound systems and carnival events.
+- The feed also searches every artist in data/watch_artists.json by name. When the owner adds an artist to the watch list in east.md, add them there too (with type RG, DH, SC or AF).
 - The feed is filtered by Ticketmaster's own genre labels, so mislabeled shows can slip in. If you see one that doesn't count (above), add a pattern for it to EXCLUDE in tools/merge_ticketmaster.py.
 
 ## Fetching tips

@@ -22,9 +22,13 @@ package experience club theatre theater tickets ticket an a of in at on for by f
 EXCLUDE = re.compile(r"reggaet[oó]n|\bparking\b|\bupgrade\b|add[- ]on\b|\bshuttle\b|\bcabana\b|\blocker\b|gift card", re.I)
 
 def show_type(e):
-    """RG reggae, DH dancehall, SC soca & calypso: from Ticketmaster's genres, then the event name."""
+    """RG reggae, DH dancehall, SC soca & calypso, AF afrobeats & African: from Ticketmaster's genres, then the event name."""
+    if e.get("type") in ("RG", "DH", "SC", "AF"):   # set by the watch-list pass
+        return e["type"]
     g = " ".join(e.get("genres") or []).lower() + " " + (e.get("why") or "").lower()
     n = (e.get("name") or "").lower()
+    if re.search(r"afro|amapiano|highlife|african|bongo|soukous", n) or re.search(r"afro|amapiano|highlife|african|bongo|soukous", g):
+        return "AF"
     if re.search(r"soca|calypso|carnival|j'?ouvert|\bfete\b|steel ?pan", n) or re.search(r"soca|calypso", g):
         return "SC"
     if "dancehall" in n or "dancehall" in g:
