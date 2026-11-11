@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-11T02:20:14+00:00",
+"fetched": "2026-11-11T10:39:57+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
 {
@@ -1285,29 +1285,6 @@
 "attractions": [
 "Reggae Fest"
 ],
-"ageRestricted": false
-},
-{
-"city": "BOS",
-"id": "rZ7HnEZ1AfZs4f",
-"name": "Mood",
-"date": "2026-11-10",
-"time": "21:30",
-"status": "onsale",
-"venue": "Middle East - Corner/Bakery",
-"venueCity": "Cambridge",
-"state": "MA",
-"address": "480 Massachusetts Avenue",
-"lat": 42.363809,
-"lng": -71.101423,
-"url": "https://www.ticketweb.com/event/mood-middle-east-cornerbakery-tickets/14031554",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [],
 "ageRestricted": false
 },
 {
@@ -3333,6 +3310,34 @@
 "why": "class:Reggae",
 "attractions": [
 "Fayuca"
+],
+"ageRestricted": false
+},
+{
+"city": "PHX",
+"id": "1Av0Z_fGkmEYfN-",
+"name": "The Hip Abduction",
+"date": "2027-02-08",
+"time": "19:30",
+"status": "onsale",
+"venue": "The Van Buren",
+"venueCity": "Phoenix",
+"state": "AZ",
+"address": "401 W Van Buren St",
+"lat": 33.451085,
+"lng": -112.079228,
+"url": "https://www.ticketmaster.com/the-hip-abduction-phoenix-arizona-02-08-2027/event/1900654BA7C148E1",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Alternative",
+"Indie Rock",
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"The Hip Abduction",
+"Surf Hat"
 ],
 "ageRestricted": false
 },
