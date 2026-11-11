@@ -1,0 +1,26 @@
+{
+ "_note": "Feed events whose name matches any of these patterns (case-insensitive regular expressions) are left off the site. Use it for shows Ticketmaster/SeatGeek file under reggae etc. that don't belong: ska-punk, radio holiday shows, Latin acts, generic club nights. The update runs may add patterns; keep each one specific.",
+ "patterns": [
+  "chino y nacho",
+  "flex, la factor",
+  "kroq",
+  "iheartradio",
+  "alt\\. ?az",
+  "power 105",
+  "elie wiesel",
+  "atreyu",
+  "letdown\\.",
+  "less than jake",
+  "reel big fish",
+  "big d & the kids table",
+  "pietasters",
+  "english beat",
+  "thanksgiving night on coventry",
+  "in my feelings",
+  "t-mobile zone",
+  "ugly sweater",
+  "\\bdtm\\b",
+  "earthsurfaceopen",
+  "no doubt and sublime tributes"
+ ]
+}

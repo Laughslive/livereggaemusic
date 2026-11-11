@@ -23,6 +23,30 @@ package experience club theatre theater tickets ticket an a of in at on for by f
 # Reggaeton is a Latin genre (not covered); parking passes, add-ons and upgrades aren't shows.
 EXCLUDE = re.compile(r"reggaet[oó]n|\bparking\b|\bupgrade\b|add[- ]on\b|\bshuttle\b|\bcabana\b|\blocker\b|gift card", re.I)
 
+_X = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "feed_exclude.json"),
+                    encoding="utf-8"))["patterns"]
+FEED_EXCLUDE = re.compile("|".join(_X), re.I) if _X else None
+
+def not_ours(e):
+    """Reasons a feed event is not a reggae / dancehall / soca / African show, despite the feed's labels."""
+    g = {x.lower() for x in e.get("genres") or []}
+    n = (e.get("name") or "").lower()
+    why = (e.get("why") or "").lower()
+    if FEED_EXCLUDE and FEED_EXCLUDE.search(e.get("name") or ""):
+        return "feed_exclude list"
+    if why == "class:amapiano" and "amapiano" not in n:
+        return "amapiano label"          # Ticketmaster labels most club/EDM events "Amapiano"
+    if why.startswith("name:sound"):
+        return "sound system"            # "LCD Soundsystem" etc.
+    if "latin" in g and not g & {"soca", "calypso", "dancehall", "african", "afro-beat", "afrobeats"}:
+        return "latin"                   # Latin reggae / reggaeton acts
+    if why.startswith("artist:"):
+        a = why.split(":", 1)[1]
+        perf = {norm(x) for x in e.get("attractions") or []}
+        if " " not in a.strip() and len(a) <= 6 and norm(a) not in perf:
+            return "short name"          # "Gage Johnson" is not Gage
+    return None
+
 def show_type(e):
     """RG reggae, DH dancehall, SC soca & calypso, AF afrobeats & African: from Ticketmaster's genres, then the event name."""
     if e.get("type") in ("RG", "DH", "SC", "AF"):   # set by the watch-list pass
@@ -118,6 +142,8 @@ def main(page_path, *data_paths):
             skipped["status"] += 1; continue
         if e["date"] < today:
             continue
+        if not_ours(e):
+            skipped[not_ours(e)] = skipped.get(not_ours(e), 0) + 1; continue
         if EXCLUDE.search(e.get("name") or "") or any(EXCLUDE.search(x or "") for x in e.get("attractions") or []):
             skipped["excluded"] = skipped.get("excluded", 0) + 1; continue
         if e.get("lat") is None or e.get("lng") is None:

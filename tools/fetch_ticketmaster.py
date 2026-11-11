@@ -24,12 +24,13 @@ DAYS_AHEAD = 90
 
 # Searches run for every city. classificationName matches a segment, genre or sub-genre by name.
 CLASS_NAMES = ["Reggae", "Dancehall", "Soca", "Calypso", "Caribbean", "African", "Afrobeats", "Afro-Pop"]
+# Not "Amapiano": Ticketmaster puts that label on most club/EDM events. Amapiano shows are found by keyword instead.
 KEYWORDS = ["reggae", "dancehall", "soca", "calypso", "sound system", "carnival fete", "afrobeats", "amapiano", "afro nation"]
 
 # Ticketmaster genre / sub-genre names that count (case-insensitive, whole names).
-GENRES = re.compile(r"^(reggae|dancehall|soca|calypso|caribbean|dub|roots reggae|lovers rock|ragga|reggae[- ]rock|ska|rocksteady|african|afro[- ]?beats?|afro[- ]?pop|afrobeat|amapiano|highlife|afro[- ]?fusion|bongo flava|soukous)$", re.I)
+GENRES = re.compile(r"^(reggae|dancehall|soca|calypso|caribbean|dub|roots reggae|lovers rock|ragga|reggae[- ]rock|ska|rocksteady|african|afro[- ]?beats?|afro[- ]?pop|afrobeat|highlife|afro[- ]?fusion|bongo flava|soukous)$", re.I)
 # Words in an event's own name that count for keyword hits.
-NAME_WORDS = re.compile(r"\b(reggae|dancehall|soca|calypso|dub|sound ?system|sound ?clash|lovers rock|rocksteady|steel ?pan|carnival|j'?ouvert|fete|afro ?beats?|afrobeat|amapiano|highlife|afro ?nation)\b", re.I)
+NAME_WORDS = re.compile(r"\b(reggae|dancehall|soca|calypso|dub|sound ?clash|lovers rock|rocksteady|steel ?pan|carnival|j'?ouvert|fete|afro ?beats?|afrobeat|amapiano|highlife|afro ?nation)\b", re.I)
 
 WATCH = json.load(open(os.path.join(_ROOT, "data", "watch_artists.json"), encoding="utf-8"))["artists"]
 
@@ -139,7 +140,8 @@ def main():
                     continue
                 names = [norm(a.get("name")) for a in e.get("_embedded", {}).get("attractions", [])]
                 whole = re.search(r"(?<![a-z0-9])" + re.escape(art["name"].lower()) + r"(?![a-z0-9])", (e.get("name") or "").lower())
-                if norm(art["name"]) not in names and (art.get("performer_only") or not whole):
+                short = " " not in art["name"].strip() and len(art["name"]) <= 6   # Spice, Gage, Kes, Tyla…
+                if norm(art["name"]) not in names and (art.get("performer_only") or short or not whole):
                     continue
                 seen.add(e["id"]); nw += 1; stats["artist"] += 1
                 out.append(record(e, "", "artist:" + art["name"], {"type": art["type"]}))

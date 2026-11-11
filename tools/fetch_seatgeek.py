@@ -22,7 +22,7 @@ WATCH = json.load(open(os.path.join(_ROOT, "data", "watch_artists.json"), encodi
 DAYS_AHEAD = 90
 KEYWORDS = ["reggae", "dancehall", "soca", "calypso", "afrobeats", "amapiano"]
 GENRES = re.compile(r"reggae|dancehall|soca|calypso|caribbean|dub|ska|rocksteady|african|afro|amapiano|highlife", re.I)
-NAME_WORDS = re.compile(r"\b(reggae|dancehall|soca|calypso|dub|sound ?system|sound ?clash|lovers rock|steel ?pan|carnival|"
+NAME_WORDS = re.compile(r"\b(reggae|dancehall|soca|calypso|dub|sound ?clash|lovers rock|steel ?pan|carnival|"
                         r"j'?ouvert|fete|afro ?beats?|afrobeat|amapiano|highlife|afro ?nation)\b", re.I)
 
 def norm(x):
@@ -105,7 +105,8 @@ def main():
                 continue
             names = [norm(p.get("name")) for p in e.get("performers") or []]
             whole = re.search(r"(?<![a-z0-9])" + re.escape(art["name"].lower()) + r"(?![a-z0-9])", (e.get("title") or "").lower())
-            if norm(art["name"]) not in names and (art.get("performer_only") or not whole):
+            short = " " not in art["name"].strip() and len(art["name"]) <= 6
+            if norm(art["name"]) not in names and (art.get("performer_only") or short or not whole):
                 continue
             seen.add(e["id"]); stats["artist"] += 1
             out.append(record(e, "artist:" + art["name"], {"type": art["type"]}))
