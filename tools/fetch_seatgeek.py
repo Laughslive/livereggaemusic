@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Fetch upcoming reggae, dancehall, soca, calypso and African-music shows from SeatGeek's
-public Platform API for ReggaeLive's cities and save them to data/seatgeek.json, in the same
+public Platform API for Live Reggae Music's cities and save them to data/seatgeek.json, in the same
 shape as data/ticketmaster.json, so tools/merge_ticketmaster.py can merge both.
 
 SeatGeek is used to FIND shows Ticketmaster misses (AXS, Eventbrite, Dice and box-office shows

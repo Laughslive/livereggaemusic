@@ -1,7 +1,7 @@
 {
-  "name": "ReggaeLive: Reggae, Dancehall & Soca Near You",
-  "short_name": "ReggaeLive",
-  "description": "Upcoming reggae, dancehall, soca and calypso shows near you, with links to the official tickets.",
+  "name": "Live Reggae Music: Reggae, Dancehall, Soca & Afrobeats Near You",
+  "short_name": "Live Reggae",
+  "description": "Upcoming reggae, dancehall, soca, calypso and afrobeats shows near you, with links to the official tickets.",
   "id": "/",
   "start_url": "/",
   "scope": "/",

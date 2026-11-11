@@ -1,6 +1,6 @@
-// ReggaeLive service worker: lets the installed app open offline with the
+// Live Reggae Music service worker: lets the installed app open offline with the
 // last listings it saw. Always tries the network first, so listings stay fresh.
-const CACHE = "reggaelive-v1";
+const CACHE = "livereggaemusic-v2";
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", e => e.waitUntil(
   caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))

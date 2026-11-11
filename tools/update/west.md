@@ -1,4 +1,4 @@
-Update ReggaeLive with fresh reggae, dancehall, soca, calypso and afrobeats/African listings for the 15 Midwest and West areas. First read tools/update/common.md in the repository: it holds the rules, sourcing policy, data format and publish steps.
+Update Live Reggae Music (livereggaemusic.com) with fresh reggae, dancehall, soca, calypso and afrobeats/African listings for the 15 Midwest and West areas. First read tools/update/common.md in the repository: it holds the rules, sourcing policy, data format and publish steps.
 
 SET UP: attach the repository with the add_repo tool (access "push"), clone it and work in the clone. First remove hand-written rows whose date has passed.
 

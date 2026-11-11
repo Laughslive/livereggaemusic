@@ -1,4 +1,4 @@
-# ReggaeLive — handoff notes
+# Live Reggae Music — handoff notes
 
 Background for a new Claude chat picking up this project. Read this, then `tools/update/common.md`,
 `tools/update/east.md` and `tools/ADDING_A_CITY.md`.
@@ -8,11 +8,11 @@ Background for a new Claude chat picking up this project. Read this, then `tools
   It lists reggae, dancehall, soca and calypso shows within 50 miles of the same 34 U.S. cities.
   Venue-first and privacy-first.
 - **Repo:** `livereggaemusic`, branch `main`, served by GitHub Pages.
-- **Name:** "ReggaeLive" is a placeholder. The name, domain and emails live in `data/site.json`. To rename, change:
-  - the logo text `Reggae<span class="onair">Live</span>` in index.html and in `tools/build_pages.py`;
+- **Name:** The site is called "Live Reggae Music" (renamed from the placeholder "ReggaeLive" on Nov 10, 2026). The name, domain and emails live in `data/site.json`. To rename, change:
+  - the logo text `Live Reggae <span class="onair">Music</span>` in index.html and in `tools/build_pages.py`;
   - `"name"` in `data/site.json`;
   - `manifest.webmanifest`;
-  - the "ReggaeLive" strings in `install.js` and `sw.js`.
+  - the site-name strings in `install.js` and `sw.js`.
 - **`index.html` is the source of truth** for all show data.
 
 ## Owner's standing rules (same as LaughsLive)

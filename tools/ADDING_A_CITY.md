@@ -1,4 +1,4 @@
-# Adding a city to ReggaeLive
+# Adding a city to Live Reggae Music
 
 1. **data/cities.json** — add one entry: `code` (2–3 capital letters), `slug` (the web address, e.g. `san-diego`),
    `name`, `short` (used in page titles), `region` (one of `regions`; add a new region there if needed),

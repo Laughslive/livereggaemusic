@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Merge data/ticketmaster.json (and data/seatgeek.json, if given) into the ReggaeLive page's show data.
+"""Merge data/ticketmaster.json (and data/seatgeek.json, if given) into the Live Reggae Music page's show data.
 
     python3 tools/merge_ticketmaster.py <page.html> [data/ticketmaster.json [data/seatgeek.json ...]]
 

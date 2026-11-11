@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build ReggaeLive's city pages, sitemap and robots.txt from index.html.
+"""Build Live Reggae Music's city pages, sitemap and robots.txt from index.html.
 
 Run from the repository root after index.html has been updated:
     python3 tools/build_pages.py
@@ -134,7 +134,7 @@ color:var(--ink);font:16px/1.6 var(--body);padding:0 max(16px,env(safe-area-inse
 .wrap{max-width:720px;margin:0 auto}header{padding:28px 0 8px;display:grid;gap:12px}
 .bulbs{display:flex;width:132px;height:6px;border-radius:3px;overflow:hidden}.bulbs i{flex:1;background:var(--bulb)}
 .bulbs i:nth-child(3n+1){background:var(--red)}.bulbs i:nth-child(3n+2){background:var(--accent)}
-.logo{font-family:var(--display);font-size:clamp(26px,6vw,38px);line-height:1;margin:0;color:var(--ink);text-decoration:none;
+.logo{font-family:var(--display);font-size:clamp(22px,5.6vw,36px);line-height:1;margin:0;color:var(--ink);text-decoration:none;
 }
 .logo .onair{display:inline-block;margin-left:.08em;padding:.06em .2em .04em;border-radius:.14em;font-size:.82em;
 background:var(--accent);color:var(--on-accent)}
@@ -162,7 +162,7 @@ def static_page(title, desc, url, body):
             '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Figtree:wght@400;500;600;700&display=swap">\n'
             f"<style>{STATIC_CSS}</style>\n" + block("head", head_html(title, desc, url)) + "\n</head>\n<body>\n<div class=\"wrap\">\n"
             '<header><div class="bulbs" aria-hidden="true"><i></i><i></i><i></i></div>'
-            '<a class="logo" href="/">Reggae<span class="onair">Live</span></a></header>\n'
+            '<a class="logo" href="/">Live Reggae <span class="onair">Music</span></a></header>\n'
             f"<main>\n{body}\n</main>\n" + block("nav", nav_html("_static")) +
             f"\n<footer>{NAME} · reggae, dancehall, soca &amp; afrobeats near you</footer>\n</div>\n</body>\n</html>\n")
 

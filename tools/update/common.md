@@ -1,6 +1,6 @@
-# ReggaeLive update — shared rules (read with east.md or west.md)
+# Live Reggae Music update — shared rules (read with east.md or west.md)
 
-ReggaeLive (placeholder name; domain in data/site.json) lists reggae, dancehall, soca, calypso and African music (afrobeats, amapiano, highlife, afro-pop) shows within 50 miles of 34 U.S. city centers. It is served by GitHub Pages from this repository (branch main). index.html holds all show data and is THE source of truth — work directly in it. Each scheduled run follows east.md or west.md, which add the region's cities, venues and promoters to these rules.
+Live Reggae Music (livereggaemusic.com; name and domain in data/site.json) lists reggae, dancehall, soca, calypso and African music (afrobeats, amapiano, highlife, afro-pop) shows within 50 miles of 34 U.S. city centers. It is served by GitHub Pages from this repository (branch main). index.html holds all show data and is THE source of truth — work directly in it. Each scheduled run follows east.md or west.md, which add the region's cities, venues and promoters to these rules.
 
 ## What counts
 - **RG Reggae:** roots, lovers rock, dub, reggae-rock (Rebelution, SOJA, Stick Figure, Slightly Stoopid and similar), and Jamaican-style ska/rocksteady bands (e.g. The Slackers).

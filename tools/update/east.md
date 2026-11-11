@@ -1,4 +1,4 @@
-Update ReggaeLive with fresh reggae, dancehall, soca, calypso and afrobeats/African listings for the 19 Northeast, Mid-Atlantic and South areas. First read tools/update/common.md in the repository: it holds the rules, sourcing policy, data format and publish steps. This file adds the EAST run's cities, venues, promoters and the artist tour pass.
+Update Live Reggae Music (livereggaemusic.com) with fresh reggae, dancehall, soca, calypso and afrobeats/African listings for the 19 Northeast, Mid-Atlantic and South areas. First read tools/update/common.md in the repository: it holds the rules, sourcing policy, data format and publish steps. This file adds the EAST run's cities, venues, promoters and the artist tour pass.
 
 SET UP: attach the repository with the add_repo tool (access "push"), clone it and work in the clone. First remove hand-written rows whose date has passed.
 

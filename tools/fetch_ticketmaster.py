@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Fetch upcoming reggae, dancehall, soca, calypso and African (afrobeats, amapiano, highlife) shows from Ticketmaster's Discovery API
-for ReggaeLive's cities and save a compact list to data/ticketmaster.json.
+for Live Reggae Music's cities and save a compact list to data/ticketmaster.json.
 
 Runs in GitHub Actions (see .github/workflows/ticketmaster.yml). The API key comes
 from the TM_API_KEY repository secret and is never written to the repository.

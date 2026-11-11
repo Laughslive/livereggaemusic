@@ -1,4 +1,4 @@
-// "Get the app" for the ReggaeLive website (website only; added to every page by tools/build_pages.py).
+// "Get the app" for the Live Reggae Music website (website only; added to every page by tools/build_pages.py).
 // - A permanent "Get the app" button at the top of the page.
 //     Android / desktop Chrome & Edge: opens the browser's real install window.
 //     iPhone (Safari, Chrome, Edge, Firefox on iOS 16.4+): Apple doesn't let a site add itself,
@@ -35,14 +35,14 @@
 
   function iosSteps(){
     return '<ol><li>Tap '+(iosOther?'the <b>Share</b> '+SHARE+' button at the <b>top right</b> of the address bar':'the <b>Share</b> '+SHARE+' button at the <b>bottom</b> of Safari')+
-      '.</li><li>Scroll down and tap <b>Add to Home Screen</b>.</li><li>Tap <b>Add</b>. ReggaeLive appears on your home screen like an app.</li></ol>';
+      '.</li><li>Scroll down and tap <b>Add to Home Screen</b>.</li><li>Tap <b>Add</b>. Live Reggae Music appears on your home screen like an app.</li></ol>';
   }
   function howTo(){
     if(document.getElementById("llHow"))return;
     var body=ios?iosSteps():
       '<p style="margin:0 0 16px">Open your browser\'s menu (<b>⋮</b> or <b>⋯</b>) and choose <b>Install app</b> or <b>Add to Home screen</b>.</p>';
-    var d=document.createElement("div");d.id="llHow";d.setAttribute("role","dialog");d.setAttribute("aria-modal","true");d.setAttribute("aria-label","Add ReggaeLive to your home screen");
-    d.innerHTML='<div class="card"><h2><img src="/icons/icon-192.png" alt="">Add ReggaeLive to your home screen</h2>'+body+'<button type="button" class="ok">Got it</button></div>';
+    var d=document.createElement("div");d.id="llHow";d.setAttribute("role","dialog");d.setAttribute("aria-modal","true");d.setAttribute("aria-label","Add Live Reggae Music to your home screen");
+    d.innerHTML='<div class="card"><h2><img src="/icons/icon-192.png" alt="">Add Live Reggae Music to your home screen</h2>'+body+'<button type="button" class="ok">Got it</button></div>';
     document.body.appendChild(d);
     function close(){d.remove()}
     d.querySelector(".ok").onclick=close;d.onclick=function(e){if(e.target===d)close()};
@@ -78,7 +78,7 @@
     if(canInstall)bar.querySelector(".go").onclick=function(){bar.remove();install()};
   }
   addEventListener("beforeinstallprompt",function(e){e.preventDefault();deferred=e;ready(addButton);
-    setTimeout(function(){tip("<b>Get the ReggaeLive app</b> — one tap from your home screen.",true)},4000)});
+    setTimeout(function(){tip("<b>Get the Live Reggae Music app</b> — one tap from your home screen.",true)},4000)});
   addEventListener("appinstalled",function(){remember();hideAll()});
-  if(ios)setTimeout(function(){tip('<b>Add ReggaeLive to your Home Screen:</b> tap '+(iosOther?'the ':'')+'Share '+SHARE+(iosOther?' button (top right)':'')+', then “Add to Home Screen”.',false)},4000);
+  if(ios)setTimeout(function(){tip('<b>Add Live Reggae Music to your Home Screen:</b> tap '+(iosOther?'the ':'')+'Share '+SHARE+(iosOther?' button (top right)':'')+', then “Add to Home Screen”.',false)},4000);
 })();

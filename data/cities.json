@@ -1,5 +1,5 @@
 {
- "_note": "The one list of ReggaeLive cities. Used by tools/build_pages.py, fetch_ticketmaster.py and merge_ticketmaster.py. See tools/ADDING_A_CITY.md.",
+ "_note": "The one list of Live Reggae Music cities. Used by tools/build_pages.py, fetch_ticketmaster.py and merge_ticketmaster.py. See tools/ADDING_A_CITY.md.",
  "regions": [
   "Northeast",
   "Mid-Atlantic",
