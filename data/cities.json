@@ -539,6 +539,52 @@
     "CA"
    ],
    "nearby": "the Gaslamp, La Jolla, Pacific Beach, North Park, Chula Vista and Oceanside"
+  },
+  {
+   "code": "HNL",
+   "slug": "honolulu",
+   "name": "Honolulu",
+   "short": "Honolulu",
+   "region": "West",
+   "center": [
+    21.3069,
+    -157.8583
+   ],
+   "states": [
+    "HI"
+   ],
+   "nearby": "Waikiki, Kakaako, Chinatown, Kailua, Kaneohe, Kapolei and the North Shore"
+  },
+  {
+   "code": "PDX",
+   "slug": "portland-oregon",
+   "name": "Portland, Oregon",
+   "short": "Portland, OR",
+   "region": "West",
+   "center": [
+    45.5152,
+    -122.6784
+   ],
+   "states": [
+    "OR",
+    "WA"
+   ],
+   "nearby": "the Pearl District, Alberta, Hawthorne, Beaverton, Hillsboro and Vancouver, WA"
+  },
+  {
+   "code": "SAC",
+   "slug": "sacramento",
+   "name": "Sacramento",
+   "short": "Sacramento",
+   "region": "West",
+   "center": [
+    38.5816,
+    -121.4944
+   ],
+   "states": [
+    "CA"
+   ],
+   "nearby": "Midtown, Old Sacramento, Roseville, Folsom, Davis and Wheatland"
   }
  ]
 }
