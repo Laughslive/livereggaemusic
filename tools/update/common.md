@@ -65,7 +65,7 @@ ReggaeLive (placeholder name; domain in data/site.json) lists reggae, dancehall,
 
 ## Publish (after each region, and at the end), from the repository root
 1. `git pull --rebase` (the daily Ticketmaster Action also commits).
-2. `python3 tools/merge_ticketmaster.py index.html data/ticketmaster.json` rebuilds the Ticketmaster block. Hand rows win.
+2. `python3 tools/merge_ticketmaster.py index.html data/ticketmaster.json data/seatgeek.json` rebuilds the Ticketmaster/SeatGeek block. Hand rows win, then Ticketmaster, then SeatGeek.
 3. `python3 tools/check_script.py` must pass. If it fails, fix your last edit before going on.
 4. `python3 tools/build_pages.py` must end with "wrote sitemap.xml and robots.txt". If it refuses because data/cities.json and the page disagree, fix the page. Never edit the city folders by hand.
 5. `git add -A`, then commit with author `-c user.name="ReggaeLive" -c user.email="reggaelive@users.noreply.github.com"`. Use the message "Update listings <today's date> (<region>)", ending with a `Co-Authored-By:` line.

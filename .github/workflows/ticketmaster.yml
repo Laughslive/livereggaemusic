@@ -1,5 +1,5 @@
 name: Ticketmaster reggae feed
-# Every morning: download Ticketmaster's reggae / dancehall / soca listings, merge them into the site,
+# Every morning: download Ticketmaster's and SeatGeek's reggae / dancehall / soca / afrobeats listings, merge them into the site,
 # rebuild the city pages, publish, and notify search engines. Runs without Claude.
 on:
   schedule:
@@ -12,12 +12,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch reggae, dancehall and soca events
+      - name: Fetch reggae, dancehall, soca and afrobeats events (Ticketmaster)
         env:
           TM_API_KEY: ${{ secrets.TM_API_KEY }}
         run: |
           python3 tools/fetch_ticketmaster.py
           cp data/ticketmaster.json "$RUNNER_TEMP/tm.json"
+      - name: Fetch the same from SeatGeek (skipped if SEATGEEK_CLIENT_ID isn't set)
+        continue-on-error: true
+        env:
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+        run: |
+          python3 tools/fetch_seatgeek.py
+          cp data/seatgeek.json "$RUNNER_TEMP/sg.json"
       - name: Merge into the site, rebuild city pages, publish
         id: publish
         run: |
@@ -27,7 +34,8 @@ jobs:
           for i in 1 2 3; do
             git fetch -q origin main && git reset -q --hard origin/main
             cp "$RUNNER_TEMP/tm.json" data/ticketmaster.json
-            python3 tools/merge_ticketmaster.py index.html data/ticketmaster.json
+            if [ -f "$RUNNER_TEMP/sg.json" ]; then cp "$RUNNER_TEMP/sg.json" data/seatgeek.json; fi
+            python3 tools/merge_ticketmaster.py index.html data/ticketmaster.json data/seatgeek.json
             python3 tools/check_script.py
             python3 tools/build_pages.py
             git add -A

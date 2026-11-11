@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""Merge data/ticketmaster.json into the ReggaeLive page's show data.
+"""Merge data/ticketmaster.json (and data/seatgeek.json, if given) into the ReggaeLive page's show data.
 
-    python3 tools/merge_ticketmaster.py <page.html> [data/ticketmaster.json]
+    python3 tools/merge_ticketmaster.py <page.html> [data/ticketmaster.json [data/seatgeek.json ...]]
+
+Files are merged in the order given, so Ticketmaster rows win over SeatGeek duplicates.
 
 Edits <page.html> in place (the artifact file, or index.html). Ticketmaster rows
 and any venues they need live in marked blocks:
@@ -11,7 +13,7 @@ Both blocks are rebuilt from scratch on every run, so it is safe to re-run.
 Shows already listed by hand (same venue and date, and the same start time or a
 shared headliner name) are skipped, so hand-checked rows always win.
 """
-import datetime, json, math, re, sys
+import datetime, json, math, os, re, sys
 
 GENERIC = set("""reggae dancehall soca calypso music concert band show shows live tour presents presented special night event
 with the and festival fest york new friends late early main room hour evening vip sound system party
@@ -55,8 +57,10 @@ CITY_STATES = {c["code"]: " ".join(c["states"]) for c in _CITIES}
 def vtokens(s):
     return {w for w in re.findall(r"[a-z0-9]+", (s or "").lower()) if w not in VENUE_GENERIC}
 
-def name_match(a, b):
-    ta, tb = vtokens(a), vtokens(b)
+def name_match(a, b, place=""):
+    # Words of the town name don't count ("Brooklyn Bowl" is not "Brooklyn Paramount").
+    drop = vtokens(place)
+    ta, tb = vtokens(a) - drop, vtokens(b) - drop
     if not ta or not tb:
         return 0.0
     return len(ta & tb) / min(len(ta), len(tb))
@@ -68,11 +72,21 @@ def strip_block(text, start, end):
     # (?:.*?\n)? so an empty block (no rows) is also found and replaced
     return re.sub(r"\n[ \t]*%s[^\n]*\n(?:.*?\n)?[ \t]*%s" % (re.escape(start), re.escape(end)), "", text, flags=re.S)
 
-def main(page_path, data_path="data/ticketmaster.json"):
+def main(page_path, *data_paths):
+    data_paths = data_paths or ("data/ticketmaster.json",)
     page = open(page_path, encoding="utf-8").read()
     page = strip_block(page, "// <tm-venues>", "// </tm-venues>")
     page = strip_block(page, "// <tm>", "// </tm>")
-    data = json.load(open(data_path, encoding="utf-8"))
+    data = {"events": []}
+    fetched = []
+    for dp in data_paths:
+        if not os.path.exists(dp):
+            continue
+        d = json.load(open(dp, encoding="utf-8"))
+        data["events"] += d.get("events", [])
+        if d.get("fetched"):
+            fetched.append(("SeatGeek " if "seatgeek" in dp else "Ticketmaster ") + d["fetched"][:10])
+    data["fetched"] = ", ".join(fetched)
 
     centers = {}
     for m in re.finditer(r"([A-Z]{2,3}):\[(-?[\d.]+),(-?[\d.]+)\]", page[page.index("const CENTER="):page.index("const CENTER=") + 3000]):
@@ -118,7 +132,7 @@ def main(page_path, data_path="data/ticketmaster.json"):
             dist = miles(v["ll"], ll)
             if dist > 5:
                 continue
-            score = name_match(v["n"], e["venue"])
+            score = name_match(v["n"], e["venue"], e.get("venueCity"))
             if score >= 0.5 and (score, -dist) > (best[0], -best[1]):
                 key, best = k, (score, dist)
         if key is None:
@@ -156,7 +170,7 @@ def main(page_path, data_path="data/ticketmaster.json"):
         f' {k}:{{n:{json.dumps(v["n"], ensure_ascii=False)},area:{json.dumps(v["area"], ensure_ascii=False)},b:{json.dumps(v["b"])},c:"{v["c"]}",lat:{v["ll"][0]:.4f},lng:{v["ll"][1]:.4f}}},\n'
         for k, v in new_venues.items()) + "// </tm-venues>"
     rows.sort()
-    rblock = "\n// <tm>  (Ticketmaster feed, fetched %s; rebuilt each update — don't edit by hand)\n" % data.get("fetched", "")[:10] + \
+    rblock = "\n// <tm>  (Ticketmaster/SeatGeek feeds, fetched %s; rebuilt each update — don't edit by hand)\n" % data.get("fetched", "") + \
              "\n".join(r[3] for r in rows) + "\n// </tm>"
     # V: make sure the last hand-written entry ends with a comma before appending
     v_end = page.index("\n};", page.index("const V={"))

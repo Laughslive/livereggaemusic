@@ -47,6 +47,10 @@ Background for a new Claude chat picking up this project. Read this, then `tools
     by name U.S.-wide, so their Ticketmaster shows come in even when Ticketmaster files them under Pop or Hip-Hop
     (Tyla, for example). Names must match a listed performer or appear as whole words in the event name.
   - In total it's about 700 API calls a day, well under Ticketmaster's 5,000/day.
+- **`tools/fetch_seatgeek.py`** (secret `SEATGEEK_CLIENT_ID`; skipped if unset): the same genre and watch-list searches
+  on SeatGeek, saved to `data/seatgeek.json` and merged after Ticketmaster. It is for finding shows only:
+  seatgeek.com links match LISTING_SITE, so fans get the venue site or a search, and resale prices are never shown.
+  The merge ignores town names when matching venue names, so "Brooklyn Bowl" is never mistaken for "Brooklyn Paramount".
 - **`tools/merge_ticketmaster.py`:**
   - Picks the show type from the genres and the event name.
   - Flags festivals.
