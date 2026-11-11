@@ -216,6 +216,9 @@ const V={
  mahaffey:{n:"Mahaffey Theater",area:"Downtown St. Pete",b:"St. Petersburg",lat:27.7685,lng:-82.6337},
  // Miami
  hrlhollywood:{n:"Hard Rock Live (Seminole Hard Rock)",area:"Hollywood",b:"FL",lat:26.0510,lng:-80.2110},
+ sunsetcove:{n:"Sunset Cove Amphitheater",area:"Boca Raton",b:"FL",lat:26.3732,lng:-80.2197},
+ // San Francisco Bay Area
+ uctheatre:{n:"The UC Theatre",area:"Downtown Berkeley",b:"Berkeley",lat:37.8716,lng:-122.2697},
 // <tm-venues>  (added automatically from the Ticketmaster feed; rebuilt each update)
 // </tm-venues>
 };
@@ -223,7 +226,7 @@ const V={
 // listing or resale sites whenever a show's link points at one of those.
 const SITES={
  lpr:"https://lpr.com/", foxwoods:"https://foxwoods.com/", centerstage:"https://www.centerstage-atlanta.com/",
- mahaffey:"https://themahaffey.com/", hrlhollywood:"https://casino.hardrock.com/hollywood/"
+ mahaffey:"https://themahaffey.com/", hrlhollywood:"https://casino.hardrock.com/hollywood/", uctheatre:"https://theuctheatre.org/"
 
 };
 for(const k in SITES) if(V[k]) V[k].site=SITES[k];
@@ -258,6 +261,10 @@ const RAW=[
  ["2026-11-14","20:00","UB40: The Unstoppable Tour","UB40","mahaffey",RG,"https://themahaffey.com/?p=12217","$53–133"],
 // Miami
  ["2026-11-15","19:00","UB40: The Unstoppable Tour","UB40","hrlhollywood",RG,"https://casino.hardrock.com/hollywood/events/ub40","$49.50"],
+ ["2026-11-14","15:00","Holidaze 2026 (day 1 of 2)","Dirty Heads, Wiz Khalifa, Steel Pulse, Collie Buddz and more","sunsetcove",RG,"https://www.eventliveus.com/event/10473/holidaze26",null,["fest"]],
+ ["2026-11-15","15:00","Holidaze 2026 (day 2 of 2)","Dirty Heads, Wiz Khalifa, Steel Pulse, Collie Buddz and more","sunsetcove",RG,"https://www.eventliveus.com/event/10473/holidaze26",null,["fest"]],
+// San Francisco Bay Area
+ ["2026-12-31","21:00","Steel Pulse: New Year's Eve","Steel Pulse","uctheatre",RG,"https://app.opendate.io/e/steel-pulse-new-years-eve-december-31-2026-710251",null],
 // <tm>  (Ticketmaster feed, fetched ; rebuilt each update — don't edit by hand)
 
 // </tm>

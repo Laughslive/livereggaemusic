@@ -189,7 +189,7 @@ footer{margin-top:40px;font-size:13px;color:var(--muted);border-top:1px solid va
     </div>
   </div>
 </header>
-<main id="results"><section class="seo-list"><h2>Upcoming reggae, dancehall &amp; soca shows in San Francisco Bay Area</h2><ul></ul></section></main>
+<main id="results"><section class="seo-list"><h2>Upcoming reggae, dancehall &amp; soca shows in San Francisco Bay Area</h2><ul><li><b>Steel Pulse: New Year&#x27;s Eve</b> — Thu, Dec 31 · 9:00 PM — The UC Theatre, Downtown Berkeley</li></ul></section></main>
 <!--ll:nav--><nav class="citylinks" aria-label="Shows by city"><style>.citylinks{margin-top:36px;font-size:14px;color:var(--muted)}.citylinks h2{font-size:15px;margin:0 0 6px;color:var(--ink)}.citylinks p{margin:4px 0}.citylinks span{font-weight:600}.citylinks a{color:var(--accent)}.citylinks b{color:var(--ink)}.citylinks .sitelinks{margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}</style><h2>Reggae shows by city · <a href="/">All cities</a></h2><p><span>Northeast:</span> <a href="/boston/">Boston</a> · <a href="/hartford/">Hartford</a> · <a href="/new-haven/">New Haven</a> · <a href="/new-york-city/">New York City</a> · <a href="/philadelphia/">Philadelphia</a> · <a href="/portland-maine/">Portland, Maine</a></p><p><span>Mid-Atlantic:</span> <a href="/baltimore/">Baltimore</a> · <a href="/norfolk-virginia-beach/">Norfolk &amp; Virginia Beach</a> · <a href="/pittsburgh/">Pittsburgh</a> · <a href="/richmond/">Richmond</a> · <a href="/washington-dc/">Washington, D.C.</a></p><p><span>South:</span> <a href="/atlanta/">Atlanta</a> · <a href="/austin/">Austin</a> · <a href="/dallas-fort-worth/">Dallas–Fort Worth</a> · <a href="/houston/">Houston</a> · <a href="/miami/">Miami</a> · <a href="/nashville/">Nashville</a> · <a href="/orlando/">Orlando</a> · <a href="/tampa/">Tampa</a></p><p><span>Midwest:</span> <a href="/chicago/">Chicago</a> · <a href="/cincinnati/">Cincinnati</a> · <a href="/cleveland/">Cleveland</a> · <a href="/detroit/">Detroit</a> · <a href="/indianapolis/">Indianapolis</a> · <a href="/milwaukee/">Milwaukee</a> · <a href="/minneapolis-st-paul/">Minneapolis–St. Paul</a> · <a href="/st-louis/">St. Louis</a></p><p><span>West:</span> <a href="/denver/">Denver</a> · <a href="/las-vegas/">Las Vegas</a> · <a href="/los-angeles/">Los Angeles</a> · <a href="/phoenix/">Phoenix</a> · <a href="/san-diego/">San Diego</a> · <b>San Francisco Bay Area</b> · <a href="/seattle/">Seattle</a></p><p class="sitelinks"><a href="/about/">About &amp; contact</a> · <a href="/privacy/">Privacy</a></p></nav><!--/ll:nav-->
 <footer>
   Listings gathered November 10, 2026 from venue, promoter and ticketing sites. Each city includes shows within 50 miles of its center, so suburban venues are included, and a venue between two cities can appear in both. Lineups and times change, so check the show's own page before you go. Prices come from the venue or its ticket seller where listed.
@@ -216,6 +216,9 @@ const V={
  mahaffey:{n:"Mahaffey Theater",area:"Downtown St. Pete",b:"St. Petersburg",lat:27.7685,lng:-82.6337},
  // Miami
  hrlhollywood:{n:"Hard Rock Live (Seminole Hard Rock)",area:"Hollywood",b:"FL",lat:26.0510,lng:-80.2110},
+ sunsetcove:{n:"Sunset Cove Amphitheater",area:"Boca Raton",b:"FL",lat:26.3732,lng:-80.2197},
+ // San Francisco Bay Area
+ uctheatre:{n:"The UC Theatre",area:"Downtown Berkeley",b:"Berkeley",lat:37.8716,lng:-122.2697},
 // <tm-venues>  (added automatically from the Ticketmaster feed; rebuilt each update)
 // </tm-venues>
 };
@@ -223,7 +226,7 @@ const V={
 // listing or resale sites whenever a show's link points at one of those.
 const SITES={
  lpr:"https://lpr.com/", foxwoods:"https://foxwoods.com/", centerstage:"https://www.centerstage-atlanta.com/",
- mahaffey:"https://themahaffey.com/", hrlhollywood:"https://casino.hardrock.com/hollywood/"
+ mahaffey:"https://themahaffey.com/", hrlhollywood:"https://casino.hardrock.com/hollywood/", uctheatre:"https://theuctheatre.org/"
 
 };
 for(const k in SITES) if(V[k]) V[k].site=SITES[k];
@@ -258,6 +261,10 @@ const RAW=[
  ["2026-11-14","20:00","UB40: The Unstoppable Tour","UB40","mahaffey",RG,"https://themahaffey.com/?p=12217","$53–133"],
 // Miami
  ["2026-11-15","19:00","UB40: The Unstoppable Tour","UB40","hrlhollywood",RG,"https://casino.hardrock.com/hollywood/events/ub40","$49.50"],
+ ["2026-11-14","15:00","Holidaze 2026 (day 1 of 2)","Dirty Heads, Wiz Khalifa, Steel Pulse, Collie Buddz and more","sunsetcove",RG,"https://www.eventliveus.com/event/10473/holidaze26",null,["fest"]],
+ ["2026-11-15","15:00","Holidaze 2026 (day 2 of 2)","Dirty Heads, Wiz Khalifa, Steel Pulse, Collie Buddz and more","sunsetcove",RG,"https://www.eventliveus.com/event/10473/holidaze26",null,["fest"]],
+// San Francisco Bay Area
+ ["2026-12-31","21:00","Steel Pulse: New Year's Eve","Steel Pulse","uctheatre",RG,"https://app.opendate.io/e/steel-pulse-new-years-eve-december-31-2026-710251",null],
 // <tm>  (Ticketmaster feed, fetched ; rebuilt each update — don't edit by hand)
 
 // </tm>

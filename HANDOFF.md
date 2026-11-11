@@ -71,7 +71,7 @@ Background for a new Claude chat picking up this project. Read this, then `tools
      promoter and artist URLs in the prompts too.
 
 ## State at handoff (Nov 10, 2026)
-- 11 hand-checked shows: UB40's last tour dates, The Slackers' holiday run, Shaggy at Foxwoods, Bumpin' Uglies.
+- 14 hand-checked shows: UB40, The Slackers, Shaggy, Bumpin' Uglies, Holidaze (Boca Raton) and Steel Pulse NYE (Berkeley).
 - Several of them link to aggregators because no official page could be opened. The ticket button then goes to the
   venue's site or a search, never the aggregator.
 - Winter is the off-season. Expect most early listings to come from the Ticketmaster feed.
