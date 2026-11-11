@@ -1,4 +1,4 @@
-Update Live Reggae Music (livereggaemusic.com) with fresh reggae, dancehall, soca, calypso and afrobeats/African listings for the 15 Midwest and West areas. First read tools/update/common.md in the repository: it holds the rules, sourcing policy, data format and publish steps.
+Update Live Reggae Music (livereggaemusic.com) with fresh reggae, dancehall, soca, calypso and afrobeats/African listings for the 18 Midwest and West areas. First read tools/update/common.md in the repository: it holds the rules, sourcing policy, data format and publish steps.
 
 SET UP: attach the repository with the add_repo tool (access "push"), clone it and work in the clone. First remove hand-written rows whose date has passed.
 
@@ -6,7 +6,7 @@ SPLIT RUNS: this is the WEST run. The EAST run covers the Northeast, Mid-Atlanti
 
 AREAS (everything within 50 miles of each center):
 - Midwest: CHI, CIN, CLE, DET, IND, MKE, MSP, STL.
-- West: DEN, LAS, LA, PHX, SAN, SFO, SEA.
+- West: DEN, HNL, LAS, LA, PHX, PDX, SAC, SAN, SFO, SEA. (Laguna Beach and the rest of south Orange County fall inside LA's 50 miles.)
 Work one region at a time in that order, covering the next ~8 weeks. Publish after each region.
 
 1. VENUE & PROMOTER PASS. For each venue below and every hand-listed venue in V, read the official calendar or organizer page first, and add SITES entries as you confirm them.
@@ -24,6 +24,9 @@ Work one region at a time in that order, covering the next ~8 weeks. Publish aft
    - Phoenix: Marquee Theatre (Tempe), The Van Buren, Crescent Ballroom, Talking Stick Resort Amphitheatre, Reggae Rise Up Arizona (spring).
    - San Diego: Belly Up (Solana Beach), Music Box, Observatory North Park, House of Blues San Diego, Humphreys, Petco Park (Field of Dreamz).
    - San Francisco Bay Area: The Independent, The Regency Ballroom, The Fillmore, UC Theatre (Berkeley), Fox Theater (Oakland), The Catalyst (Santa Cruz), Moe's Alley (Santa Cruz is outside the 50-mile line; check the distance).
+   - Honolulu: Blue Note Hawaii, Hawaiian Brian's, The Republik, HB Social Club, Waikiki Shell, Neal S. Blaisdell Arena, Aloha Tower Marketplace, Wai Kai (Ewa Beach). Island reggae (Anuhea, J Boog, Common Kings, Maoli, HIRIE, Fiji, Kolohe Kai) plays here year-round.
+   - Portland, Oregon: Crystal Ballroom, Roseland Theater, Revolution Hall, Star Theater, Aladdin Theater, Mississippi Studios, Aura, The Get Down.
+   - Sacramento: Ace of Spades, Channel 24, Harlow's, Hard Rock Live Sacramento (Wheatland), Golden 1 Center, Sacramento Memorial Auditorium.
    - Seattle: Showbox, Showbox SoDo, Neptune, The Crocodile, Nectar Lounge, Marymoor Park (Redmond).
    - African music: big African headliners often play United Center (Chicago), Little Caesars Arena (Detroit), Kia Forum and Crypto.com Arena (LA), Chase Center (SF), Climate Pledge Arena (Seattle); also search "afrobeats <city>" and "amapiano <city>" on Eventbrite and Dice.
    - Caribbean promoters in these cities: search "<city> dancehall", "<city> soca fete" and "<city> reggae night" on Eventbrite and Dice. Add the organizer pages you confirm to this file.

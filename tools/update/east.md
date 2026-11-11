@@ -2,7 +2,7 @@ Update Live Reggae Music (livereggaemusic.com) with fresh reggae, dancehall, soc
 
 SET UP: attach the repository with the add_repo tool (access "push"), clone it and work in the clone. First remove hand-written rows whose date has passed.
 
-SPLIT RUNS: this is the EAST run. A separate run updates the Midwest and West (CHI, CIN, CLE, DET, IND, MKE, MSP, STL, DEN, LAS, LA, PHX, SAN, SFO, SEA). Apart from tour-pass dates (step 2), don't change rows for those cities, except to delete past-dated rows anywhere.
+SPLIT RUNS: this is the EAST run. A separate run updates the Midwest and West (CHI, CIN, CLE, DET, IND, MKE, MSP, STL, DEN, HNL, LAS, LA, PHX, PDX, SAC, SAN, SFO, SEA). Apart from tour-pass dates (step 2), don't change rows for those cities, except to delete past-dated rows anywhere.
 
 AREAS (everything within 50 miles of each center):
 - Northeast: BOS, HFD, NHV, NYC, PHL, PWM.
@@ -39,7 +39,7 @@ Work one region at a time in that order, covering the next ~8 weeks. Publish aft
    - Austin: Stubb's, Emo's, Mohawk, Austin Reggae Festival (April).
    - Nashville: Brooklyn Bowl Nashville, The Basement East, Marathon Music Works, Ryman.
 
-2. ARTIST TOUR PASS (once, during the Northeast region, for all 34 areas, West and Midwest included). For each act, read the official site's tour page first, aggregators only as backup. Add every date inside one of the 34 areas that shows a start time.
+2. ARTIST TOUR PASS (once, during the Northeast region, for all 37 areas, West and Midwest included). For each act, read the official site's tour page first, aggregators only as backup. Add every date inside one of the 37 areas that shows a start time.
    - Reggae: Damian Marley, Stephen Marley, Ziggy Marley, Julian Marley, Skip Marley, Protoje, Chronixx, Koffee, Lila Iké, Jesse Royal, Kabaka Pyramid, Collie Buddz, Steel Pulse, Third World, Inner Circle, Morgan Heritage, Gramps Morgan, Beres Hammond, Buju Banton, Tarrus Riley, Romain Virgo, Christopher Martin, Sanchez, Maxi Priest, Shaggy, UB40 (ub40.global) and the separate UB40 featuring Ali Campbell, The Wailers, Burning Spear, Israel Vibration, Black Uhuru, Easy Star All-Stars, The Slackers.
    - Reggae-rock: Rebelution, SOJA, Stick Figure, Iration, Slightly Stoopid, Sublime, Dirty Heads, Pepper, Tribal Seeds, The Green, J Boog, Common Kings, HIRIE, The Movement, The Elovaters, Bumpin' Uglies, Fortunate Youth, Kash'd Out, Ballyhoo!, Little Stranger, The Expendables.
    - Dancehall: Sean Paul, Shenseea, Spice, Popcaan, Masicka, Alkaline, Vybz Kartel, Beenie Man, Bounty Killer, Busy Signal, Aidonia, Valiant, Skeng, Teejay, Govana, Mavado.

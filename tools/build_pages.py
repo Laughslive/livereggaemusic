@@ -122,7 +122,7 @@ def head_html(title, desc, url):
 
 STATIC_PAGES = [
     ("about", f"About {NAME}: Where Our Reggae Listings Come From",
-     f"{NAME} lists reggae, dancehall, soca, calypso and afrobeats shows in 34 U.S. cities, from venues' and promoters' own pages, artists' tour pages and Ticketmaster."),
+     f"{NAME} lists reggae, dancehall, soca, calypso and afrobeats shows in 37 U.S. cities, from venues' and promoters' own pages, artists' tour pages and Ticketmaster."),
     ("privacy", f"Privacy | {NAME}",
      f"{NAME} has no accounts and sets no cookies. What the site stores on your device and the cookie-free analytics it uses."),
 ]
