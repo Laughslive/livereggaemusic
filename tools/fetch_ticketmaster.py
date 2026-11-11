@@ -139,7 +139,7 @@ def main():
                     continue
                 names = [norm(a.get("name")) for a in e.get("_embedded", {}).get("attractions", [])]
                 whole = re.search(r"(?<![a-z0-9])" + re.escape(art["name"].lower()) + r"(?![a-z0-9])", (e.get("name") or "").lower())
-                if norm(art["name"]) not in names and not whole:
+                if norm(art["name"]) not in names and (art.get("performer_only") or not whole):
                     continue
                 seen.add(e["id"]); nw += 1; stats["artist"] += 1
                 out.append(record(e, "", "artist:" + art["name"], {"type": art["type"]}))

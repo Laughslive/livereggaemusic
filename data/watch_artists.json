@@ -1,5 +1,5 @@
 {
- "_note": "Artists the daily Ticketmaster download searches by name (U.S.-wide; shows outside the 34 areas are dropped by the merge). type: RG reggae, DH dancehall, SC soca & calypso, AF afrobeats & African. Add or remove names freely; keep this list and tools/update/east.md's watch list in step.",
+ "_note": "Artists the daily Ticketmaster download searches by name (U.S.-wide; shows outside the 34 areas are dropped by the merge). type: RG reggae, DH dancehall, SC soca & calypso, AF afrobeats & African. Add or remove names freely; keep this list and tools/update/east.md's watch list in step. performer_only: true means the name must be a listed performer (for short or common names).",
  "artists": [
   {
    "name": "Vybz Kartel",
@@ -420,6 +420,69 @@
   {
    "name": "Youssou N'Dour",
    "type": "AF"
+  },
+  {
+   "name": "Jesse Royal",
+   "type": "RG"
+  },
+  {
+   "name": "Romain Virgo",
+   "type": "RG"
+  },
+  {
+   "name": "Flexx",
+   "type": "DH",
+   "performer_only": true
+  },
+  {
+   "name": "Savage",
+   "type": "DH",
+   "performer_only": true
+  },
+  {
+   "name": "Cutty Ranks",
+   "type": "DH"
+  },
+  {
+   "name": "Black Ryno",
+   "type": "DH"
+  },
+  {
+   "name": "Kalonji",
+   "type": "RG"
+  },
+  {
+   "name": "Cali P",
+   "type": "RG"
+  },
+  {
+   "name": "Queen Ifrica",
+   "type": "RG"
+  },
+  {
+   "name": "Fortunate Youth",
+   "type": "RG"
+  },
+  {
+   "name": "Barrington Levy",
+   "type": "RG"
+  },
+  {
+   "name": "Alaine",
+   "type": "RG"
+  },
+  {
+   "name": "Gentleman",
+   "type": "RG",
+   "performer_only": true
+  },
+  {
+   "name": "Chronic Law",
+   "type": "DH"
+  },
+  {
+   "name": "Charly Black",
+   "type": "DH"
   }
  ]
 }
