@@ -73,7 +73,7 @@ Background for a new Claude chat picking up this project. Read this, then `tools
    - Google Search Console: put its verification tag in `tools/head_extra.html`.
    - Cloudflare Web Analytics: put its beacon in `tools/head_extra.html`. The Privacy page already describes it.
    - Bing Webmaster.
-6. **Scheduled Claude updates:** create twice-weekly tasks (East and West) that follow `tools/update/east.md` and `west.md`.
+6. **Scheduled Claude updates (DONE Nov 10, 2026):** "ReggaeLive twice-weekly update (East)" Mon & Thu 1:17 PM ET and "(West)" Mon & Thu 4:53 PM ET; they follow `tools/update/common.md` + `east.md`/`west.md`. When adding venues or artists, also add their URLs to the task prompt (the web reader only opens URLs from search results or the prompt). Original note: create twice-weekly tasks (East and West) that follow `tools/update/east.md` and `west.md`.
    - Offset their times from the LaughsLive tasks.
    - The web reader only opens URLs found by search or listed in the task prompt, so put the confirmed venue,
      promoter and artist URLs in the prompts too.
