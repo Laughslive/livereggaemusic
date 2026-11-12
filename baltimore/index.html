@@ -234,6 +234,8 @@ const V={
  raveeagles:{n:"The Rave / Eagles Club",area:"Near West Side",b:"Milwaukee",lat:43.0388,lng:-87.9455},
  // St. Louis
  delmarhall:{n:"Delmar Hall",area:"The Loop",b:"University City",lat:38.6556,lng:-90.3005},
+ // Los Angeles
+ echoplex:{n:"Echoplex",area:"Echo Park",b:"Los Angeles",lat:34.0779,lng:-118.2604},
 // <tm-venues>  (added automatically from the Ticketmaster feed; rebuilt each update)
  tm_grog_shop:{n:"Grog Shop",area:"Cleveland Heights",b:"OH",c:"CLE",lat:41.5085,lng:-81.5803},
  tm_hard_rock_live_sacramento:{n:"Hard Rock Live Sacramento",area:"Wheatland",b:"CA",c:"SAC",lat:39.0521,lng:-121.5118},
@@ -271,7 +273,6 @@ const V={
  tm_the_vogue:{n:"The Vogue",area:"Indianapolis",b:"IN",c:"IND",lat:39.8692,lng:-86.1458},
  tm_ivan_z_house_at_mozambique:{n:"Ivan'z House at Mozambique",area:"Laguna Beach",b:"CA",c:"LA",lat:33.5294,lng:-117.7714},
  tm_the_regent_theater:{n:"The Regent Theater",area:"Los Angeles",b:"CA",c:"LA",lat:34.0473,lng:-118.2480},
- tm_echoplex:{n:"Echoplex",area:"Los Angeles",b:"CA",c:"LA",lat:34.0776,lng:-118.2606},
  tm_garden_amphitheatre:{n:"Garden Amphitheatre",area:"Garden Grove",b:"CA",c:"LA",lat:33.7770,lng:-117.9406},
  tm_house_of_blues_anaheim:{n:"House of Blues Anaheim",area:"Anaheim",b:"CA",c:"LA",lat:33.8096,lng:-117.9230},
  tm_the_bellwether:{n:"The Bellwether",area:"Los Angeles",b:"CA",c:"LA",lat:34.0573,lng:-118.2584},
@@ -354,6 +355,9 @@ const RAW=[
  ["2026-12-03","20:00","Matisyahu: Festival of Lights","Matisyahu","raveeagles",RG,"https://www.therave.com/matisyahu",null],
 // St. Louis
  ["2026-12-05","20:00","Matisyahu: Festival of Lights","Matisyahu","delmarhall",RG,"https://www.livenation.com/fr-ca/event/vv16kZkftPzZA2FA6u/matisyahu-festival-of-lights",null],
+// Los Angeles
+ ["2026-11-25","21:00","Dub Club presents: Kabaka Pyramid","Kabaka Pyramid, Dub Club DJs","echoplex",RG,"https://www.ticketmaster.com/dub-club-presents-kabaka-pyramid-21-los-angeles-california-11-25-2026/event/09006531B99FB3F7",null,["21"]],
+ ["2026-12-19","21:00","Dub Club presents: Keith and Tex & Keith Poppin","Keith and Tex, Keith Poppin, Dub Club DJs","echoplex",RG,"https://www.ticketmaster.com/dub-club-presents-keith-and-tex-los-angeles-california-12-19-2026/event/0900649DB04BD88A",null,["21"]],
 // <tm>  (Ticketmaster/SeatGeek feeds, fetched Ticketmaster 2026-11-12; rebuilt each update — don't edit by hand)
  ["2026-11-13","19:30","The Elovaters w/ Wax","The Elovaters","tm_variety_playhouse",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AAZPe_",null],
  ["2026-12-06","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_coca_cola_roxy",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-atlanta-georgia-12-06-2026/event/0E0064F8A3057D42",null],
@@ -383,7 +387,6 @@ const RAW=[
  ["2026-11-15","15:30","Reggae Sunday (Early Show): Einstein Brown","","tm_ivan_z_house_at_mozambique",RG,"https://www.ticketweb.com/event/reggae-sunday-early-show-einstein-ivanz-house-at-mozambique-tickets/14365774","$7–212"],
  ["2026-11-15","19:00","A Celebration of Fela Kuti Induction to the RnR Hall of Fame (18+)","DJ Rich Medina","tm_the_regent_theater",AF,"https://www.ticketmaster.com/a-celebration-of-fela-kuti-induction-los-angeles-california-11-15-2026/event/0900654C2E163E28",null],
  ["2026-11-22","19:00","Reggae Sunday: Rootful","","tm_ivan_z_house_at_mozambique",RG,"https://www.ticketweb.com/event/reggae-sunday-rootful-ivanz-house-at-mozambique-tickets/14367954","$13–264"],
- ["2026-11-25","21:00","Dub Club presents: Kabaka Pyramid (21+)","Dub Club","tm_echoplex",AF,"https://www.ticketmaster.com/dub-club-presents-kabaka-pyramid-21-los-angeles-california-11-25-2026/event/09006531B99FB3F7",null,["21"]],
  ["2026-11-29","15:30","Reggae Sunday (Early Show): Einstein Brown","","tm_ivan_z_house_at_mozambique",RG,"https://www.ticketweb.com/event/reggae-sunday-early-show-einstein-ivanz-house-at-mozambique-tickets/14378374","$7–212"],
  ["2026-12-05","17:00","Western Conference & Friends + Siaosi, Keniye, Young Go","The Western Conference","tm_garden_amphitheatre",RG,"https://www.ticketweb.com/event/western-conference-friends-garden-amphitheatre-tickets/14243994","$23"],
  ["2026-12-06","15:30","Reggae Sunday (Early Show): Einstein Brown","","tm_ivan_z_house_at_mozambique",RG,"https://www.ticketweb.com/event/reggae-sunday-early-show-einstein-ivanz-house-at-mozambique-tickets/14434364","$7–212"],
@@ -391,7 +394,6 @@ const RAW=[
  ["2026-12-13","15:30","Reggae Sunday (Early Show): Einstein Brown","","tm_ivan_z_house_at_mozambique",RG,"https://www.ticketweb.com/event/reggae-sunday-early-show-einstein-ivanz-house-at-mozambique-tickets/14434524","$7–212"],
  ["2026-12-16","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_youtube_theater",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-inglewood-california-12-16-2026/event/0A0064E99D9E6DC8",null],
  ["2026-12-18","19:00","Island Block Radio Presents: Lowtide","KAPES310","tm_house_of_blues_anaheim",RG,"https://www.ticketmaster.com/island-block-radio-presents-lowtide-anaheim-california-12-18-2026/event/0900651B129D70E3",null],
- ["2026-12-19","21:00","Dub Club Presents: Keith and Tex & Keith Poppin (21+)","Dub Club","tm_echoplex",AF,"https://www.ticketmaster.com/dub-club-presents-keith-and-tex-los-angeles-california-12-19-2026/event/0900649DB04BD88A",null,["21"]],
  ["2026-12-20","15:30","Reggae Sunday (Early Show): Einstein Brown","","tm_ivan_z_house_at_mozambique",RG,"https://www.ticketweb.com/event/reggae-sunday-early-show-einstein-ivanz-house-at-mozambique-tickets/14434544","$7–212"],
  ["2026-12-26","20:30","Common Sense","","tm_ivan_z_house_at_mozambique",RG,"https://www.ticketweb.com/event/common-sense-ivanz-house-at-mozambique-tickets/14406854","$31–418"],
  ["2027-01-16","20:00","Sister Nancy & The Fully Fullwood Band ","Mysta Crooks","tm_the_bellwether",RG,"https://www.ticketmaster.com/sister-nancy-the-fully-fullwood-band-los-angeles-california-01-16-2027/event/09006536B0DC9359",null],
