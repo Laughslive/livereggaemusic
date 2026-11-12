@@ -1,35 +1,7 @@
 {
-"fetched": "2026-11-11T10:39:57+00:00",
+"fetched": "2026-11-12T10:40:36+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
-{
-"city": "",
-"id": "Z7r9jZ1A7J8pv",
-"name": "Fortunate Youth w/ Kash'd Out",
-"date": "2026-11-11",
-"time": "19:00",
-"status": "onsale",
-"venue": "Vinyl Music Hall",
-"venueCity": "Pensacola",
-"state": "FL",
-"address": "2 S Palafox St",
-"lat": 30.420601,
-"lng": -87.224098,
-"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J8pv",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Other",
-"Reggae"
-],
-"why": "artist:Fortunate Youth",
-"attractions": [
-"Fortunate Youth",
-"Kash'd Out"
-],
-"ageRestricted": false,
-"type": "RG"
-},
 {
 "city": "",
 "id": "rZ7HnEZ1AfFEqf",
@@ -81,7 +53,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -164,7 +137,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -241,7 +215,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -268,7 +243,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -407,7 +383,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -434,7 +411,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -461,7 +439,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -488,7 +467,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -515,7 +495,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -570,7 +551,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -597,7 +579,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -690,7 +673,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -746,7 +730,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -837,7 +822,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -892,7 +878,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -919,7 +906,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -946,7 +934,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -999,7 +988,8 @@
 ],
 "why": "artist:Tyla",
 "attractions": [
-"Tyla"
+"Tyla",
+"Jae Stephens"
 ],
 "ageRestricted": false,
 "type": "AF"
@@ -1286,35 +1276,6 @@
 "Reggae Fest"
 ],
 "ageRestricted": false
-},
-{
-"city": "BOS",
-"id": "vv1AvZkfNGkdhU2sq",
-"name": "Tropidelic",
-"date": "2026-11-11",
-"time": "20:00",
-"status": "onsale",
-"venue": "Wally's",
-"venueCity": "Hampton",
-"state": "NH",
-"address": "144 Ashworth Avenue",
-"lat": 42.904746,
-"lng": -70.814375,
-"url": "https://www.ticketmaster.com/tropidelic-hampton-new-hampshire-11-11-2026/event/01006523DBD8FC5D",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Alternative Rock",
-"Reggae",
-"Rock"
-],
-"why": "class:Reggae",
-"attractions": [
-"Tropidelic",
-"Surfer Girl",
-"The Quasi Kings"
-],
-"ageRestricted": true
 },
 {
 "city": "BOS",
@@ -2304,6 +2265,30 @@
 },
 {
 "city": "LA",
+"id": "rZ7HnEZ1Af8Vu0",
+"name": "Reggae Sunday (Early Show): Einstein Brown",
+"date": "2026-12-06",
+"time": "15:30",
+"status": "onsale",
+"venue": "Ivan'z House at Mozambique",
+"venueCity": "Laguna Beach",
+"state": "CA",
+"address": "1740 S. Coast Highway",
+"lat": 33.529436,
+"lng": -117.771375,
+"url": "https://www.ticketweb.com/event/reggae-sunday-early-show-einstein-ivanz-house-at-mozambique-tickets/14434364",
+"priceMin": 7.18,
+"priceMax": 212.12,
+"genres": [
+"Reggae",
+"Steel Band"
+],
+"why": "class:Reggae",
+"attractions": [],
+"ageRestricted": false
+},
+{
+"city": "LA",
 "id": "vv170Z_4GkRKOrWv",
 "name": "KROQ Almost Acoustic Christmas",
 "date": "2026-12-12",
@@ -2411,6 +2396,30 @@
 },
 {
 "city": "LA",
+"id": "rZ7HnEZ1Af8Vf0",
+"name": "Reggae Sunday (Early Show): Einstein Brown",
+"date": "2026-12-13",
+"time": "15:30",
+"status": "onsale",
+"venue": "Ivan'z House at Mozambique",
+"venueCity": "Laguna Beach",
+"state": "CA",
+"address": "1740 S. Coast Highway",
+"lat": 33.529436,
+"lng": -117.771375,
+"url": "https://www.ticketweb.com/event/reggae-sunday-early-show-einstein-ivanz-house-at-mozambique-tickets/14434524",
+"priceMin": 7.18,
+"priceMax": 212.12,
+"genres": [
+"Reggae",
+"Steel Band"
+],
+"why": "class:Reggae",
+"attractions": [],
+"ageRestricted": false
+},
+{
+"city": "LA",
 "id": "vv170Z_oGki3E9dN",
 "name": "Island Block Radio Presents: Lowtide",
 "date": "2026-12-18",
@@ -2466,6 +2475,53 @@
 "Keith Poppin"
 ],
 "ageRestricted": true
+},
+{
+"city": "LA",
+"id": "rZ7HnEZ1Af8V47",
+"name": "Reggae Sunday (Early Show): Einstein Brown",
+"date": "2026-12-20",
+"time": "15:30",
+"status": "onsale",
+"venue": "Ivan'z House at Mozambique",
+"venueCity": "Laguna Beach",
+"state": "CA",
+"address": "1740 S. Coast Highway",
+"lat": 33.529436,
+"lng": -117.771375,
+"url": "https://www.ticketweb.com/event/reggae-sunday-early-show-einstein-ivanz-house-at-mozambique-tickets/14434544",
+"priceMin": 7.18,
+"priceMax": 212.12,
+"genres": [
+"Reggae",
+"Steel Band"
+],
+"why": "class:Reggae",
+"attractions": [],
+"ageRestricted": false
+},
+{
+"city": "LA",
+"id": "rZ7HnEZ1AfoZ-7",
+"name": "Reggae Sunday: Jahgun and Justifyah",
+"date": "2026-12-20",
+"time": "19:00",
+"status": "onsale",
+"venue": "Ivan'z House at Mozambique",
+"venueCity": "Laguna Beach",
+"state": "CA",
+"address": "1740 S. Coast Highway",
+"lat": 33.529436,
+"lng": -117.771375,
+"url": "https://www.ticketweb.com/event/reggae-sunday-jahgun-and-justifyah-ivanz-house-at-mozambique-tickets/14440844",
+"priceMin": 12.83,
+"priceMax": 315.12,
+"genres": [
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [],
+"ageRestricted": false
 },
 {
 "city": "LA",
@@ -3664,7 +3720,7 @@
 "id": "rZ7HnEZ1AfuxQ7",
 "name": "Reggaeton Rave",
 "date": "2026-12-12",
-"time": "22:00",
+"time": "22:30",
 "status": "onsale",
 "venue": "Nova SD",
 "venueCity": "San Diego",
@@ -3902,6 +3958,29 @@
 "Kabaka Pyramid",
 "DJ King Ivier"
 ],
+"ageRestricted": false
+},
+{
+"city": "SFO",
+"id": "rZ7HnEZ1Afoef0",
+"name": "AFROBASHMENT(Afrobeats, Dancehall, Hip-hop & more)",
+"date": "2026-11-28",
+"time": "22:00",
+"status": "onsale",
+"venue": "Crybaby",
+"venueCity": "Oakland",
+"state": "CA",
+"address": "1928 Telegraph Ave",
+"lat": 37.80857,
+"lng": -122.26962,
+"url": "https://www.ticketweb.com/event/afrobashmentafrobeats-dancehall-hip-hop-crybaby-tickets/14442524",
+"priceMin": 1.0,
+"priceMax": 130.24,
+"genres": [
+"Other"
+],
+"why": "name:afrobeats",
+"attractions": [],
 "ageRestricted": false
 },
 {
