@@ -1,13 +1,13 @@
-Update Live Reggae Music (livereggaemusic.com) with fresh reggae, dancehall, soca, calypso and afrobeats/African listings for the 19 Northeast, Mid-Atlantic and South areas. First read tools/update/common.md in the repository: it holds the rules, sourcing policy, data format and publish steps. This file adds the EAST run's cities, venues, promoters and the artist tour pass.
+Update Live Reggae Music (livereggaemusic.com) with fresh reggae, dancehall, soca, calypso and afrobeats/African listings for the 24 Northeast, Mid-Atlantic and South areas. First read tools/update/common.md in the repository: it holds the rules, sourcing policy, data format and publish steps. This file adds the EAST run's cities, venues, promoters and the artist tour pass.
 
 SET UP: attach the repository with the add_repo tool (access "push"), clone it and work in the clone. First remove hand-written rows whose date has passed.
 
-SPLIT RUNS: this is the EAST run. A separate run updates the Midwest and West (CHI, CIN, CLE, DET, IND, MKE, MSP, STL, DEN, HNL, LAS, LA, PHX, PDX, SAC, SAN, SFO, SEA). Apart from tour-pass dates (step 2), don't change rows for those cities, except to delete past-dated rows anywhere.
+SPLIT RUNS: this is the EAST run. A separate run updates the Midwest and West (CHI, CIN, CLE, CMH, DET, IND, MCI, MKE, MSP, STL, DEN, HNL, LAS, LA, OGG, PHX, PDX, SAC, SAN, SBA, SCZ, SFO, SEA, SLC). Apart from tour-pass dates (step 2), don't change rows for those cities, except to delete past-dated rows anywhere.
 
 AREAS (everything within 50 miles of each center):
 - Northeast: BOS, HFD, NHV, NYC, PHL, PWM.
 - Mid-Atlantic: BAL, DC, ORF, PIT, RIC.
-- South: ATL, AUS, DFW, HOU, MIA, NSH, ORL, TPA.
+- South: ATL, AUS, CLT, DFW, HOU, JAX, MIA, NSH, ORL, PBI, RDU, SAT, TPA.
 Work one region at a time in that order, covering the next ~8 weeks. Publish after each region.
 
 1. VENUE & PROMOTER PASS (main source). For every hand-listed venue in V in the region and everything named below, read the official calendar or organizer page first. URLs marked ✓ were confirmed when the site was built; for the rest, find the official page with a WebSearch and add it to SITES when confirmed.
@@ -38,8 +38,13 @@ Work one region at a time in that order, covering the next ~8 weeks. Publish aft
    - Dallas–Fort Worth: House of Blues Dallas, The Echo Lounge, Ferris Wheelers, Toyota Music Factory, Dallas Caribbean carnival.
    - Austin: Stubb's, Emo's, Mohawk, Austin Reggae Festival (April).
    - Nashville: Brooklyn Bowl Nashville, The Basement East, Marathon Music Works, Ryman.
+   - Charlotte: The Fillmore Charlotte and The Underground (AvidXchange Music Factory), Neighborhood Theatre (NoDa), Spectrum Center, Truliant Amphitheater (formerly PNC Music Pavilion), Skyla Credit Union Amphitheatre; search "Charlotte dancehall", "Charlotte soca", "Charlotte afrobeats" on Eventbrite.
+   - Raleigh–Durham: Lincoln Theatre and The Ritz (Raleigh), Cat's Cradle (Carrboro), Motorco Music Hall and DPAC (Durham), Koka Booth Amphitheatre (Cary), Coastal Credit Union Music Park at Walnut Creek.
+   - Jacksonville: Ponte Vedra Concert Hall, Florida Theatre, Daily's Place, Jack Rabbits, St. Augustine Amphitheatre.
+   - West Palm Beach / Palm Beach County: iTHINK Financial Amphitheatre, Kravis Center, Respectable Street, Sunset Cove Amphitheater and Mizner Park Amphitheater (Boca Raton; Holidaze by Reggae Rise Up). Shows in Boca and Fort Lauderdale can count for both MIA and PBI.
+   - San Antonio: Aztec Theatre, The Espee, Paper Tiger, Boeing Center at Tech Port, Frost Bank Center, Whitewater Amphitheater (New Braunfels).
 
-2. ARTIST TOUR PASS (once, during the Northeast region, for all 37 areas, West and Midwest included). For each act, read the official site's tour page first, aggregators only as backup. Add every date inside one of the 37 areas that shows a start time.
+2. ARTIST TOUR PASS (once, during the Northeast region, for all 48 areas, West and Midwest included). For each act, read the official site's tour page first, aggregators only as backup. Add every date inside one of the 48 areas that shows a start time.
    - Reggae: Damian Marley, Stephen Marley, Ziggy Marley, Julian Marley, Skip Marley, Protoje, Chronixx, Koffee, Lila Iké, Jesse Royal, Kabaka Pyramid, Collie Buddz, Steel Pulse, Third World, Inner Circle, Morgan Heritage, Gramps Morgan, Beres Hammond, Buju Banton, Tarrus Riley, Romain Virgo, Christopher Martin, Sanchez, Maxi Priest, Shaggy, UB40 (ub40.global) and the separate UB40 featuring Ali Campbell, The Wailers, Burning Spear, Israel Vibration, Black Uhuru, Easy Star All-Stars, The Slackers.
    - Reggae-rock: Rebelution, SOJA, Stick Figure, Iration, Slightly Stoopid, Sublime, Dirty Heads, Pepper, Tribal Seeds, The Green, J Boog, Common Kings, HIRIE, The Movement, The Elovaters, Bumpin' Uglies, Fortunate Youth, Kash'd Out, Ballyhoo!, Little Stranger, The Expendables.
    - Dancehall: Sean Paul, Shenseea, Spice, Popcaan, Masicka, Alkaline, Vybz Kartel, Beenie Man, Bounty Killer, Busy Signal, Aidonia, Valiant, Skeng, Teejay, Govana, Mavado.

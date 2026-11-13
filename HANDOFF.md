@@ -5,7 +5,8 @@ Background for a new Claude chat picking up this project. Read this, then `tools
 
 ## What the site is
 - A sister site of LaughsLive (repo Laughslive/Laughslive): a "Bandsintown for Caribbean music".
-  It lists reggae, dancehall, soca and calypso shows within 50 miles of the same 34 U.S. cities.
+  It lists reggae, dancehall, soca, calypso and African music shows within 50 miles of 48 U.S. cities
+  (LaughsLive's 34 plus 14 more; the list is data/cities.json, and each city page has a short intro from data/city_intros.json).
   Venue-first and privacy-first.
 - **Repo:** `livereggaemusic`, branch `main`, served by GitHub Pages.
 - **Name:** The site is called "Live Reggae Music" (renamed from the placeholder "ReggaeLive" on Nov 10, 2026). The name, domain and emails live in `data/site.json`. To rename, change:

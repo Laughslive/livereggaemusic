@@ -24,3 +24,8 @@ Then run the "Ticketmaster reggae feed" action once from GitHub's Actions tab to
 The twice-weekly updates are split into two runs that follow `tools/update/east.md`
 (Northeast, Mid-Atlantic, South) and `tools/update/west.md` (Midwest, West).
 When you add a city, add it to the area list, region list and venue list in the matching file.
+
+## City intro text
+Each city page ends with a short "Reggae in <city>" paragraph from `data/city_intros.json` (key = city code).
+Add one for every new city, naming the main venues, festivals and series the site actually covers there.
+`build_pages.py` prints a note for any city that is missing one.

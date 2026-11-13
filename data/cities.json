@@ -585,6 +585,174 @@
     "CA"
    ],
    "nearby": "Midtown, Old Sacramento, Roseville, Folsom, Davis and Wheatland"
+  },
+  {
+   "code": "SCZ",
+   "slug": "santa-cruz-monterey",
+   "name": "Santa Cruz & Monterey Bay",
+   "short": "Santa Cruz",
+   "region": "West",
+   "center": [
+    36.9741,
+    -122.0308
+   ],
+   "states": [
+    "CA"
+   ],
+   "nearby": "Santa Cruz, Capitola, Aptos, Felton, Watsonville, Monterey and Salinas"
+  },
+  {
+   "code": "SBA",
+   "slug": "santa-barbara-ventura",
+   "name": "Santa Barbara & Ventura",
+   "short": "Santa Barbara & Ventura",
+   "region": "West",
+   "center": [
+    34.35,
+    -119.45
+   ],
+   "states": [
+    "CA"
+   ],
+   "nearby": "Santa Barbara, Goleta, Isla Vista, Carpinteria, Ojai, Ventura, Oxnard and Camarillo"
+  },
+  {
+   "code": "OGG",
+   "slug": "maui",
+   "name": "Maui",
+   "short": "Maui",
+   "region": "West",
+   "center": [
+    20.8893,
+    -156.4729
+   ],
+   "states": [
+    "HI"
+   ],
+   "nearby": "Kahului, Wailuku, Kihei, Wailea, Lahaina, Paia and Makawao"
+  },
+  {
+   "code": "SLC",
+   "slug": "salt-lake-city",
+   "name": "Salt Lake City",
+   "short": "Salt Lake City",
+   "region": "West",
+   "center": [
+    40.7608,
+    -111.891
+   ],
+   "states": [
+    "UT"
+   ],
+   "nearby": "downtown, South Salt Lake, West Valley City, Sandy, Park City, Ogden and Provo"
+  },
+  {
+   "code": "CMH",
+   "slug": "columbus",
+   "name": "Columbus",
+   "short": "Columbus, OH",
+   "region": "Midwest",
+   "center": [
+    39.9612,
+    -82.9988
+   ],
+   "states": [
+    "OH"
+   ],
+   "nearby": "the Short North, Downtown, the Arena District, Dublin, Westerville and Worthington"
+  },
+  {
+   "code": "MCI",
+   "slug": "kansas-city",
+   "name": "Kansas City",
+   "short": "Kansas City",
+   "region": "Midwest",
+   "center": [
+    39.0997,
+    -94.5786
+   ],
+   "states": [
+    "MO",
+    "KS"
+   ],
+   "nearby": "Westport, the Crossroads, the Power & Light District, Overland Park, Bonner Springs and Lawrence"
+  },
+  {
+   "code": "CLT",
+   "slug": "charlotte",
+   "name": "Charlotte",
+   "short": "Charlotte",
+   "region": "South",
+   "center": [
+    35.2271,
+    -80.8431
+   ],
+   "states": [
+    "NC",
+    "SC"
+   ],
+   "nearby": "Uptown, NoDa, Plaza Midwood, South End, Ballantyne, Concord and Rock Hill, SC"
+  },
+  {
+   "code": "RDU",
+   "slug": "raleigh-durham",
+   "name": "Raleigh–Durham",
+   "short": "Raleigh–Durham",
+   "region": "South",
+   "center": [
+    35.8992,
+    -78.8636
+   ],
+   "states": [
+    "NC"
+   ],
+   "nearby": "Raleigh, Durham, Chapel Hill, Carrboro, Cary and Wake Forest"
+  },
+  {
+   "code": "JAX",
+   "slug": "jacksonville",
+   "name": "Jacksonville",
+   "short": "Jacksonville",
+   "region": "South",
+   "center": [
+    30.3322,
+    -81.6557
+   ],
+   "states": [
+    "FL",
+    "GA"
+   ],
+   "nearby": "Downtown, Riverside, San Marco, Jacksonville Beach, Ponte Vedra and St. Augustine"
+  },
+  {
+   "code": "PBI",
+   "slug": "west-palm-beach",
+   "name": "West Palm Beach",
+   "short": "West Palm Beach",
+   "region": "South",
+   "center": [
+    26.7153,
+    -80.0534
+   ],
+   "states": [
+    "FL"
+   ],
+   "nearby": "West Palm Beach, Boca Raton, Delray Beach, Lake Worth, Jupiter and Port St. Lucie"
+  },
+  {
+   "code": "SAT",
+   "slug": "san-antonio",
+   "name": "San Antonio",
+   "short": "San Antonio",
+   "region": "South",
+   "center": [
+    29.4241,
+    -98.4936
+   ],
+   "states": [
+    "TX"
+   ],
+   "nearby": "Downtown, the Pearl, Southtown, Alamo Heights, New Braunfels and San Marcos"
   }
  ]
 }

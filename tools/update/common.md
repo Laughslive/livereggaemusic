@@ -1,6 +1,6 @@
 # Live Reggae Music update — shared rules (read with east.md or west.md)
 
-Live Reggae Music (livereggaemusic.com; name and domain in data/site.json) lists reggae, dancehall, soca, calypso and African music (afrobeats, amapiano, highlife, afro-pop) shows within 50 miles of 37 U.S. city centers. It is served by GitHub Pages from this repository (branch main). index.html holds all show data and is THE source of truth — work directly in it. Each scheduled run follows east.md or west.md, which add the region's cities, venues and promoters to these rules.
+Live Reggae Music (livereggaemusic.com; name and domain in data/site.json) lists reggae, dancehall, soca, calypso and African music (afrobeats, amapiano, highlife, afro-pop) shows within 50 miles of 48 U.S. city centers. It is served by GitHub Pages from this repository (branch main). index.html holds all show data and is THE source of truth — work directly in it. Each scheduled run follows east.md or west.md, which add the region's cities, venues and promoters to these rules.
 
 ## What counts
 - **RG Reggae:** roots, lovers rock, dub, reggae-rock (Rebelution, SOJA, Stick Figure, Slightly Stoopid and similar), and Jamaican-style ska/rocksteady bands (e.g. The Slackers).
@@ -35,7 +35,7 @@ Live Reggae Music (livereggaemusic.com; name and domain in data/site.json) lists
   - A show after midnight belongs to the previous night's date only if the source lists it that way.
 
 ## Ticketmaster feed
-- A GitHub Action (.github/workflows/ticketmaster.yml) runs every morning. It fetches Ticketmaster's reggae / dancehall / soca / calypso listings for all 37 cities into data/ticketmaster.json, merges them into index.html with tools/merge_ticketmaster.py, rebuilds the city pages and publishes.
+- A GitHub Action (.github/workflows/ticketmaster.yml) runs every morning. It fetches Ticketmaster's reggae / dancehall / soca / calypso listings for all 48 cities into data/ticketmaster.json, merges them into index.html with tools/merge_ticketmaster.py, rebuilds the city pages and publishes.
 - Don't research Ticketmaster-sold arena and theater shows. Spend the time on what Ticketmaster misses: Eventbrite, Dice and Tixr events, promoter concerts, clubs, sound systems and carnival events.
 - The feed also searches every artist in data/watch_artists.json by name. When the owner adds an artist to the watch list in east.md, add them there too (with type RG, DH, SC or AF).
 - The feeds are filtered by Ticketmaster's and SeatGeek's own genre labels, so mislabeled shows slip in (radio holiday shows, ska-punk, Latin acts, generic club nights). Each run, scan the generated block for shows that don't count and add a specific pattern for each to data/feed_exclude.json (not to the code). Never add Ticketmaster's "Amapiano" label back: it sits on most EDM/club events.

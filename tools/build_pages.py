@@ -25,6 +25,9 @@ REGIONS = [(r, sorted([c["code"] for c in _CFG["cities"] if c["region"] == r],
                       key=lambda k: next(x["name"] for x in _CFG["cities"] if x["code"] == k)))
            for r in _CFG["regions"]]
 BY = {c[0]: c for c in CITIES}
+# Short "Reggae in <city>" paragraph shown near the bottom of each city page (key = city code).
+_IP = os.path.join(ROOT, "data", "city_intros.json")
+INTROS = json.load(open(_IP, encoding="utf-8")) if os.path.exists(_IP) else {}
 
 def block(name, content):
     return f"<!--ll:{name}-->{content}<!--/ll:{name}-->"
@@ -227,6 +230,13 @@ def main():
                     pg, count=1, flags=re.S)
         pg = pg.replace('<main id="results"></main>',
                         f'<main id="results">{static_list(code, shows.get(code, []))}</main>', 1)
+        intro = INTROS.get(code)
+        if intro:
+            pg = pg.replace("<footer>", f'<section class="cityintro" style="max-width:70ch;margin:28px auto 0;padding:0 16px;color:var(--muted)">'
+                            f'<h2 style="font-size:1.05rem;color:var(--ink);margin:0 0 6px">Reggae in {html.escape(name)}</h2>'
+                            f'<p style="margin:0">{html.escape(intro)}</p></section>\n<footer>', 1)
+        else:
+            print(f"  note: no intro for {code} in data/city_intros.json")
         pg = put_block(pg, "nav", nav_html(code), "<footer>")
         os.makedirs(os.path.join(ROOT, slug), exist_ok=True)
         open(os.path.join(ROOT, slug, "index.html"), "w", encoding="utf-8").write(pg)
