@@ -1,64 +1,7 @@
 {
-"fetched": "2026-11-12T10:40:36+00:00",
+"fetched": "2026-11-13T10:38:39+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
-{
-"city": "",
-"id": "rZ7HnEZ1AfFEqf",
-"name": "The Slackers, Some Ska Band, and Special Guest DJs",
-"date": "2026-11-12",
-"time": "20:00",
-"status": "onsale",
-"venue": "Grog Shop",
-"venueCity": "Cleveland Heights",
-"state": "OH",
-"address": "2785 Euclid Heights Boulevard",
-"lat": 41.508513,
-"lng": -81.580335,
-"url": "https://www.ticketweb.com/event/the-slackers-some-ska-band-grog-shop-tickets/14227754",
-"priceMin": 31.87,
-"priceMax": 31.87,
-"genres": [
-"Alternative",
-"Alternative Rock",
-"Rock",
-"Ska Revival"
-],
-"why": "artist:The Slackers",
-"attractions": [
-"The Slackers"
-],
-"ageRestricted": false,
-"type": "RG"
-},
-{
-"city": "",
-"id": "G5vYZ_2QphIOW",
-"name": "TYLA - THE A*POP WORLD TOUR",
-"date": "2026-11-12",
-"time": "20:00",
-"status": "onsale",
-"venue": "Hard Rock Live Sacramento",
-"venueCity": "Wheatland",
-"state": "CA",
-"address": "3317 Forty Mile Road",
-"lat": 39.05211613,
-"lng": -121.5118332,
-"url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-wheatland-california-11-12-2026/event/1C0064F6966E883D",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Electro Pop",
-"Pop"
-],
-"why": "artist:Tyla",
-"attractions": [
-"Tyla",
-"Jae Stephens"
-],
-"ageRestricted": false,
-"type": "AF"
-},
 {
 "city": "",
 "id": "rZ7HnEZ1AfFxAV",
@@ -618,41 +561,6 @@
 },
 {
 "city": "",
-"id": "vv1AdZk4NGkeJromY",
-"name": "Elie Wiesel Foundation One Light Many Flames Concert",
-"date": "2026-12-09",
-"time": "20:00",
-"status": "onsale",
-"venue": "Town Hall",
-"venueCity": "New York",
-"state": "NY",
-"address": "123 West 43rd Street",
-"lat": 40.75599205,
-"lng": -73.98447747,
-"url": "https://www.ticketmaster.com/elie-wiesel-foundation-one-light-many-new-york-new-york-12-09-2026/event/03006563A6791BB0",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Alternative Rock",
-"Community/Civic",
-"Pop",
-"Reggae",
-"Rock",
-"World"
-],
-"why": "artist:Shaggy",
-"attractions": [
-"Elie Wiesel",
-"The Idan Raichel Project",
-"Ravid Kahalani",
-"MATISYAHU",
-"Shaggy"
-],
-"ageRestricted": false,
-"type": "RG"
-},
-{
-"city": "",
 "id": "vvG1YZ_2hhoQXX",
 "name": "TYLA - THE A*POP WORLD TOUR",
 "date": "2026-12-09",
@@ -1166,31 +1074,6 @@
 ],
 "ageRestricted": false,
 "type": "RG"
-},
-{
-"city": "ATL",
-"id": "vvG1zZ_dpBp16a",
-"name": "UB40",
-"date": "2026-11-12",
-"time": "20:00",
-"status": "onsale",
-"venue": "Center Stage Theater",
-"venueCity": "Atlanta",
-"state": "GA",
-"address": "1374 W Peachtree St. NW",
-"lat": 33.7918926,
-"lng": -84.3877907,
-"url": "https://www.ticketmaster.com/ub40-atlanta-georgia-11-12-2026/event/0E006435BA58A1C9",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"UB40"
-],
-"ageRestricted": false
 },
 {
 "city": "ATL",
@@ -2677,6 +2560,34 @@
 "ageRestricted": false
 },
 {
+"city": "LA",
+"id": "vv1AaZk4FGkeJBB6v",
+"name": "The Hip Abduction",
+"date": "2027-02-10",
+"time": "18:30",
+"status": "onsale",
+"venue": "The Observatory",
+"venueCity": "Santa Ana",
+"state": "CA",
+"address": "3503 S. Harbor Blvd.",
+"lat": 33.6997648,
+"lng": -117.9175717,
+"url": "https://www.ticketmaster.com/the-hip-abduction-santa-ana-california-02-10-2027/event/09006548A6EBA1C1",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Alternative",
+"Indie Rock",
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"The Hip Abduction",
+"Surf Hat"
+],
+"ageRestricted": false
+},
+{
 "city": "LAS",
 "id": "LvZ18QJO6o605DgNrSTxc",
 "name": "Reggae Fest Vegas at The House Of Blues Las Vegas",
@@ -2878,6 +2789,38 @@
 "why": "class:Reggae",
 "attractions": [
 "Less Than Jake"
+],
+"ageRestricted": false
+},
+{
+"city": "NYC",
+"id": "vv1AdZk4NGkeJromY",
+"name": "Elie Wiesel Foundation One Light Many Flames Concert",
+"date": "2026-12-09",
+"time": "20:00",
+"status": "onsale",
+"venue": "Town Hall",
+"venueCity": "New York",
+"state": "NY",
+"address": "123 West 43rd Street",
+"lat": 40.75599205,
+"lng": -73.98447747,
+"url": "https://www.ticketmaster.com/elie-wiesel-foundation-one-light-many-new-york-new-york-12-09-2026/event/03006563A6791BB0",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Alternative Rock",
+"Pop",
+"Reggae",
+"Rock",
+"World"
+],
+"why": "class:Reggae",
+"attractions": [
+"The Idan Raichel Project",
+"Ravid Kahalani",
+"MATISYAHU",
+"Shaggy"
 ],
 "ageRestricted": false
 },
@@ -3399,35 +3342,6 @@
 },
 {
 "city": "PIT",
-"id": "rZ7HnEZ1AfFd_f",
-"name": "Bumpin Uglies with  Artikal Sound System and Fubar",
-"date": "2026-11-12",
-"time": "19:30",
-"status": "onsale",
-"venue": "Mr Smalls Theatre",
-"venueCity": "Millvale",
-"state": "PA",
-"address": "400 Lincoln Ave",
-"lat": 40.480891,
-"lng": -79.972349,
-"url": "https://www.ticketweb.com/event/bumpin-uglies-artikal-sound-system-mr-smalls-theatre-tickets/14203654",
-"priceMin": 37.16,
-"priceMax": 37.16,
-"genres": [
-"Pop",
-"Reggae",
-"Reggae-Pop",
-"Rock"
-],
-"why": "class:Reggae",
-"attractions": [
-"Bumpin Uglies",
-"Artikal Sound System"
-],
-"ageRestricted": false
-},
-{
-"city": "PIT",
 "id": "rZ7HnEZ1AfaJef",
 "name": "Atreyu with Special Guests Aurorawave and Guides",
 "date": "2026-12-02",
@@ -3454,6 +3368,32 @@
 "attractions": [
 "Atreyu",
 "aurorawave"
+],
+"ageRestricted": false
+},
+{
+"city": "PIT",
+"id": "1ApZk4tGkenMUVa",
+"name": "Elephants Dancing",
+"date": "2027-01-30",
+"time": "20:00",
+"status": "onsale",
+"venue": "The Funhouse at Mr. Smalls",
+"venueCity": "Millvale",
+"state": "PA",
+"address": "400 Lincoln Ave",
+"lat": 40.480855,
+"lng": -79.972264,
+"url": "https://www.ticketmaster.com/elephants-dancing-millvale-pennsylvania-01-30-2027/event/16006569AADF6D09",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"Elephants Dancing",
+"Rockstead"
 ],
 "ageRestricted": false
 },
@@ -3974,8 +3914,8 @@
 "lat": 37.80857,
 "lng": -122.26962,
 "url": "https://www.ticketweb.com/event/afrobashmentafrobeats-dancehall-hip-hop-crybaby-tickets/14442524",
-"priceMin": 1.0,
-"priceMax": 130.24,
+"priceMin": 0.0,
+"priceMax": 129.24,
 "genres": [
 "Other"
 ],
