@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-13T10:38:39+00:00",
+"fetched": "2026-11-13T23:59:50+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
 {
@@ -8,7 +8,7 @@
 "name": "The Slackers, Some Ska Band",
 "date": "2026-11-13",
 "time": "19:00",
-"status": "onsale",
+"status": "offsale",
 "venue": "The Magic Bag",
 "venueCity": "Ferndale",
 "state": "MI",
@@ -194,33 +194,6 @@
 },
 {
 "city": "",
-"id": "rZ7HnEZ1A4Zsrd",
-"name": "Moe's Alley Presents: Kabaka Pyramid (Night 1) w/ Kava Jah & The Remedy + Selecta 7",
-"date": "2026-11-20",
-"time": "21:00",
-"status": "onsale",
-"venue": "Moe's Alley",
-"venueCity": "Santa Cruz",
-"state": "CA",
-"address": "1535 Commercial Way",
-"lat": 36.9875105,
-"lng": -121.9828327,
-"url": "https://www.ticketweb.com/event/moes-alley-presents-kabaka-pyramid-moes-alley-tickets/15031783",
-"priceMin": 46.79,
-"priceMax": 46.79,
-"genres": [
-"Contemporary Reggae",
-"Reggae"
-],
-"why": "artist:Kabaka Pyramid",
-"attractions": [
-"Kabaka Pyramid"
-],
-"ageRestricted": false,
-"type": "RG"
-},
-{
-"city": "",
 "id": "1A9ZkfAGkdmQfn8",
 "name": "SATURDAY GA - T-MOBILE ZONE AT SPHERE",
 "date": "2026-11-21",
@@ -276,33 +249,6 @@
 ],
 "ageRestricted": false,
 "type": "DH"
-},
-{
-"city": "",
-"id": "rZ7HnEZ1A4ZgZd",
-"name": "Moe's Alley Presents: Kabaka Pyramid (Night 2) w/ Lawgiver The Kingson + DJ Spleece",
-"date": "2026-11-21",
-"time": "21:00",
-"status": "onsale",
-"venue": "Moe's Alley",
-"venueCity": "Santa Cruz",
-"state": "CA",
-"address": "1535 Commercial Way",
-"lat": 36.9875105,
-"lng": -121.9828327,
-"url": "https://www.ticketweb.com/event/moes-alley-presents-kabaka-pyramid-moes-alley-tickets/15035003",
-"priceMin": 46.79,
-"priceMax": 46.79,
-"genres": [
-"Contemporary Reggae",
-"Reggae"
-],
-"why": "artist:Kabaka Pyramid",
-"attractions": [
-"Kabaka Pyramid"
-],
-"ageRestricted": false,
-"type": "RG"
 },
 {
 "city": "",
@@ -1062,7 +1008,7 @@
 "lat": 42.2185947623,
 "lng": -83.5218059153,
 "url": "https://www.ticketweb.com/event/badfish-a-tribute-diamondback-music-hall-tickets/14391084",
-"priceMin": 30.33,
+"priceMin": 24.66,
 "priceMax": 58.65,
 "genres": [
 "Rock",
@@ -1575,6 +1521,37 @@
 "attractions": [
 "Badfish - A Tribute To Sublime",
 "Kash'd Out"
+],
+"ageRestricted": false
+},
+{
+"city": "CLT",
+"id": "G5eVZ_4v107hD",
+"name": "Tropidelic",
+"date": "2027-01-30",
+"time": "19:30",
+"status": "onsale",
+"venue": "Neighborhood Theatre Main Room",
+"venueCity": "Charlotte",
+"state": "NC",
+"address": "511 E 36th St",
+"lat": 35.247447,
+"lng": -80.803888,
+"url": "https://www.ticketmaster.com/tropidelic-charlotte-north-carolina-01-30-2027/event/2D0065504A9046FB",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Alternative Rock",
+"Pop",
+"Reggae",
+"Rock",
+"Roots Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"Tropidelic",
+"Mihali",
+"Mellodose"
 ],
 "ageRestricted": false
 },
@@ -3060,32 +3037,6 @@
 },
 {
 "city": "ORL",
-"id": "Z7r9jZ1AAZe46",
-"name": "Fortunate Youth",
-"date": "2026-11-13",
-"time": "17:30",
-"status": "onsale",
-"venue": "Riverfront Park - Cocoa Village",
-"venueCity": "Cocoa",
-"state": "FL",
-"address": "401 Riveredge Blvd",
-"lat": 28.3696,
-"lng": -80.747803,
-"url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZe46",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Other",
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Fortunate Youth"
-],
-"ageRestricted": false
-},
-{
-"city": "ORL",
 "id": "1AxZk8YGkdqDUvN",
 "name": "UB40",
 "date": "2026-11-13",
@@ -3844,6 +3795,113 @@
 "attractions": [
 "Surfer Girl",
 "South Summit"
+],
+"ageRestricted": false
+},
+{
+"city": "SCZ",
+"id": "rZ7HnEZ1A4Zsrd",
+"name": "Moe's Alley Presents: Kabaka Pyramid (Night 1) w/ Kava Jah & The Remedy + Selecta 7",
+"date": "2026-11-20",
+"time": "21:00",
+"status": "onsale",
+"venue": "Moe's Alley",
+"venueCity": "Santa Cruz",
+"state": "CA",
+"address": "1535 Commercial Way",
+"lat": 36.9875105,
+"lng": -121.9828327,
+"url": "https://www.ticketweb.com/event/moes-alley-presents-kabaka-pyramid-moes-alley-tickets/15031783",
+"priceMin": 46.79,
+"priceMax": 46.79,
+"genres": [
+"Contemporary Reggae",
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"Kabaka Pyramid"
+],
+"ageRestricted": false
+},
+{
+"city": "SCZ",
+"id": "rZ7HnEZ1A4ZgZd",
+"name": "Moe's Alley Presents: Kabaka Pyramid (Night 2) w/ Lawgiver The Kingson + DJ Spleece",
+"date": "2026-11-21",
+"time": "21:00",
+"status": "onsale",
+"venue": "Moe's Alley",
+"venueCity": "Santa Cruz",
+"state": "CA",
+"address": "1535 Commercial Way",
+"lat": 36.9875105,
+"lng": -121.9828327,
+"url": "https://www.ticketweb.com/event/moes-alley-presents-kabaka-pyramid-moes-alley-tickets/15035003",
+"priceMin": 46.79,
+"priceMax": 46.79,
+"genres": [
+"Contemporary Reggae",
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"Kabaka Pyramid"
+],
+"ageRestricted": false
+},
+{
+"city": "SCZ",
+"id": "rZ7HnEZ1AfuFP0",
+"name": "Moe's Alley Presents: Long Beach Dub Allstars w/ Man Like Devin",
+"date": "2026-12-13",
+"time": "20:00",
+"status": "onsale",
+"venue": "Moe's Alley",
+"venueCity": "Santa Cruz",
+"state": "CA",
+"address": "1535 Commercial Way",
+"lat": 36.9875105,
+"lng": -121.9828327,
+"url": "https://www.ticketweb.com/event/moes-alley-presents-long-beach-moes-alley-tickets/14348964",
+"priceMin": 35.46,
+"priceMax": 35.46,
+"genres": [
+"Dub",
+"Reggae",
+"Rock Steady"
+],
+"why": "class:Reggae",
+"attractions": [
+"Long Beach Dub Allstars"
+],
+"ageRestricted": false
+},
+{
+"city": "SCZ",
+"id": "rZ7HnEZ1AfCdvV",
+"name": "(((folkYEAH!))) Presents: Sister Nancy & The Steady Rock Band w/ Reggae Angels",
+"date": "2027-01-14",
+"time": "20:00",
+"status": "onsale",
+"venue": "Moe's Alley",
+"venueCity": "Santa Cruz",
+"state": "CA",
+"address": "1535 Commercial Way",
+"lat": 36.9875105,
+"lng": -121.9828327,
+"url": "https://www.ticketweb.com/event/folkyeah-presents-sister-nancy-moes-alley-tickets/14383074",
+"priceMin": 59.61,
+"priceMax": 59.61,
+"genres": [
+"Dancehall Reggae",
+"Reggae",
+"World"
+],
+"why": "class:Reggae",
+"attractions": [
+"Sister Nancy",
+"Reggae Angels"
 ],
 "ageRestricted": false
 },
