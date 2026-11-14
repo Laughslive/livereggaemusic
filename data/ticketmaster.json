@@ -1,91 +1,7 @@
 {
-"fetched": "2026-11-13T23:59:50+00:00",
+"fetched": "2026-11-14T10:23:00+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
-{
-"city": "",
-"id": "rZ7HnEZ1AfFxAV",
-"name": "The Slackers, Some Ska Band",
-"date": "2026-11-13",
-"time": "19:00",
-"status": "offsale",
-"venue": "The Magic Bag",
-"venueCity": "Ferndale",
-"state": "MI",
-"address": "22920 Woodward Avenue",
-"lat": 42.461839,
-"lng": -83.134773,
-"url": "https://www.ticketweb.com/event/the-slackers-some-ska-band-the-magic-bag-tickets/14222174",
-"priceMin": 33.6,
-"priceMax": 33.6,
-"genres": [
-"Alternative",
-"Alternative Rock",
-"Rock",
-"Ska"
-],
-"why": "artist:The Slackers",
-"attractions": [
-"The Slackers"
-],
-"ageRestricted": false,
-"type": "RG"
-},
-{
-"city": "",
-"id": "G5vYZ_2fIMqin",
-"name": "TYLA - THE A*POP WORLD TOUR (MOVED TO FOX THEATER)",
-"date": "2026-11-13",
-"time": "20:00",
-"status": "onsale",
-"venue": "Fox Theater - Oakland",
-"venueCity": "Oakland",
-"state": "CA",
-"address": "1807 Telegraph Ave",
-"lat": 37.8077176,
-"lng": -122.2700597,
-"url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-moved-oakland-california-11-13-2026/event/1C0064F528DDDB2A",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Electro Pop",
-"Pop"
-],
-"why": "artist:Tyla",
-"attractions": [
-"Tyla"
-],
-"ageRestricted": false,
-"type": "AF"
-},
-{
-"city": "",
-"id": "G5vYZ_fD80sy7",
-"name": "TYLA - THE A*POP WORLD TOUR",
-"date": "2026-11-13",
-"time": "20:00",
-"status": "onsale",
-"venue": "Fox Theater - Oakland",
-"venueCity": "Oakland",
-"state": "CA",
-"address": "1807 Telegraph Ave",
-"lat": 37.8077176,
-"lng": -122.2700597,
-"url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-oakland-california-11-13-2026/event/1C00654ED0931E44",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Electro Pop",
-"Pop"
-],
-"why": "artist:Tyla",
-"attractions": [
-"Tyla",
-"Jae Stephens"
-],
-"ageRestricted": false,
-"type": "AF"
-},
 {
 "city": "",
 "id": "1AtZk44Gkd-0OmY",
@@ -1022,33 +938,6 @@
 "type": "RG"
 },
 {
-"city": "ATL",
-"id": "Z7r9jZ1AAZPe_",
-"name": "The Elovaters w/ Wax",
-"date": "2026-11-13",
-"time": "19:30",
-"status": "onsale",
-"venue": "Variety Playhouse",
-"venueCity": "Atlanta",
-"state": "GA",
-"address": "1099 Euclid Ave Ne",
-"lat": 33.770199,
-"lng": -84.334602,
-"url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPe_",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Other",
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"The Elovaters",
-"Wax"
-],
-"ageRestricted": false
-},
-{
 "city": "BAL",
 "id": "1AvfZ_fGkwbWPAC",
 "name": "The Pietasters Annual Holiday Show",
@@ -1521,6 +1410,31 @@
 "attractions": [
 "Badfish - A Tribute To Sublime",
 "Kash'd Out"
+],
+"ageRestricted": false
+},
+{
+"city": "CLE",
+"id": "vv17fZ_4GkD5_Du4",
+"name": "Roots, Rhythm & Legacy featuring Mighty Mystic",
+"date": "2027-02-11",
+"time": "19:30",
+"status": "onsale",
+"venue": "John, James and Clara Knight Stage",
+"venueCity": "Akron",
+"state": "OH",
+"address": "182 S Main St.",
+"lat": 41.08072105,
+"lng": -81.51970837,
+"url": "https://www.ticketmaster.com/roots-rhythm-legacy-featuring-mighty-mystic-akron-ohio-02-11-2027/event/0500655ECB67B355",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"Mighty Mystic"
 ],
 "ageRestricted": false
 },
@@ -2690,6 +2604,36 @@
 "ageRestricted": false
 },
 {
+"city": "NSH",
+"id": "rZ7HnEZ1AfCkG0",
+"name": "Tropidelic w/ Mihali and Beach Fly",
+"date": "2027-02-11",
+"time": "19:30",
+"status": "onsale",
+"venue": "The Basement East",
+"venueCity": "Nashville",
+"state": "TN",
+"address": "917 Woodland St",
+"lat": 36.175636,
+"lng": -86.755652,
+"url": "https://www.ticketweb.com/event/tropidelic-w-mihali-and-beach-the-basement-east-tickets/14386324",
+"priceMin": 29.88,
+"priceMax": 56.92,
+"genres": [
+"Alternative",
+"Alternative Rock",
+"Pop",
+"Reggae",
+"Rock"
+],
+"why": "class:Reggae",
+"attractions": [
+"Tropidelic",
+"Mihali"
+],
+"ageRestricted": false
+},
+{
 "city": "NYC",
 "id": "k7vGF_f1XaeIc",
 "name": "Capleton & Tarrus Riley",
@@ -3037,31 +2981,6 @@
 },
 {
 "city": "ORL",
-"id": "1AxZk8YGkdqDUvN",
-"name": "UB40",
-"date": "2026-11-13",
-"time": "20:00",
-"status": "onsale",
-"venue": "Hard Rock Live Orlando",
-"venueCity": "Orlando",
-"state": "FL",
-"address": "6050 Universal Blvd",
-"lat": 28.473773,
-"lng": -81.468224,
-"url": "https://www.ticketmaster.com/ub40-orlando-florida-11-13-2026/event/22006430DDEF6063",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"UB40"
-],
-"ageRestricted": false
-},
-{
-"city": "ORL",
 "id": "Z7r9jZ1AAZMAF",
 "name": "Reggae Fest At The Vanguard - Ages 21+",
 "date": "2026-12-05",
@@ -3129,30 +3048,6 @@
 "Roots Reggae"
 ],
 "why": "class:Reggae",
-"attractions": [],
-"ageRestricted": false
-},
-{
-"city": "PHX",
-"id": "rZ7HnEZ1Af8Mj7",
-"name": "EARTHSURFACEOPEN // SOUL / REGGAE / HOUSE / AMAPIANO / DANCEHALL",
-"date": "2026-11-13",
-"time": "18:30",
-"status": "offsale",
-"venue": "Valley Bar",
-"venueCity": "Phoenix",
-"state": "AZ",
-"address": "130 N. Central Avenue",
-"lat": 33.449979,
-"lng": -112.074318,
-"url": "https://www.ticketweb.com/event/earthsurfaceopen-soul-reggae-valley-bar-tickets/14437704",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Dance/Electronic",
-"Turntablists"
-],
-"why": "name:reggae",
 "attractions": [],
 "ageRestricted": false
 },
