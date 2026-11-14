@@ -71,6 +71,17 @@ def fmt_when(d, t):
     dt = datetime.datetime.strptime(d + " " + t, "%Y-%m-%d %H:%M")
     return dt.strftime("%a, %b ") + str(dt.day) + " · " + dt.strftime("%I:%M %p").lstrip("0")
 
+def intro_html(code):
+    """The "Reggae in <city>" paragraph, plus all intros so the page can swap it when the city changes."""
+    intro = INTROS.get(code)
+    if not intro:
+        print(f"  note: no intro for {code} in data/city_intros.json")
+    name = BY[code][2]
+    return (f'<section class="cityintro" id="cityintro" style="max-width:70ch;margin:28px 0 0;color:var(--muted)"{"" if intro else " hidden"}>'
+            f'<h2 style="font-size:1.05rem;color:var(--ink);margin:0 0 6px">Reggae in {html.escape(name)}</h2>'
+            f'<p style="margin:0">{html.escape(intro or "")}</p></section>'
+            f'<script>window.LL_INTROS={json.dumps(INTROS, ensure_ascii=False).replace("</", "<\\/")}</script>\n')
+
 def static_list(code, shows):
     name = BY[code][2]
     items = "".join(
@@ -209,6 +220,7 @@ def main():
             "Atlanta, Washington D.C., Boston, Philadelphia, Houston, Los Angeles and the San Francisco Bay Area.")
     home = set_title_desc(base, title, desc)
     home = put_block(home, "head", head_html(title, desc, SITE + "/"), "</head>")
+    home = put_block(home, "intro", intro_html("NYC"), "<footer>")
     home = put_block(home, "nav", nav_html(), "<footer>")
     open(index_path, "w", encoding="utf-8").write(home)
 
@@ -230,13 +242,7 @@ def main():
                     pg, count=1, flags=re.S)
         pg = pg.replace('<main id="results"></main>',
                         f'<main id="results">{static_list(code, shows.get(code, []))}</main>', 1)
-        intro = INTROS.get(code)
-        if intro:
-            pg = pg.replace("<footer>", f'<section class="cityintro" style="max-width:70ch;margin:28px auto 0;padding:0 16px;color:var(--muted)">'
-                            f'<h2 style="font-size:1.05rem;color:var(--ink);margin:0 0 6px">Reggae in {html.escape(name)}</h2>'
-                            f'<p style="margin:0">{html.escape(intro)}</p></section>\n<footer>', 1)
-        else:
-            print(f"  note: no intro for {code} in data/city_intros.json")
+        pg = put_block(pg, "intro", intro_html(code), "<footer>")
         pg = put_block(pg, "nav", nav_html(code), "<footer>")
         os.makedirs(os.path.join(ROOT, slug), exist_ok=True)
         open(os.path.join(ROOT, slug, "index.html"), "w", encoding="utf-8").write(pg)
