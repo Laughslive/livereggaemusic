@@ -1,57 +1,7 @@
 {
-"fetched": "2026-11-14T10:23:00+00:00",
+"fetched": "2026-11-15T10:24:23+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
-{
-"city": "",
-"id": "1AtZk44Gkd-0OmY",
-"name": "Garden Groove: Tribute To Sublime",
-"date": "2026-11-14",
-"time": "20:00",
-"status": "onsale",
-"venue": "Club Underground",
-"venueCity": "Reno",
-"state": "NV",
-"address": "555 E 4th St",
-"lat": 39.531506,
-"lng": -119.806576,
-"url": "https://www.ticketweb.com/event/garden-groove-tribute-to-sublime-club-underground-tickets/15049773?REFERRAL_ID=tmfeed",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae"
-],
-"why": "artist:Sublime",
-"attractions": [],
-"ageRestricted": false,
-"type": "RG"
-},
-{
-"city": "",
-"id": "rZ7HnEZ1Af-Zxd",
-"name": "NO DOUBT and SUBLIME Tributes NO DUH and DON'T PUSH",
-"date": "2026-11-14",
-"time": "20:00",
-"status": "onsale",
-"venue": "Gaslamp Long Beach",
-"venueCity": "Long Beach",
-"state": "CA",
-"address": "6251 East Pacific Coast Highway",
-"lat": 33.767095,
-"lng": -118.116275,
-"url": "https://www.ticketweb.com/event/no-doubt-and-sublime-tributes-gaslamp-long-beach-tickets/14840883",
-"priceMin": 28.54,
-"priceMax": 28.54,
-"genres": [
-"Other"
-],
-"why": "artist:Sublime",
-"attractions": [
-"No Duh"
-],
-"ageRestricted": false,
-"type": "RG"
-},
 {
 "city": "",
 "id": "vvG1HZ_4UBjbLN",
@@ -996,6 +946,32 @@
 "ageRestricted": false
 },
 {
+"city": "BAL",
+"id": "rZ7HnEZ1Afuse7",
+"name": "ROOT ENTERTAINMENT PRESENTS HIGHLIFE ON THE POTOMAC WITH THE MAESTRO KOJO ANTWI",
+"date": "2027-02-12",
+"time": "20:00",
+"status": "onsale",
+"venue": "Howard Theatre",
+"venueCity": "Washington",
+"state": "DC",
+"address": "620 T Street NW",
+"lat": 38.9153136,
+"lng": -77.0210937,
+"url": "https://www.ticketweb.com/event/root-entertainment-presents-highlife-on-howard-theatre-tickets/14371084",
+"priceMin": 97.14,
+"priceMax": 138.34,
+"genres": [
+"Afro-Beat",
+"World"
+],
+"why": "class:Afro-Beat",
+"attractions": [
+"Kojo Antwi"
+],
+"ageRestricted": false
+},
+{
 "city": "BOS",
 "id": "rZ7HnEZ1AfZsqV",
 "name": "Mood",
@@ -1339,6 +1315,36 @@
 "ageRestricted": false
 },
 {
+"city": "CIN",
+"id": "16vbZ_4ZMG7RW1e",
+"name": "Tropidelic with Mihali, Beach Fly",
+"date": "2027-02-12",
+"time": "18:30",
+"status": "onsale",
+"venue": "Bogart's",
+"venueCity": "Cincinnati",
+"state": "OH",
+"address": "2621 Short Vine Street",
+"lat": 39.129949,
+"lng": -84.508882,
+"url": "https://www.ticketmaster.com/tropidelic-with-mihali-beach-fly-cincinnati-ohio-02-12-2027/event/1600655037BFD282",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Alternative Rock",
+"Pop",
+"Reggae",
+"Rock"
+],
+"why": "class:Reggae",
+"attractions": [
+"Tropidelic",
+"Mihali",
+"Beach Fly"
+],
+"ageRestricted": false
+},
+{
 "city": "CLE",
 "id": "rZ7HnEZ1Af8UZV",
 "name": "Thanksgiving Night On Coventry",
@@ -1385,6 +1391,35 @@
 ],
 "why": "class:Reggae",
 "attractions": [],
+"ageRestricted": false
+},
+{
+"city": "CLE",
+"id": "rZ7HnEZ1AfoF1f",
+"name": "Merry XCSB! Drumplay, Carlos Jones, Vanity Crash w/Jet Star",
+"date": "2026-12-18",
+"time": "20:00",
+"status": "onsale",
+"venue": "Treelawn Music Hall",
+"venueCity": "Cleveland",
+"state": "OH",
+"address": "15335 Waterloo Rd",
+"lat": 41.5706596,
+"lng": -81.5733357,
+"url": "https://www.ticketweb.com/event/merry-xcsb-drumplay-carlos-jones-treelawn-music-hall-tickets/14448294",
+"priceMin": 23.88,
+"priceMax": 23.88,
+"genres": [
+"Jazz",
+"Reggae",
+"Rock",
+"World",
+"World Jazz"
+],
+"why": "class:Reggae",
+"attractions": [
+"Carlos Jones"
+],
 "ageRestricted": false
 },
 {
@@ -2500,31 +2535,6 @@
 "why": "class:Reggae",
 "attractions": [
 "Reggae Fest"
-],
-"ageRestricted": false
-},
-{
-"city": "MIA",
-"id": "Z7r9jZ1AA7p7F",
-"name": "Reggae Rise Up presents Holidaze Fest (All Ages Welcome - Children 12 and younger FREE with a paid guardian) - Saturday",
-"date": "2026-11-14",
-"time": "15:00",
-"status": "onsale",
-"venue": "Sunset Cove Amphitheater",
-"venueCity": "Boca Raton",
-"state": "FL",
-"address": "12551 Glades Road",
-"lat": 26.3951,
-"lng": -80.220596,
-"url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7p7F",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Other"
-],
-"why": "name:reggae",
-"attractions": [
-"Reggae Rise Up Festival"
 ],
 "ageRestricted": false
 },
@@ -3694,6 +3704,34 @@
 "ageRestricted": false
 },
 {
+"city": "SAN",
+"id": "rZ7HnEZ1AfGKP7",
+"name": "Groundation - A Tribute to Bob Marley w/ Jah Ollin",
+"date": "2027-02-12",
+"time": "21:00",
+"status": "onsale",
+"venue": "Belly Up",
+"venueCity": "Solana Beach",
+"state": "CA",
+"address": "143 S. Cedros Ave",
+"lat": 32.990942,
+"lng": -117.270629,
+"url": "https://www.ticketweb.com/event/groundation-a-tribute-belly-up-tickets/14313944",
+"priceMin": 34.3,
+"priceMax": 34.3,
+"genres": [
+"Pop",
+"Reggae",
+"Rock",
+"World"
+],
+"why": "class:Reggae",
+"attractions": [
+"Groundation"
+],
+"ageRestricted": false
+},
+{
 "city": "SCZ",
 "id": "rZ7HnEZ1A4Zsrd",
 "name": "Moe's Alley Presents: Kabaka Pyramid (Night 1) w/ Kava Jah & The Remedy + Selecta 7",
@@ -3957,6 +3995,34 @@
 "ageRestricted": false
 },
 {
+"city": "SFO",
+"id": "G5vYZ_fE3pPfU",
+"name": "The Hip Abduction",
+"date": "2027-02-12",
+"time": "20:00",
+"status": "onsale",
+"venue": "The Castro Theatre",
+"venueCity": "San Francisco",
+"state": "CA",
+"address": "429 Castro Street",
+"lat": 37.762013,
+"lng": -122.434696,
+"url": "https://www.ticketmaster.com/the-hip-abduction-san-francisco-california-02-12-2027/event/1C006549D25A5536",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Alternative",
+"Indie Rock",
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"The Hip Abduction",
+"Surf Hat"
+],
+"ageRestricted": false
+},
+{
 "city": "STL",
 "id": "rZ7HnEZ1A4vajd",
 "name": "Murder City Players",
@@ -3981,19 +4047,19 @@
 "ageRestricted": false
 },
 {
-"city": "TPA",
-"id": "vvG1VZ_d9oj1-H",
-"name": "UB40 - THE UNSTOPPABLE TOUR 2026",
-"date": "2026-11-14",
+"city": "STL",
+"id": "vv1AkZk4KGkdriWZH",
+"name": "Badfish - A Tribute To Sublime - Watch Your Mouth 2027 Tour",
+"date": "2027-02-12",
 "time": "20:00",
 "status": "onsale",
-"venue": "Mahaffey Theater",
-"venueCity": "St Petersburg",
-"state": "FL",
-"address": "400 1st Street S",
-"lat": 27.767075,
-"lng": -82.632401,
-"url": "https://www.ticketmaster.com/ub40-the-unstoppable-tour-2026-st-petersburg-florida-11-14-2026/event/0D006435D170A87C",
+"venue": "The Pageant",
+"venueCity": "Saint Louis",
+"state": "MO",
+"address": "6161 Delmar",
+"lat": 38.655624,
+"lng": -90.297912,
+"url": "https://www.ticketmaster.com/badfish-a-tribute-to-sublime-watch-saint-louis-missouri-02-12-2027/event/06006553DEB3D03C",
 "priceMin": null,
 "priceMax": null,
 "genres": [
@@ -4001,7 +4067,8 @@
 ],
 "why": "class:Reggae",
 "attractions": [
-"UB40"
+"Badfish - A Tribute To Sublime",
+"Kash'd Out"
 ],
 "ageRestricted": false
 },

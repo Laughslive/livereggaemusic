@@ -275,6 +275,8 @@ const V={
  tm_big_night_live:{n:"Big Night Live",area:"Boston",b:"MA",c:"BOS",lat:42.3660,lng:-71.0617},
  tm_brighton_music_hall_presente:{n:"Brighton Music Hall presented by Citizens",area:"Boston",b:"MA",c:"BOS",lat:42.3529,lng:-71.1326},
  tm_space:{n:"SPACE",area:"Evanston",b:"IL",c:"CHI",lat:42.0409,lng:-87.6803},
+ tm_bogart_s:{n:"Bogart's",area:"Cincinnati",b:"OH",c:"CIN",lat:39.1299,lng:-84.5089},
+ tm_treelawn_music_hall:{n:"Treelawn Music Hall",area:"Cleveland",b:"OH",c:"CLE",lat:41.5707,lng:-81.5733},
  tm_house_of_blues_cleveland:{n:"House of Blues Cleveland",area:"Cleveland",b:"OH",c:"CLE",lat:41.4995,lng:-81.6910},
  tm_john_james_and_clara_knight_:{n:"John, James and Clara Knight Stage",area:"Akron",b:"OH",c:"CLE",lat:41.0807,lng:-81.5197},
  tm_neighborhood_theatre_main_ro:{n:"Neighborhood Theatre Main Room",area:"Charlotte",b:"NC",c:"CLT",lat:35.2474,lng:-80.8039},
@@ -306,7 +308,9 @@ const V={
  tm_airport_tavern:{n:"Airport Tavern",area:"Tacoma",b:"WA",c:"SEA",lat:47.2069,lng:-122.4815},
  tm_the_independent:{n:"The Independent",area:"San Francisco",b:"CA",c:"SFO",lat:37.7755,lng:-122.4378},
  tm_cornerstone_ca:{n:"Cornerstone - CA",area:"Berkeley",b:"CA",c:"SFO",lat:37.8697,lng:-122.2584},
+ tm_the_castro_theatre:{n:"The Castro Theatre",area:"San Francisco",b:"CA",c:"SFO",lat:37.7620,lng:-122.4347},
  tm_atomic_garage:{n:"Atomic Garage",area:"St. Louis",b:"MO",c:"STL",lat:38.6277,lng:-90.2518},
+ tm_the_pageant:{n:"The Pageant",area:"Saint Louis",b:"MO",c:"STL",lat:38.6556,lng:-90.2979},
  tm_the_baycare_sound:{n:"The BayCare Sound",area:"Clearwater",b:"FL",c:"TPA",lat:27.9445,lng:-82.7883},
 // </tm-venues>
 };
@@ -370,7 +374,7 @@ const RAW=[
 // Los Angeles
  ["2026-11-25","21:00","Dub Club presents: Kabaka Pyramid","Kabaka Pyramid, Dub Club DJs","echoplex",RG,"https://www.ticketmaster.com/dub-club-presents-kabaka-pyramid-21-los-angeles-california-11-25-2026/event/09006531B99FB3F7",null,["21"]],
  ["2026-12-19","21:00","Dub Club presents: Keith and Tex & Keith Poppin","Keith and Tex, Keith Poppin, Dub Club DJs","echoplex",RG,"https://www.ticketmaster.com/dub-club-presents-keith-and-tex-los-angeles-california-12-19-2026/event/0900649DB04BD88A",null,["21"]],
-// <tm>  (Ticketmaster/SeatGeek feeds, fetched Ticketmaster 2026-11-14; rebuilt each update — don't edit by hand)
+// <tm>  (Ticketmaster/SeatGeek feeds, fetched Ticketmaster 2026-11-15; rebuilt each update — don't edit by hand)
  ["2026-12-06","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_coca_cola_roxy",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-atlanta-georgia-12-06-2026/event/0E0064F8A3057D42",null],
  ["2026-12-11","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_moody_center_atx",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-austin-texas-12-11-2026/event/3A0064F8A6F0F07A",null],
  ["2026-11-25","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_mgm_music_hall_at_fenway",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-boston-massachusetts-11-25-2026/event/010064F598ACEA3D",null],
@@ -380,12 +384,15 @@ const RAW=[
  ["2027-02-06","19:00","Bob Marley's B-Day / Reggae Winter Splash '27 ft Mighty Mystic (18+)","Different Strokez, DJ Maltese, Weepin’ & a Wailin’","tm_brighton_music_hall_presente",RG,"https://www.ticketmaster.com/bob-marleys-bday-reggae-winter-splash-boston-massachusetts-02-06-2027/event/010065389E7E19D7",null],
  ["2026-11-22","18:30","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_aragon_ballroom",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-chicago-illinois-11-22-2026/event/040064F44411D736",null],
  ["2026-12-11","19:30","Funkadesi: 30th Anniversary Concert","Funkadesi","tm_space",RG,"https://www.ticketweb.com/event/funkadesi-30th-anniversary-concert-space-tickets/14385774",null],
+ ["2027-02-12","18:30","Tropidelic with Mihali, Beach Fly","Tropidelic","tm_bogart_s",RG,"https://www.ticketmaster.com/tropidelic-with-mihali-beach-fly-cincinnati-ohio-02-12-2027/event/1600655037BFD282",null],
+ ["2026-12-18","20:00","Merry XCSB! Drumplay, Carlos Jones, Vanity Crash w/Jet Star","Carlos Jones","tm_treelawn_music_hall",RG,"https://www.ticketweb.com/event/merry-xcsb-drumplay-carlos-jones-treelawn-music-hall-tickets/14448294","$24"],
  ["2027-02-06","19:00","Badfish - A Tribute to Sublime: Watch Your Mouth 2027 Tour","Kash'd Out","tm_house_of_blues_cleveland",RG,"https://www.ticketmaster.com/badfish-a-tribute-to-sublime-watch-cleveland-ohio-02-06-2027/event/0500654CF8C54915",null],
  ["2027-02-11","19:30","Roots, Rhythm & Legacy featuring Mighty Mystic","Mighty Mystic","tm_john_james_and_clara_knight_",RG,"https://www.ticketmaster.com/roots-rhythm-legacy-featuring-mighty-mystic-akron-ohio-02-11-2027/event/0500655ECB67B355",null],
  ["2027-01-30","19:30","Tropidelic","Mihali, Mellodose","tm_neighborhood_theatre_main_ro",RG,"https://www.ticketmaster.com/tropidelic-charlotte-north-carolina-01-30-2027/event/2D0065504A9046FB",null],
  ["2026-12-02","19:30","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_the_anthem",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-washington-district-of-columbia-12-02-2026/event/150064F1C4C841AD",null],
  ["2026-12-31","22:00","Reggae Fest D.C. New Year's Eve All Black Affair at The Howard Theatre","Reggae Fest","tm_howard_theatre",RG,"https://www.universe.com/events/reggae-fest-d-c-new-years-eve-all-black-affair-at-the-howard-theatre-tickets-1DTWGJ?ref=ticketmaster",null,["fest"]],
  ["2027-01-28","18:30","Tropidelic","Mihali, Mellodose","tm_tally_ho_theater",RG,"https://www.ticketmaster.com/tropidelic-leesburg-virginia-01-28-2027/event/01006550D7FE5223",null],
+ ["2027-02-12","20:00","ROOT ENTERTAINMENT PRESENTS HIGHLIFE ON THE POTOMAC WITH THE MAESTRO KOJO ANTWI","Kojo Antwi","tm_howard_theatre",AF,"https://www.ticketweb.com/event/root-entertainment-presents-highlife-on-howard-theatre-tickets/14371084","$97–138"],
  ["2026-11-20","18:30","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_fillmore_auditorium_denver",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-denver-colorado-11-20-2026/event/1E0064F6BBFECD61",null],
  ["2027-02-06","19:30","The Hip Abduction (16 and Over)","Ripe, Kbong, Johnny Cosmic","tm_mission_ballroom",RG,"https://www.ticketmaster.com/event/Z7r9jZ1A70tu4",null],
  ["2027-02-06","20:00","Porangui (16 and Over)","Mike Love","tm_ogden_theatre",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AA7FfU",null],
@@ -441,6 +448,7 @@ const RAW=[
  ["2026-12-30","20:00","Steel Pulse - Reggae Against Racism Tour","Steel Pulse","tm_belly_up",RG,"https://www.ticketweb.com/event/steel-pulse-reggae-belly-up-tickets/14382754","$80"],
  ["2026-12-31","20:00","Tribal Seeds, Dubbest, Eureka Sound","TRIBAL SEEDS","tm_the_sound",RG,"https://www.ticketweb.com/event/tribal-seeds-dubbest-eureka-sound-the-sound-tickets/15035993",null],
  ["2027-02-05","19:30","Surfer Girl - The Midnight Tour w/ South Summit and JOBY!","Surfer Girl","tm_music_box",RG,"https://www.ticketweb.com/event/surfer-girl-the-music-box-tickets/14384244","$33"],
+ ["2027-02-12","21:00","Groundation - A Tribute to Bob Marley w/ Jah Ollin","Groundation","tm_belly_up",RG,"https://www.ticketweb.com/event/groundation-a-tribute-belly-up-tickets/14313944","$34"],
  ["2026-12-12","21:00","The Slackers","The Slackers","tm_ventura_music_hall",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AAv8oM",null],
  ["2026-11-20","21:00","Moe's Alley Presents: Kabaka Pyramid (Night 1) w/ Kava Jah & The Remedy + Selecta 7","Kabaka Pyramid","tm_moe_s_alley",RG,"https://www.ticketweb.com/event/moes-alley-presents-kabaka-pyramid-moes-alley-tickets/15031783","$47"],
  ["2026-11-21","21:00","Moe's Alley Presents: Kabaka Pyramid (Night 2) w/ Lawgiver The Kingson + DJ Spleece","Kabaka Pyramid","tm_moe_s_alley",RG,"https://www.ticketweb.com/event/moes-alley-presents-kabaka-pyramid-moes-alley-tickets/15035003","$47"],
@@ -453,7 +461,9 @@ const RAW=[
  ["2026-11-18","20:00","Kabaka Pyramid w/ DJ King Ivier","Kabaka Pyramid","uctheatre",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AAvyPN",null],
  ["2027-01-15","21:00","Sister Nancy & the Steady Rock Band","Reggae Angels","tm_the_independent",DH,"https://www.ticketweb.com/event/sister-nancy-the-steady-the-independent-tickets/14337734","$50"],
  ["2027-01-23","21:00","Don Carlos","Don Carlos","tm_cornerstone_ca",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AAZo-f",null],
+ ["2027-02-12","20:00","The Hip Abduction","Surf Hat","tm_the_castro_theatre",RG,"https://www.ticketmaster.com/the-hip-abduction-san-francisco-california-02-12-2027/event/1C006549D25A5536",null],
  ["2026-11-21","20:00","Murder City Players","","tm_atomic_garage",RG,"https://www.ticketweb.com/event/murder-city-players-atomic-garage-tickets/15049703","$18"],
+ ["2027-02-12","20:00","Badfish - A Tribute To Sublime - Watch Your Mouth 2027 Tour","Kash'd Out","tm_the_pageant",RG,"https://www.ticketmaster.com/badfish-a-tribute-to-sublime-watch-saint-louis-missouri-02-12-2027/event/06006553DEB3D03C",null],
  ["2026-11-15","16:00","The Wailers","The Wailers","tm_the_baycare_sound",RG,"https://www.ticketmaster.com/event/Z7r9jZ1A7J778",null],
  ["2026-12-05","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_yuengling_center",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-tampa-florida-12-05-2026/event/0D0064F8A77562E6",null],
 // </tm>
