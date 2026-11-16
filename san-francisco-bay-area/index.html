@@ -250,6 +250,8 @@ const V={
  delmarhall:{n:"Delmar Hall",area:"The Loop",b:"University City",lat:38.6556,lng:-90.3005},
  // Los Angeles
  echoplex:{n:"Echoplex",area:"Echo Park",b:"Los Angeles",lat:34.0779,lng:-118.2604},
+ // Richmond
+ nationalrva:{n:"The National",area:"Downtown",b:"Richmond",lat:37.5417,lng:-77.4349},
 // <tm-venues>  (added automatically from the Ticketmaster feed; rebuilt each update)
  tm_paramount_theatre:{n:"Paramount Theatre",area:"Seattle",b:"WA",c:"SEA",lat:47.6136,lng:-122.3319},
  tm_fillmore_auditorium_denver:{n:"Fillmore Auditorium (Denver)",area:"Denver",b:"CO",c:"DEN",lat:39.7406,lng:-104.9772},
@@ -316,6 +318,7 @@ const V={
 // Venues' own websites / box offices. Ticket buttons use these instead of
 // listing or resale sites whenever a show's link points at one of those.
 const SITES={
+ nationalrva:"https://www.thenationalva.com/",
  brooklynbowl:"https://www.brooklynbowl.com/brooklyn",
  northshorecenter:"https://www.northshorecenter.org/", raveeagles:"https://www.therave.com/", reggiesrock:"https://www.reggieslive.com/",
  lpr:"https://lpr.com/", foxwoods:"https://foxwoods.com/", centerstage:"https://www.centerstage-atlanta.com/",
@@ -367,6 +370,8 @@ const RAW=[
 // Los Angeles
  ["2026-11-25","21:00","Dub Club presents: Kabaka Pyramid","Kabaka Pyramid, Dub Club DJs","echoplex",RG,"https://www.ticketmaster.com/dub-club-presents-kabaka-pyramid-21-los-angeles-california-11-25-2026/event/09006531B99FB3F7",null,["21"]],
  ["2026-12-19","21:00","Dub Club presents: Keith and Tex & Keith Poppin","Keith and Tex, Keith Poppin, Dub Club DJs","echoplex",RG,"https://www.ticketmaster.com/dub-club-presents-keith-and-tex-los-angeles-california-12-19-2026/event/0900649DB04BD88A",null,["21"]],
+// Richmond
+ ["2026-12-15","19:30","Matisyahu: Festival of Lights","Matisyahu","nationalrva",RG,"https://www.axs.com/events/1596395/matisyahu-festival-of-lights-tickets",null],
 // <tm>  (Ticketmaster/SeatGeek feeds, fetched Ticketmaster 2026-11-16; rebuilt each update — don't edit by hand)
  ["2026-12-06","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_coca_cola_roxy",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-atlanta-georgia-12-06-2026/event/0E0064F8A3057D42",null],
  ["2026-12-11","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_moody_center_atx",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-austin-texas-12-11-2026/event/3A0064F8A6F0F07A",null],
