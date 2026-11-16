@@ -209,13 +209,14 @@ footer{margin-top:40px;font-size:13px;color:var(--muted);border-top:1px solid va
 <!--/ll:intro-->
 <!--ll:nav--><nav class="citylinks" aria-label="Shows by city"><style>.citylinks{margin-top:36px;font-size:14px;color:var(--muted)}.citylinks h2{font-size:15px;margin:0 0 6px;color:var(--ink)}.citylinks p{margin:4px 0}.citylinks span{font-weight:600}.citylinks a{color:var(--accent)}.citylinks b{color:var(--ink)}.citylinks .sitelinks{margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}</style><h2>Reggae shows by city · <a href="/">All cities</a></h2><p><span>Northeast:</span> <a href="/boston/">Boston</a> · <a href="/hartford/">Hartford</a> · <a href="/new-haven/">New Haven</a> · <a href="/new-york-city/">New York City</a> · <a href="/philadelphia/">Philadelphia</a> · <a href="/portland-maine/">Portland, Maine</a></p><p><span>Mid-Atlantic:</span> <a href="/baltimore/">Baltimore</a> · <a href="/norfolk-virginia-beach/">Norfolk &amp; Virginia Beach</a> · <a href="/pittsburgh/">Pittsburgh</a> · <a href="/richmond/">Richmond</a> · <a href="/washington-dc/">Washington, D.C.</a></p><p><span>South:</span> <a href="/atlanta/">Atlanta</a> · <a href="/austin/">Austin</a> · <a href="/charlotte/">Charlotte</a> · <a href="/dallas-fort-worth/">Dallas–Fort Worth</a> · <a href="/houston/">Houston</a> · <a href="/jacksonville/">Jacksonville</a> · <a href="/miami/">Miami</a> · <a href="/nashville/">Nashville</a> · <a href="/orlando/">Orlando</a> · <a href="/raleigh-durham/">Raleigh–Durham</a> · <a href="/san-antonio/">San Antonio</a> · <a href="/tampa/">Tampa</a> · <a href="/west-palm-beach/">West Palm Beach</a></p><p><span>Midwest:</span> <a href="/chicago/">Chicago</a> · <a href="/cincinnati/">Cincinnati</a> · <a href="/cleveland/">Cleveland</a> · <a href="/columbus/">Columbus</a> · <a href="/detroit/">Detroit</a> · <a href="/indianapolis/">Indianapolis</a> · <a href="/kansas-city/">Kansas City</a> · <a href="/milwaukee/">Milwaukee</a> · <a href="/minneapolis-st-paul/">Minneapolis–St. Paul</a> · <a href="/st-louis/">St. Louis</a></p><p><span>West:</span> <a href="/denver/">Denver</a> · <a href="/honolulu/">Honolulu</a> · <a href="/las-vegas/">Las Vegas</a> · <a href="/los-angeles/">Los Angeles</a> · <a href="/maui/">Maui</a> · <a href="/phoenix/">Phoenix</a> · <a href="/portland-oregon/">Portland, Oregon</a> · <a href="/sacramento/">Sacramento</a> · <a href="/salt-lake-city/">Salt Lake City</a> · <b>San Diego</b> · <a href="/san-francisco-bay-area/">San Francisco Bay Area</a> · <a href="/santa-barbara-ventura/">Santa Barbara &amp; Ventura</a> · <a href="/santa-cruz-monterey/">Santa Cruz &amp; Monterey Bay</a> · <a href="/seattle/">Seattle</a></p><p class="sitelinks"><a href="/about/">About &amp; contact</a> · <a href="/privacy/">Privacy</a></p></nav><!--/ll:nav-->
 <footer>
-  Listings gathered November 12, 2026 from venue, promoter and ticketing sites. Each city includes shows within 50 miles of its center, so suburban venues are included, and a venue between two cities can appear in both. Lineups and times change, so check the show's own page before you go. Prices come from the venue or its ticket seller where listed.
+  Listings gathered November 16, 2026 from venue, promoter and ticketing sites. Each city includes shows within 50 miles of its center, so suburban venues are included, and a venue between two cities can appear in both. Lineups and times change, so check the show's own page before you go. Prices come from the venue or its ticket seller where listed.
 </footer>
 </div>
 
 <script>
 const V={
  // New York City area
+ brooklynbowl:{n:"Brooklyn Bowl",area:"Williamsburg",b:"Brooklyn",lat:40.7219,lng:-73.9575},
  littlefield:{n:"Littlefield",area:"Gowanus",b:"Brooklyn",lat:40.6782,lng:-73.9838},
  lpr:{n:"Le Poisson Rouge",area:"Greenwich Village",b:"Manhattan",lat:40.7285,lng:-73.9999},
  tveye:{n:"TV Eye",area:"Ridgewood",b:"Queens",lat:40.6990,lng:-73.9078},
@@ -269,7 +270,6 @@ const V={
  tm_viejas_arena_at_aztec_bowl_s:{n:"Viejas Arena at Aztec Bowl San Diego State University",area:"San Diego",b:"CA",c:"SAN",lat:32.7723,lng:-117.0719},
  tm_youtube_theater:{n:"YouTube Theater",area:"Inglewood",b:"CA",c:"LA",lat:33.9498,lng:-118.3436},
  tm_fontainebleau_las_vegas:{n:"Fontainebleau Las Vegas",area:"Las Vegas",b:"NV",c:"LAS",lat:36.1367,lng:-115.1613},
- tm_ogden_theatre:{n:"Ogden Theatre",area:"Denver",b:"CO",c:"DEN",lat:39.7312,lng:-104.9709},
  tm_diamondback_music_hall:{n:"Diamondback Music Hall",area:"Belleville",b:"MI",c:"DET",lat:42.2186,lng:-83.5218},
  tm_howard_theatre:{n:"Howard Theatre",area:"Washington",b:"DC",c:"DC",lat:38.9154,lng:-77.0211},
  tm_echostage:{n:"Echostage",area:"Washington",b:"DC",c:"DC",lat:38.9198,lng:-76.9728},
@@ -316,6 +316,7 @@ const V={
 // Venues' own websites / box offices. Ticket buttons use these instead of
 // listing or resale sites whenever a show's link points at one of those.
 const SITES={
+ brooklynbowl:"https://www.brooklynbowl.com/brooklyn",
  northshorecenter:"https://www.northshorecenter.org/", raveeagles:"https://www.therave.com/", reggiesrock:"https://www.reggieslive.com/",
  lpr:"https://lpr.com/", foxwoods:"https://foxwoods.com/", centerstage:"https://www.centerstage-atlanta.com/",
  mahaffey:"https://themahaffey.com/", hrlhollywood:"https://casino.hardrock.com/hollywood/", uctheatre:"https://theuctheatre.org/", mrsmalls:"https://mrsmalls.com/"
@@ -338,6 +339,7 @@ const RG="Reggae",DH="Dancehall",SC="Soca & calypso",AF="Afrobeats & African";
 const RAW=[
 // Hand-checked shows, grouped by city. Types: RG reggae (roots, lovers rock, dub, reggae-rock), DH dancehall, SC soca & calypso, AF afrobeats & African (afrobeats, amapiano, highlife, afro-pop). Flags: "fest" festival/carnival, "out" sold out, "18", "21".
 // New York City
+ ["2026-12-12","20:00","Matisyahu: Festival of Lights","Matisyahu","brooklynbowl",RG,"https://www.ticketmaster.com/matisyahu-festival-of-lights-brooklyn-new-york-12-12-2026/event/00006523D602DF12",null],
  ["2026-12-17","20:00","SlackFest East Holiday Show","The Slackers, The Players Band","crossroadsnj",RG,"https://americanarenas.com/tickets/the-slackers/",null],
  ["2026-12-18","18:00","The Slackers","The Slackers","lpr",RG,"https://new-york.events/tickets/the-slackers-new-york-le-poisson-rouge-ny-friday-december-18-2026-6-00-pm/",null],
  ["2026-12-19","19:30","The Slackers","The Slackers","tveye",RG,"https://www.new-york.events/concerts/the-slackers/",null],
@@ -345,22 +347,14 @@ const RAW=[
 // Hartford
  ["2026-11-20","20:00","Shaggy with The Original Wailers","Shaggy, The Original Wailers","foxwoods",RG,"https://www.ticketmaster.com/shaggy-with-the-original-wailers-mashantucket-connecticut-11-20-2026/event/1D0064FCF17EE062",null],
 // Pittsburgh
- ["2026-11-12","19:30","Bumpin' Uglies","Bumpin' Uglies, Artikal Sound System, Fubar","mrsmalls",RG,"https://www.ticketweb.com/event/bumpin-uglies-artikal-sound-system-mr-smalls-theatre-tickets/14203654",null],
 // Norfolk & Virginia Beach
  ["2026-12-05","19:00","Bumpin' Uglies","Bumpin' Uglies","norva",RG,"https://www.axs.com/events/1518389/bumpin-uglies-tickets",null],
 // Atlanta
- ["2026-11-12","20:00","UB40: The Unstoppable Tour","UB40","centerstage",RG,"https://www.centerstage-atlanta.com/?p=10526",null],
 // Tampa
- ["2026-11-14","20:00","UB40: The Unstoppable Tour","UB40","mahaffey",RG,"https://themahaffey.com/?p=12217","$53–133"],
 // Miami
- ["2026-11-15","19:00","UB40: The Unstoppable Tour","UB40","hrlhollywood",RG,"https://casino.hardrock.com/hollywood/events/ub40","$49.50"],
- ["2026-11-14","15:00","Holidaze 2026 (day 1 of 2)","Dirty Heads, Wiz Khalifa, Steel Pulse, Collie Buddz and more","sunsetcove",RG,"https://www.eventliveus.com/event/10473/holidaze26",null,["fest"]],
- ["2026-11-15","15:00","Holidaze 2026 (day 2 of 2)","Dirty Heads, Wiz Khalifa, Steel Pulse, Collie Buddz and more","sunsetcove",RG,"https://www.eventliveus.com/event/10473/holidaze26",null,["fest"]],
 // San Francisco Bay Area
  ["2026-12-31","21:00","Steel Pulse: New Year's Eve","Steel Pulse","uctheatre",RG,"https://theuctheatre.org/shows/steel-pulse-nye-show-31-dec",null],
 // Chicago
- ["2026-11-14","20:00","9th Annual Slackfest (night 1)","The Slackers, The Crombies, Dirty Notion, Mel Tepid & Them Soul-Ska Farmers, DJ Chuck Wren","reggiesrock",RG,"https://www.ticketweb.com/event/9th-annual-slackfest-reggies-rock-club-tickets/14199054","from $33.70",["fest"]],
- ["2026-11-15","19:00","9th Annual Slackfest (night 2)","The Slackers, Todd Hembrook & The Seance, Detroit Riddim Crew, Tone Zone Skam, DJ Chuck Wren","reggiesrock",RG,"https://www.ticketweb.com/event/9th-annual-slackfest-reggies-rock-club-tickets/14199054","from $33.70",["fest"]],
  ["2026-12-07","19:00|21:30","Matisyahu: Festival of Lights","Matisyahu","northshorecenter",RG,"https://www.northshorecenter.org/events/2026/matisyahu",null],
 // Cincinnati
  ["2026-12-08","19:30","Matisyahu: Festival of Lights","Matisyahu","ludlowgarage",RG,"https://www.tickpick.com/buy-matisyahu-tickets-ludlow-garage-12-8-26-7pm/8267319/",null],
@@ -395,7 +389,6 @@ const RAW=[
  ["2027-02-13","22:00","AMAPIANODMV & Echostage Present: A Night of Amapiano","NJELIC, Murumba Pitch, MaWhoo, DJ Stokie, DJ Mobu, Zakeeyah, Peanuts","tm_echostage",AF,"https://www.ticketmaster.com/amapianodmv-echostage-present-a-night-of-washington-district-of-columbia-02-13-2027/event/150065674EE6F3AB",null],
  ["2026-11-20","18:30","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_fillmore_auditorium_denver",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-denver-colorado-11-20-2026/event/1E0064F6BBFECD61",null],
  ["2027-02-06","19:30","The Hip Abduction (16 and Over)","Ripe, Kbong, Johnny Cosmic","tm_mission_ballroom",RG,"https://www.ticketmaster.com/event/Z7r9jZ1A70tu4",null],
- ["2027-02-06","20:00","Porangui (16 and Over)","Mike Love","tm_ogden_theatre",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AA7FfU",null],
  ["2027-02-07","20:00","Badfish - A Tribute to Sublime: Watch Your Mouth Tour 2027 w/ Kash'd Out","Badfish - A Tribute To Sublime","tm_diamondback_music_hall",RG,"https://www.ticketweb.com/event/badfish-a-tribute-diamondback-music-hall-tickets/14391084","$25–59"],
  ["2026-12-09","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_the_pavilion_at_toyota_music",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-irving-texas-12-09-2026/event/0C0064F6DB45AFBE",null],
  ["2026-12-04","18:00","Iration","Kanaka Fyah, Twin Fin","tm_tom_moffatt_waikiki_shell",RG,"https://www.ticketmaster.com/iration-honolulu-hawaii-12-04-2026/event/0A006518071612F0",null],
