@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-15T10:24:23+00:00",
+"fetched": "2026-11-16T11:01:35+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
 {
@@ -972,6 +972,41 @@
 "ageRestricted": false
 },
 {
+"city": "BAL",
+"id": "1kA8vP_VGACyRCl",
+"name": "AMAPIANODMV & Echostage Present: A Night of Amapiano",
+"date": "2027-02-13",
+"time": "22:00",
+"status": "onsale",
+"venue": "Echostage",
+"venueCity": "Washington",
+"state": "DC",
+"address": "2135 Queens Chapel Road NE",
+"lat": 38.91984858,
+"lng": -76.97281793,
+"url": "https://www.ticketmaster.com/amapianodmv-echostage-present-a-night-of-washington-district-of-columbia-02-13-2027/event/150065674EE6F3AB",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Amapiano",
+"Dance/Electronic",
+"R&B",
+"South Africa",
+"World"
+],
+"why": "name:amapiano",
+"attractions": [
+"NJELIC",
+"Murumba Pitch",
+"MaWhoo",
+"DJ Stokie",
+"DJ Mobu",
+"Zakeeyah",
+"Peanuts"
+],
+"ageRestricted": true
+},
+{
 "city": "BOS",
 "id": "rZ7HnEZ1AfZsqV",
 "name": "Mood",
@@ -1814,82 +1849,6 @@
 },
 {
 "city": "LA",
-"id": "rZ7HnEZ1AfuPqV",
-"name": "Reggae Sunday (Early Show): Einstein Brown",
-"date": "2026-11-15",
-"time": "15:30",
-"status": "onsale",
-"venue": "Ivan'z House at Mozambique",
-"venueCity": "Laguna Beach",
-"state": "CA",
-"address": "1740 S. Coast Highway",
-"lat": 33.529436,
-"lng": -117.771375,
-"url": "https://www.ticketweb.com/event/reggae-sunday-early-show-einstein-ivanz-house-at-mozambique-tickets/14365774",
-"priceMin": 7.18,
-"priceMax": 212.12,
-"genres": [
-"Reggae",
-"Steel Band"
-],
-"why": "class:Reggae",
-"attractions": [],
-"ageRestricted": false
-},
-{
-"city": "LA",
-"id": "rZ7HnEZ1AfuE-V",
-"name": "Reggae Sunday: Jahgun and Justifyah",
-"date": "2026-11-15",
-"time": "19:00",
-"status": "onsale",
-"venue": "Ivan'z House at Mozambique",
-"venueCity": "Laguna Beach",
-"state": "CA",
-"address": "1740 S. Coast Highway",
-"lat": 33.529436,
-"lng": -117.771375,
-"url": "https://www.ticketweb.com/event/reggae-sunday-jahgun-and-justifyah-ivanz-house-at-mozambique-tickets/14367874",
-"priceMin": 12.83,
-"priceMax": 315.12,
-"genres": [
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [],
-"ageRestricted": false
-},
-{
-"city": "LA",
-"id": "vv170Z_fGkYmANzI",
-"name": "A Celebration of Fela Kuti Induction to the RnR Hall of Fame (18+)",
-"date": "2026-11-15",
-"time": "19:00",
-"status": "onsale",
-"venue": "The Regent Theater",
-"venueCity": "Los Angeles",
-"state": "CA",
-"address": "448 S. Main St.",
-"lat": 34.0473,
-"lng": -118.24799,
-"url": "https://www.ticketmaster.com/a-celebration-of-fela-kuti-induction-los-angeles-california-11-15-2026/event/0900654C2E163E28",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"African",
-"Hip-Hop/Rap",
-"Urban",
-"World"
-],
-"why": "class:African",
-"attractions": [
-"Fela Kuti",
-"DJ Rich Medina"
-],
-"ageRestricted": true
-},
-{
-"city": "LA",
 "id": "rZ7HnEZ1Af87v7",
 "name": "Reggaeton Rave",
 "date": "2026-11-20",
@@ -2535,56 +2494,6 @@
 "why": "class:Reggae",
 "attractions": [
 "Reggae Fest"
-],
-"ageRestricted": false
-},
-{
-"city": "MIA",
-"id": "Z7r9jZ1AA7p73",
-"name": "Reggae Rise Up presents Holidaze Fest (All Ages Welcome - Children 12 and younger FREE with a paid guardian) - Sunday",
-"date": "2026-11-15",
-"time": "15:00",
-"status": "onsale",
-"venue": "Sunset Cove Amphitheater",
-"venueCity": "Boca Raton",
-"state": "FL",
-"address": "12551 Glades Road",
-"lat": 26.3951,
-"lng": -80.220596,
-"url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7p73",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Other"
-],
-"why": "name:reggae",
-"attractions": [
-"Reggae Rise Up Festival"
-],
-"ageRestricted": false
-},
-{
-"city": "MIA",
-"id": "vvG1VZ_d92yBj_",
-"name": "UB40 - THE UNSTOPPABLE TOUR 2026",
-"date": "2026-11-15",
-"time": "19:00",
-"status": "onsale",
-"venue": "Hard Rock Live",
-"venueCity": "Hollywood",
-"state": "FL",
-"address": "1 Seminole Way",
-"lat": 26.0503384,
-"lng": -80.2109577,
-"url": "https://www.ticketmaster.com/ub40-the-unstoppable-tour-2026-hollywood-florida-11-15-2026/event/0D006435CFE7A719",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"UB40"
 ],
 "ageRestricted": false
 },
@@ -3321,6 +3230,34 @@
 "ageRestricted": false
 },
 {
+"city": "SAC",
+"id": "G5vYZ_fhbY0kL",
+"name": "The Hip Abduction",
+"date": "2027-02-13",
+"time": "20:00",
+"status": "onsale",
+"venue": "Channel 24",
+"venueCity": "Sacramento",
+"state": "CA",
+"address": "1800 24th St",
+"lat": 38.56620977,
+"lng": -121.4788189,
+"url": "https://www.ticketmaster.com/the-hip-abduction-sacramento-california-02-13-2027/event/1C006546D8C2419F",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Alternative",
+"Indie Rock",
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"The Hip Abduction",
+"Surf Hat"
+],
+"ageRestricted": false
+},
+{
 "city": "SAN",
 "id": "rZ7HnEZ1Afa8FV",
 "name": "KBong, Johnny Cosmic, Swooon",
@@ -3839,32 +3776,6 @@
 "ageRestricted": false
 },
 {
-"city": "SEA",
-"id": "Z7r9jZ1AA7p8U",
-"name": "Kabaka Pyramid",
-"date": "2026-11-15",
-"time": "20:00",
-"status": "onsale",
-"venue": "Airport Tavern",
-"venueCity": "Tacoma",
-"state": "WA",
-"address": "5406 S. Tacoma Way, Tacoma, WA 98409",
-"lat": 47.206902,
-"lng": -122.481499,
-"url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7p8U",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Other",
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Kabaka Pyramid"
-],
-"ageRestricted": false
-},
-{
 "city": "SFO",
 "id": "Z7r9jZ1AAvyPN",
 "name": "Kabaka Pyramid w/ DJ King Ivier",
@@ -4069,32 +3980,6 @@
 "attractions": [
 "Badfish - A Tribute To Sublime",
 "Kash'd Out"
-],
-"ageRestricted": false
-},
-{
-"city": "TPA",
-"id": "Z7r9jZ1A7J778",
-"name": "The Wailers",
-"date": "2026-11-15",
-"time": "16:00",
-"status": "onsale",
-"venue": "The BayCare Sound",
-"venueCity": "Clearwater",
-"state": "FL",
-"address": "301 Drew Street",
-"lat": 27.9445,
-"lng": -82.7883,
-"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J778",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae",
-"World"
-],
-"why": "class:Reggae",
-"attractions": [
-"The Wailers"
 ],
 "ageRestricted": false
 }
