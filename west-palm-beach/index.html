@@ -250,6 +250,14 @@ const V={
  raveeagles:{n:"The Rave / Eagles Club",area:"Near West Side",b:"Milwaukee",lat:43.0388,lng:-87.9455},
  // St. Louis
  delmarhall:{n:"Delmar Hall",area:"The Loop",b:"University City",lat:38.6556,lng:-90.3005},
+ // San Diego
+ thesounddelmar:{n:"The Sound",area:"Del Mar Fairgrounds",b:"Del Mar",lat:32.9755,lng:-117.2573},
+ // Santa Cruz & Monterey Bay
+ catalyst:{n:"The Catalyst",area:"Downtown",b:"Santa Cruz",lat:36.9718,lng:-122.0257},
+ // San Francisco Bay Area (north)
+ sweetwater:{n:"Sweetwater Music Hall",area:"Downtown",b:"Mill Valley",lat:37.9063,lng:-122.5468},
+ // Seattle
+ nectarlounge:{n:"Nectar Lounge",area:"Fremont",b:"Seattle",lat:47.6516,lng:-122.3517},
  // Los Angeles
  echoplex:{n:"Echoplex",area:"Echo Park",b:"Los Angeles",lat:34.0779,lng:-118.2604},
  // Richmond
@@ -311,7 +319,6 @@ const V={
  tm_channel_24:{n:"Channel 24",area:"Sacramento",b:"CA",c:"SAC",lat:38.5662,lng:-121.4788},
  tm_belly_up:{n:"Belly Up",area:"Solana Beach",b:"CA",c:"SAN",lat:32.9909,lng:-117.2706},
  tm_music_box:{n:"Music Box",area:"San Diego",b:"CA",c:"SAN",lat:32.7194,lng:-117.1681},
- tm_the_sound:{n:"The Sound",area:"Del Mar",b:"CA",c:"SAN",lat:32.9755,lng:-117.2573},
  tm_the_independent:{n:"The Independent",area:"San Francisco",b:"CA",c:"SFO",lat:37.7755,lng:-122.4378},
  tm_cornerstone_ca:{n:"Cornerstone - CA",area:"Berkeley",b:"CA",c:"SFO",lat:37.8697,lng:-122.2584},
  tm_the_castro_theatre:{n:"The Castro Theatre",area:"San Francisco",b:"CA",c:"SFO",lat:37.7620,lng:-122.4347},
@@ -327,7 +334,7 @@ const SITES={
  brooklynbowl:"https://www.brooklynbowl.com/brooklyn",
  northshorecenter:"https://www.northshorecenter.org/", raveeagles:"https://www.therave.com/", reggiesrock:"https://www.reggieslive.com/",
  lpr:"https://lpr.com/", foxwoods:"https://foxwoods.com/", centerstage:"https://www.centerstage-atlanta.com/",
- mahaffey:"https://themahaffey.com/", hrlhollywood:"https://casino.hardrock.com/hollywood/", uctheatre:"https://theuctheatre.org/", mrsmalls:"https://mrsmalls.com/"
+ mahaffey:"https://themahaffey.com/", catalyst:"https://catalystclub.com/", sweetwater:"https://sweetwatermusichall.org/", thesounddelmar:"https://thesound.bellyup.com/", hrlhollywood:"https://casino.hardrock.com/hollywood/", uctheatre:"https://theuctheatre.org/", mrsmalls:"https://mrsmalls.com/"
 
 };
 for(const k in SITES) if(V[k]) V[k].site=SITES[k];
@@ -363,7 +370,15 @@ const RAW=[
 // Miami
  ["2026-12-19","19:30","Matisyahu: Festival of Lights","Matisyahu","mbbandshell",RG,"https://wl.eventim.us/event/matisyahu/705394?afflky=MiamiBeachBandshell","from $61.12"],
 // San Francisco Bay Area
+ ["2027-01-22","20:00","Don Carlos","Don Carlos","sweetwater",RG,"https://www.etix.com/ticket/p/75634890/don-carlos-mill-valley-sweetwater-music-hall",null],
  ["2026-12-31","21:00","Steel Pulse: New Year's Eve","Steel Pulse","uctheatre",RG,"https://theuctheatre.org/shows/steel-pulse-nye-show-31-dec",null],
+// Santa Cruz & Monterey Bay
+ ["2026-11-28","20:00","Don Carlos & Junior Toots","Don Carlos, Junior Toots, Pacific Roots","catalyst",RG,"https://www.etix.com/ticket/p/56766574/don-carlos-junior-toots-with-pacific-roots-santa-cruz-the-catalyst","$57.78"],
+ ["2026-12-05","20:00","The Expendables","The Expendables","catalyst",RG,"https://www.etix.com/ticket/p/78192736/the-expendables-santa-cruz-the-catalyst","$43.26"],
+// San Diego
+ ["2027-01-17","20:00","Pepper: 20 Years of No Shame","Pepper, Bumpin Uglies","thesounddelmar",RG,"https://www.ticketmaster.com/pepper-20-years-of-no-shame-del-mar-california-01-17-2027/event/0A00655D9BC84380",null],
+// Seattle
+ ["2027-01-16","20:00","Clinton Fearon: A Birthday Celebration","Clinton Fearon, DJ Kid Hops","nectarlounge",RG,"https://www.tixr.com/pr/DISCO/206469",null,["21"]],
 // Chicago
  ["2026-12-07","19:00|21:30","Matisyahu: Festival of Lights","Matisyahu","northshorecenter",RG,"https://www.northshorecenter.org/events/2026/matisyahu",null],
 // Cincinnati
@@ -452,7 +467,7 @@ const RAW=[
  ["2026-12-15","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_viejas_arena_at_aztec_bowl_s",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-san-diego-california-12-15-2026/event/0A0064EB1FC27EA4",null],
  ["2026-12-29","20:00","Steel Pulse - Reggae Against Racism Tour","Steel Pulse","tm_belly_up",RG,"https://www.ticketweb.com/event/steel-pulse-reggae-belly-up-tickets/14382744","$80"],
  ["2026-12-30","20:00","Steel Pulse - Reggae Against Racism Tour","Steel Pulse","tm_belly_up",RG,"https://www.ticketweb.com/event/steel-pulse-reggae-belly-up-tickets/14382754","$80"],
- ["2026-12-31","20:00","Tribal Seeds, Dubbest, Eureka Sound","TRIBAL SEEDS","tm_the_sound",RG,"https://www.ticketweb.com/event/tribal-seeds-dubbest-eureka-sound-the-sound-tickets/15035993",null],
+ ["2026-12-31","20:00","Tribal Seeds, Dubbest, Eureka Sound","TRIBAL SEEDS","thesounddelmar",RG,"https://www.ticketweb.com/event/tribal-seeds-dubbest-eureka-sound-the-sound-tickets/15035993",null],
  ["2027-02-05","19:30","Surfer Girl - The Midnight Tour w/ South Summit and JOBY!","Surfer Girl","tm_music_box",RG,"https://www.ticketweb.com/event/surfer-girl-the-music-box-tickets/14384244","$33"],
  ["2027-02-12","21:00","Groundation - A Tribute to Bob Marley w/ Jah Ollin","Groundation","tm_belly_up",RG,"https://www.ticketweb.com/event/groundation-a-tribute-belly-up-tickets/14313944","$34"],
  ["2026-12-12","21:00","The Slackers","The Slackers","tm_ventura_music_hall",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AAv8oM",null],
