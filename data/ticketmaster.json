@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-16T11:01:35+00:00",
+"fetched": "2026-11-17T10:39:15+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
 {
@@ -1381,6 +1381,32 @@
 },
 {
 "city": "CLE",
+"id": "rZ7HnEZ1Afooe7",
+"name": "DJ's Choice",
+"date": "2026-11-20",
+"time": "21:00",
+"status": "onsale",
+"venue": "B Side Lounge",
+"venueCity": "Cleveland Heights",
+"state": "OH",
+"address": "2785 Euclid Heights Blvd",
+"lat": 41.5082658,
+"lng": -81.5803633,
+"url": "https://www.ticketweb.com/event/djs-choice-b-side-lounge-tickets/14451084",
+"priceMin": 12.59,
+"priceMax": 12.59,
+"genres": [
+"DJ",
+"East Coast Rap",
+"Hip-Hop/Rap",
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [],
+"ageRestricted": false
+},
+{
+"city": "CLE",
 "id": "rZ7HnEZ1Af8UZV",
 "name": "Thanksgiving Night On Coventry",
 "date": "2026-11-26",
@@ -1422,6 +1448,30 @@
 "genres": [
 "Dancehall Reggae",
 "Hip-Hop/Rap",
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [],
+"ageRestricted": false
+},
+{
+"city": "CLE",
+"id": "rZ7HnEZ1AfooGV",
+"name": "DANCEHALL ON COVENTRY",
+"date": "2026-12-03",
+"time": "22:00",
+"status": "onsale",
+"venue": "B Side Lounge",
+"venueCity": "Cleveland Heights",
+"state": "OH",
+"address": "2785 Euclid Heights Blvd",
+"lat": 41.5082658,
+"lng": -81.5803633,
+"url": "https://www.ticketweb.com/event/dancehall-on-coventry-b-side-lounge-tickets/14451334",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Dancehall Reggae",
 "Reggae"
 ],
 "why": "class:Reggae",
@@ -2823,7 +2873,7 @@
 {
 "city": "NYC",
 "id": "k7vGF_p91iGVV",
-"name": "NYE: Reggaefest",
+"name": "NYE: Reggae Fest",
 "date": "2026-12-31",
 "time": "22:00",
 "status": "offsale",
@@ -2833,7 +2883,7 @@
 "address": "385 Flatbush Ave. Extension",
 "lat": 40.69137302,
 "lng": -73.98124051,
-"url": "https://www.ticketmaster.com/nye-reggaefest-brooklyn-new-york-12-31-2026/event/00006565CAB0CD34",
+"url": "https://www.ticketmaster.com/nye-reggae-fest-brooklyn-new-york-12-31-2026/event/00006565CAB0CD34",
 "priceMin": null,
 "priceMax": null,
 "genres": [
