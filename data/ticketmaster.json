@@ -1,35 +1,7 @@
 {
-"fetched": "2026-11-17T10:39:15+00:00",
+"fetched": "2026-11-18T10:38:53+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
-{
-"city": "",
-"id": "vvG1HZ_4UBjbLN",
-"name": "TYLA - THE A*POP WORLD TOUR",
-"date": "2026-11-17",
-"time": "20:00",
-"status": "onsale",
-"venue": "Paramount Theatre",
-"venueCity": "Seattle",
-"state": "WA",
-"address": "911 Pine St",
-"lat": 47.6135664,
-"lng": -122.3319103,
-"url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F00655DBA7187E3",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Electro Pop",
-"Pop"
-],
-"why": "artist:Tyla",
-"attractions": [
-"Tyla",
-"Jae Stephens"
-],
-"ageRestricted": false,
-"type": "AF"
-},
 {
 "city": "",
 "id": "G5vzZ_2QDTig-",
@@ -743,6 +715,60 @@
 },
 {
 "city": "",
+"id": "rZ7HnEZ1Afo84f",
+"name": "Steel Pulse",
+"date": "2027-01-02",
+"time": "20:00",
+"status": "onsale",
+"venue": "The Coach House",
+"venueCity": "San Juan Capistrano",
+"state": "CA",
+"address": "33157 Camino Capistrano, Suite C",
+"lat": 33.482292,
+"lng": -117.671419,
+"url": "https://www.ticketweb.com/event/steel-pulse-the-coach-house-tickets/14450554",
+"priceMin": 78.04,
+"priceMax": 78.04,
+"genres": [
+"Reggae",
+"World"
+],
+"why": "artist:Steel Pulse",
+"attractions": [
+"Steel Pulse"
+],
+"ageRestricted": false,
+"type": "RG"
+},
+{
+"city": "",
+"id": "rZ7HnEZ1Afo84V",
+"name": "Steel Pulse",
+"date": "2027-01-03",
+"time": "19:00",
+"status": "onsale",
+"venue": "The Coach House",
+"venueCity": "San Juan Capistrano",
+"state": "CA",
+"address": "33157 Camino Capistrano, Suite C",
+"lat": 33.482292,
+"lng": -117.671419,
+"url": "https://www.ticketweb.com/event/steel-pulse-the-coach-house-tickets/14450574",
+"priceMin": 78.04,
+"priceMax": 78.04,
+"genres": [
+"Reggae",
+"World"
+],
+"why": "artist:Steel Pulse",
+"attractions": [
+"Steel Pulse"
+],
+"ageRestricted": false,
+"type": "RG"
+},
+{
+"city": "",
 "id": "vv1AaZk4FGkeIu134",
 "name": " iHeartRadio ALTer EGO Presented by Capital One",
 "date": "2027-01-16",
@@ -1005,29 +1031,6 @@
 "Peanuts"
 ],
 "ageRestricted": true
-},
-{
-"city": "BOS",
-"id": "rZ7HnEZ1AfZsqV",
-"name": "Mood",
-"date": "2026-11-17",
-"time": "21:30",
-"status": "onsale",
-"venue": "Middle East - Corner/Bakery",
-"venueCity": "Cambridge",
-"state": "MA",
-"address": "480 Massachusetts Avenue",
-"lat": 42.363809,
-"lng": -71.101423,
-"url": "https://www.ticketweb.com/event/mood-middle-east-cornerbakery-tickets/14031774",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [],
-"ageRestricted": false
 },
 {
 "city": "BOS",
@@ -1837,6 +1840,58 @@
 "why": "class:Reggae",
 "attractions": [
 "Long Beach Dub Allstars"
+],
+"ageRestricted": false
+},
+{
+"city": "HNL",
+"id": "rZ7HnEZ1AfCkOV",
+"name": "\"All Da Tings\" Life, Laughter, Irie Ever After A night of comedy & music",
+"date": "2027-02-05",
+"time": "18:30",
+"status": "onsale",
+"venue": "Blue Note Hawaii",
+"venueCity": "Honolulu",
+"state": "HI",
+"address": "2335 Kalakaua Ave",
+"lat": 21.27724,
+"lng": -157.8271,
+"url": "https://www.ticketweb.com/event/all-da-tings-life-laughter-blue-note-hawaii-tickets/14386834",
+"priceMin": 34.28,
+"priceMax": 46.08,
+"genres": [
+"Reggae",
+"Reggae-Pop"
+],
+"why": "class:Reggae",
+"attractions": [
+"Irie Love"
+],
+"ageRestricted": false
+},
+{
+"city": "HNL",
+"id": "rZ7HnEZ1AfCk-7",
+"name": "\"All Da Tings\" Life, Laughter, Irie Ever After A night of comedy & music",
+"date": "2027-02-05",
+"time": "21:00",
+"status": "onsale",
+"venue": "Blue Note Hawaii",
+"venueCity": "Honolulu",
+"state": "HI",
+"address": "2335 Kalakaua Ave",
+"lat": 21.27724,
+"lng": -157.8271,
+"url": "https://www.ticketweb.com/event/all-da-tings-life-laughter-blue-note-hawaii-tickets/14386844",
+"priceMin": 34.28,
+"priceMax": 46.08,
+"genres": [
+"Reggae",
+"Reggae-Pop"
+],
+"why": "class:Reggae",
+"attractions": [
+"Irie Love"
 ],
 "ageRestricted": false
 },
@@ -3855,7 +3910,7 @@
 {
 "city": "SFO",
 "id": "rZ7HnEZ1Afoef0",
-"name": "AFROBASHMENT(Afrobeats, Dancehall, Hip-hop & more)",
+"name": "AFROBASHMENT(Afrobeats, Dancehall, Hip-hop & more) w/ Daghe + Ignacia + Doc Limo",
 "date": "2026-11-28",
 "time": "22:00",
 "status": "onsale",
@@ -3869,7 +3924,7 @@
 "priceMin": 0.0,
 "priceMax": 129.24,
 "genres": [
-"Other"
+"Hip-Hop/Rap"
 ],
 "why": "name:afrobeats",
 "attractions": [],
