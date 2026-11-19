@@ -247,6 +247,10 @@ const V={
  mbbandshell:{n:"Miami Beach Bandshell",area:"North Beach",b:"Miami Beach",lat:25.8636,lng:-80.1210},
  hrlhollywood:{n:"Hard Rock Live (Seminole Hard Rock)",area:"Hollywood",b:"FL",lat:26.0510,lng:-80.2110},
  sunsetcove:{n:"Sunset Cove Amphitheater",area:"Boca Raton",b:"FL",lat:26.3732,lng:-80.2197},
+ blanchollywood:{n:"BLANC Hollywood",area:"Downtown Hollywood",b:"FL",lat:26.0115,lng:-80.1445},
+ daer:{n:"DAER Nightclub (Seminole Hard Rock)",area:"Hollywood",b:"FL",lat:26.0510,lng:-80.2110},
+ genesispompano:{n:"Genesis Events Banquet Hall",area:"Pompano Beach",b:"FL",lat:26.2190,lng:-80.1565},
+ smokewynwood:{n:"Smoke Wynwood",area:"Wynwood",b:"Miami",lat:25.7997,lng:-80.2017},
  // San Francisco Bay Area
  uctheatre:{n:"The UC Theatre",area:"Downtown Berkeley",b:"Berkeley",lat:37.8716,lng:-122.2697},
  cornerstoneberk:{n:"Cornerstone",area:"Downtown Berkeley",b:"Berkeley",lat:37.8672,lng:-122.2677},
@@ -285,6 +289,7 @@ const V={
  nationalrva:{n:"The National",area:"Downtown",b:"Richmond",lat:37.5417,lng:-77.4349},
  // Orlando
  hoborlando:{n:"House of Blues Orlando",area:"Disney Springs",b:"Lake Buena Vista",lat:28.3706,lng:-81.5170},
+ plazaliveorl:{n:"The Plaza Live",area:"Colonialtown",b:"Orlando",lat:28.5476,lng:-81.3502},
  // Denver
  cervantesother:{n:"Cervantes' Other Side",area:"Five Points",b:"Denver",lat:39.7546,lng:-104.9774},
  missionballroom:{n:"Mission Ballroom",area:"RiNo",b:"Denver",lat:39.7765,lng:-104.9810},
@@ -299,6 +304,23 @@ const V={
  // Washington, D.C.
  nine30club:{n:"9:30 Club",area:"Shaw",b:"Washington",lat:38.9180,lng:-77.0237},
  tallyho:{n:"Tally Ho Theater",area:"Downtown",b:"Leesburg, VA",lat:39.1155,lng:-77.5652},
+ // Dallas–Fort Worth
+ aldeez:{n:"Aldeez Afribbean Restaurant",area:"Far North Dallas",b:"Dallas",lat:32.9985,lng:-96.8445},
+ // Jacksonville
+ cafeeleven:{n:"The Original Cafe Eleven",area:"St. Augustine Beach",b:"FL",lat:29.8573,lng:-81.2654},
+ derealting:{n:"De Real Ting Café",area:"Downtown",b:"Jacksonville",lat:30.3290,lng:-81.6588},
+ pvconcerthall:{n:"Ponte Vedra Concert Hall",area:"Ponte Vedra Beach",b:"FL",lat:30.2128,lng:-81.3846},
+ rivercityrailway:{n:"River City Railway",area:"Eastside",b:"Jacksonville",lat:30.3260,lng:-81.6370},
+ // Houston
+ coolrunningshou:{n:"Cool Runnings Jamaican Grill",area:"Southwest",b:"Houston",lat:29.6534,lng:-95.5160},
+ notohou:{n:"NOTO",area:"EaDo",b:"Houston",lat:29.7480,lng:-95.3540},
+ resethou:{n:"Reset",area:"Montrose",b:"Houston",lat:29.7437,lng:-95.3785},
+ // West Palm Beach
+ crazyunclemikes:{n:"Crazy Uncle Mike's",area:"North Boca",b:"Boca Raton",lat:26.4120,lng:-80.0746},
+ // Austin
+ flamingocantina:{n:"Flamingo Cantina",area:"Sixth Street",b:"Austin",lat:30.2670,lng:-97.7380},
+ // Charlotte
+ neighborhoodtheatre:{n:"Neighborhood Theatre",area:"NoDa",b:"Charlotte",lat:35.2468,lng:-80.8030},
 // <tm-venues>  (added automatically from the Ticketmaster feed; rebuilt each update)
  tm_fillmore_auditorium_denver:{n:"Fillmore Auditorium (Denver)",area:"Denver",b:"CO",c:"DEN",lat:39.7406,lng:-104.9772},
  tm_aragon_ballroom:{n:"Aragon Ballroom",area:"Chicago",b:"IL",c:"CHI",lat:41.9694,lng:-87.6580},
@@ -329,7 +351,6 @@ const V={
  tm_treelawn_music_hall:{n:"Treelawn Music Hall",area:"Cleveland",b:"OH",c:"CLE",lat:41.5707,lng:-81.5733},
  tm_house_of_blues_cleveland:{n:"House of Blues Cleveland",area:"Cleveland",b:"OH",c:"CLE",lat:41.4995,lng:-81.6910},
  tm_john_james_and_clara_knight_:{n:"John, James and Clara Knight Stage",area:"Akron",b:"OH",c:"CLE",lat:41.0807,lng:-81.5197},
- tm_neighborhood_theatre_main_ro:{n:"Neighborhood Theatre Main Room",area:"Charlotte",b:"NC",c:"CLT",lat:35.2474,lng:-80.8039},
  tm_tom_moffatt_waikiki_shell:{n:"Tom Moffatt Waikiki Shell",area:"Honolulu",b:"HI",c:"HNL",lat:21.2658,lng:-157.8197},
  tm_blue_note_hawaii:{n:"Blue Note Hawaii",area:"Honolulu",b:"HI",c:"HNL",lat:21.2772,lng:-157.8271},
  tm_the_vogue:{n:"The Vogue",area:"Indianapolis",b:"IN",c:"IND",lat:39.8692,lng:-86.1458},
@@ -370,7 +391,9 @@ const SITES={
  njpac:"https://www.njpac.org/",
  sobs:"https://sobs.com/",
  thecabot:"https://thecabot.org/",
- nine30club:"https://www.930.com/"
+ nine30club:"https://www.930.com/",
+ neighborhoodtheatre:"https://www.neighborhoodtheatre.com/",
+ pvconcerthall:"https://www.pvconcerthall.com/"
 };
 for(const k in SITES) if(V[k]) V[k].site=SITES[k];
 const LISTING_SITE=/seatgeek|vividseats|stubhub|tickpick|gametime|ticketnetwork|ticketsmarter|eventticketscenter|tickets-center|concertfix|concerts50|concertarchives|songkick|bandsintown|jambase|allevents|evendo|happeningnext|eventbrowse|new-york\.events|americanarenas|eventworld|stereoboard|catchmovement|beatstorapon|discotech|etickets\.com|ticketx|karlobag|overlookmaps/;
@@ -419,6 +442,12 @@ const RAW=[
 // Tampa
 // Miami
  ["2026-12-19","19:30","Matisyahu: Festival of Lights","Matisyahu","mbbandshell",RG,"https://wl.eventim.us/event/matisyahu/705394?afflky=MiamiBeachBandshell","from $61.12"],
+ ["2026-11-25","22:00","Rory Stone Love \"Legendary\" Anniversary","Rory Stone Love, Waggy T, Kevin Crown, Code Red Sound, Renaissance Disco, DJ Juxxy Fire","daer",DH,"https://www.eventbrite.com/e/rory-stone-love-legendary-anniversary-tickets-2002765688086",null,["21"]],
+ ["2026-11-27","22:00","Dancehall Explosion 2.0 ft. Silk Boss","Silk Boss, Gabbi Don","genesispompano",DH,"https://www.eventbrite.com/e/dancehall-explosion-20-silkboss-live-nicole-birthday-and-thanksgiving-tickets-2005040822073",null],
+ ["2026-11-28","22:00","ROCKAZ: A Lovers Rock and R&B Experience","Wayne Wonder (host), Trey Songz (host), DJ Fly Guy, Ovadose, Gambino Sound","daer",RG,"https://www.eventbrite.com/e/rockaz-a-lovers-rock-and-rb-experience-tickets-2004129821245",null,["21"]],
+ ["2026-12-03","21:00","Art Basel 2026: The Art of Reggae","Yaadcore, G. Cole, Soul Rebel, Earthquake Intl, DJ Mucho","smokewynwood",RG,"https://www.eventbrite.com/e/art-basel-2026-the-art-of-reggae-tickets-2004117583642",null,["21"]],
+ ["2026-12-12","22:00","Caribbean Party: Silent Addy – OTS Launch It To The Max","Silent Addy","blanchollywood",DH,"https://www.eventbrite.com/e/caribbean-party-silent-addy-ots-launch-it-to-the-max-miami-dec-12-tickets-2004852726474","$30–50"],
+ ["2026-12-19","23:00","Caribbean City: Sugar & Spice – Rooftop Live","JR Cruiza, DJ Stakz, DJ Fergie, IronHeart Sound","daer",DH,"https://www.eventbrite.com/e/caribbean-city-sugar-spice-rooftop-live-daer-hardrock-tickets-2003521683288",null,["21"]],
 // San Francisco Bay Area
  ["2027-01-22","20:00","Don Carlos","Don Carlos","sweetwater",RG,"https://www.etix.com/ticket/p/75634890/don-carlos-mill-valley-sweetwater-music-hall",null],
  ["2026-12-31","21:00","Steel Pulse: New Year's Eve","Steel Pulse","uctheatre",RG,"https://theuctheatre.org/shows/steel-pulse-nye-show-31-dec",null],
@@ -459,6 +488,7 @@ const RAW=[
  ["2027-02-26","20:00","Pepper: 20 Years of No Shame","Pepper","nationalrva",RG,"https://www.axs.com/events/1678789/pepper-tickets",null],
 // Orlando
  ["2026-12-17","19:00","Matisyahu: Festival of Lights","Matisyahu","hoborlando",RG,"https://www.ticketmaster.com/matisyahu-festival-of-lights-orlando-florida-12-17-2026/event/22006528E0F85AC6",null],
+ ["2027-02-17","20:00","Pepper: 20 Years of No Shame","Pepper, Passafire","plazaliveorl",RG,"https://www.axs.com/events/1684860/pepper-tickets",null],
 // Boston
  ["2026-11-20","19:00","John Brown's Body + Soul Rebel Project","John Brown's Body, Soul Rebel Project","thecabot",RG,"https://thecabot.org/event/john-browns-body-soul-rebel-project/","$28.75–58.50"],
 // Maui
@@ -473,6 +503,23 @@ const RAW=[
 // Washington, D.C.
  ["2026-12-10","19:00","Matisyahu: Festival of Lights","Matisyahu, Matt Jalbert Band","nine30club",RG,"https://www.930.com/e/matisyahu-festival-of-lights",null],
  ["2027-02-26","19:00","Ballyhoo!","Ballyhoo!","tallyho",RG,"https://www.ticketmaster.com/ballyhoo-leesburg-virginia-02-26-2027/event/01006528A096DABA","$32–66"],
+// West Palm Beach
+ ["2026-12-13","19:00","Brothers Within & TreeHouse!","Brothers Within, TreeHouse!","crazyunclemikes",RG,"https://www.eventbrite.com/e/brothers-within-treehouse-tickets-1997571574352",null],
+// Houston
+ ["2026-11-25","21:00","Caribbean Naughty or Nice Black & White Affair","DJ Private Ryan, Tony X","resethou",SC,"https://www.eventbrite.com/e/caribbean-naughty-or-nice-black-white-affair-ft-private-ryan-tony-x-tickets-2002806564348",null,["21"]],
+ ["2026-11-27","21:00","Jahmiel: The One Tour","Jahmiel","coolrunningshou",DH,"https://www.eventbrite.com/e/jahmiel-the-one-tour-tickets-2003748245943",null],
+ ["2026-12-12","22:00","Reggae Bash Houston: Santa Gone Wild ft. Charly Black","Charly Black","notohou",DH,"https://www.eventbrite.com/e/reggae-bash-houston-santa-gone-wild-ft-charly-black-live-tickets-2004608953342",null,["21"]],
+// Dallas–Fort Worth
+ ["2026-11-28","22:00","Jahmiel Live in Dallas","Jahmiel","aldeez",DH,"https://www.eventbrite.com/e/jahmiel-live-in-dallas-tickets-2000206002999",null],
+// Austin
+ ["2026-11-28","20:30","Dancehall & Reggae: Soulfiya, Kroywen, Sgt Remo, Krucial Rootz","Soulfiya, Kroywen, Sgt Remo, Krucial Rootz","flamingocantina",RG,"https://www.eventbrite.com/e/soulfiya-kroywen-sgt-remo-krucial-rootz-dancehall-reggae-tickets-2003701678659","$5",["21"]],
+// Jacksonville
+ ["2026-11-28","22:00","Pure Vybz Jacksonville: The Caribbean Invasion ft. Delly Ranx","Delly Ranx, Reza, DJ Legacy 2.0, DJ Eviis, DJ Wizla, DJ Supah Sokah","derealting",DH,"https://www.eventbrite.com/e/pure-vybz-jacksonville-the-caribbean-invasion-tickets-2003181743519","$20–25",["21"]],
+ ["2026-12-10","20:00","TreeHouse! x Brothers Within","TreeHouse!, Brothers Within, Kat Hall","cafeeleven",RG,"https://www.eventbrite.com/e/treehouse-x-brothers-within-tickets-1997443868380",null],
+ ["2027-02-21","18:00","Collie Buddz","Collie Buddz, Runkus, Zion Marley","rivercityrailway",RG,"https://www.eventbrite.com/e/2003900355908","$30–35"],
+ ["2027-02-20","19:45","Pepper: 20 Years of No Shame","Pepper, Passafire","pvconcerthall",RG,"https://www.axs.com/events/1681443/pepper-tickets",null],
+// Charlotte
+ ["2027-02-21","20:00","Pepper: 20 Years of No Shame","Pepper, Passafire","neighborhoodtheatre",RG,"https://www.ticketmaster.com/pepper-20-years-of-no-shame-charlotte-north-carolina-02-21-2027/event/2D00655EC779DEDD","$39–116"],
 // <tm>  (Ticketmaster/SeatGeek feeds, fetched Ticketmaster 2026-11-19; rebuilt each update — don't edit by hand)
  ["2026-12-06","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_coca_cola_roxy",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-atlanta-georgia-12-06-2026/event/0E0064F8A3057D42",null],
  ["2026-12-11","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_moody_center_atx",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-austin-texas-12-11-2026/event/3A0064F8A6F0F07A",null],
@@ -488,7 +535,7 @@ const RAW=[
  ["2026-12-18","20:00","Merry XCSB! Drumplay, Carlos Jones, Vanity Crash w/Jet Star","Carlos Jones","tm_treelawn_music_hall",RG,"https://www.ticketweb.com/event/merry-xcsb-drumplay-carlos-jones-treelawn-music-hall-tickets/14448294","$24"],
  ["2027-02-06","19:00","Badfish - A Tribute to Sublime: Watch Your Mouth 2027 Tour","Kash'd Out","tm_house_of_blues_cleveland",RG,"https://www.ticketmaster.com/badfish-a-tribute-to-sublime-watch-cleveland-ohio-02-06-2027/event/0500654CF8C54915",null],
  ["2027-02-11","19:30","Roots, Rhythm & Legacy featuring Mighty Mystic","Mighty Mystic","tm_john_james_and_clara_knight_",RG,"https://www.ticketmaster.com/roots-rhythm-legacy-featuring-mighty-mystic-akron-ohio-02-11-2027/event/0500655ECB67B355",null],
- ["2027-01-30","19:30","Tropidelic","Mihali, Mellodose","tm_neighborhood_theatre_main_ro",RG,"https://www.ticketmaster.com/tropidelic-charlotte-north-carolina-01-30-2027/event/2D0065504A9046FB",null],
+ ["2027-01-30","19:30","Tropidelic","Mihali, Mellodose","neighborhoodtheatre",RG,"https://www.ticketmaster.com/tropidelic-charlotte-north-carolina-01-30-2027/event/2D0065504A9046FB",null],
  ["2026-12-02","19:30","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_the_anthem",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-washington-district-of-columbia-12-02-2026/event/150064F1C4C841AD",null],
  ["2026-12-31","22:00","Reggae Fest D.C. New Year's Eve All Black Affair at The Howard Theatre","Reggae Fest","tm_howard_theatre",RG,"https://www.universe.com/events/reggae-fest-d-c-new-years-eve-all-black-affair-at-the-howard-theatre-tickets-1DTWGJ?ref=ticketmaster",null,["fest"]],
  ["2027-01-28","18:30","Tropidelic","Mihali, Mellodose","tallyho",RG,"https://www.ticketmaster.com/tropidelic-leesburg-virginia-01-28-2027/event/01006550D7FE5223",null],
