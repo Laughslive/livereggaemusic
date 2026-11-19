@@ -296,6 +296,9 @@ const V={
  mauiarts:{n:"A&B Amphitheater (Maui Arts & Cultural Center)",area:"Kahului",b:"Maui",lat:20.8889,lng:-156.4697},
  // Boston
  thecabot:{n:"The Cabot",area:"Downtown",b:"Beverly, MA",lat:42.5478,lng:-70.8797},
+ // Washington, D.C.
+ nine30club:{n:"9:30 Club",area:"Shaw",b:"Washington",lat:38.9180,lng:-77.0237},
+ tallyho:{n:"Tally Ho Theater",area:"Downtown",b:"Leesburg, VA",lat:39.1155,lng:-77.5652},
 // <tm-venues>  (added automatically from the Ticketmaster feed; rebuilt each update)
  tm_fillmore_auditorium_denver:{n:"Fillmore Auditorium (Denver)",area:"Denver",b:"CO",c:"DEN",lat:39.7406,lng:-104.9772},
  tm_aragon_ballroom:{n:"Aragon Ballroom",area:"Chicago",b:"IL",c:"CHI",lat:41.9694,lng:-87.6580},
@@ -327,7 +330,6 @@ const V={
  tm_house_of_blues_cleveland:{n:"House of Blues Cleveland",area:"Cleveland",b:"OH",c:"CLE",lat:41.4995,lng:-81.6910},
  tm_john_james_and_clara_knight_:{n:"John, James and Clara Knight Stage",area:"Akron",b:"OH",c:"CLE",lat:41.0807,lng:-81.5197},
  tm_neighborhood_theatre_main_ro:{n:"Neighborhood Theatre Main Room",area:"Charlotte",b:"NC",c:"CLT",lat:35.2474,lng:-80.8039},
- tm_tally_ho_theater:{n:"Tally Ho Theater",area:"Leesburg",b:"VA",c:"DC",lat:39.1157,lng:-77.5656},
  tm_tom_moffatt_waikiki_shell:{n:"Tom Moffatt Waikiki Shell",area:"Honolulu",b:"HI",c:"HNL",lat:21.2658,lng:-157.8197},
  tm_blue_note_hawaii:{n:"Blue Note Hawaii",area:"Honolulu",b:"HI",c:"HNL",lat:21.2772,lng:-157.8271},
  tm_the_vogue:{n:"The Vogue",area:"Indianapolis",b:"IN",c:"IND",lat:39.8692,lng:-86.1458},
@@ -367,7 +369,8 @@ const SITES={
  mauiarts:"https://www.mauiarts.org/",
  njpac:"https://www.njpac.org/",
  sobs:"https://sobs.com/",
- thecabot:"https://thecabot.org/"
+ thecabot:"https://thecabot.org/",
+ nine30club:"https://www.930.com/"
 };
 for(const k in SITES) if(V[k]) V[k].site=SITES[k];
 const LISTING_SITE=/seatgeek|vividseats|stubhub|tickpick|gametime|ticketnetwork|ticketsmarter|eventticketscenter|tickets-center|concertfix|concerts50|concertarchives|songkick|bandsintown|jambase|allevents|evendo|happeningnext|eventbrowse|new-york\.events|americanarenas|eventworld|stereoboard|catchmovement|beatstorapon|discotech|etickets\.com|ticketx|karlobag|overlookmaps/;
@@ -410,6 +413,7 @@ const RAW=[
 // Pittsburgh
 // Norfolk & Virginia Beach
  ["2026-12-05","19:00","Bumpin' Uglies","Bumpin' Uglies","norva",RG,"https://www.axs.com/events/1518389/bumpin-uglies-tickets",null],
+ ["2027-02-24","19:30","Pepper: 20 Years of No Shame","Pepper, SensaMotion","norva",RG,"https://www.axs.com/events/1678792/pepper-tickets",null],
 // Atlanta
  ["2026-12-16","20:00","Matisyahu: Festival of Lights","Matisyahu","varietyplayhouse",RG,"https://www.axs.com/events/1605465/matisyahu-festival-of-lights-tour-tickets",null],
 // Tampa
@@ -452,6 +456,7 @@ const RAW=[
  ["2027-01-30","18:30","Ballyhoo!: We Ride at Dawn Tour","Ballyhoo!, Chad Tepper","observatorysa",RG,"https://www.ticketmaster.com/ballyhoo-we-ride-at-dawn-tour-santa-ana-california-01-30-2027/event/09006538F82249AE","$33–112"],
 // Richmond
  ["2026-12-15","19:30","Matisyahu: Festival of Lights","Matisyahu","nationalrva",RG,"https://www.axs.com/events/1596395/matisyahu-festival-of-lights-tickets",null],
+ ["2027-02-26","20:00","Pepper: 20 Years of No Shame","Pepper","nationalrva",RG,"https://www.axs.com/events/1678789/pepper-tickets",null],
 // Orlando
  ["2026-12-17","19:00","Matisyahu: Festival of Lights","Matisyahu","hoborlando",RG,"https://www.ticketmaster.com/matisyahu-festival-of-lights-orlando-florida-12-17-2026/event/22006528E0F85AC6",null],
 // Boston
@@ -465,6 +470,9 @@ const RAW=[
  ["2027-01-28","19:30","Ballyhoo!: We Ride at Dawn Tour","Ballyhoo!","crescentballroom",RG,"https://www.ticketweb.com/event/ballyhoo-we-ride-crescent-ballroom-tickets/14347194","$35"],
 // Sacramento
  ["2027-02-05","18:30","Ballyhoo!: We Ride at Dawn Tour","Ballyhoo!, Chad Tepper","goldfieldroseville",RG,"https://www.jambase.com/show/ballyhoo-goldfield-roseville-20270205","$25"],
+// Washington, D.C.
+ ["2026-12-10","19:00","Matisyahu: Festival of Lights","Matisyahu, Matt Jalbert Band","nine30club",RG,"https://www.930.com/e/matisyahu-festival-of-lights",null],
+ ["2027-02-26","19:00","Ballyhoo!","Ballyhoo!","tallyho",RG,"https://www.ticketmaster.com/ballyhoo-leesburg-virginia-02-26-2027/event/01006528A096DABA","$32–66"],
 // <tm>  (Ticketmaster/SeatGeek feeds, fetched Ticketmaster 2026-11-19; rebuilt each update — don't edit by hand)
  ["2026-12-06","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_coca_cola_roxy",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-atlanta-georgia-12-06-2026/event/0E0064F8A3057D42",null],
  ["2026-12-11","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_moody_center_atx",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-austin-texas-12-11-2026/event/3A0064F8A6F0F07A",null],
@@ -483,7 +491,7 @@ const RAW=[
  ["2027-01-30","19:30","Tropidelic","Mihali, Mellodose","tm_neighborhood_theatre_main_ro",RG,"https://www.ticketmaster.com/tropidelic-charlotte-north-carolina-01-30-2027/event/2D0065504A9046FB",null],
  ["2026-12-02","19:30","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_the_anthem",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-washington-district-of-columbia-12-02-2026/event/150064F1C4C841AD",null],
  ["2026-12-31","22:00","Reggae Fest D.C. New Year's Eve All Black Affair at The Howard Theatre","Reggae Fest","tm_howard_theatre",RG,"https://www.universe.com/events/reggae-fest-d-c-new-years-eve-all-black-affair-at-the-howard-theatre-tickets-1DTWGJ?ref=ticketmaster",null,["fest"]],
- ["2027-01-28","18:30","Tropidelic","Mihali, Mellodose","tm_tally_ho_theater",RG,"https://www.ticketmaster.com/tropidelic-leesburg-virginia-01-28-2027/event/01006550D7FE5223",null],
+ ["2027-01-28","18:30","Tropidelic","Mihali, Mellodose","tallyho",RG,"https://www.ticketmaster.com/tropidelic-leesburg-virginia-01-28-2027/event/01006550D7FE5223",null],
  ["2027-02-12","20:00","ROOT ENTERTAINMENT PRESENTS HIGHLIFE ON THE POTOMAC WITH THE MAESTRO KOJO ANTWI","Kojo Antwi","tm_howard_theatre",AF,"https://www.ticketweb.com/event/root-entertainment-presents-highlife-on-howard-theatre-tickets/14371084","$97–138"],
  ["2027-02-13","22:00","AMAPIANODMV & Echostage Present: A Night of Amapiano","NJELIC, Murumba Pitch, MaWhoo, DJ Stokie, DJ Mobu, Zakeeyah, Peanuts","tm_echostage",AF,"https://www.ticketmaster.com/amapianodmv-echostage-present-a-night-of-washington-district-of-columbia-02-13-2027/event/150065674EE6F3AB",null],
  ["2026-11-20","18:30","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_fillmore_auditorium_denver",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-denver-colorado-11-20-2026/event/1E0064F6BBFECD61",null],
