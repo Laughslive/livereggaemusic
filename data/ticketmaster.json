@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-18T10:38:53+00:00",
+"fetched": "2026-11-19T10:34:47+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
 {
@@ -789,6 +789,7 @@
 "Club Dance",
 "Dance/Electronic",
 "Pop",
+"Punk",
 "Rock"
 ],
 "why": "artist:Slightly Stoopid",
@@ -803,7 +804,8 @@
 "Modest Mouse",
 "Young the Giant",
 "The Warning",
-"Temper City"
+"Temper City",
+"Deryck Whibley"
 ],
 "ageRestricted": false,
 "type": "RG"
@@ -2491,11 +2493,14 @@
 "priceMin": 39.12,
 "priceMax": 39.12,
 "genres": [
-"Reggae"
+"Pop",
+"Reggae",
+"Rock"
 ],
 "why": "class:Reggae",
 "attractions": [
-"Fortunate Youth"
+"Fortunate Youth",
+"Tomorrows Bad Seeds"
 ],
 "ageRestricted": false
 },
@@ -2624,6 +2629,34 @@
 "why": "class:Reggae",
 "attractions": [
 "Chyno Y Nacho"
+],
+"ageRestricted": false
+},
+{
+"city": "NSH",
+"id": "rZ7HnEZ1A4vKOS",
+"name": "Bumpin Uglies with Jakob's Castle & Plainview Vibes",
+"date": "2027-02-04",
+"time": "19:30",
+"status": "onsale",
+"venue": "The Basement East",
+"venueCity": "Nashville",
+"state": "TN",
+"address": "917 Woodland St",
+"lat": 36.175636,
+"lng": -86.755652,
+"url": "https://www.ticketweb.com/event/bumpin-uglies-with-jakobs-castle-the-basement-east-tickets/15053833",
+"priceMin": 29.88,
+"priceMax": 56.92,
+"genres": [
+"Alternative",
+"Pop",
+"Reggae",
+"Rock"
+],
+"why": "class:Reggae",
+"attractions": [
+"Bumpin Uglies"
 ],
 "ageRestricted": false
 },
@@ -2914,6 +2947,31 @@
 "lat": 40.69137302,
 "lng": -73.98124051,
 "url": "https://www.universe.com/events/reggae-fest-new-years-eve-all-black-affair-at-bk-paramount-tickets-850BPG?ref=ticketmaster",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"Reggae Fest"
+],
+"ageRestricted": false
+},
+{
+"city": "NYC",
+"id": "k7vGF_95Ft6LP",
+"name": "NYE: Reggae Fest",
+"date": "2026-12-31",
+"time": "22:00",
+"status": "onsale",
+"venue": "Brooklyn Paramount",
+"venueCity": "Brooklyn",
+"state": "NY",
+"address": "385 Flatbush Ave. Extension",
+"lat": 40.69137302,
+"lng": -73.98124051,
+"url": "https://www.universe.com/events/reggae-fest-new-years-eve-all-black-affair-at-bk-paramount-tickets-850BPG",
 "priceMin": null,
 "priceMax": null,
 "genres": [
@@ -3300,6 +3358,7 @@
 "Ice Nine Kills",
 "Zakk Wylde",
 "The Warning",
+"The Funeral Portrait",
 "Ayron Jones",
 "Kurt Deimer",
 "Everlast"
@@ -3877,33 +3936,6 @@
 "attractions": [
 "Sister Nancy",
 "Reggae Angels"
-],
-"ageRestricted": false
-},
-{
-"city": "SFO",
-"id": "Z7r9jZ1AAvyPN",
-"name": "Kabaka Pyramid w/ DJ King Ivier",
-"date": "2026-11-18",
-"time": "20:00",
-"status": "onsale",
-"venue": "The UC Theatre",
-"venueCity": "Berkeley",
-"state": "CA",
-"address": "2036 University Ave",
-"lat": 37.869701,
-"lng": -122.2584,
-"url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvyPN",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Other",
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Kabaka Pyramid",
-"DJ King Ivier"
 ],
 "ageRestricted": false
 },
