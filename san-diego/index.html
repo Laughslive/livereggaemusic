@@ -252,6 +252,7 @@ const V={
  genesispompano:{n:"Genesis Events Banquet Hall",area:"Pompano Beach",b:"FL",lat:26.2190,lng:-80.1565},
  smokewynwood:{n:"Smoke Wynwood",area:"Wynwood",b:"Miami",lat:25.7997,lng:-80.2017},
  // San Francisco Bay Area
+ templesf:{n:"Temple",area:"SoMa",b:"San Francisco",lat:37.7887,lng:-122.3972},
  uctheatre:{n:"The UC Theatre",area:"Downtown Berkeley",b:"Berkeley",lat:37.8716,lng:-122.2697},
  cornerstoneberk:{n:"Cornerstone",area:"Downtown Berkeley",b:"Berkeley",lat:37.8672,lng:-122.2677},
  // Chicago
@@ -277,12 +278,15 @@ const V={
  catalyst:{n:"The Catalyst",area:"Downtown",b:"Santa Cruz",lat:36.9718,lng:-122.0257},
  goldenstatetheatre:{n:"Golden State Theatre",area:"Downtown",b:"Monterey",lat:36.5995,lng:-121.8946},
  // San Francisco Bay Area (north)
+ macs19broadway:{n:"Mac's at 19 Broadway",area:"Fairfax",b:"Fairfax, CA",lat:37.9871,lng:-122.5888},
  sweetwater:{n:"Sweetwater Music Hall",area:"Downtown",b:"Mill Valley",lat:37.9063,lng:-122.5468},
  // Seattle
  nectarlounge:{n:"Nectar Lounge",area:"Fremont",b:"Seattle",lat:47.6516,lng:-122.3517},
  muckleshoot:{n:"Muckleshoot Casino Events Center",area:"Auburn",b:"WA",lat:47.2830,lng:-122.2155},
  neptuneseattle:{n:"Neptune Theatre",area:"University District",b:"Seattle",lat:47.6614,lng:-122.3138},
  // Los Angeles
+ palmandpine:{n:"The Palm & The Pine",area:"Hollywood",b:"Los Angeles",lat:34.1009,lng:-118.3293},
+ wayfarercm:{n:"The Wayfarer",area:"Westside",b:"Costa Mesa, CA",lat:33.6474,lng:-117.9306},
  echoplex:{n:"Echoplex",area:"Echo Park",b:"Los Angeles",lat:34.0779,lng:-118.2604},
  coachhouse:{n:"The Coach House",area:"San Juan Capistrano",b:"CA",lat:33.4846,lng:-117.6633},
  hobanaheim:{n:"House of Blues Anaheim",area:"Anaheim GardenWalk",b:"Anaheim",lat:33.8075,lng:-117.9190},
@@ -293,11 +297,13 @@ const V={
  hoborlando:{n:"House of Blues Orlando",area:"Disney Springs",b:"Lake Buena Vista",lat:28.3706,lng:-81.5170},
  plazaliveorl:{n:"The Plaza Live",area:"Colonialtown",b:"Orlando",lat:28.5476,lng:-81.3502},
  // Denver
+ bluebird:{n:"Bluebird Theater",area:"East Colfax",b:"Denver",lat:39.7403,lng:-104.9480},
  cervantesother:{n:"Cervantes' Other Side",area:"Five Points",b:"Denver",lat:39.7546,lng:-104.9774},
  missionballroom:{n:"Mission Ballroom",area:"RiNo",b:"Denver",lat:39.7765,lng:-104.9810},
  // Phoenix
  crescentballroom:{n:"Crescent Ballroom",area:"Roosevelt Row",b:"Phoenix",lat:33.4515,lng:-112.0763},
  // Sacramento
+ midtownlivesac:{n:"Midtown Live",area:"Midtown",b:"Sacramento",lat:38.5765,lng:-121.4856},
  goldfieldroseville:{n:"Goldfield Roseville",area:"Downtown",b:"Roseville",lat:38.7488,lng:-121.2860},
  // Maui
  mauiarts:{n:"A&B Amphitheater (Maui Arts & Cultural Center)",area:"Kahului",b:"Maui",lat:20.8889,lng:-156.4697},
@@ -325,6 +331,8 @@ const V={
  neighborhoodtheatre:{n:"Neighborhood Theatre",area:"NoDa",b:"Charlotte",lat:35.2468,lng:-80.8030},
  // Minneapolis–St. Paul
  cedarcultural:{n:"The Cedar Cultural Center",area:"Cedar-Riverside",b:"Minneapolis",lat:44.9688,lng:-93.2476},
+ // Las Vegas
+ pinkmonkeylv:{n:"Pink Monkey Night Club",area:"Downtown / Fremont East",b:"Las Vegas",lat:36.1688,lng:-115.1414},
 // <tm-venues>  (added automatically from the Ticketmaster feed; rebuilt each update)
  tm_fillmore_auditorium_denver:{n:"Fillmore Auditorium (Denver)",area:"Denver",b:"CO",c:"DEN",lat:39.7406,lng:-104.9772},
  tm_aragon_ballroom:{n:"Aragon Ballroom",area:"Chicago",b:"IL",c:"CHI",lat:41.9694,lng:-87.6580},
@@ -383,6 +391,8 @@ const V={
 // Venues' own websites / box offices. Ticket buttons use these instead of
 // listing or resale sites whenever a show's link points at one of those.
 const SITES={
+ nectarlounge:"https://nectarlounge.com/",
+ bluebird:"https://www.bluebirdtheater.net/",
  musicboxcle:"https://musicboxcle.com/",
  kentstage:"https://kentstage.org/",
  cedarcultural:"https://www.thecedar.org/",
@@ -456,6 +466,8 @@ const RAW=[
  ["2026-12-12","22:00","Caribbean Party: Silent Addy – OTS Launch It To The Max","Silent Addy","blanchollywood",DH,"https://www.eventbrite.com/e/caribbean-party-silent-addy-ots-launch-it-to-the-max-miami-dec-12-tickets-2004852726474","$30–50"],
  ["2026-12-19","23:00","Caribbean City: Sugar & Spice – Rooftop Live","JR Cruiza, DJ Stakz, DJ Fergie, IronHeart Sound","daer",DH,"https://www.eventbrite.com/e/caribbean-city-sugar-spice-rooftop-live-daer-hardrock-tickets-2003521683288",null,["21"]],
 // San Francisco Bay Area
+ ["2026-12-04","21:00","Afro Funk Dance Party Part Two: Onye & The Messengers","Onye & The Messengers","macs19broadway",AF,"https://www.eventbrite.com/e/2004100364138","$15–20",["21"]],
+ ["2026-11-20","22:00","Shake Body: Lagos Island Nights","Flygerian Jeff, DJ Dennis, DJ Chrisania","templesf",AF,"https://beatstorapon.com/event/shake-body-lagos-island-nights-temple-sf-fri-nov-20-6aeab6549f1bb794c927560c",null],
  ["2027-01-22","20:00","Don Carlos","Don Carlos","sweetwater",RG,"https://www.etix.com/ticket/p/75634890/don-carlos-mill-valley-sweetwater-music-hall",null],
  ["2026-12-31","21:00","Steel Pulse: New Year's Eve","Steel Pulse","uctheatre",RG,"https://theuctheatre.org/shows/steel-pulse-nye-show-31-dec",null],
  ["2027-01-15","20:00","Pepper: 20 Years of No Shame","Pepper, Bumpin Uglies","uctheatre",RG,"https://app.opendate.io/e/pepper-january-15-2027-750729",null],
@@ -487,6 +499,8 @@ const RAW=[
  ["2026-12-05","20:00","Matisyahu: Festival of Lights","Matisyahu","delmarhall",RG,"https://www.livenation.com/fr-ca/event/vv16kZkftPzZA2FA6u/matisyahu-festival-of-lights",null],
  ["2027-01-22","19:30","Ballyhoo!: We Ride at Dawn Tour","Ballyhoo!","oldrockhouse",RG,"https://www.etix.com/ticket/p/50052239/ballyhoowe-ride-at-dawn-tour-stlouis-old-rock-house","$34"],
 // Los Angeles
+ ["2026-12-19","20:00","The Aggrolites","The Aggrolites","wayfarercm",RG,"https://www.eventbrite.com/e/2004730138811",null,["21"]],
+ ["2026-11-28","22:00","Afrobeats Takeover: Friendsgiving Edition","DJ 619, SAGA (host)","palmandpine",AF,"https://www.eventbrite.com/e/afrobeats-takeover-friendsgiving-edition-tickets-2002105338964",null],
  ["2026-11-25","21:00","Dub Club presents: Kabaka Pyramid","Kabaka Pyramid, Dub Club DJs","echoplex",RG,"https://www.ticketmaster.com/dub-club-presents-kabaka-pyramid-21-los-angeles-california-11-25-2026/event/09006531B99FB3F7",null,["21"]],
  ["2026-12-19","21:00","Dub Club presents: Keith and Tex & Keith Poppin","Keith and Tex, Keith Poppin, Dub Club DJs","echoplex",RG,"https://www.ticketmaster.com/dub-club-presents-keith-and-tex-los-angeles-california-12-19-2026/event/0900649DB04BD88A",null,["21"]],
  ["2027-01-02","20:00","Steel Pulse","Steel Pulse","coachhouse",RG,"https://www.ticketweb.com/event/steel-pulse-the-coach-house-tickets/14450554","$78"],
@@ -501,13 +515,16 @@ const RAW=[
 // Boston
  ["2026-11-20","19:00","John Brown's Body + Soul Rebel Project","John Brown's Body, Soul Rebel Project","thecabot",RG,"https://thecabot.org/event/john-browns-body-soul-rebel-project/","$28.75–58.50"],
 // Maui
- ["2026-12-05","18:00","Iration","Iration","mauiarts",RG,"https://mauinow.com/?p=542717","$32–101.50"],
+ ["2026-12-05","18:00","Iration","Iration, Kanaka Fyah, Twin Fin","mauiarts",RG,"https://mauiarts.org/show-details/iration2026","$57–101.50"],
 // Denver
+ ["2026-12-18","20:00","Atomga","Atomga","bluebird",AF,"https://www.axs.com/events/1579455/atomga-tickets",null],
  ["2027-02-26","20:00","The Movement & Collie Buddz","The Movement, Collie Buddz, DENM","missionballroom",RG,"https://www.axs.com/events/1606813/the-movement-collie-buddz-tickets","$47–147"],
  ["2027-02-12","19:30","Ballyhoo!: We Ride at Dawn Tour","Ballyhoo!, Chad Tepper, Keep Flying","cervantesother",RG,"https://www.etix.com/ticket/p/92465656/ballyhoowchad-tepper-denver-cervantesother-side","$34"],
 // Phoenix
  ["2027-01-28","19:30","Ballyhoo!: We Ride at Dawn Tour","Ballyhoo!","crescentballroom",RG,"https://www.ticketweb.com/event/ballyhoo-we-ride-crescent-ballroom-tickets/14347194","$35"],
 // Sacramento
+ ["2026-12-05","19:30","Prezident Brown with Iyah Wise","Prezident Brown, Iyah Wise, DJ JayTwo","midtownlivesac",RG,"https://www.eventbrite.com/e/2004389888112","$25",["21"]],
+ ["2026-12-12","19:30","Siaosi","Siaosi, DJ JayTwo","midtownlivesac",RG,"https://www.eventbrite.com/e/2004035186189","$25–50"],
  ["2027-02-05","18:30","Ballyhoo!: We Ride at Dawn Tour","Ballyhoo!, Chad Tepper","goldfieldroseville",RG,"https://www.jambase.com/show/ballyhoo-goldfield-roseville-20270205","$25"],
 // Washington, D.C.
  ["2026-12-10","19:00","Matisyahu: Festival of Lights","Matisyahu, Matt Jalbert Band","nine30club",RG,"https://www.930.com/e/matisyahu-festival-of-lights",null],
@@ -531,6 +548,12 @@ const RAW=[
  ["2027-02-21","20:00","Pepper: 20 Years of No Shame","Pepper, Passafire","neighborhoodtheatre",RG,"https://www.ticketmaster.com/pepper-20-years-of-no-shame-charlotte-north-carolina-02-21-2027/event/2D00655EC779DEDD","$39–116"],
 // Minneapolis–St. Paul
  ["2026-11-20","20:00","Festive Beats of Afrika","Carolyne Naomi, Diatoti, Korma & the Afrocontigbo Team","cedarcultural",AF,"https://www.thecedar.org/events/festive-beats-of-afrika-part-2",null],
+// Las Vegas
+ ["2026-11-28","22:00","Fremont Street Reggae Party: Thanksgiving Weekend","DJ F1NESSE, ZJFLASH, JKRAZY","pinkmonkeylv",RG,"https://beatstorapon.com/event/fremont-street-reggae-party-returns-thanksgiving-weekend-6aeab6439f1bb794c92750f4","$15"],
+// Honolulu
+ ["2026-11-29","18:00|21:00","Anuhea's \"Grateful & Grooving\" Thanksgiving Celebration","Anuhea","tm_blue_note_hawaii",RG,"https://www.bluenotejazz.com/hawaii/tm-event/anuheas-grateful-grooving-thanksgiving-celebration/","$35–50"],
+ ["2026-12-04","18:30|21:00","Josh Tatofi","Josh Tatofi","tm_blue_note_hawaii",RG,"https://www.bluenotejazz.com/hawaii/tm-event/josh-tatofi-25/","$55–75"],
+ ["2026-12-05","18:30|21:00","Josh Tatofi","Josh Tatofi","tm_blue_note_hawaii",RG,"https://www.bluenotejazz.com/hawaii/tm-event/josh-tatofi-25/","$55–75"],
 // <tm>  (Ticketmaster/SeatGeek feeds, fetched Ticketmaster 2026-11-19; rebuilt each update — don't edit by hand)
  ["2026-12-06","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_coca_cola_roxy",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-atlanta-georgia-12-06-2026/event/0E0064F8A3057D42",null],
  ["2026-12-11","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_moody_center_atx",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-austin-texas-12-11-2026/event/3A0064F8A6F0F07A",null],
