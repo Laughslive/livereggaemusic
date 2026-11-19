@@ -260,6 +260,8 @@ const V={
  // Cincinnati
  ludlowgarage:{n:"Ludlow Garage",area:"Clifton",b:"Cincinnati",lat:39.1462,lng:-84.5207},
  // Cleveland
+ musicboxcle:{n:"Music Box Supper Club",area:"Flats West Bank",b:"Cleveland",lat:41.4966,lng:-81.7046},
+ kentstage:{n:"The Kent Stage",area:"Downtown Kent",b:"Kent, OH",lat:41.1534,lng:-81.3566},
  agoracle:{n:"Agora Theatre",area:"MidTown",b:"Cleveland",lat:41.5036,lng:-81.6505},
  beachland:{n:"Beachland Ballroom",area:"Collinwood",b:"Cleveland",lat:41.5791,lng:-81.5684},
  globeiron:{n:"Globe Iron",area:"Ohio City",b:"Cleveland",lat:41.4935,lng:-81.7037},
@@ -321,6 +323,8 @@ const V={
  flamingocantina:{n:"Flamingo Cantina",area:"Sixth Street",b:"Austin",lat:30.2670,lng:-97.7380},
  // Charlotte
  neighborhoodtheatre:{n:"Neighborhood Theatre",area:"NoDa",b:"Charlotte",lat:35.2468,lng:-80.8030},
+ // Minneapolis–St. Paul
+ cedarcultural:{n:"The Cedar Cultural Center",area:"Cedar-Riverside",b:"Minneapolis",lat:44.9688,lng:-93.2476},
 // <tm-venues>  (added automatically from the Ticketmaster feed; rebuilt each update)
  tm_fillmore_auditorium_denver:{n:"Fillmore Auditorium (Denver)",area:"Denver",b:"CO",c:"DEN",lat:39.7406,lng:-104.9772},
  tm_aragon_ballroom:{n:"Aragon Ballroom",area:"Chicago",b:"IL",c:"CHI",lat:41.9694,lng:-87.6580},
@@ -379,6 +383,9 @@ const V={
 // Venues' own websites / box offices. Ticket buttons use these instead of
 // listing or resale sites whenever a show's link points at one of those.
 const SITES={
+ musicboxcle:"https://musicboxcle.com/",
+ kentstage:"https://kentstage.org/",
+ cedarcultural:"https://www.thecedar.org/",
  varietyplayhouse:"https://www.variety-playhouse.com/",
  nationalrva:"https://thenationalva.com/",
  brooklynbowl:"https://www.brooklynbowl.com/brooklyn",
@@ -469,6 +476,8 @@ const RAW=[
 // Cincinnati
  ["2026-12-08","19:30","Matisyahu: Festival of Lights","Matisyahu","ludlowgarage",RG,"https://www.tickpick.com/buy-matisyahu-tickets-ludlow-garage-12-8-26-7pm/8267319/",null],
 // Cleveland
+ ["2026-11-27","19:30","Carlos Jones & the P.L.U.S. Band","Carlos Jones & the P.L.U.S. Band","kentstage",RG,"https://kentstage.org/event/carlos-jones-the-p-l-u-s-band/the-kent-stage/kent-ohio/","$18.26"],
+ ["2026-12-26","19:30","Carlos Jones Holiday Revival","Carlos Jones, Cats on Holiday","musicboxcle",RG,"https://musicboxcle.com/?p=63147","$15–20"],
  ["2026-11-21","19:00","Tropidelic","Tropidelic, Surfer Girl","agoracle",RG,"https://www.axs.com/events/1450925",null],
  ["2027-02-12","19:00","Bumpin' Uglies","Bumpin' Uglies, Jakob Nowell, Derek McBryde, Tobyraps","beachland",RG,"https://www.axs.com/events/1640223/bumpin-uglies-tickets","$44"],
  ["2027-02-13","20:00","Bumpin' Uglies","Bumpin' Uglies, Jakob's Castle, Joey Harkum, Shrub","globeiron",RG,"https://www.axs.com/events/1640647/bumpin-uglies-tickets",null],
@@ -520,6 +529,8 @@ const RAW=[
  ["2027-02-20","19:45","Pepper: 20 Years of No Shame","Pepper, Passafire","pvconcerthall",RG,"https://www.axs.com/events/1681443/pepper-tickets",null],
 // Charlotte
  ["2027-02-21","20:00","Pepper: 20 Years of No Shame","Pepper, Passafire","neighborhoodtheatre",RG,"https://www.ticketmaster.com/pepper-20-years-of-no-shame-charlotte-north-carolina-02-21-2027/event/2D00655EC779DEDD","$39–116"],
+// Minneapolis–St. Paul
+ ["2026-11-20","20:00","Festive Beats of Afrika","Carolyne Naomi, Diatoti, Korma & the Afrocontigbo Team","cedarcultural",AF,"https://www.thecedar.org/events/festive-beats-of-afrika-part-2",null],
 // <tm>  (Ticketmaster/SeatGeek feeds, fetched Ticketmaster 2026-11-19; rebuilt each update — don't edit by hand)
  ["2026-12-06","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_coca_cola_roxy",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-atlanta-georgia-12-06-2026/event/0E0064F8A3057D42",null],
  ["2026-12-11","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_moody_center_atx",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-austin-texas-12-11-2026/event/3A0064F8A6F0F07A",null],
