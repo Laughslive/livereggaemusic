@@ -16,6 +16,7 @@ Work one region at a time in that order, covering the next ~8 weeks. Publish aft
      - Promoters and series: Reggae Fest (CJ Milan / Epic League Entertainment), weFETE, WIADCA / New York Carnival, Irie Jam, LargeUp events, the Brooklyn and Bronx "Carnival" day parties on Eventbrite.
      - Suburbs: Prudential Center (Newark), NJPAC, Crossroads (Garwood, NJ), Paramount (Huntington), Capitol Theatre (Port Chester).
    - Philadelphia: Union Transfer, Franklin Music Hall, The Fillmore, Underground Arts, Ardmore Music Hall, World Cafe Live, the Mann Center.
+     Philly's Caribbean and African scene is mostly promoter parties, so ALWAYS also search Eventbrite (https://www.eventbrite.com/d/pa--philadelphia/afrobeat/, .../dancehall/, .../soca/, .../reggae/) and check Concourse Dance Bar, broad hall., Moshulu, VOIX Karaoke, Ibis Lounge, SA Cafe (Upper Darby), MilkBoy, The Queen (Wilmington, DE), Harrah's Philadelphia (Chester) and NOTO. Promoters to watch: Master Rich, OMG Entertainment, Jamaica Penn Association.
    - Boston: Big Night Live, Paradise Rock Club, Brighton Music Hall, House of Blues, Royale, The Sinclair (Cambridge), Roxbury and Dorchester Caribbean events (Boston Carnival / CACAB).
    - Hartford / New Haven: Foxwoods ✓ https://foxwoods.com/ and Mohegan Sun, Webster Theater, Infinity Hall, Toad's Place, College Street Music Hall, the West Indian Independence Celebration (Hartford, August).
    - Portland, Maine: State Theatre, Port City Music Hall, Aura.
