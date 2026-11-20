@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-19T10:34:47+00:00",
+"fetched": "2026-11-20T10:39:07+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
 {
@@ -2985,31 +2985,6 @@
 },
 {
 "city": "NYC",
-"id": "k7vGF_p91iGVV",
-"name": "NYE: Reggae Fest",
-"date": "2026-12-31",
-"time": "22:00",
-"status": "offsale",
-"venue": "Brooklyn Paramount",
-"venueCity": "Brooklyn",
-"state": "NY",
-"address": "385 Flatbush Ave. Extension",
-"lat": 40.69137302,
-"lng": -73.98124051,
-"url": "https://www.ticketmaster.com/nye-reggae-fest-brooklyn-new-york-12-31-2026/event/00006565CAB0CD34",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Reggae Fest"
-],
-"ageRestricted": false
-},
-{
-"city": "NYC",
 "id": "Z7r9jZ1AA7EAp",
 "name": "Badfish w/ Kash'd Out",
 "date": "2027-01-29",
@@ -3107,6 +3082,35 @@
 ],
 "why": "class:Reggae",
 "attractions": [],
+"ageRestricted": false
+},
+{
+"city": "ORL",
+"id": "Z7r9jZ1AA7z48",
+"name": "Pepper w/ Passafire",
+"date": "2027-02-17",
+"time": "20:00",
+"status": "onsale",
+"venue": "Plaza Live - Orlando",
+"venueCity": "Orlando",
+"state": "FL",
+"address": "425 N Bumby Ave",
+"lat": 28.554501,
+"lng": -81.348099,
+"url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7z48",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Pop",
+"Reggae",
+"Rock",
+"World"
+],
+"why": "class:Reggae",
+"attractions": [
+"Pepper",
+"Passafire"
+],
 "ageRestricted": false
 },
 {
@@ -4067,6 +4071,34 @@
 "attractions": [
 "The Hip Abduction",
 "Surf Hat"
+],
+"ageRestricted": false
+},
+{
+"city": "SFO",
+"id": "rZ7HnEZ1AfGf4V",
+"name": "L.A.B with Seven Suns",
+"date": "2027-02-17",
+"time": "20:00",
+"status": "onsale",
+"venue": "Cafe Du Nord",
+"venueCity": "San Francisco",
+"state": "CA",
+"address": "2174 Market St.",
+"lat": 37.766526,
+"lng": -122.430487,
+"url": "https://www.ticketweb.com/event/lab-with-seven-suns-cafe-du-nord-tickets/14314574",
+"priceMin": 33.45,
+"priceMax": 33.45,
+"genres": [
+"Indie Rock",
+"Other",
+"Reggae",
+"Rock"
+],
+"why": "class:Reggae",
+"attractions": [
+"L.A.B."
 ],
 "ageRestricted": false
 },
