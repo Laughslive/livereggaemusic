@@ -82,3 +82,70 @@ Send a short summary with SendUserMessage:
 - which regions were published, and if you stopped early, which are left;
 - anything you couldn't verify;
 - whether data/ticketmaster.json's "fetched" date is more than 3 days old, which means the GitHub Action may be failing.
+
+## Eventbrite pass (every city, every run)
+
+Most Caribbean and African nights — dancehall and soca fetes, afrobeats and amapiano parties, sound clashes, carnival events —
+are sold only on Eventbrite by small promoters, so Ticketmaster and venue calendars miss them. Every run, for EVERY area in
+your half, open both Eventbrite search pages below (the scheduled-task prompt lists them, so the web reader can open them),
+then open each relevant event page for the exact date, start time, venue address, price and age limit.
+
+- Keep: reggae, dancehall, soca/calypso, afrobeats, amapiano, highlife, kompa/bouyon-led Caribbean parties, sound systems,
+  carnival and J'ouvert events, and concerts by artists in those genres. Type them RG / DH / SC / AF as usual.
+- Skip: generic hip-hop/R&B nights where Caribbean music is a side mention, Latin/reggaeton nights, classes, dance lessons,
+  paint-and-sips, bingo, brunches, cruises that leave the area, and anything outside 50 miles.
+- The event page is the official seller, so the Eventbrite link is the row's url. Add the venue (with lat/lng) if it's new.
+- Multi-date series (weekly parties): add only the next 2–3 dates.
+- If a listed page won't load, WebSearch "eventbrite <city> dancehall" (or soca / afrobeats / reggae) and fetch the result links.
+- Budget: this pass should take no more than about a third of the run; venue calendars and the tour pass still matter.
+
+| Code | Area | Eventbrite pages |
+|---|---|---|
+| NYC | New York City | https://www.eventbrite.com/d/ny--new-york/caribbean/ · https://www.eventbrite.com/d/ny--new-york/afrobeats/ |
+| PHL | Philadelphia | https://www.eventbrite.com/d/pa--philadelphia/caribbean/ · https://www.eventbrite.com/d/pa--philadelphia/afrobeats/ |
+| BOS | Boston | https://www.eventbrite.com/d/ma--boston/caribbean/ · https://www.eventbrite.com/d/ma--boston/afrobeats/ |
+| BAL | Baltimore | https://www.eventbrite.com/d/md--baltimore/caribbean/ · https://www.eventbrite.com/d/md--baltimore/afrobeats/ |
+| DC | Washington, D.C. | https://www.eventbrite.com/d/dc--washington/caribbean/ · https://www.eventbrite.com/d/dc--washington/afrobeats/ |
+| PIT | Pittsburgh | https://www.eventbrite.com/d/pa--pittsburgh/caribbean/ · https://www.eventbrite.com/d/pa--pittsburgh/afrobeats/ |
+| CLE | Cleveland | https://www.eventbrite.com/d/oh--cleveland/caribbean/ · https://www.eventbrite.com/d/oh--cleveland/afrobeats/ |
+| NSH | Nashville | https://www.eventbrite.com/d/tn--nashville/caribbean/ · https://www.eventbrite.com/d/tn--nashville/afrobeats/ |
+| PWM | Portland, Maine | https://www.eventbrite.com/d/me--portland/caribbean/ · https://www.eventbrite.com/d/me--portland/afrobeats/ |
+| CHI | Chicago | https://www.eventbrite.com/d/il--chicago/caribbean/ · https://www.eventbrite.com/d/il--chicago/afrobeats/ |
+| ATL | Atlanta | https://www.eventbrite.com/d/ga--atlanta/caribbean/ · https://www.eventbrite.com/d/ga--atlanta/afrobeats/ |
+| RIC | Richmond | https://www.eventbrite.com/d/va--richmond/caribbean/ · https://www.eventbrite.com/d/va--richmond/afrobeats/ |
+| ORF | Norfolk & Virginia Beach | https://www.eventbrite.com/d/va--norfolk/caribbean/ · https://www.eventbrite.com/d/va--norfolk/afrobeats/ |
+| HFD | Hartford | https://www.eventbrite.com/d/ct--hartford/caribbean/ · https://www.eventbrite.com/d/ct--hartford/afrobeats/ |
+| NHV | New Haven | https://www.eventbrite.com/d/ct--new-haven/caribbean/ · https://www.eventbrite.com/d/ct--new-haven/afrobeats/ |
+| MIA | Miami | https://www.eventbrite.com/d/fl--miami/caribbean/ · https://www.eventbrite.com/d/fl--miami/afrobeats/ |
+| TPA | Tampa | https://www.eventbrite.com/d/fl--tampa/caribbean/ · https://www.eventbrite.com/d/fl--tampa/afrobeats/ |
+| ORL | Orlando | https://www.eventbrite.com/d/fl--orlando/caribbean/ · https://www.eventbrite.com/d/fl--orlando/afrobeats/ |
+| CIN | Cincinnati | https://www.eventbrite.com/d/oh--cincinnati/caribbean/ · https://www.eventbrite.com/d/oh--cincinnati/afrobeats/ |
+| STL | St. Louis | https://www.eventbrite.com/d/mo--st-louis/caribbean/ · https://www.eventbrite.com/d/mo--st-louis/afrobeats/ |
+| MSP | Minneapolis–St. Paul | https://www.eventbrite.com/d/mn--minneapolis/caribbean/ · https://www.eventbrite.com/d/mn--minneapolis/afrobeats/ |
+| MKE | Milwaukee | https://www.eventbrite.com/d/wi--milwaukee/caribbean/ · https://www.eventbrite.com/d/wi--milwaukee/afrobeats/ |
+| DET | Detroit | https://www.eventbrite.com/d/mi--detroit/caribbean/ · https://www.eventbrite.com/d/mi--detroit/afrobeats/ |
+| DEN | Denver | https://www.eventbrite.com/d/co--denver/caribbean/ · https://www.eventbrite.com/d/co--denver/afrobeats/ |
+| IND | Indianapolis | https://www.eventbrite.com/d/in--indianapolis/caribbean/ · https://www.eventbrite.com/d/in--indianapolis/afrobeats/ |
+| AUS | Austin | https://www.eventbrite.com/d/tx--austin/caribbean/ · https://www.eventbrite.com/d/tx--austin/afrobeats/ |
+| DFW | Dallas–Fort Worth | https://www.eventbrite.com/d/tx--dallas/caribbean/ · https://www.eventbrite.com/d/tx--dallas/afrobeats/ |
+| PHX | Phoenix | https://www.eventbrite.com/d/az--phoenix/caribbean/ · https://www.eventbrite.com/d/az--phoenix/afrobeats/ |
+| LAS | Las Vegas | https://www.eventbrite.com/d/nv--las-vegas/caribbean/ · https://www.eventbrite.com/d/nv--las-vegas/afrobeats/ |
+| LA | Los Angeles | https://www.eventbrite.com/d/ca--los-angeles/caribbean/ · https://www.eventbrite.com/d/ca--los-angeles/afrobeats/ |
+| SFO | San Francisco Bay Area | https://www.eventbrite.com/d/ca--san-francisco/caribbean/ · https://www.eventbrite.com/d/ca--san-francisco/afrobeats/ |
+| SEA | Seattle | https://www.eventbrite.com/d/wa--seattle/caribbean/ · https://www.eventbrite.com/d/wa--seattle/afrobeats/ |
+| HOU | Houston | https://www.eventbrite.com/d/tx--houston/caribbean/ · https://www.eventbrite.com/d/tx--houston/afrobeats/ |
+| SAN | San Diego | https://www.eventbrite.com/d/ca--san-diego/caribbean/ · https://www.eventbrite.com/d/ca--san-diego/afrobeats/ |
+| HNL | Honolulu | https://www.eventbrite.com/d/hi--honolulu/caribbean/ · https://www.eventbrite.com/d/hi--honolulu/afrobeats/ |
+| PDX | Portland, Oregon | https://www.eventbrite.com/d/or--portland/caribbean/ · https://www.eventbrite.com/d/or--portland/afrobeats/ |
+| SAC | Sacramento | https://www.eventbrite.com/d/ca--sacramento/caribbean/ · https://www.eventbrite.com/d/ca--sacramento/afrobeats/ |
+| SCZ | Santa Cruz & Monterey Bay | https://www.eventbrite.com/d/ca--santa-cruz/caribbean/ · https://www.eventbrite.com/d/ca--santa-cruz/afrobeats/ |
+| SBA | Santa Barbara & Ventura | https://www.eventbrite.com/d/ca--santa-barbara/caribbean/ · https://www.eventbrite.com/d/ca--santa-barbara/afrobeats/ |
+| OGG | Maui | https://www.eventbrite.com/d/hi--kahului/caribbean/ · https://www.eventbrite.com/d/hi--kahului/afrobeats/ |
+| SLC | Salt Lake City | https://www.eventbrite.com/d/ut--salt-lake-city/caribbean/ · https://www.eventbrite.com/d/ut--salt-lake-city/afrobeats/ |
+| CMH | Columbus | https://www.eventbrite.com/d/oh--columbus/caribbean/ · https://www.eventbrite.com/d/oh--columbus/afrobeats/ |
+| MCI | Kansas City | https://www.eventbrite.com/d/mo--kansas-city/caribbean/ · https://www.eventbrite.com/d/mo--kansas-city/afrobeats/ |
+| CLT | Charlotte | https://www.eventbrite.com/d/nc--charlotte/caribbean/ · https://www.eventbrite.com/d/nc--charlotte/afrobeats/ |
+| RDU | Raleigh–Durham | https://www.eventbrite.com/d/nc--raleigh/caribbean/ · https://www.eventbrite.com/d/nc--raleigh/afrobeats/ |
+| JAX | Jacksonville | https://www.eventbrite.com/d/fl--jacksonville/caribbean/ · https://www.eventbrite.com/d/fl--jacksonville/afrobeats/ |
+| PBI | West Palm Beach | https://www.eventbrite.com/d/fl--west-palm-beach/caribbean/ · https://www.eventbrite.com/d/fl--west-palm-beach/afrobeats/ |
+| SAT | San Antonio | https://www.eventbrite.com/d/tx--san-antonio/caribbean/ · https://www.eventbrite.com/d/tx--san-antonio/afrobeats/ |

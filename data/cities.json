@@ -23,7 +23,8 @@
     "NJ",
     "CT"
    ],
-   "nearby": "Manhattan, Brooklyn, Queens, Long Island, Westchester and North Jersey"
+   "nearby": "Manhattan, Brooklyn, Queens, Long Island, Westchester and North Jersey",
+   "eventbrite": "ny--new-york"
   },
   {
    "code": "PHL",
@@ -40,7 +41,8 @@
     "NJ",
     "DE"
    ],
-   "nearby": "the Main Line, Bucks County, South Jersey and Wilmington"
+   "nearby": "the Main Line, Bucks County, South Jersey and Wilmington",
+   "eventbrite": "pa--philadelphia"
   },
   {
    "code": "BOS",
@@ -57,7 +59,8 @@
     "NH",
     "RI"
    ],
-   "nearby": "Cambridge, Somerville, the North Shore, Worcester and Providence"
+   "nearby": "Cambridge, Somerville, the North Shore, Worcester and Providence",
+   "eventbrite": "ma--boston"
   },
   {
    "code": "BAL",
@@ -75,7 +78,8 @@
     "VA",
     "PA"
    ],
-   "nearby": "Fells Point, Canton, Annapolis, Columbia and Towson"
+   "nearby": "Fells Point, Canton, Annapolis, Columbia and Towson",
+   "eventbrite": "md--baltimore"
   },
   {
    "code": "DC",
@@ -92,7 +96,8 @@
     "MD",
     "VA"
    ],
-   "nearby": "Arlington, Alexandria, Bethesda, National Harbor and Northern Virginia"
+   "nearby": "Arlington, Alexandria, Bethesda, National Harbor and Northern Virginia",
+   "eventbrite": "dc--washington"
   },
   {
    "code": "PIT",
@@ -109,7 +114,8 @@
     "WV",
     "OH"
    ],
-   "nearby": "the South Side, Homestead, the North Hills and Greensburg"
+   "nearby": "the South Side, Homestead, the North Hills and Greensburg",
+   "eventbrite": "pa--pittsburgh"
   },
   {
    "code": "CLE",
@@ -124,7 +130,8 @@
    "states": [
     "OH"
    ],
-   "nearby": "Akron, Northfield Park, Kent and the East and West Sides"
+   "nearby": "Akron, Northfield Park, Kent and the East and West Sides",
+   "eventbrite": "oh--cleveland"
   },
   {
    "code": "NSH",
@@ -139,7 +146,8 @@
    "states": [
     "TN"
    ],
-   "nearby": "Franklin, Murfreesboro, East Nashville and the Gulch"
+   "nearby": "Franklin, Murfreesboro, East Nashville and the Gulch",
+   "eventbrite": "tn--nashville"
   },
   {
    "code": "PWM",
@@ -154,7 +162,8 @@
    "states": [
     "ME"
    ],
-   "nearby": "South Portland, Westbrook, Biddeford and Brunswick"
+   "nearby": "South Portland, Westbrook, Biddeford and Brunswick",
+   "eventbrite": "me--portland"
   },
   {
    "code": "CHI",
@@ -170,7 +179,8 @@
     "IL",
     "IN"
    ],
-   "nearby": "Old Town, Wrigleyville, Schaumburg, Rosemont and the suburbs"
+   "nearby": "Old Town, Wrigleyville, Schaumburg, Rosemont and the suburbs",
+   "eventbrite": "il--chicago"
   },
   {
    "code": "ATL",
@@ -185,7 +195,8 @@
    "states": [
     "GA"
    ],
-   "nearby": "Midtown, Buckhead, Sandy Springs, Alpharetta and Decatur"
+   "nearby": "Midtown, Buckhead, Sandy Springs, Alpharetta and Decatur",
+   "eventbrite": "ga--atlanta"
   },
   {
    "code": "RIC",
@@ -200,7 +211,8 @@
    "states": [
     "VA"
    ],
-   "nearby": "Short Pump, the Fan, Scott's Addition and Henrico"
+   "nearby": "Short Pump, the Fan, Scott's Addition and Henrico",
+   "eventbrite": "va--richmond"
   },
   {
    "code": "ORF",
@@ -216,7 +228,8 @@
     "VA",
     "NC"
    ],
-   "nearby": "Hampton Roads, Chesapeake, Newport News and Hampton"
+   "nearby": "Hampton Roads, Chesapeake, Newport News and Hampton",
+   "eventbrite": "va--norfolk"
   },
   {
    "code": "HFD",
@@ -232,7 +245,8 @@
     "CT",
     "MA"
    ],
-   "nearby": "Manchester, West Hartford, New Britain and the Connecticut casinos"
+   "nearby": "Manchester, West Hartford, New Britain and the Connecticut casinos",
+   "eventbrite": "ct--hartford"
   },
   {
    "code": "NHV",
@@ -248,7 +262,8 @@
     "CT",
     "NY"
    ],
-   "nearby": "Bridgeport, Milford, the Connecticut shoreline and Waterbury"
+   "nearby": "Bridgeport, Milford, the Connecticut shoreline and Waterbury",
+   "eventbrite": "ct--new-haven"
   },
   {
    "code": "MIA",
@@ -263,7 +278,8 @@
    "states": [
     "FL"
    ],
-   "nearby": "Miami Beach, Doral, Coral Gables, Fort Lauderdale and Hollywood"
+   "nearby": "Miami Beach, Doral, Coral Gables, Fort Lauderdale and Hollywood",
+   "eventbrite": "fl--miami"
   },
   {
    "code": "TPA",
@@ -278,7 +294,8 @@
    "states": [
     "FL"
    ],
-   "nearby": "Ybor City, St. Petersburg, Clearwater and Lakeland"
+   "nearby": "Ybor City, St. Petersburg, Clearwater and Lakeland",
+   "eventbrite": "fl--tampa"
   },
   {
    "code": "ORL",
@@ -293,7 +310,8 @@
    "states": [
     "FL"
    ],
-   "nearby": "International Drive, Winter Park, Kissimmee and Sanford"
+   "nearby": "International Drive, Winter Park, Kissimmee and Sanford",
+   "eventbrite": "fl--orlando"
   },
   {
    "code": "CIN",
@@ -310,7 +328,8 @@
     "KY",
     "IN"
    ],
-   "nearby": "Northern Kentucky, Liberty Township, West Chester and Dayton"
+   "nearby": "Northern Kentucky, Liberty Township, West Chester and Dayton",
+   "eventbrite": "oh--cincinnati"
   },
   {
    "code": "STL",
@@ -326,7 +345,8 @@
     "MO",
     "IL"
    ],
-   "nearby": "Westport, Chesterfield, the Delmar Loop and St. Charles"
+   "nearby": "Westport, Chesterfield, the Delmar Loop and St. Charles",
+   "eventbrite": "mo--st-louis"
   },
   {
    "code": "MSP",
@@ -342,7 +362,8 @@
     "MN",
     "WI"
    ],
-   "nearby": "Uptown, Bloomington, Northeast and the Twin Cities suburbs"
+   "nearby": "Uptown, Bloomington, Northeast and the Twin Cities suburbs",
+   "eventbrite": "mn--minneapolis"
   },
   {
    "code": "MKE",
@@ -357,7 +378,8 @@
    "states": [
     "WI"
    ],
-   "nearby": "the Third Ward, Wauwatosa, Racine and Kenosha"
+   "nearby": "the Third Ward, Wauwatosa, Racine and Kenosha",
+   "eventbrite": "wi--milwaukee"
   },
   {
    "code": "DET",
@@ -372,7 +394,8 @@
    "states": [
     "MI"
    ],
-   "nearby": "Royal Oak, Ferndale, Ann Arbor and Windsor"
+   "nearby": "Royal Oak, Ferndale, Ann Arbor and Windsor",
+   "eventbrite": "mi--detroit"
   },
   {
    "code": "DEN",
@@ -387,7 +410,8 @@
    "states": [
     "CO"
    ],
-   "nearby": "LoDo, RiNo, Boulder, Aurora, Lakewood and the Denver Tech Center"
+   "nearby": "LoDo, RiNo, Boulder, Aurora, Lakewood and the Denver Tech Center",
+   "eventbrite": "co--denver"
   },
   {
    "code": "IND",
@@ -402,7 +426,8 @@
    "states": [
     "IN"
    ],
-   "nearby": "Broad Ripple, Fountain Square, Carmel, Fishers and Bloomington"
+   "nearby": "Broad Ripple, Fountain Square, Carmel, Fishers and Bloomington",
+   "eventbrite": "in--indianapolis"
   },
   {
    "code": "AUS",
@@ -417,7 +442,8 @@
    "states": [
     "TX"
    ],
-   "nearby": "Sixth Street, East Austin, South Congress, Round Rock and San Marcos"
+   "nearby": "Sixth Street, East Austin, South Congress, Round Rock and San Marcos",
+   "eventbrite": "tx--austin"
   },
   {
    "code": "DFW",
@@ -432,7 +458,8 @@
    "states": [
     "TX"
    ],
-   "nearby": "Deep Ellum, Addison, Plano, Arlington, Fort Worth and Frisco"
+   "nearby": "Deep Ellum, Addison, Plano, Arlington, Fort Worth and Frisco",
+   "eventbrite": "tx--dallas"
   },
   {
    "code": "PHX",
@@ -447,7 +474,8 @@
    "states": [
     "AZ"
    ],
-   "nearby": "Scottsdale, Tempe, Mesa, Chandler and Glendale"
+   "nearby": "Scottsdale, Tempe, Mesa, Chandler and Glendale",
+   "eventbrite": "az--phoenix"
   },
   {
    "code": "LAS",
@@ -463,7 +491,8 @@
     "NV",
     "AZ"
    ],
-   "nearby": "the Strip, Downtown and Fremont Street, Henderson and Summerlin"
+   "nearby": "the Strip, Downtown and Fremont Street, Henderson and Summerlin",
+   "eventbrite": "nv--las-vegas"
   },
   {
    "code": "LA",
@@ -478,7 +507,8 @@
    "states": [
     "CA"
    ],
-   "nearby": "Hollywood, West Hollywood, Santa Monica, the Valley, Pasadena, Long Beach and Orange County"
+   "nearby": "Hollywood, West Hollywood, Santa Monica, the Valley, Pasadena, Long Beach and Orange County",
+   "eventbrite": "ca--los-angeles"
   },
   {
    "code": "SFO",
@@ -493,7 +523,8 @@
    "states": [
     "CA"
    ],
-   "nearby": "San Francisco, Oakland, Berkeley, San Jose, Palo Alto and Marin"
+   "nearby": "San Francisco, Oakland, Berkeley, San Jose, Palo Alto and Marin",
+   "eventbrite": "ca--san-francisco"
   },
   {
    "code": "SEA",
@@ -508,7 +539,8 @@
    "states": [
     "WA"
    ],
-   "nearby": "Capitol Hill, Pioneer Square, Ballard, Bellevue, Tacoma and Everett"
+   "nearby": "Capitol Hill, Pioneer Square, Ballard, Bellevue, Tacoma and Everett",
+   "eventbrite": "wa--seattle"
   },
   {
    "code": "HOU",
@@ -523,7 +555,8 @@
    "states": [
     "TX"
    ],
-   "nearby": "Montrose, the Heights, Midtown, Sugar Land, Katy, the Woodlands and Galveston"
+   "nearby": "Montrose, the Heights, Midtown, Sugar Land, Katy, the Woodlands and Galveston",
+   "eventbrite": "tx--houston"
   },
   {
    "code": "SAN",
@@ -538,7 +571,8 @@
    "states": [
     "CA"
    ],
-   "nearby": "the Gaslamp, La Jolla, Pacific Beach, North Park, Chula Vista and Oceanside"
+   "nearby": "the Gaslamp, La Jolla, Pacific Beach, North Park, Chula Vista and Oceanside",
+   "eventbrite": "ca--san-diego"
   },
   {
    "code": "HNL",
@@ -553,7 +587,8 @@
    "states": [
     "HI"
    ],
-   "nearby": "Waikiki, Kakaako, Chinatown, Kailua, Kaneohe, Kapolei and the North Shore"
+   "nearby": "Waikiki, Kakaako, Chinatown, Kailua, Kaneohe, Kapolei and the North Shore",
+   "eventbrite": "hi--honolulu"
   },
   {
    "code": "PDX",
@@ -569,7 +604,8 @@
     "OR",
     "WA"
    ],
-   "nearby": "the Pearl District, Alberta, Hawthorne, Beaverton, Hillsboro and Vancouver, WA"
+   "nearby": "the Pearl District, Alberta, Hawthorne, Beaverton, Hillsboro and Vancouver, WA",
+   "eventbrite": "or--portland"
   },
   {
    "code": "SAC",
@@ -584,7 +620,8 @@
    "states": [
     "CA"
    ],
-   "nearby": "Midtown, Old Sacramento, Roseville, Folsom, Davis and Wheatland"
+   "nearby": "Midtown, Old Sacramento, Roseville, Folsom, Davis and Wheatland",
+   "eventbrite": "ca--sacramento"
   },
   {
    "code": "SCZ",
@@ -599,7 +636,8 @@
    "states": [
     "CA"
    ],
-   "nearby": "Santa Cruz, Capitola, Aptos, Felton, Watsonville, Monterey and Salinas"
+   "nearby": "Santa Cruz, Capitola, Aptos, Felton, Watsonville, Monterey and Salinas",
+   "eventbrite": "ca--santa-cruz"
   },
   {
    "code": "SBA",
@@ -614,7 +652,8 @@
    "states": [
     "CA"
    ],
-   "nearby": "Santa Barbara, Goleta, Isla Vista, Carpinteria, Ojai, Ventura, Oxnard and Camarillo"
+   "nearby": "Santa Barbara, Goleta, Isla Vista, Carpinteria, Ojai, Ventura, Oxnard and Camarillo",
+   "eventbrite": "ca--santa-barbara"
   },
   {
    "code": "OGG",
@@ -629,7 +668,8 @@
    "states": [
     "HI"
    ],
-   "nearby": "Kahului, Wailuku, Kihei, Wailea, Lahaina, Paia and Makawao"
+   "nearby": "Kahului, Wailuku, Kihei, Wailea, Lahaina, Paia and Makawao",
+   "eventbrite": "hi--kahului"
   },
   {
    "code": "SLC",
@@ -644,7 +684,8 @@
    "states": [
     "UT"
    ],
-   "nearby": "downtown, South Salt Lake, West Valley City, Sandy, Park City, Ogden and Provo"
+   "nearby": "downtown, South Salt Lake, West Valley City, Sandy, Park City, Ogden and Provo",
+   "eventbrite": "ut--salt-lake-city"
   },
   {
    "code": "CMH",
@@ -659,7 +700,8 @@
    "states": [
     "OH"
    ],
-   "nearby": "the Short North, Downtown, the Arena District, Dublin, Westerville and Worthington"
+   "nearby": "the Short North, Downtown, the Arena District, Dublin, Westerville and Worthington",
+   "eventbrite": "oh--columbus"
   },
   {
    "code": "MCI",
@@ -675,7 +717,8 @@
     "MO",
     "KS"
    ],
-   "nearby": "Westport, the Crossroads, the Power & Light District, Overland Park, Bonner Springs and Lawrence"
+   "nearby": "Westport, the Crossroads, the Power & Light District, Overland Park, Bonner Springs and Lawrence",
+   "eventbrite": "mo--kansas-city"
   },
   {
    "code": "CLT",
@@ -691,7 +734,8 @@
     "NC",
     "SC"
    ],
-   "nearby": "Uptown, NoDa, Plaza Midwood, South End, Ballantyne, Concord and Rock Hill, SC"
+   "nearby": "Uptown, NoDa, Plaza Midwood, South End, Ballantyne, Concord and Rock Hill, SC",
+   "eventbrite": "nc--charlotte"
   },
   {
    "code": "RDU",
@@ -706,7 +750,8 @@
    "states": [
     "NC"
    ],
-   "nearby": "Raleigh, Durham, Chapel Hill, Carrboro, Cary and Wake Forest"
+   "nearby": "Raleigh, Durham, Chapel Hill, Carrboro, Cary and Wake Forest",
+   "eventbrite": "nc--raleigh"
   },
   {
    "code": "JAX",
@@ -722,7 +767,8 @@
     "FL",
     "GA"
    ],
-   "nearby": "Downtown, Riverside, San Marco, Jacksonville Beach, Ponte Vedra and St. Augustine"
+   "nearby": "Downtown, Riverside, San Marco, Jacksonville Beach, Ponte Vedra and St. Augustine",
+   "eventbrite": "fl--jacksonville"
   },
   {
    "code": "PBI",
@@ -737,7 +783,8 @@
    "states": [
     "FL"
    ],
-   "nearby": "West Palm Beach, Boca Raton, Delray Beach, Lake Worth, Jupiter and Port St. Lucie"
+   "nearby": "West Palm Beach, Boca Raton, Delray Beach, Lake Worth, Jupiter and Port St. Lucie",
+   "eventbrite": "fl--west-palm-beach"
   },
   {
    "code": "SAT",
@@ -752,7 +799,8 @@
    "states": [
     "TX"
    ],
-   "nearby": "Downtown, the Pearl, Southtown, Alamo Heights, New Braunfels and San Marcos"
+   "nearby": "Downtown, the Pearl, Southtown, Alamo Heights, New Braunfels and San Marcos",
+   "eventbrite": "tx--san-antonio"
   }
  ]
 }

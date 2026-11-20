@@ -9,6 +9,7 @@ AREAS (everything within 50 miles of each center):
 - Mid-Atlantic: BAL, DC, ORF, PIT, RIC.
 - South: ATL, AUS, CLT, DFW, HOU, JAX, MIA, NSH, ORL, PBI, RDU, SAT, TPA.
 Work one region at a time in that order, covering the next ~8 weeks. Publish after each region.
+In EVERY area, besides venue calendars, do the Eventbrite pass described in common.md (both Eventbrite pages for each city) — that's where most dancehall, soca and afrobeats parties are sold.
 
 1. VENUE & PROMOTER PASS (main source). For every hand-listed venue in V in the region and everything named below, read the official calendar or organizer page first. URLs marked ✓ were confirmed when the site was built; for the rest, find the official page with a WebSearch and add it to SITES when confirmed.
    - New York City area. The biggest Caribbean market; spend the most time here.

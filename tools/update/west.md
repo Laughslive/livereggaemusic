@@ -8,6 +8,7 @@ AREAS (everything within 50 miles of each center):
 - Midwest: CHI, CIN, CLE, CMH, DET, IND, MCI, MKE, MSP, STL.
 - West: DEN, HNL, LAS, LA, OGG, PHX, PDX, SAC, SAN, SBA, SCZ, SFO, SEA, SLC. (Laguna Beach and the rest of south Orange County fall inside LA's 50 miles.)
 Work one region at a time in that order, covering the next ~8 weeks. Publish after each region.
+In EVERY area, besides venue calendars, do the Eventbrite pass described in common.md (both Eventbrite pages for each city) — that's where most dancehall, soca and afrobeats parties are sold.
 
 1. VENUE & PROMOTER PASS. For each venue below and every hand-listed venue in V, read the official calendar or organizer page first, and add SITES entries as you confirm them.
    - Chicago: Concord Music Hall, House of Blues, Thalia Hall, Metro, The Promontory, Salt Shed, Chicago Caribbean Carnival.
