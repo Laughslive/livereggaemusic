@@ -1,0 +1,77 @@
+<h1>List your event</h1>
+<p class="lead">Promoters, artists, venues and sound systems: get your reggae, dancehall, soca, calypso or afrobeats event on {{NAME}} for free. We list shows in 48 U.S. cities and check every submission against your ticket page before it goes up, usually within a few days.</p>
+
+<form id="sub" class="subform" novalidate>
+  <fieldset>
+    <legend>The event</legend>
+    <label>Event name <input name="Event" required placeholder="e.g. Pure Vybz: The Caribbean Invasion"></label>
+    <label>Artists, DJs and sound systems <input name="Lineup" placeholder="Headliner first, separated by commas"></label>
+    <label>Type of music
+      <select name="Music">
+        <option>Reggae</option><option>Dancehall</option><option>Soca / calypso</option><option>Afrobeats / amapiano / African</option><option>Mixed Caribbean</option><option>Festival or carnival</option>
+      </select></label>
+    <div class="row">
+      <label>Date <input name="Date" type="date" required></label>
+      <label>Start time <input name="Start time" type="time" required></label>
+    </div>
+    <label>More dates (if it's a series) <input name="More dates" placeholder="e.g. every Friday in December"></label>
+  </fieldset>
+  <fieldset>
+    <legend>Where</legend>
+    <label>Venue <input name="Venue" required></label>
+    <label>Street address, city and state <input name="Address" required placeholder="1635 Market St, Philadelphia, PA"></label>
+  </fieldset>
+  <fieldset>
+    <legend>Tickets</legend>
+    <label>Ticket link <input name="Ticket link" type="url" required placeholder="Eventbrite, Ticketmaster, Dice, your own site…"></label>
+    <div class="row">
+      <label>Price <input name="Price" placeholder="$20–40, or Free"></label>
+      <label>Ages
+        <select name="Ages"><option>All ages</option><option>18+</option><option>21+</option></select></label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>You</legend>
+    <label>Your name <input name="Your name" required></label>
+    <label>Your email or phone <input name="Contact" required></label>
+    <label>Anything else? <textarea name="Notes" rows="3"></textarea></label>
+  </fieldset>
+  <p id="suberr" class="err" hidden>Please fill in the fields marked as required (event, date, start time, venue, address, ticket link, your name and contact).</p>
+  <button type="submit">Send event</button>
+  <p class="small">This opens your email app with everything filled in, addressed to {{SHOWS}} — just press send. No email app? <button type="button" id="copybtn" class="linkish">Copy the details</button> and email them to us.</p>
+  <p id="copied" class="small" hidden>Copied. Paste them into an email to {{SHOWS}}.</p>
+</form>
+
+<h2>What we list</h2>
+<ul>
+  <li>Concerts, sound-system nights, fetes, carnival events and parties where reggae, dancehall, soca, calypso, afrobeats or amapiano is the main music.</li>
+  <li>Events within 50 miles of one of our cities, with a public ticket or RSVP page.</li>
+  <li>Weekly or monthly nights are welcome: tell us the dates and we'll keep them up to date.</li>
+</ul>
+<p class="small">Listing is free and we don't charge promoters. We may shorten titles or leave out events that don't fit the site.</p>
+
+<style>
+.subform fieldset{border:1px solid var(--line);border-radius:14px;padding:14px 16px 6px;margin:18px 0;background:var(--surface)}
+.subform legend{font-weight:700;padding:0 6px;color:var(--accent)}
+.subform label{display:block;font-weight:600;font-size:15px;margin:0 0 12px}
+.subform input,.subform select,.subform textarea{display:block;width:100%;margin-top:5px;font:inherit;font-weight:400;padding:10px 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink)}
+.subform input:focus,.subform select:focus,.subform textarea:focus{outline:none;border-color:var(--bulb)}
+.subform .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.subform button[type=submit]{font:inherit;font-weight:700;font-size:17px;padding:13px 26px;border-radius:999px;border:0;background:var(--bulb);color:#04140B;cursor:pointer}
+.subform .linkish{font:inherit;background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;cursor:pointer}
+.subform .err{color:#ff8a7f;font-weight:600}
+.subform .bad{border-color:var(--red)!important}
+</style>
+<script>
+(()=>{const f=document.getElementById("sub"),to=f.dataset.to||"{{SHOWS_RAW}}";
+ const text=()=>[...f.elements].filter(e=>e.name&&e.value.trim()).map(e=>e.name+": "+e.value.trim()).join("\n");
+ const ok=()=>{let good=true;[...f.elements].forEach(e=>{if(!e.name)return;const bad=e.required&&!e.value.trim();e.classList.toggle("bad",bad);if(bad)good=false});
+   document.getElementById("suberr").hidden=good;return good};
+ f.addEventListener("submit",ev=>{ev.preventDefault();if(!ok())return;
+   const subj="Event submission: "+f.elements["Event"].value.trim()+" ("+f.elements["Date"].value+")";
+   location.href="mailto:"+to+"?subject="+encodeURIComponent(subj)+"&body="+encodeURIComponent(text()+"\n\nSent from the List your event form")});
+ document.getElementById("copybtn").addEventListener("click",()=>{const t=text();
+   (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>{document.getElementById("copied").hidden=false})
+   .catch(()=>{window.prompt("Copy these details:",t)})});
+})();
+</script>

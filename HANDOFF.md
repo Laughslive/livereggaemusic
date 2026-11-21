@@ -61,6 +61,17 @@ Background for a new Claude chat picking up this project. Read this, then `tools
 - **Colors:** red/gold/green on dark green. Display font: Rubik Mono One. New icons in `icons/`.
 - **CNAME:** none yet. Add one with the domain when it's bought.
 
+## Pages the build makes (tools/build_pages.py)
+- Home and one page per city (title "Reggae Shows & Venues in <city>"), each with a "Reggae in <city>" intro
+  (data/city_intros.json) and a list of the venues with the most upcoming shows.
+- /artists/ and /artists/<name>/: tour-date pages for every watch-list artist (data/watch_artists.json) with upcoming
+  shows, plus any act that headlines 3+ upcoming shows. Rebuilt from scratch each build; tribute bands are skipped.
+  Each page carries schema.org MusicEvent data for Google.
+- /submit/ "List your event": a form that opens the visitor's email app addressed to email_shows in data/site.json
+  (shows@laughslive.com for now — change it there when the site gets its own address). No backend.
+- /about/, /privacy/ from tools/pages/. Link previews use icons/og-image.png (1200×630); favicon.ico at the root.
+- The listings show 50 shows at a time with a "Show more" button.
+
 ## Still to do (owner)
 1. **Turn on GitHub Pages:** Settings → Pages → Deploy from branch `main`, folder `/ (root)`.
    - Until a custom domain is set, the site lives at `<owner>.github.io/livereggaemusic/`.
