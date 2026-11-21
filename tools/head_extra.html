@@ -1,0 +1,15 @@
+<!-- Google Analytics (GA4). Measurement ID for livereggaemusic.com. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TG5MTQ5XF3"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+gtag("js",new Date());gtag("config","G-TG5MTQ5XF3");
+// Count ticket-button clicks, "Show more" and event submissions (no search text or location is sent).
+document.addEventListener("click",function(ev){try{
+  var a=ev.target.closest&&ev.target.closest(".buy a,.shows a.tix");
+  if(a){var card=a.closest(".ticket,li"),h=card&&card.querySelector("h3,b"),v=card&&card.querySelector(".where");
+    gtag("event","ticket_click",{show_title:h?h.textContent.trim().slice(0,100):"",venue:v?v.textContent.split("·")[0].trim().slice(0,100):"",
+      link_type:a.textContent.replace("↗","").trim(),link_domain:a.hostname,page_city:(typeof state!=="undefined"&&state.city)||""});return}
+  if(ev.target.id==="moreBtn")gtag("event","show_more",{page_city:(typeof state!=="undefined"&&state.city)||""});
+}catch(e){}},true);
+document.addEventListener("submit",function(ev){try{if(ev.target.id==="sub")gtag("event","event_submit")}catch(e){}},true);
+</script>

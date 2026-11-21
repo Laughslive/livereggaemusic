@@ -24,27 +24,43 @@ main h2{font-size:19px;margin:28px 0 6px}main p,main li{color:var(--ink)}main .l
 main .small{color:var(--muted);font-size:14px}main ul{padding-left:22px}main li{margin:6px 0}
 a{color:var(--accent)}a:focus-visible{outline:3px solid var(--bulb);outline-offset:2px}
 footer{margin-top:28px;color:var(--muted);font-size:13px}</style>
-<!--ll:head--><link rel="canonical" href="https://livereggaemusic.com/privacy/"><meta property="og:type" content="website"><meta property="og:site_name" content="Live Reggae Music"><meta property="og:title" content="Privacy | Live Reggae Music"><meta property="og:description" content="Live Reggae Music has no accounts and sets no cookies. What the site stores on your device and the cookie-free analytics it uses."><meta property="og:url" content="https://livereggaemusic.com/privacy/"><meta name="twitter:card" content="summary_large_image"><meta property="og:image" content="https://livereggaemusic.com/icons/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Live Reggae Music: reggae, dancehall, soca and afrobeats shows"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0C1410"><link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96.png"><link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png"><link rel="apple-touch-icon" href="/icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Live Reggae Music"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><script>window.LL_SITE=1;if("serviceWorker"in navigator)addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}))</script><script defer src="/install.js"></script><!--/ll:head-->
+<!--ll:head--><link rel="canonical" href="https://livereggaemusic.com/privacy/"><meta property="og:type" content="website"><meta property="og:site_name" content="Live Reggae Music"><meta property="og:title" content="Privacy | Live Reggae Music"><meta property="og:description" content="Live Reggae Music has no accounts and sets no cookies. What the site stores on your device and the cookie-free analytics it uses."><meta property="og:url" content="https://livereggaemusic.com/privacy/"><meta name="twitter:card" content="summary_large_image"><meta property="og:image" content="https://livereggaemusic.com/icons/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Live Reggae Music: reggae, dancehall, soca and afrobeats shows"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0C1410"><link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96.png"><link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png"><link rel="apple-touch-icon" href="/icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Live Reggae Music"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><script>window.LL_SITE=1;if("serviceWorker"in navigator)addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}))</script><script defer src="/install.js"></script><!-- Google Analytics (GA4). Measurement ID for livereggaemusic.com. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TG5MTQ5XF3"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+gtag("js",new Date());gtag("config","G-TG5MTQ5XF3");
+// Count ticket-button clicks, "Show more" and event submissions (no search text or location is sent).
+document.addEventListener("click",function(ev){try{
+  var a=ev.target.closest&&ev.target.closest(".buy a,.shows a.tix");
+  if(a){var card=a.closest(".ticket,li"),h=card&&card.querySelector("h3,b"),v=card&&card.querySelector(".where");
+    gtag("event","ticket_click",{show_title:h?h.textContent.trim().slice(0,100):"",venue:v?v.textContent.split("·")[0].trim().slice(0,100):"",
+      link_type:a.textContent.replace("↗","").trim(),link_domain:a.hostname,page_city:(typeof state!=="undefined"&&state.city)||""});return}
+  if(ev.target.id==="moreBtn")gtag("event","show_more",{page_city:(typeof state!=="undefined"&&state.city)||""});
+}catch(e){}},true);
+document.addEventListener("submit",function(ev){try{if(ev.target.id==="sub")gtag("event","event_submit")}catch(e){}},true);
+</script><!--/ll:head-->
 </head>
 <body>
 <div class="wrap">
 <header><div class="bulbs" aria-hidden="true"><i></i><i></i><i></i></div><a class="logo" href="/">Live Reggae <span class="onair">Music</span></a></header>
 <main>
 <h1>Privacy</h1>
-<p class="lead">Short version: Live Reggae Music has no accounts, sets no cookies and doesn't collect your name, email or precise location. Here's exactly what happens when you use the site.</p>
-<p class="small">Last updated November 10, 2026.</p>
+<p class="lead">Short version: Live Reggae Music has no accounts and doesn't collect your name, email or precise location. We use Google Analytics, which sets cookies, to count visits. Here's exactly what happens when you use the site.</p>
+<p class="small">Last updated November 21, 2026.</p>
 
 <h2>Your location</h2>
 <p>When you type a neighborhood, town or zip code, your browser matches it to a map point and works out distances itself. What you typed is saved only in your own browser (so it's remembered next time) and is never sent to us. Live Reggae Music doesn't ask for your device's GPS location.</p>
 
 <h2>Visitor statistics</h2>
-<p>We use <b>Cloudflare Web Analytics</b> to count visits. It doesn't use cookies or track you across sites. It records aggregate information such as which pages were viewed, the referring site, the browser and device type, and the country, so we can see which cities people use. We can't identify individual visitors from it.</p>
+<p>We use <b>Google Analytics</b> to understand how the site is used. It sets cookies (such as <code>_ga</code>) and collects information such as the pages you view, how you arrived (for example from a search engine or social media), your browser and device type, and your approximate location (city or region, worked out from your IP address). We also count clicks on ticket buttons, the “Show more” button and the event-submission form. We never send Google what you type into the location or artist search.</p>
+<p>Google processes this data under its own <a href="https://policies.google.com/privacy" rel="noopener">privacy policy</a> and may use it as described in <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">how Google uses information from sites that use its services</a>. You can block it with your browser's cookie or tracking settings, a content blocker, or the <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Google Analytics opt-out add-on</a>. We see only totals and trends, not who you are.</p>
 
 <h2>Hosting and fonts</h2>
 <p>The site is hosted on <b>GitHub Pages</b>, and the lettering comes from <b>Google Fonts</b>. Like any web host or font service, they receive your IP address when your browser loads the page, under their own privacy policies (GitHub's and Google's). We don't receive or store those logs.</p>
 
 <h2>Things stored on your device</h2>
 <ul>
+  <li>Google Analytics cookies (see above).</li>
   <li>The last location you searched, so you don't have to retype it.</li>
   <li>Whether you dismissed the “add to home screen” tip.</li>
   <li>A copy of pages you've viewed, so the app can open without a signal. Clearing your browser's data for this site removes all of this.</li>
