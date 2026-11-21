@@ -1,35 +1,7 @@
 {
-"fetched": "2026-11-20T10:39:07+00:00",
+"fetched": "2026-11-21T10:28:44+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
-{
-"city": "",
-"id": "G5vzZ_2QDTig-",
-"name": "TYLA - THE A*POP WORLD TOUR",
-"date": "2026-11-20",
-"time": "18:30",
-"status": "onsale",
-"venue": "Fillmore Auditorium (Denver)",
-"venueCity": "Denver",
-"state": "CO",
-"address": "1510 Clarkson",
-"lat": 39.740611,
-"lng": -104.977194,
-"url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-denver-colorado-11-20-2026/event/1E0064F6BBFECD61",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Electro Pop",
-"Pop"
-],
-"why": "artist:Tyla",
-"attractions": [
-"Tyla",
-"Jae Stephens"
-],
-"ageRestricted": false,
-"type": "AF"
-},
 {
 "city": "",
 "id": "1A9ZkfAGkdmQfn8",
@@ -916,6 +888,30 @@
 "type": "RG"
 },
 {
+"city": "",
+"id": "vvG1YZ_4uW6wfj",
+"name": "Badfish - A Tribute To Sublime",
+"date": "2027-02-18",
+"time": "19:00",
+"status": "onsale",
+"venue": "The Echo Lounge & Music Hall",
+"venueCity": "Dallas",
+"state": "TX",
+"address": "1323 N. Stemmons Fwy. ",
+"lat": 32.790548,
+"lng": -96.814464,
+"url": "https://www.ticketmaster.com/badfish-a-tribute-to-sublime-dallas-texas-02-18-2027/event/0C0065537D1F251C",
+"priceMin": null,
+"priceMax": null,
+"genres": [],
+"why": "artist:Sublime",
+"attractions": [
+"Badfish - A Tribute To Sublime"
+],
+"ageRestricted": false,
+"type": "RG"
+},
+{
 "city": "BAL",
 "id": "1AvfZ_fGkwbWPAC",
 "name": "The Pietasters Annual Holiday Show",
@@ -1386,32 +1382,6 @@
 },
 {
 "city": "CLE",
-"id": "rZ7HnEZ1Afooe7",
-"name": "DJ's Choice",
-"date": "2026-11-20",
-"time": "21:00",
-"status": "onsale",
-"venue": "B Side Lounge",
-"venueCity": "Cleveland Heights",
-"state": "OH",
-"address": "2785 Euclid Heights Blvd",
-"lat": 41.5082658,
-"lng": -81.5803633,
-"url": "https://www.ticketweb.com/event/djs-choice-b-side-lounge-tickets/14451084",
-"priceMin": 12.59,
-"priceMax": 12.59,
-"genres": [
-"DJ",
-"East Coast Rap",
-"Hip-Hop/Rap",
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [],
-"ageRestricted": false
-},
-{
-"city": "CLE",
 "id": "rZ7HnEZ1Af8UZV",
 "name": "Thanksgiving Night On Coventry",
 "date": "2026-11-26",
@@ -1627,33 +1597,6 @@
 },
 {
 "city": "DEN",
-"id": "rZ7HnEZ1AfC7fV",
-"name": "Reggaeton Rave",
-"date": "2026-11-20",
-"time": "22:00",
-"status": "onsale",
-"venue": "The Church Nightclub",
-"venueCity": "Denver",
-"state": "CO",
-"address": "1160 Lincoln St",
-"lat": 39.73504,
-"lng": -104.98574,
-"url": "https://www.ticketweb.com/event/reggaeton-rave-the-church-nightclub-tickets/14384534",
-"priceMin": 0.0,
-"priceMax": 14.95,
-"genres": [
-"DJ",
-"Dance/Electronic",
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Reggaeton Rave"
-],
-"ageRestricted": false
-},
-{
-"city": "DEN",
 "id": "Z7r9jZ1A70tu4",
 "name": "The Hip Abduction (16 and Over)",
 "date": "2027-02-06",
@@ -1736,32 +1679,6 @@
 "why": "class:Reggae",
 "attractions": [
 "Big D & the Kids Table"
-],
-"ageRestricted": false
-},
-{
-"city": "HFD",
-"id": "G5vVZ_2SsLmvx",
-"name": "Shaggy with The Original Wailers",
-"date": "2026-11-20",
-"time": "20:00",
-"status": "onsale",
-"venue": "Premier Theater at Foxwoods Resort Casino",
-"venueCity": "Mashantucket",
-"state": "CT",
-"address": "39 Norwich Westerly Road",
-"lat": 41.4783608,
-"lng": -71.9630872,
-"url": "https://www.ticketmaster.com/shaggy-with-the-original-wailers-mashantucket-connecticut-11-20-2026/event/1D0064FCF17EE062",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Shaggy",
-"The Original Wailers featuring Al Anderson"
 ],
 "ageRestricted": false
 },
@@ -1951,33 +1868,6 @@
 "attractions": [
 "The Hip Abduction",
 "Moon Taxi"
-],
-"ageRestricted": false
-},
-{
-"city": "LA",
-"id": "rZ7HnEZ1Af87v7",
-"name": "Reggaeton Rave",
-"date": "2026-11-20",
-"time": "22:00",
-"status": "onsale",
-"venue": "Avalon Hollywood",
-"venueCity": "Hollywood",
-"state": "CA",
-"address": "1735 Vine St.",
-"lat": 34.102718,
-"lng": -118.327156,
-"url": "https://www.ticketweb.com/event/reggaeton-rave-avalon-hollywood-tickets/14404044",
-"priceMin": 0.0,
-"priceMax": 14.95,
-"genres": [
-"DJ",
-"Dance/Electronic",
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Reggaeton Rave"
 ],
 "ageRestricted": false
 },
@@ -2608,28 +2498,31 @@
 "ageRestricted": false
 },
 {
-"city": "MIA",
-"id": "vvG1VZ_GUmjBFM",
-"name": "Chino y Nacho",
-"date": "2026-11-20",
-"time": "20:00",
+"city": "NSH",
+"id": "rZ7HnEZ1A4vNfS",
+"name": "Plainview Vibes Feat. Paradise Daze & Vibright",
+"date": "2026-12-19",
+"time": "17:00",
 "status": "onsale",
-"venue": "The Fillmore Miami Beach at Jackie Gleason Theater",
-"venueCity": "Miami Beach",
-"state": "FL",
-"address": "1700 Washington Ave",
-"lat": 25.792917,
-"lng": -80.13314,
-"url": "https://www.ticketmaster.com/chino-y-nacho-miami-beach-florida-11-20-2026/event/0D0064CDAE73A237",
-"priceMin": null,
-"priceMax": null,
+"venue": "Hop Springs",
+"venueCity": "Murfreesboro",
+"state": "TN",
+"address": "6790 John Bragg Highway",
+"lat": 35.820643,
+"lng": -86.266806,
+"url": "https://www.ticketweb.com/event/plainview-vibes-feat-paradise-daze-hop-springs-tickets/15063533",
+"priceMin": 20.97,
+"priceMax": 20.97,
 "genres": [
-"Reggae"
+"Alternative Country",
+"Country",
+"Dub",
+"Funk-Rock",
+"Reggae",
+"Rock"
 ],
 "why": "class:Reggae",
-"attractions": [
-"Chyno Y Nacho"
-],
+"attractions": [],
 "ageRestricted": false
 },
 {
@@ -3115,6 +3008,30 @@
 },
 {
 "city": "PDX",
+"id": "rZ7HnEZ1A4v_PS",
+"name": "Bang Bang Experience",
+"date": "2027-01-29",
+"time": "20:00",
+"status": "onsale",
+"venue": "Jack London Revue",
+"venueCity": "Portland",
+"state": "OR",
+"address": "529 SW 4th Ave.",
+"lat": 45.519452,
+"lng": -122.676291,
+"url": "https://www.ticketweb.com/event/bang-bang-experience-jack-london-revue-tickets/15059973",
+"priceMin": 26.24,
+"priceMax": 206.49,
+"genres": [
+"Afro-Beat",
+"World"
+],
+"why": "class:Afro-Beat",
+"attractions": [],
+"ageRestricted": false
+},
+{
+"city": "PDX",
 "id": "rZ7HnEZ1A4Z4PS",
 "name": "IRON PROPHECY - BOB MARLEY B-DAY BASH",
 "date": "2027-02-06",
@@ -3330,6 +3247,29 @@
 "ageRestricted": false
 },
 {
+"city": "PIT",
+"id": "rZ7HnEZ1Afo8Ff",
+"name": "Bob Marley Birthday Celebration - Pittsburgh Reggae Allstars",
+"date": "2027-02-06",
+"time": "20:00",
+"status": "onsale",
+"venue": "Mr Smalls Theatre",
+"venueCity": "Millvale",
+"state": "PA",
+"address": "400 Lincoln Ave",
+"lat": 40.480891,
+"lng": -79.972349,
+"url": "https://www.ticketweb.com/event/bob-marley-birthday-celebration-mr-smalls-theatre-tickets/14450214",
+"priceMin": 22.0,
+"priceMax": 22.0,
+"genres": [
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [],
+"ageRestricted": false
+},
+{
 "city": "SAC",
 "id": "G5vYZ_3Ev0wh1",
 "name": "98 Rock Presents Unwrapped: An Acoustic Holiday",
@@ -3422,60 +3362,6 @@
 "attractions": [
 "The Hip Abduction",
 "Surf Hat"
-],
-"ageRestricted": false
-},
-{
-"city": "SAN",
-"id": "rZ7HnEZ1Afa8FV",
-"name": "KBong, Johnny Cosmic, Swooon",
-"date": "2026-11-20",
-"time": "21:00",
-"status": "onsale",
-"venue": "Belly Up",
-"venueCity": "Solana Beach",
-"state": "CA",
-"address": "143 S. Cedros Ave",
-"lat": 32.990942,
-"lng": -117.270629,
-"url": "https://www.ticketweb.com/event/kbong-johnny-cosmic-swooon-belly-up-tickets/14250234",
-"priceMin": 32.55,
-"priceMax": 32.55,
-"genres": [
-"R&B",
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Kbong",
-"Johnny Cosmic"
-],
-"ageRestricted": false
-},
-{
-"city": "SAN",
-"id": "Z7r9jZ1AAZYvz",
-"name": "KBong (21+ Event)",
-"date": "2026-11-20",
-"time": "21:00",
-"status": "onsale",
-"venue": "Belly Up Tavern",
-"venueCity": "Solana Beach",
-"state": "CA",
-"address": "143 S Cedros Ave",
-"lat": 32.9963,
-"lng": -117.2593,
-"url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZYvz",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Other",
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Kbong",
-"Johnny Cosmic"
 ],
 "ageRestricted": false
 },
@@ -3838,32 +3724,6 @@
 },
 {
 "city": "SCZ",
-"id": "rZ7HnEZ1A4Zsrd",
-"name": "Moe's Alley Presents: Kabaka Pyramid (Night 1) w/ Kava Jah & The Remedy + Selecta 7",
-"date": "2026-11-20",
-"time": "21:00",
-"status": "onsale",
-"venue": "Moe's Alley",
-"venueCity": "Santa Cruz",
-"state": "CA",
-"address": "1535 Commercial Way",
-"lat": 36.9875105,
-"lng": -121.9828327,
-"url": "https://www.ticketweb.com/event/moes-alley-presents-kabaka-pyramid-moes-alley-tickets/15031783",
-"priceMin": 46.79,
-"priceMax": 46.79,
-"genres": [
-"Contemporary Reggae",
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Kabaka Pyramid"
-],
-"ageRestricted": false
-},
-{
-"city": "SCZ",
 "id": "rZ7HnEZ1A4ZgZd",
 "name": "Moe's Alley Presents: Kabaka Pyramid (Night 2) w/ Lawgiver The Kingson + DJ Spleece",
 "date": "2026-11-21",
@@ -3944,6 +3804,32 @@
 "ageRestricted": false
 },
 {
+"city": "SEA",
+"id": "vvG1HZ_KhRaXJ4",
+"name": "The Movement Tour Winter 2027 with special guest KBong & Johnny Cosmic",
+"date": "2027-02-18",
+"time": "19:30",
+"status": "onsale",
+"venue": "Neptune Theatre",
+"venueCity": "Seattle",
+"state": "WA",
+"address": "1303 NE 45th Street",
+"lat": 47.66126297,
+"lng": -122.31405191,
+"url": "https://www.ticketmaster.com/the-movement-tour-winter-2027-with-seattle-washington-02-18-2027/event/0F006536EF27E995",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Reggae",
+"Reggae-Pop"
+],
+"why": "class:Reggae",
+"attractions": [
+"The Movement"
+],
+"ageRestricted": false
+},
+{
 "city": "SFO",
 "id": "rZ7HnEZ1Afoef0",
 "name": "AFROBASHMENT(Afrobeats, Dancehall, Hip-hop & more) w/ Daghe + Ignacia + Doc Limo",
@@ -3957,7 +3843,7 @@
 "lat": 37.80857,
 "lng": -122.26962,
 "url": "https://www.ticketweb.com/event/afrobashmentafrobeats-dancehall-hip-hop-crybaby-tickets/14442524",
-"priceMin": 0.0,
+"priceMin": 6.72,
 "priceMax": 129.24,
 "genres": [
 "Hip-Hop/Rap"
