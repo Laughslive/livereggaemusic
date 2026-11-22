@@ -1,65 +1,7 @@
 {
-"fetched": "2026-11-21T10:28:44+00:00",
+"fetched": "2026-11-22T10:28:47+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
-{
-"city": "",
-"id": "1A9ZkfAGkdmQfn8",
-"name": "SATURDAY GA - T-MOBILE ZONE AT SPHERE",
-"date": "2026-11-21",
-"time": "20:00",
-"status": "onsale",
-"venue": "T-Mobile Zone at Sphere",
-"venueCity": "Las Vegas",
-"state": "NV",
-"address": "240 Sands Avenue",
-"lat": 36.118966,
-"lng": -115.159972,
-"url": "https://www.ticketmaster.com/saturday-ga-tmobile-zone-at-sphere-las-vegas-nevada-11-21-2026/event/17006505EE694A90",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Hip-Hop/Rap",
-"Motorsports/Racing",
-"Urban"
-],
-"why": "artist:Sean Paul",
-"attractions": [
-"FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX",
-"Sean Paul"
-],
-"ageRestricted": false,
-"type": "DH"
-},
-{
-"city": "",
-"id": "1kAYvPv8GA2Rt9x",
-"name": "SATURDAY GRANDSTANDS - T-MOBILE ZONE AT SPHERE",
-"date": "2026-11-21",
-"time": "20:00",
-"status": "onsale",
-"venue": "T-Mobile Zone at Sphere",
-"venueCity": "Las Vegas",
-"state": "NV",
-"address": "240 Sands Avenue",
-"lat": 36.118966,
-"lng": -115.159972,
-"url": "https://www.ticketmaster.com/saturday-grandstands-tmobile-zone-at-sphere-las-vegas-nevada-11-21-2026/event/170065050FBE95E2",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Hip-Hop/Rap",
-"Motorsports/Racing",
-"Urban"
-],
-"why": "artist:Sean Paul",
-"attractions": [
-"FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX",
-"Sean Paul"
-],
-"ageRestricted": false,
-"type": "DH"
-},
 {
 "city": "",
 "id": "vvG18Z_2o77qjU",
@@ -1565,6 +1507,32 @@
 "ageRestricted": false
 },
 {
+"city": "CMH",
+"id": "Z7r9jZ1AAveCd",
+"name": "Sons of Mystro",
+"date": "2027-02-19",
+"time": "19:30",
+"status": "onsale",
+"venue": "Kuss Auditorium",
+"venueCity": "Springfield",
+"state": "OH",
+"address": "300 South Fountain Avenue",
+"lat": 39.898102,
+"lng": -83.856903,
+"url": "https://www.ticketmaster.com/event/Z7r9jZ1AAveCd",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Other",
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"Sons of Mystro"
+],
+"ageRestricted": false
+},
+{
 "city": "DC",
 "id": "vv1AvZk48Gkd9TPFN",
 "name": "Tropidelic",
@@ -2473,31 +2441,6 @@
 "ageRestricted": false
 },
 {
-"city": "LAS",
-"id": "LvZ18QJO6o605DgNrSTxc",
-"name": "Reggae Fest Vegas at The House Of Blues Las Vegas",
-"date": "2026-11-21",
-"time": "21:00",
-"status": "onsale",
-"venue": "House of Blues Las Vegas ",
-"venueCity": "Las Vegas",
-"state": "NV",
-"address": "3950 Las Vegas Blvd",
-"lat": 36.087535,
-"lng": -115.174742,
-"url": "https://www.universe.com/events/reggae-fest-vegas-at-the-house-of-blues-las-vegas-tickets-7H9WLC?ref=ticketmaster",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Reggae Fest"
-],
-"ageRestricted": false
-},
-{
 "city": "NSH",
 "id": "rZ7HnEZ1A4vNfS",
 "name": "Plainview Vibes Feat. Paradise Daze & Vibright",
@@ -3055,6 +2998,33 @@
 "ageRestricted": false
 },
 {
+"city": "PDX",
+"id": "Z7r9jZ1AAeKJK",
+"name": "The Movement",
+"date": "2027-02-19",
+"time": "19:30",
+"status": "onsale",
+"venue": "Wonder Ballroom",
+"venueCity": "Portland",
+"state": "OR",
+"address": "128 NE Russell St",
+"lat": 45.543999,
+"lng": -122.643501,
+"url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKJK",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Other",
+"Reggae",
+"Reggae-Pop"
+],
+"why": "class:Reggae",
+"attractions": [
+"The Movement"
+],
+"ageRestricted": false
+},
+{
 "city": "PHX",
 "id": "rZ7HnEZ1Af8MOV",
 "name": "EARTHSURFACEOPEN // SOUL / REGGAE / HOUSE / AMAPIANO / DANCEHALL",
@@ -3367,59 +3337,6 @@
 },
 {
 "city": "SAN",
-"id": "rZ7HnEZ1Afa8af",
-"name": "KBong, Johnny Cosmic, Brendan Clemente",
-"date": "2026-11-21",
-"time": "21:00",
-"status": "onsale",
-"venue": "Belly Up",
-"venueCity": "Solana Beach",
-"state": "CA",
-"address": "143 S. Cedros Ave",
-"lat": 32.990942,
-"lng": -117.270629,
-"url": "https://www.ticketweb.com/event/kbong-johnny-cosmic-brendan-clemente-belly-up-tickets/14250254",
-"priceMin": 32.55,
-"priceMax": 32.55,
-"genres": [
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Kbong",
-"Johnny Cosmic"
-],
-"ageRestricted": false
-},
-{
-"city": "SAN",
-"id": "Z7r9jZ1AAZYvM",
-"name": "KBong (21+ Event)",
-"date": "2026-11-21",
-"time": "21:00",
-"status": "onsale",
-"venue": "Belly Up Tavern",
-"venueCity": "Solana Beach",
-"state": "CA",
-"address": "143 S Cedros Ave",
-"lat": 32.9963,
-"lng": -117.2593,
-"url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZYvM",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Other",
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Kbong",
-"Johnny Cosmic"
-],
-"ageRestricted": false
-},
-{
-"city": "SAN",
 "id": "rZ7HnEZ1Af1pQf",
 "name": "How The Grouch Stole Christmas Tour - The Grouch & Eligh ft. Amp Live w/ Special Guests Brother Ali and Lyrics Born",
 "date": "2026-11-27",
@@ -3723,28 +3640,27 @@
 "ageRestricted": false
 },
 {
-"city": "SCZ",
-"id": "rZ7HnEZ1A4ZgZd",
-"name": "Moe's Alley Presents: Kabaka Pyramid (Night 2) w/ Lawgiver The Kingson + DJ Spleece",
-"date": "2026-11-21",
+"city": "SAN",
+"id": "rZ7HnEZ1AfGP_7",
+"name": "Through the Roots",
+"date": "2027-02-19",
 "time": "21:00",
 "status": "onsale",
-"venue": "Moe's Alley",
-"venueCity": "Santa Cruz",
+"venue": "Belly Up",
+"venueCity": "Solana Beach",
 "state": "CA",
-"address": "1535 Commercial Way",
-"lat": 36.9875105,
-"lng": -121.9828327,
-"url": "https://www.ticketweb.com/event/moes-alley-presents-kabaka-pyramid-moes-alley-tickets/15035003",
-"priceMin": 46.79,
-"priceMax": 46.79,
+"address": "143 S. Cedros Ave",
+"lat": 32.990942,
+"lng": -117.270629,
+"url": "https://www.ticketweb.com/event/through-the-roots-belly-up-tickets/14325644",
+"priceMin": 29.55,
+"priceMax": 29.55,
 "genres": [
-"Contemporary Reggae",
 "Reggae"
 ],
 "why": "class:Reggae",
 "attractions": [
-"Kabaka Pyramid"
+"Through the Roots"
 ],
 "ageRestricted": false
 },
@@ -3986,30 +3902,6 @@
 "attractions": [
 "L.A.B."
 ],
-"ageRestricted": false
-},
-{
-"city": "STL",
-"id": "rZ7HnEZ1A4vajd",
-"name": "Murder City Players",
-"date": "2026-11-21",
-"time": "20:00",
-"status": "onsale",
-"venue": "Atomic Garage",
-"venueCity": "St. Louis",
-"state": "MO",
-"address": "4140 Manchester Ave",
-"lat": 38.6277137039,
-"lng": -90.2518002865,
-"url": "https://www.ticketweb.com/event/murder-city-players-atomic-garage-tickets/15049703",
-"priceMin": 18.09,
-"priceMax": 18.09,
-"genres": [
-"Reggae",
-"Rock Steady"
-],
-"why": "class:Reggae",
-"attractions": [],
 "ageRestricted": false
 },
 {
