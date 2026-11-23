@@ -285,6 +285,9 @@ const V={
  genesispompano:{n:"Genesis Events Banquet Hall",area:"Pompano Beach",b:"FL",lat:26.2190,lng:-80.1565},
  smokewynwood:{n:"Smoke Wynwood",area:"Wynwood",b:"Miami",lat:25.7997,lng:-80.2017},
  // San Francisco Bay Area
+ oak811:{n:"811 Oakland",area:"Old Oakland",b:"Oakland",lat:37.8009,lng:-122.2754},
+ luxoakland:{n:"Lux Oakland",area:"Downtown",b:"Oakland",lat:37.8027,lng:-122.2706},
+ clubfoxrc:{n:"Club Fox",area:"Downtown Redwood City",b:"Redwood City, CA",lat:37.4867,lng:-122.2290},
  templesf:{n:"Temple",area:"SoMa",b:"San Francisco",lat:37.7887,lng:-122.3972},
  uctheatre:{n:"The UC Theatre",area:"Downtown Berkeley",b:"Berkeley",lat:37.8716,lng:-122.2697},
  cornerstoneberk:{n:"Cornerstone",area:"Downtown Berkeley",b:"Berkeley",lat:37.8672,lng:-122.2677},
@@ -312,19 +315,28 @@ const V={
  delmarhall:{n:"Delmar Hall",area:"The Loop",b:"University City",lat:38.6556,lng:-90.3005},
  oldrockhouse:{n:"Old Rock House",area:"Soulard",b:"St. Louis",lat:38.6150,lng:-90.2004},
  // San Diego
+ seasidecslenc:{n:"Seaside Center for Spiritual Living",area:"Encinitas",b:"CA",lat:33.0297,lng:-117.2797},
  thesounddelmar:{n:"The Sound",area:"Del Mar Fairgrounds",b:"Del Mar",lat:32.9755,lng:-117.2573},
  musicboxsd:{n:"Music Box",area:"Little Italy",b:"San Diego",lat:32.7214,lng:-117.1694},
  // Santa Cruz & Monterey Bay
+ promisedlandgilroy:{n:"Promised Land Brewing Company",area:"Gilroy",b:"Gilroy, CA",lat:37.0055,lng:-121.5685},
  catalyst:{n:"The Catalyst",area:"Downtown",b:"Santa Cruz",lat:36.9718,lng:-122.0257},
  goldenstatetheatre:{n:"Golden State Theatre",area:"Downtown",b:"Monterey",lat:36.5995,lng:-121.8946},
  // San Francisco Bay Area (north)
  macs19broadway:{n:"Mac's at 19 Broadway",area:"Fairfax",b:"Fairfax, CA",lat:37.9871,lng:-122.5888},
  sweetwater:{n:"Sweetwater Music Hall",area:"Downtown",b:"Mill Valley",lat:37.9063,lng:-122.5468},
  // Seattle
+ redloungesea:{n:"Red Lounge",area:"Central District",b:"Seattle",lat:47.6063,lng:-122.3160},
  nectarlounge:{n:"Nectar Lounge",area:"Fremont",b:"Seattle",lat:47.6516,lng:-122.3517},
  muckleshoot:{n:"Muckleshoot Casino Events Center",area:"Auburn",b:"WA",lat:47.2830,lng:-122.2155},
  neptuneseattle:{n:"Neptune Theatre",area:"University District",b:"Seattle",lat:47.6614,lng:-122.3138},
  // Los Angeles
+ sealegshb:{n:"Sea Legs Wine Bar",area:"Huntington Beach",b:"CA",lat:33.6553,lng:-117.9990},
+ roomhollywood:{n:"The Room",area:"Hollywood",b:"Los Angeles",lat:34.1003,lng:-118.3297},
+ hiltonlax:{n:"Hilton Los Angeles Airport",area:"Westchester / LAX",b:"Los Angeles",lat:33.9456,lng:-118.3797},
+ prospectparkla:{n:"Prospect Park",area:"Downtown",b:"Los Angeles",lat:34.0489,lng:-118.2589},
+ broadway330:{n:"330 S. Broadway",area:"Downtown",b:"Los Angeles",lat:34.0507,lng:-118.2488},
+ catchone:{n:"Catch One",area:"Mid-City",b:"Los Angeles",lat:34.0477,lng:-118.3239},
  palmandpine:{n:"The Palm & The Pine",area:"Hollywood",b:"Los Angeles",lat:34.1009,lng:-118.3293},
  wayfarercm:{n:"The Wayfarer",area:"Westside",b:"Costa Mesa, CA",lat:33.6474,lng:-117.9306},
  echoplex:{n:"Echoplex",area:"Echo Park",b:"Los Angeles",lat:34.0779,lng:-118.2604},
@@ -337,15 +349,20 @@ const V={
  hoborlando:{n:"House of Blues Orlando",area:"Disney Springs",b:"Lake Buena Vista",lat:28.3706,lng:-81.5170},
  plazaliveorl:{n:"The Plaza Live",area:"Colonialtown",b:"Orlando",lat:28.5476,lng:-81.3502},
  // Denver
+ soileddovechoppers:{n:"The Soiled Dove @ Chopper's Sports Grill",area:"Cherry Creek",b:"Denver",lat:39.7152,lng:-104.9456},
+ bearcreekdistillery:{n:"Bear Creek Distillery",area:"Overland",b:"Denver",lat:39.6829,lng:-104.9878},
+ dahliadenver:{n:"The Dahlia",area:"Baker",b:"Denver",lat:39.7135,lng:-104.9875},
  bluebird:{n:"Bluebird Theater",area:"East Colfax",b:"Denver",lat:39.7403,lng:-104.9480},
  cervantesother:{n:"Cervantes' Other Side",area:"Five Points",b:"Denver",lat:39.7546,lng:-104.9774},
  missionballroom:{n:"Mission Ballroom",area:"RiNo",b:"Denver",lat:39.7765,lng:-104.9810},
  // Phoenix
+ tempebeachpark:{n:"Tempe Beach Park",area:"Tempe",b:"AZ",lat:33.4318,lng:-111.9417},
  crescentballroom:{n:"Crescent Ballroom",area:"Roosevelt Row",b:"Phoenix",lat:33.4515,lng:-112.0763},
  // Sacramento
  midtownlivesac:{n:"Midtown Live",area:"Midtown",b:"Sacramento",lat:38.5765,lng:-121.4856},
  goldfieldroseville:{n:"Goldfield Roseville",area:"Downtown",b:"Roseville",lat:38.7488,lng:-121.2860},
  // Maui
+ paiabay:{n:"Paia Bay Coffee & Bar",area:"Paia",b:"Maui",lat:20.9126,lng:-156.3812},
  mauiarts:{n:"A&B Amphitheater (Maui Arts & Cultural Center)",area:"Kahului",b:"Maui",lat:20.8889,lng:-156.4697},
  // Boston
  soundcheckpembroke:{n:"Soundcheck Studios",area:"Pembroke",b:"MA",lat:42.0590,lng:-70.8000},
@@ -382,11 +399,18 @@ const V={
  trumankc:{n:"The Truman",area:"Midtown",b:"Kansas City, MO",lat:39.0682,lng:-94.5850},
  hwy291lees:{n:"2409 Route 291 (event space)",area:"Lee's Summit",b:"MO",lat:38.9425,lng:-94.3790},
  theshipkc:{n:"The Ship",area:"West Bottoms",b:"Kansas City, MO",lat:39.1020,lng:-94.5975},
+ // Santa Barbara & Ventura
+ eoslounge:{n:"EOS Lounge",area:"Downtown",b:"Santa Barbara",lat:34.4168,lng:-119.6929},
+ // Portland, Oregon
+ wonderballroom:{n:"Wonder Ballroom",area:"Eliot",b:"Portland, OR",lat:45.5410,lng:-122.6627},
+ // Salt Lake City
+ soundwell:{n:"Soundwell",area:"Downtown",b:"Salt Lake City",lat:40.7653,lng:-111.8962},
+ // Honolulu
+ republikhnl:{n:"The Republik",area:"Ala Moana/Kakaako",b:"Honolulu",lat:21.2950,lng:-157.8410},
 // <tm-venues>  (added automatically from the Ticketmaster feed; rebuilt each update)
  tm_mgm_music_hall_at_fenway:{n:"MGM Music Hall at Fenway",area:"Boston",b:"MA",c:"BOS",lat:42.3468,lng:-71.0973},
  tm_brooklyn_paramount:{n:"Brooklyn Paramount",area:"Brooklyn",b:"NY",c:"NYC",lat:40.6914,lng:-73.9812},
  tm_the_anthem:{n:"The Anthem",area:"Washington",b:"DC",c:"DC",lat:38.8801,lng:-77.0262},
- tm_mcmenamins_crystal_ballroom:{n:"McMenamins Crystal Ballroom",area:"Portland",b:"OR",c:"PDX",lat:45.5303,lng:-122.6848},
  tm_yuengling_center:{n:"Yuengling Center",area:"Tampa",b:"FL",c:"TPA",lat:28.0587,lng:-82.4155},
  tm_coca_cola_roxy:{n:"Coca-Cola Roxy",area:"Atlanta",b:"GA",c:"ATL",lat:33.8902,lng:-84.4697},
  tm_the_pavilion_at_toyota_music:{n:"The Pavilion at Toyota Music Factory",area:"Irving",b:"TX",c:"DFW",lat:32.8725,lng:-96.9430},
@@ -440,6 +464,13 @@ const V={
 // Venues' own websites / box offices. Ticket buttons use these instead of
 // listing or resale sites whenever a show's link points at one of those.
 const SITES={
+ tm_blue_note_hawaii:"https://www.bluenotejazz.com/hawaii/",
+ paiabay:"http://paiabaycoffeeandbar.com/",
+ soundwell:"https://soundwellslc.com/",
+ tm_moe_s_alley:"https://moesalley.com/",
+ tm_ventura_music_hall:"https://www.venturamusichall.com/",
+ musicboxsd:"https://musicboxsd.com/",
+ tm_belly_up:"https://bellyup.com/",
  nectarlounge:"https://nectarlounge.com/",
  bluebird:"https://www.bluebirdtheater.net/",
  musicboxcle:"https://musicboxcle.com/",
@@ -536,19 +567,37 @@ const RAW=[
  ["2026-12-12","22:00","Caribbean Party: Silent Addy – OTS Launch It To The Max","Silent Addy","blanchollywood",DH,"https://www.eventbrite.com/e/caribbean-party-silent-addy-ots-launch-it-to-the-max-miami-dec-12-tickets-2004852726474","$30–50"],
  ["2026-12-19","23:00","Caribbean City: Sugar & Spice – Rooftop Live","JR Cruiza, DJ Stakz, DJ Fergie, IronHeart Sound","daer",DH,"https://www.eventbrite.com/e/caribbean-city-sugar-spice-rooftop-live-daer-hardrock-tickets-2003521683288",null,["21"]],
 // San Francisco Bay Area
+ ["2026-11-28","22:00","Shake Body: No Leftovers","Flygerian Jeff, DJAYSLIM","oak811",AF,"https://beatstorapon.com/event/shake-body-no-leftovers-6af3f3fd46dc464e327cf856","$5–35",["21"]],
+ ["2026-12-04","21:00","Afrobeats Vibe: Oakland 1st Friday","DJ Tay Bottlez","luxoakland",AF,"https://www.eventbrite.com/e/afrobeats-vibe-oakland-1st-friday-friday-december-4th-from-9pm-tickets-2001671002853",null],
+ ["2026-11-28","20:00","Native Elements: Roots Reggae","Native Elements","clubfoxrc",RG,"https://www.eventbrite.com/e/native-elements-roots-reggae-tickets-2003116882518",null,["21"]],
+ ["2027-01-23","21:00","Don Carlos","Don Carlos","cornerstoneberk",RG,"https://www.vividseats.com/don-carlos-tickets-berkeley-cornerstone-1-23-2027/production/7346744",null],
+ ["2027-01-15","21:00","Sister Nancy","Sister Nancy, Reggae Angels","tm_the_independent",RG,"https://concerts50.com/artists/sister-nancy-tour-dates",null],
  ["2026-12-04","21:00","Afro Funk Dance Party Part Two: Onye & The Messengers","Onye & The Messengers","macs19broadway",AF,"https://www.eventbrite.com/e/2004100364138","$15–20",["21"]],
  ["2027-01-22","20:00","Don Carlos","Don Carlos","sweetwater",RG,"https://www.etix.com/ticket/p/75634890/don-carlos-mill-valley-sweetwater-music-hall",null],
  ["2026-12-31","21:00","Steel Pulse: New Year's Eve","Steel Pulse","uctheatre",RG,"https://theuctheatre.org/shows/steel-pulse-nye-show-31-dec",null],
  ["2027-01-15","20:00","Pepper: 20 Years of No Shame","Pepper, Bumpin Uglies","uctheatre",RG,"https://app.opendate.io/e/pepper-january-15-2027-750729",null],
  ["2027-02-04","19:30","Ballyhoo!: We Ride at Dawn Tour","Ballyhoo!, Chad Tepper","cornerstoneberk",RG,"https://www.prekindle.com/event/62868-ballyhoo-we-ride-at-dawn-tour-berkeley",null],
 // Santa Cruz & Monterey Bay
+ ["2026-12-12","16:00","Reggae Series: Prezident Brown with Brady Shammar","Prezident Brown, Brady Shammar, DJ Manik, DJ Nyze","promisedlandgilroy",RG,"https://beatstorapon.com/event/reggae-series-prezident-brown-with-brady-shammar-dj-manik-dj-nyze-6af3f3f846dc464e327cf660","$20"],
+ ["2027-03-19","20:00","Pepper","Pepper","goldenstatetheatre",RG,"https://www.eventticketscenter.com/pepper-monterey-tickets/1509201/e",null],
+ ["2027-01-14","20:00","Sister Nancy","Sister Nancy, Reggae Angels","tm_moe_s_alley",RG,"https://concerts50.com/artists/sister-nancy-tour-dates",null],
+ ["2026-12-11","19:00","The Slackers","The Slackers, Monkey","tm_the_ritz",RG,"https://americanarenas.com/tickets/the-slackers/",null],
+ ["2026-12-13","20:00","Long Beach Dub Allstars","Long Beach Dub Allstars, Man Like Devin","tm_moe_s_alley",RG,"https://moesalley.com/tm-event/moes-alley-presents-long-beach-dub-allstars/","$30–35",["21"]],
+ ["2026-12-10","20:00","The Slackers","The Slackers, The Hot Takes","tm_moe_s_alley",RG,"https://moesalley.com/tm-event/moes-alley-presents-the-slackers/","$25–30",["21"]],
  ["2026-11-28","20:00","Don Carlos & Junior Toots","Don Carlos, Junior Toots, Pacific Roots","catalyst",RG,"https://www.etix.com/ticket/p/56766574/don-carlos-junior-toots-with-pacific-roots-santa-cruz-the-catalyst","$57.78"],
  ["2026-12-05","20:00","The Expendables","The Expendables","catalyst",RG,"https://www.etix.com/ticket/p/78192736/the-expendables-santa-cruz-the-catalyst","$43.26"],
  ["2027-02-02","19:30","Ballyhoo!: We Ride at Dawn Tour","Ballyhoo!","goldenstatetheatre",RG,"https://www.etix.com/ticket/p/58174098/ballyhoo-monterey-golden-state-theatre","$37–42"],
 // San Diego
+ ["2027-02-12","21:00","Groundation: A Tribute to Bob Marley","Groundation, Jah Ollin","tm_belly_up",RG,"https://concerts50.com/show/groundation-in-solana-beach-tickets-feb-12-2027","$26–46",["21"]],
+ ["2026-12-31","20:00","Tribal Seeds: New Year's Eve Roots Party","Tribal Seeds, Dubbest, Eureka Sound","thesounddelmar",RG,"https://venues.bellyup.com/calendar/15035993/tribal-seeds-dubbest-eureka-sound","$59.50–95",["18"]],
+ ["2026-12-30","20:00","Steel Pulse: Reggae Against Racism Tour","Steel Pulse","tm_belly_up",RG,"https://concerts50.com/show/steel-pulse-in-solana-beach-tickets-dec-30-2026","$67.50–119",["21"]],
+ ["2026-12-29","20:00","Steel Pulse: Reggae Against Racism Tour","Steel Pulse","tm_belly_up",RG,"https://concerts50.com/artists/steel-pulse-tour-dates","$67.50–119",["21"]],
+ ["2026-12-06","20:00","Anuhea: All Is Bright Holiday Tour","Anuhea, Ana Vee","musicboxsd",RG,"https://musicboxsd.com/event/14359604/anuhea-all-is-bright-tour/",null,["21"]],
+ ["2026-12-05","18:00","Roots & Soul: A Reggae Concert Experience","Franco DeMeo, Kaabi, Kela Sako, Shane Hall","seasidecslenc",RG,"https://www.eventbrite.com/e/roots-soul-a-reggae-concert-experience-tickets-2003754137565",null,["21"]],
  ["2027-01-17","20:00","Pepper: 20 Years of No Shame","Pepper, Bumpin Uglies","thesounddelmar",RG,"https://www.ticketmaster.com/pepper-20-years-of-no-shame-del-mar-california-01-17-2027/event/0A00655D9BC84380",null],
  ["2027-01-29","20:00","Ballyhoo!: We Ride at Dawn Tour","Ballyhoo!","musicboxsd",RG,"https://www.ticketweb.com/event/ballyhoo-we-ride-music-box-tickets/14340084","$33"],
 // Seattle
+ ["2026-11-28","21:30","Seattle 14th Annual Dancehall Reunion","Chromatic Sound, DJ Real Wes, DJ Element (Zionsgate Sound), Y2K Sound, ZJ Veteran","redloungesea",DH,"https://beatstorapon.com/event/seattle-14th-annual-dancehall-reunion-6a7bfd54842f3a0a04a22ff5",null,["21"]],
  ["2027-01-16","20:00","Clinton Fearon: A Birthday Celebration","Clinton Fearon, DJ Kid Hops","nectarlounge",RG,"https://www.tixr.com/pr/DISCO/206469",null,["21"]],
  ["2027-02-18","19:30","The Movement: Winter Tour 2027","The Movement, KBong, Johnny Cosmic","neptuneseattle",RG,"https://www.ticketmaster.com/the-movement-tour-winter-2027-with-seattle-washington-02-18-2027/event/0F006536EF27E995","$50"],
  ["2027-02-20","20:00","Common Kings","Common Kings","muckleshoot",RG,"https://www.songkick.com/concerts/43477646-common-kings-at-events-center-muckleshoot-casino-resort",null],
@@ -576,6 +625,14 @@ const RAW=[
  ["2026-12-05","20:00","Matisyahu: Festival of Lights","Matisyahu","delmarhall",RG,"https://www.livenation.com/fr-ca/event/vv16kZkftPzZA2FA6u/matisyahu-festival-of-lights",null],
  ["2027-01-22","19:30","Ballyhoo!: We Ride at Dawn Tour","Ballyhoo!","oldrockhouse",RG,"https://www.etix.com/ticket/p/50052239/ballyhoowe-ride-at-dawn-tour-stlouis-old-rock-house","$34"],
 // Los Angeles
+ ["2027-01-03","19:00","Steel Pulse","Steel Pulse","coachhouse",RG,"https://concerts50.com/artists/steel-pulse-tour-dates",null],
+ ["2026-12-31","20:00","Caribbean NYE Dance 2026 ft. Rupee Live","Rupee, Piece of Paradise Band, Steven McFarlane, DJ Mysteryman, DJ Burga, Easy B","hiltonlax",SC,"https://www.eventbrite.com/e/caribbean-nye-dance-2026-ft-soca-superstar-rupee-live-tickets-2001155209100",null,["21"]],
+ ["2026-12-26","22:00","Soca in the City LA: Final Fete for 2026","ONEHUNDREAD Production","broadway330",SC,"https://www.eventbrite.com/e/soca-in-the-city-la-final-fete-for-2026-tickets-2005155107905",null,["21"]],
+ ["2026-12-19","22:00","Reggae Bash World Los Angeles","4NAV4LIFE","catchone",DH,"https://www.eventbrite.com/e/reggae-bash-world-los-angeles-tickets-2005024748998",null,["21"]],
+ ["2026-12-12","18:00","Anuhea: All Is Bright Holiday Tour","Anuhea, Ana Vee","tm_garden_amphitheatre",RG,"https://www.ticketweb.com/event/anuhea-at-garden-amp-garden-amphitheatre-tickets/14291894?pl=lfagroup",null],
+ ["2026-12-06","17:00","Ganda: Reggae Sunday Funday","Ganda","sealegshb",RG,"https://www.eventbrite.com/e/ganda-reggae-sunday-funday-limited-free-tickets-tickets-2002404388429","Free"],
+ ["2026-12-05","22:00","Skanking Sweet: 80s, 90s & Early 2000s Reggae and Dancehall","ONEHUNDREAD Production","prospectparkla",DH,"https://www.eventbrite.com/e/skanking-sweet-80s-90s-early-2000s-vibes-tickets-2005156611402",null,["21"]],
+ ["2026-11-29","22:00","Fayah Sundays: Dancehall, Reggae & Soca in Hollywood","Krossfayah, DJ Courtesy, The Party Minister","roomhollywood",DH,"https://www.eventbrite.com/e/fayah-sundays-11-yrs-of-dancehall-reggae-soca-in-hollywood-tickets-788769469717",null,["21"]],
  ["2026-12-19","20:00","The Aggrolites","The Aggrolites","wayfarercm",RG,"https://www.eventbrite.com/e/2004730138811",null,["21"]],
  ["2026-11-28","22:00","Afrobeats Takeover: Friendsgiving Edition","DJ 619, SAGA (host)","palmandpine",AF,"https://www.eventbrite.com/e/afrobeats-takeover-friendsgiving-edition-tickets-2002105338964",null],
  ["2026-11-25","21:00","Dub Club presents: Kabaka Pyramid","Kabaka Pyramid, Dub Club DJs","echoplex",RG,"https://www.ticketmaster.com/dub-club-presents-kabaka-pyramid-21-los-angeles-california-11-25-2026/event/09006531B99FB3F7",null,["21"]],
@@ -592,12 +649,19 @@ const RAW=[
 // Boston
  ["2027-01-28","20:00","Badfish: A Tribute to Sublime w/ Kash'd Out","Badfish - A Tribute to Sublime, Kash'd Out","soundcheckpembroke",RG,"https://www.jambase.com/show/badfish-a-tribute-to-sublime-soundcheck-studios-20270128",null],
 // Maui
+ ["2026-12-12","20:00","North Shore Reggae Party w/ The Lambsbread","The Lambsbread","paiabay",RG,"https://www.eventbrite.com/e/north-shore-reggae-party-wthe-lambsbread-tickets-2004210338073",null],
  ["2026-12-05","18:00","Iration","Iration, Kanaka Fyah, Twin Fin","mauiarts",RG,"https://mauiarts.org/show-details/iration2026","$57–101.50"],
 // Denver
+ ["2026-12-16","21:00","Yellowman","Yellowman","soileddovechoppers",DH,"https://www.eventbrite.com/e/yellowman-tickets-2005110836488",null],
+ ["2026-12-05","20:00","Rum & Reggae: Monthly Reggae Night","Lady Selecta DJ MooreLove","bearcreekdistillery",RG,"https://beatstorapon.com/event/rum-reggae-monthly-reggae-night-in-denver-6af3f3f846dc464e327cf65f","free",["21"]],
+ ["2026-11-25","19:00","Reggae on Broadway Blackout Wednesday: Demarco Live in Denver","Demarco","dahliadenver",DH,"https://www.eventbrite.com/e/reggae-on-broadway-blackout-wednesday-demarco-live-in-denver-tickets-2004540906813",null],
  ["2026-12-18","20:00","Atomga","Atomga","bluebird",AF,"https://www.axs.com/events/1579455/atomga-tickets",null],
  ["2027-02-26","20:00","The Movement & Collie Buddz","The Movement, Collie Buddz, DENM","missionballroom",RG,"https://www.axs.com/events/1606813/the-movement-collie-buddz-tickets","$47–147"],
  ["2027-02-12","19:30","Ballyhoo!: We Ride at Dawn Tour","Ballyhoo!, Chad Tepper, Keep Flying","cervantesother",RG,"https://www.etix.com/ticket/p/92465656/ballyhoowchad-tepper-denver-cervantesother-side","$34"],
 // Phoenix
+ ["2027-04-04","12:00","Reggae Rise Up Arizona 2027 (Day 3)","Lineup TBA","tempebeachpark",RG,"https://reggaeriseup.com/?p=2551",null,["fest"]],
+ ["2027-04-03","12:00","Reggae Rise Up Arizona 2027 (Day 2)","Lineup TBA","tempebeachpark",RG,"https://reggaeriseup.com/?p=2551",null,["fest"]],
+ ["2027-04-02","12:00","Reggae Rise Up Arizona 2027 (Day 1)","Lineup TBA","tempebeachpark",RG,"https://reggaeriseup.com/?p=2551",null,["fest"]],
  ["2027-01-28","19:30","Ballyhoo!: We Ride at Dawn Tour","Ballyhoo!","crescentballroom",RG,"https://www.ticketweb.com/event/ballyhoo-we-ride-crescent-ballroom-tickets/14347194","$35"],
 // Sacramento
  ["2026-12-05","19:30","Prezident Brown with Iyah Wise","Prezident Brown, Iyah Wise, DJ JayTwo","midtownlivesac",RG,"https://www.eventbrite.com/e/2004389888112","$25",["21"]],
@@ -630,6 +694,9 @@ const RAW=[
 // Las Vegas
  ["2026-11-28","22:00","Fremont Street Reggae Party: Thanksgiving Weekend","DJ F1NESSE, ZJFLASH, JKRAZY","pinkmonkeylv",RG,"https://beatstorapon.com/event/fremont-street-reggae-party-returns-thanksgiving-weekend-6aeab6439f1bb794c92750f4","$15"],
 // Honolulu
+ ["2027-02-27","20:00","L.A.B","L.A.B, Irie Love, Seven Suns, Big Koa, Hapa Boy","republikhnl",RG,"https://www.jambase.com/show/l-a-b-the-republik-20270227","$50"],
+ ["2027-01-31","20:00","Johnny Cosmic with KBong","Johnny Cosmic, KBong","republikhnl",RG,"https://www.jambase.com/show/johnny-cosmic-the-republik-20270131","$40"],
+ ["2027-01-09","18:30|21:00","Long Beach Dub Allstars","Long Beach Dub Allstars","tm_blue_note_hawaii",RG,"https://www.bluenotejazz.com/hawaii/tm-event/long-beach-dub-allstars/","$25–35"],
  ["2026-11-29","18:00|21:00","Anuhea's \"Grateful & Grooving\" Thanksgiving Celebration","Anuhea","tm_blue_note_hawaii",RG,"https://www.bluenotejazz.com/hawaii/tm-event/anuheas-grateful-grooving-thanksgiving-celebration/","$35–50"],
  ["2026-12-04","18:30|21:00","Josh Tatofi","Josh Tatofi","tm_blue_note_hawaii",RG,"https://www.bluenotejazz.com/hawaii/tm-event/josh-tatofi-25/","$55–75"],
  ["2026-12-05","18:30|21:00","Josh Tatofi","Josh Tatofi","tm_blue_note_hawaii",RG,"https://www.bluenotejazz.com/hawaii/tm-event/josh-tatofi-25/","$55–75"],
@@ -637,6 +704,13 @@ const RAW=[
  ["2026-12-01","20:00","Matisyahu: Festival of Lights","Matisyahu","trumankc",RG,"https://www.tickpick.com/buy-matisyahu-tickets-the-truman-kansas-city-12-1-26-8pm/8267325/",null],
  ["2026-11-26","19:00","Prince Indah Live in Kansas City","Prince Indah","hwy291lees",AF,"https://www.eventbrite.com/e/prince-indah-live-in-kansas-city-tickets-2004630111627",null],
  ["2026-12-11","19:00","Dub Reggae Matinee w/ Dub Vendors","Dub Vendors","theshipkc",RG,"https://www.eventbrite.com/e/dub-reggae-matinee-w-dub-vendors-tickets-2004441519543","$10+"],
+// Santa Barbara & Ventura
+ ["2026-12-13","20:00","Anuhea: All Is Bright Holiday Tour","Anuhea, Ana Vee","tm_ventura_music_hall",RG,"https://www.tixr.com/groups/venturamusichall/events/anuhea-211155",null],
+ ["2026-11-27","18:00","Don Carlos + Rastan: Reggae in da Garten (Open Air)","Don Carlos, Rastan","eoslounge",RG,"https://app.discotech.me/events/38301210-don-carlos-rastan-open-air-reggae-in-da-garten-at-eos-lounge",null,["21"]],
+// Portland, Oregon
+ ["2027-02-19","19:30","The Movement: Winter Tour 2027","The Movement, KBong, Johnny Cosmic","wonderballroom",RG,"https://www.etix.com/ticket/p/52972807/the-movement-tourwinter-2027-portland-wonder-ballroom",null],
+// Salt Lake City
+ ["2027-02-07","19:30","Ballyhoo!","Ballyhoo!","soundwell",RG,"https://concerts50.com/show/ballyhoo-in-salt-lake-city-tickets-feb-07-2027",null,["21"]],
 // <tm>  (Ticketmaster/SeatGeek feeds, fetched Ticketmaster 2026-11-23; rebuilt each update — don't edit by hand)
  ["2026-12-06","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_coca_cola_roxy",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-atlanta-georgia-12-06-2026/event/0E0064F8A3057D42",null],
  ["2026-12-11","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_moody_center_atx",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-austin-texas-12-11-2026/event/3A0064F8A6F0F07A",null],
@@ -663,7 +737,6 @@ const RAW=[
  ["2026-12-09","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_the_pavilion_at_toyota_music",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-irving-texas-12-09-2026/event/0C0064F6DB45AFBE",null],
  ["2027-02-18","19:00","Badfish - A Tribute To Sublime","Badfish - A Tribute To Sublime","tm_the_echo_lounge_music_hall",RG,"https://www.ticketmaster.com/badfish-a-tribute-to-sublime-dallas-texas-02-18-2027/event/0C0065537D1F251C",null],
  ["2026-12-04","18:00","Iration","Kanaka Fyah, Twin Fin","tm_tom_moffatt_waikiki_shell",RG,"https://www.ticketmaster.com/iration-honolulu-hawaii-12-04-2026/event/0A006518071612F0",null],
- ["2027-01-09","18:30","Long Beach Dub Allstars","Long Beach Dub Allstars","tm_blue_note_hawaii",RG,"https://www.ticketweb.com/event/long-beach-dub-allstars-blue-note-hawaii-tickets/15021893","$34–46"],
  ["2027-02-05","18:30","\"All Da Tings\" Life, Laughter, Irie Ever After A night of comedy & music","Irie Love","tm_blue_note_hawaii",RG,"https://www.ticketweb.com/event/all-da-tings-life-laughter-blue-note-hawaii-tickets/14386834","$34–46"],
  ["2026-12-10","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_713_music_hall",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-houston-texas-12-10-2026/event/3A0064F6AF9FD0D3",null],
  ["2027-01-29","20:00","The Hip Abduction","Moon Taxi","tm_the_vogue",RG,"https://www.thevogue.com/events/the-hip-abduction-01-29-2027-indianapolis",null],
@@ -698,10 +771,9 @@ const RAW=[
  ["2026-11-27","20:00","The Legendary Wailers ft. Junior Marvin","Junior Marvin & The Legendary Wailers","elevation27",RG,"https://www.ticketmaster.com/the-legendary-wailers-ft-junior-marvin-virginia-beach-virginia-11-27-2026/event/0100652429246494",null],
  ["2026-12-05","21:00","Reggae Fest At The Vanguard - Ages 21+","Reggae Fest","tm_vanguard_orlando",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AAZMAF",null,["fest"]],
  ["2026-12-12","21:00","DRIFTING ROOTS WITH SPECIAL GUEST GARY DREAD (OF THE MOVEMENT)","","tm_west_end_trading_company",RG,"https://www.ticketweb.com/event/drifting-roots-with-special-guest-west-end-trading-company-tickets/14351674","$19"],
- ["2026-12-03","20:00","Dirty Heads","Dirty Heads","tm_mcmenamins_crystal_ballroom",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AAefbb",null],
+ ["2026-12-03","20:00","Dirty Heads","Dirty Heads","wonderballroom",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AAefbb",null],
  ["2027-01-29","20:00","Bang Bang Experience","","tm_jack_london_revue",AF,"https://www.ticketweb.com/event/bang-bang-experience-jack-london-revue-tickets/15059973","$26–206"],
  ["2027-02-06","20:00","IRON PROPHECY - BOB MARLEY B-DAY BASH","","tm_jack_london_revue",RG,"https://www.ticketweb.com/event/iron-prophecy-bob-jack-london-revue-tickets/15015973","$24"],
- ["2027-02-19","19:30","The Movement","The Movement","tm_mcmenamins_crystal_ballroom",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AAeKJK",null],
  ["2026-12-14","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_arizona_financial_theatre",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-phoenix-arizona-12-14-2026/event/190064F7DC208863",null],
  ["2027-02-08","19:30","The Hip Abduction","Surf Hat","tm_the_van_buren",RG,"https://www.ticketmaster.com/the-hip-abduction-phoenix-arizona-02-08-2027/event/1900654BA7C148E1",null],
  ["2027-01-30","20:00","Elephants Dancing","Rockstead","mrsmalls",RG,"https://www.ticketmaster.com/elephants-dancing-millvale-pennsylvania-01-30-2027/event/16006569AADF6D09",null],
@@ -709,21 +781,10 @@ const RAW=[
  ["2027-01-30","19:00","Common Kings & The Green with Fortunate Youth and Through The Roots","Common Kings","tm_the_venue_at_thunder_valley_",RG,"https://www.ticketmaster.com/common-kings-the-green-with-fortunate-lincoln-california-01-30-2027/event/1C0065342ED36F01",null],
  ["2027-02-13","20:00","The Hip Abduction","Surf Hat","tm_channel_24",RG,"https://www.ticketmaster.com/the-hip-abduction-sacramento-california-02-13-2027/event/1C006546D8C2419F",null],
  ["2026-11-28","20:00","B-Side Players, Elijah Emanuel","B Side Players","tm_belly_up",RG,"https://www.ticketweb.com/event/b-side-players-elijah-emanuel-belly-up-tickets/14219064","$33"],
- ["2026-12-06","20:00","Anuhea - All Is Bright Tour Feat. Ana Vee","Anuhea","musicboxsd",RG,"https://www.ticketweb.com/event/anuhea-all-is-music-box-tickets/14359604","$44"],
  ["2026-12-15","20:00","TYLA - THE A*POP WORLD TOUR","Jae Stephens","tm_viejas_arena_at_aztec_bowl_s",AF,"https://www.ticketmaster.com/tyla-the-apop-world-tour-san-diego-california-12-15-2026/event/0A0064EB1FC27EA4",null],
- ["2026-12-29","20:00","Steel Pulse - Reggae Against Racism Tour","Steel Pulse","tm_belly_up",RG,"https://www.ticketweb.com/event/steel-pulse-reggae-belly-up-tickets/14382744","$80"],
- ["2026-12-30","20:00","Steel Pulse - Reggae Against Racism Tour","Steel Pulse","tm_belly_up",RG,"https://www.ticketweb.com/event/steel-pulse-reggae-belly-up-tickets/14382754","$80"],
- ["2026-12-31","20:00","Tribal Seeds, Dubbest, Eureka Sound","TRIBAL SEEDS","thesounddelmar",RG,"https://www.ticketweb.com/event/tribal-seeds-dubbest-eureka-sound-the-sound-tickets/15035993",null],
  ["2027-02-05","19:30","Surfer Girl - The Midnight Tour w/ South Summit and JOBY!","Surfer Girl","musicboxsd",RG,"https://www.ticketweb.com/event/surfer-girl-the-music-box-tickets/14384244","$33"],
- ["2027-02-12","21:00","Groundation - A Tribute to Bob Marley w/ Jah Ollin","Groundation","tm_belly_up",RG,"https://www.ticketweb.com/event/groundation-a-tribute-belly-up-tickets/14313944","$34"],
  ["2027-02-19","21:00","Through the Roots","Through the Roots","tm_belly_up",RG,"https://www.ticketweb.com/event/through-the-roots-belly-up-tickets/14325644","$30"],
  ["2026-12-12","21:00","The Slackers","The Slackers","tm_ventura_music_hall",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AAv8oM",null],
- ["2026-12-10","20:00","Moe's Alley Presents: The Slackers w/ The Hot Takes","The Slackers","tm_moe_s_alley",RG,"https://www.ticketweb.com/event/moes-alley-presents-the-slackers-moes-alley-tickets/14285894","$30"],
- ["2026-12-11","19:00","The Slackers, Monkey, The Hellas","The Slackers","tm_the_ritz",RG,"https://www.ticketweb.com/event/the-slackers-monkey-the-hellas-the-ritz-tickets/15042253","$38–521"],
- ["2026-12-13","20:00","Moe's Alley Presents: Long Beach Dub Allstars w/ Man Like Devin","Long Beach Dub Allstars","tm_moe_s_alley",RG,"https://www.ticketweb.com/event/moes-alley-presents-long-beach-moes-alley-tickets/14348964","$35"],
- ["2027-01-14","20:00","(((folkYEAH!))) Presents: Sister Nancy & The Steady Rock Band w/ Reggae Angels","Sister Nancy","tm_moe_s_alley",DH,"https://www.ticketweb.com/event/folkyeah-presents-sister-nancy-moes-alley-tickets/14383074","$60"],
- ["2027-01-15","21:00","Sister Nancy & the Steady Rock Band","Reggae Angels","tm_the_independent",DH,"https://www.ticketweb.com/event/sister-nancy-the-steady-the-independent-tickets/14337734","$50"],
- ["2027-01-23","21:00","Don Carlos","Don Carlos","cornerstoneberk",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AAZo-f",null],
  ["2027-02-12","20:00","The Hip Abduction","Surf Hat","tm_the_castro_theatre",RG,"https://www.ticketmaster.com/the-hip-abduction-san-francisco-california-02-12-2027/event/1C006549D25A5536",null],
  ["2027-02-17","20:00","L.A.B with Seven Suns","L.A.B.","tm_cafe_du_nord",RG,"https://www.ticketweb.com/event/lab-with-seven-suns-cafe-du-nord-tickets/14314574","$33"],
  ["2027-02-12","20:00","Badfish - A Tribute To Sublime - Watch Your Mouth 2027 Tour","Kash'd Out","tm_the_pageant",RG,"https://www.ticketmaster.com/badfish-a-tribute-to-sublime-watch-saint-louis-missouri-02-12-2027/event/06006553DEB3D03C",null],
