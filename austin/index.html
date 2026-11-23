@@ -268,6 +268,7 @@ const V={
  crafthouse:{n:"Crafthouse Stage & Grill",area:"Brentwood",b:"Pittsburgh",lat:40.3407,lng:-79.9645},
  mrsmalls:{n:"Mr. Smalls Theatre",area:"Millvale",b:"Pittsburgh",lat:40.4806,lng:-79.9731},
  // Norfolk & Virginia Beach
+ elevation27:{n:"Elevation 27",area:"Virginia Beach",b:"VA",lat:36.8493,lng:-76.0194},
  norva:{n:"The NorVa",area:"Downtown Norfolk",b:"Norfolk",lat:36.8506,lng:-76.2866},
  // Atlanta
  varietyplayhouse:{n:"Variety Playhouse",area:"Little Five Points",b:"Atlanta",lat:33.7646,lng:-84.3487},
@@ -275,6 +276,8 @@ const V={
  // Tampa
  mahaffey:{n:"Mahaffey Theater",area:"Downtown St. Pete",b:"St. Petersburg",lat:27.7685,lng:-82.6337},
  // Miami
+ highergroundarlo:{n:"Higher Ground at Arlo Wynwood",area:"Wynwood",b:"Miami",lat:25.7985,lng:-80.1965},
+ wynwoodmarketplace:{n:"Wynwood Marketplace",area:"Wynwood",b:"Miami",lat:25.7990,lng:-80.1990},
  mbbandshell:{n:"Miami Beach Bandshell",area:"North Beach",b:"Miami Beach",lat:25.8636,lng:-80.1210},
  hrlhollywood:{n:"Hard Rock Live (Seminole Hard Rock)",area:"Hollywood",b:"FL",lat:26.0510,lng:-80.2110},
  sunsetcove:{n:"Sunset Cove Amphitheater",area:"Boca Raton",b:"FL",lat:26.3732,lng:-80.2197},
@@ -343,9 +346,12 @@ const V={
  soundcheckpembroke:{n:"Soundcheck Studios",area:"Pembroke",b:"MA",lat:42.0590,lng:-70.8000},
  thecabot:{n:"The Cabot",area:"Downtown",b:"Beverly, MA",lat:42.5478,lng:-70.8797},
  // Washington, D.C.
+ neptuneroomdc:{n:"Neptune Room",area:"Petworth",b:"Washington, DC",lat:38.9555,lng:-77.0280},
  nine30club:{n:"9:30 Club",area:"Shaw",b:"Washington",lat:38.9180,lng:-77.0237},
  tallyho:{n:"Tally Ho Theater",area:"Downtown",b:"Leesburg, VA",lat:39.1155,lng:-77.5652},
  // Dallas–Fort Worth
+ playhousedallas:{n:"Playhouse Dallas",area:"Uptown",b:"Dallas, TX",lat:32.8010,lng:-96.8040},
+ lbj8051:{n:"8051 LBJ Fwy",area:"North Dallas",b:"Dallas, TX",lat:32.9230,lng:-96.7690},
  aldeez:{n:"Aldeez Afribbean Restaurant",area:"Far North Dallas",b:"Dallas",lat:32.9985,lng:-96.8445},
  // Jacksonville
  cafeeleven:{n:"The Original Cafe Eleven",area:"St. Augustine Beach",b:"FL",lat:29.8573,lng:-81.2654},
@@ -409,7 +415,6 @@ const V={
  tm_sony_hall:{n:"Sony Hall",area:"New York",b:"NY",c:"NYC",lat:40.7596,lng:-73.9873},
  tm_barclays_center:{n:"Barclays Center",area:"Brooklyn",b:"NY",c:"NYC",lat:40.6829,lng:-73.9752},
  tm_starland_ballroom:{n:"Starland Ballroom",area:"Sayreville",b:"NJ",c:"NYC",lat:40.4618,lng:-74.3449},
- tm_elevation_27:{n:"Elevation 27",area:"Virginia Beach",b:"VA",c:"ORF",lat:36.8493,lng:-76.0194},
  tm_vanguard_orlando:{n:"Vanguard - Orlando",area:"Orlando",b:"FL",c:"ORL",lat:28.5418,lng:-81.3736},
  tm_west_end_trading_company:{n:"West End Trading Company",area:"Sanford",b:"FL",c:"ORL",lat:28.8107,lng:-81.2651},
  tm_jack_london_revue:{n:"Jack London Revue",area:"Portland",b:"OR",c:"PDX",lat:45.5195,lng:-122.6763},
@@ -448,6 +453,8 @@ const SITES={
  pvconcerthall:"https://www.pvconcerthall.com/"
 ,
  wolfden:"https://mohegansun.com/"
+,
+ elevation27:"https://www.elevation27.com/"
 };
 for(const k in SITES) if(V[k]) V[k].site=SITES[k];
 const LISTING_SITE=/seatgeek|vividseats|stubhub|tickpick|gametime|ticketnetwork|ticketsmarter|eventticketscenter|tickets-center|concertfix|concerts50|concertarchives|songkick|bandsintown|jambase|allevents|evendo|happeningnext|eventbrowse|new-york\.events|americanarenas|eventworld|stereoboard|catchmovement|beatstorapon|discotech|etickets\.com|ticketx|karlobag|overlookmaps/;
@@ -502,12 +509,16 @@ const RAW=[
 // Pittsburgh
  ["2027-02-04","20:00","Badfish – A Tribute to Sublime: Watch Your Mouth 2027 Tour","Badfish - A Tribute to Sublime, Kash'd Out","thunderbirdpgh",RG,"https://www.etix.com/ticket/p/67487138/badfish-a-tribute-to-sublime-pittsburgh-thunderbird-caf%C3%A9-music-hall",null,["18"]],
 // Norfolk & Virginia Beach
+ ["2027-02-26","20:00","Badfish – A Tribute to Sublime: Watch Your Mouth 2027 Tour","Badfish, Dan Kelly (of Fortunate Youth), Of Good Nature","elevation27",RG,"https://www.elevation27.com/tm-event/badfish-a-tribute-to-sublime-watch-your-mouth-2027-tour/","$32–47"],
+ ["2027-01-29","19:30","Tropidelic with Mihali & Mellodose","Tropidelic, Mihali, Mellodose","elevation27",RG,"https://www.elevation27.com/tm-event/tropidelic-with-mihali-mellodose/","$27–42"],
  ["2026-12-05","19:00","Bumpin' Uglies","Bumpin' Uglies","norva",RG,"https://www.axs.com/events/1518389/bumpin-uglies-tickets",null],
  ["2027-02-24","19:30","Pepper: 20 Years of No Shame","Pepper, SensaMotion","norva",RG,"https://www.axs.com/events/1678792/pepper-tickets",null],
 // Atlanta
  ["2026-12-16","20:00","Matisyahu: Festival of Lights","Matisyahu","varietyplayhouse",RG,"https://www.axs.com/events/1605465/matisyahu-festival-of-lights-tour-tickets",null],
 // Tampa
 // Miami
+ ["2026-12-06","15:00","STAMPED: AYA & Friends x 333 Club (Art Basel)","AYA, 333 Club","highergroundarlo",AF,"https://www.eventbrite.com/e/stamped-aya-x-friends-hosted-by-333-club-miami-art-basel-26-tickets-1987042705221","free (RSVP before 7 PM)–$22.80"],
+ ["2026-12-04","21:00","Vibes 305 Basel: The Art of DJing","K. Foxx (host), LS One, Dutty Dex, Jazzy T (Renaissance Disco), Dr. Esan, DJ Nasty","wynwoodmarketplace",DH,"https://www.eventbrite.com/e/vibes-305-basel-tickets-2004520016329",null,["21"]],
  ["2026-12-19","19:30","Matisyahu: Festival of Lights","Matisyahu","mbbandshell",RG,"https://wl.eventim.us/event/matisyahu/705394?afflky=MiamiBeachBandshell","from $61.12"],
  ["2026-11-25","22:00","Rory Stone Love \"Legendary\" Anniversary","Rory Stone Love, Waggy T, Kevin Crown, Code Red Sound, Renaissance Disco, DJ Juxxy Fire","daer",DH,"https://www.eventbrite.com/e/rory-stone-love-legendary-anniversary-tickets-2002765688086",null,["21"]],
  ["2026-11-27","22:00","Dancehall Explosion 2.0 ft. Silk Boss","Silk Boss, Gabbi Don","genesispompano",DH,"https://www.eventbrite.com/e/dancehall-explosion-20-silkboss-live-nicole-birthday-and-thanksgiving-tickets-2005040822073",null],
@@ -576,6 +587,7 @@ const RAW=[
  ["2026-12-12","19:30","Siaosi","Siaosi, DJ JayTwo","midtownlivesac",RG,"https://www.eventbrite.com/e/2004035186189","$25–50"],
  ["2027-02-05","18:30","Ballyhoo!: We Ride at Dawn Tour","Ballyhoo!, Chad Tepper","goldfieldroseville",RG,"https://www.jambase.com/show/ballyhoo-goldfield-roseville-20270205","$25"],
 // Washington, D.C.
+ ["2026-12-05","21:00","Jamaican 60s Ska/Reggae DJ Night","DJ Raul (CussCussPhilly)","neptuneroomdc",RG,"https://www.eventbrite.com/e/jamaican-60s-skareggae-dj-night-tickets-2005077000283","free"],
  ["2026-12-10","19:00","Matisyahu: Festival of Lights","Matisyahu, Matt Jalbert Band","nine30club",RG,"https://www.930.com/e/matisyahu-festival-of-lights",null],
  ["2027-02-26","19:00","Ballyhoo!","Ballyhoo!","tallyho",RG,"https://www.ticketmaster.com/ballyhoo-leesburg-virginia-02-26-2027/event/01006528A096DABA","$32–66"],
 // West Palm Beach
@@ -585,6 +597,8 @@ const RAW=[
  ["2026-11-27","21:00","Jahmiel: The One Tour","Jahmiel","coolrunningshou",DH,"https://www.eventbrite.com/e/jahmiel-the-one-tour-tickets-2003748245943",null],
  ["2026-12-12","22:00","Reggae Bash Houston: Santa Gone Wild ft. Charly Black","Charly Black","notohou",DH,"https://www.eventbrite.com/e/reggae-bash-houston-santa-gone-wild-ft-charly-black-live-tickets-2004608953342",null,["21"]],
 // Dallas–Fort Worth
+ ["2026-11-28","22:00","Thankful for Afrobeat","Bode, Wavvy, Zikky","playhousedallas",AF,"https://www.eventbrite.com/e/thankful-for-afrobeat-tickets-2003753991127",null,["21"]],
+ ["2026-11-27","21:00","The Fuji Royal Experience","Obesere","lbj8051",AF,"https://www.eventbrite.com/e/the-fuji-royal-experience-tickets-2003466849278",null],
  ["2026-11-28","22:00","Jahmiel Live in Dallas","Jahmiel","aldeez",DH,"https://www.eventbrite.com/e/jahmiel-live-in-dallas-tickets-2000206002999",null],
 // Austin
  ["2026-11-28","20:30","Dancehall & Reggae: Soulfiya, Kroywen, Sgt Remo, Krucial Rootz","Soulfiya, Kroywen, Sgt Remo, Krucial Rootz","flamingocantina",RG,"https://www.eventbrite.com/e/soulfiya-kroywen-sgt-remo-krucial-rootz-dancehall-reggae-tickets-2003701678659","$5",["21"]],
@@ -661,7 +675,7 @@ const RAW=[
  ["2026-12-27","20:00","REGGAE FEST PRESENTS POPCAAN NO BORDERS","Reggae Fest","tm_barclays_center",RG,"https://www.ticketmaster.com/reggae-fest-presents-popcaan-no-borders-brooklyn-new-york-12-27-2026/event/30006569AC3A3084",null,["fest"]],
  ["2026-12-31","22:00","Reggae Fest New Year's Eve All Black Affair at BK Paramount","Reggae Fest","tm_brooklyn_paramount",RG,"https://www.universe.com/events/reggae-fest-new-years-eve-all-black-affair-at-bk-paramount-tickets-850BPG?ref=ticketmaster",null,["fest"]],
  ["2027-01-29","20:00","Badfish w/ Kash'd Out","Badfish - A Tribute To Sublime","tm_starland_ballroom",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AA7EAp",null],
- ["2026-11-27","20:00","The Legendary Wailers ft. Junior Marvin","Junior Marvin & The Legendary Wailers","tm_elevation_27",RG,"https://www.ticketmaster.com/the-legendary-wailers-ft-junior-marvin-virginia-beach-virginia-11-27-2026/event/0100652429246494",null],
+ ["2026-11-27","20:00","The Legendary Wailers ft. Junior Marvin","Junior Marvin & The Legendary Wailers","elevation27",RG,"https://www.ticketmaster.com/the-legendary-wailers-ft-junior-marvin-virginia-beach-virginia-11-27-2026/event/0100652429246494",null],
  ["2026-12-05","21:00","Reggae Fest At The Vanguard - Ages 21+","Reggae Fest","tm_vanguard_orlando",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AAZMAF",null,["fest"]],
  ["2026-12-12","21:00","DRIFTING ROOTS WITH SPECIAL GUEST GARY DREAD (OF THE MOVEMENT)","","tm_west_end_trading_company",RG,"https://www.ticketweb.com/event/drifting-roots-with-special-guest-west-end-trading-company-tickets/14351674","$19"],
  ["2026-12-03","20:00","Dirty Heads","Dirty Heads","tm_mcmenamins_crystal_ballroom",RG,"https://www.ticketmaster.com/event/Z7r9jZ1AAefbb",null],
