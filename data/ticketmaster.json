@@ -1,35 +1,7 @@
 {
-"fetched": "2026-11-22T10:28:47+00:00",
+"fetched": "2026-11-23T10:43:36+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
-{
-"city": "",
-"id": "vvG18Z_2o77qjU",
-"name": "TYLA - THE A*POP WORLD TOUR",
-"date": "2026-11-22",
-"time": "18:30",
-"status": "onsale",
-"venue": "Aragon Ballroom",
-"venueCity": "Chicago",
-"state": "IL",
-"address": "1106 W Lawrence",
-"lat": 41.96941873,
-"lng": -87.65797212,
-"url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-chicago-illinois-11-22-2026/event/040064F44411D736",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Electro Pop",
-"Pop"
-],
-"why": "artist:Tyla",
-"attractions": [
-"Tyla",
-"Jae Stephens"
-],
-"ageRestricted": false,
-"type": "AF"
-},
 {
 "city": "",
 "id": "vvG17Z_2pblCIW",
@@ -288,7 +260,7 @@
 {
 "city": "",
 "id": "rZ7HnEZ1Af1Axf",
-"name": "Moe's Alley Presents: The Slackers",
+"name": "Moe's Alley Presents: The Slackers w/ The Hot Takes",
 "date": "2026-12-10",
 "time": "20:00",
 "status": "onsale",
@@ -1293,6 +1265,37 @@
 "ageRestricted": false
 },
 {
+"city": "CHI",
+"id": "vv178Z_KGkUYgtBX",
+"name": "BOY BAND PARTY",
+"date": "2027-02-20",
+"time": "19:00",
+"status": "onsale",
+"venue": "Foundation Room at House of Blues Chicago",
+"venueCity": "Chicago",
+"state": "IL",
+"address": "329 N Dearborn St",
+"lat": 41.88829,
+"lng": -87.62884,
+"url": "https://www.ticketmaster.com/boy-band-party-chicago-illinois-02-20-2027/event/0400653DB0D69EBE",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Adult Alternative Pop/Rock",
+"Alternative",
+"Alternative Rock",
+"DJ",
+"Reggae",
+"Rock"
+],
+"why": "class:Reggae",
+"attractions": [
+"Boy Mob",
+"DJ Tres Awesome"
+],
+"ageRestricted": false
+},
+{
 "city": "CIN",
 "id": "16vbZ_4ZMG7RW1e",
 "name": "Tropidelic with Mihali, Beach Fly",
@@ -1503,6 +1506,37 @@
 "Tropidelic",
 "Mihali",
 "Mellodose"
+],
+"ageRestricted": false
+},
+{
+"city": "CLT",
+"id": "G5eVZ_KEGrK_p",
+"name": "Surfer Girl: The Midnight Tour",
+"date": "2027-02-20",
+"time": "20:00",
+"status": "onsale",
+"venue": "Neighborhood Theatre Tap Room",
+"venueCity": "Charlotte",
+"state": "NC",
+"address": "511 E 36th St, Charlotte",
+"lat": 35.24749614,
+"lng": -80.80389971,
+"url": "https://www.ticketmaster.com/surfer-girl-the-midnight-tour-charlotte-north-carolina-02-20-2027/event/2D006539CC793656",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Alternative",
+"Alternative Rock",
+"Reggae",
+"Reggae-Pop",
+"Rock"
+],
+"why": "class:Reggae",
+"attractions": [
+"Surfer Girl",
+"South Summit",
+"JOBY!"
 ],
 "ageRestricted": false
 },
@@ -1840,26 +1874,32 @@
 "ageRestricted": false
 },
 {
-"city": "LA",
-"id": "rZ7HnEZ1AfuEPf",
-"name": "Reggae Sunday: Rootful",
-"date": "2026-11-22",
-"time": "19:00",
+"city": "JAX",
+"id": "Z7r9jZ1AA7zbz",
+"name": "Pepper w/ Passafire",
+"date": "2027-02-20",
+"time": "19:45",
 "status": "onsale",
-"venue": "Ivan'z House at Mozambique",
-"venueCity": "Laguna Beach",
-"state": "CA",
-"address": "1740 S. Coast Highway",
-"lat": 33.529436,
-"lng": -117.771375,
-"url": "https://www.ticketweb.com/event/reggae-sunday-rootful-ivanz-house-at-mozambique-tickets/14367954",
-"priceMin": 12.83,
-"priceMax": 263.62,
+"venue": "Ponte Vedra Concert Hall",
+"venueCity": "Ponte Vedra Beach",
+"state": "FL",
+"address": "1050 A1A North",
+"lat": 30.173401,
+"lng": -81.395798,
+"url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7zbz",
+"priceMin": null,
+"priceMax": null,
 "genres": [
-"Reggae"
+"Pop",
+"Reggae",
+"Rock",
+"World"
 ],
 "why": "class:Reggae",
-"attractions": [],
+"attractions": [
+"Pepper",
+"Passafire"
+],
 "ageRestricted": false
 },
 {
@@ -2717,6 +2757,32 @@
 "why": "class:Soca",
 "attractions": [
 "Patrice Roberts"
+],
+"ageRestricted": false
+},
+{
+"city": "NYC",
+"id": "1AYZk4tGkeiCNe7",
+"name": "REGGAE FEST PRESENTS POPCAAN NO BORDERS",
+"date": "2026-12-27",
+"time": "20:00",
+"status": "offsale",
+"venue": "Barclays Center",
+"venueCity": "Brooklyn",
+"state": "NY",
+"address": "620 Atlantic Ave",
+"lat": 40.68285,
+"lng": -73.97519,
+"url": "https://www.ticketmaster.com/reggae-fest-presents-popcaan-no-borders-brooklyn-new-york-12-27-2026/event/30006569AC3A3084",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"Reggae Fest",
+"Popcaan"
 ],
 "ageRestricted": false
 },
@@ -3746,6 +3812,31 @@
 "ageRestricted": false
 },
 {
+"city": "SEA",
+"id": "vvG1HZ_44z1Spx",
+"name": "Common Kings",
+"date": "2027-02-20",
+"time": "20:00",
+"status": "onsale",
+"venue": "Muckleshoot Casino Events Center",
+"venueCity": "Auburn",
+"state": "WA",
+"address": "2402 Auburn Way S",
+"lat": 47.29161723561205,
+"lng": -122.1966087,
+"url": "https://www.ticketmaster.com/common-kings-auburn-washington-02-20-2027/event/0F006555782B35A2",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"Common Kings"
+],
+"ageRestricted": true
+},
+{
 "city": "SFO",
 "id": "rZ7HnEZ1Afoef0",
 "name": "AFROBASHMENT(Afrobeats, Dancehall, Hip-hop & more) w/ Daghe + Ignacia + Doc Limo",
@@ -3759,7 +3850,7 @@
 "lat": 37.80857,
 "lng": -122.26962,
 "url": "https://www.ticketweb.com/event/afrobashmentafrobeats-dancehall-hip-hop-crybaby-tickets/14442524",
-"priceMin": 6.72,
+"priceMin": 13.37,
 "priceMax": 129.24,
 "genres": [
 "Hip-Hop/Rap"
