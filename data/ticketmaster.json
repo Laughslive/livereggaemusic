@@ -1,7 +1,34 @@
 {
-"fetched": "2026-11-23T10:43:36+00:00",
+"fetched": "2026-11-24T10:36:18+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
+{
+"city": "",
+"id": "ZkDnngzZDdkBCNP2yAdqlnUKJrGje75",
+"name": "Artist Friendly | Re-Run: Ziggy Marley",
+"date": "2026-11-25",
+"time": "10:00",
+"status": "onsale",
+"venue": "Artist Friendly",
+"venueCity": null,
+"state": "CA",
+"address": null,
+"lat": null,
+"lng": null,
+"url": "https://veeps.com/artistfriendly/c6e8e8e5-3f91-4376-bab6-4e678c70210b",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Reggae"
+],
+"why": "artist:Ziggy Marley",
+"attractions": [
+"Ziggy Marley",
+null
+],
+"ageRestricted": false,
+"type": "RG"
+},
 {
 "city": "",
 "id": "vvG17Z_2pblCIW",
@@ -1388,8 +1415,8 @@
 "lat": 41.5082658,
 "lng": -81.5803633,
 "url": "https://www.ticketweb.com/event/dancehall-on-coventry-b-side-lounge-tickets/14451334",
-"priceMin": null,
-"priceMax": null,
+"priceMin": 19.51,
+"priceMax": 19.51,
 "genres": [
 "Dancehall Reggae",
 "Reggae"
@@ -1424,6 +1451,32 @@
 "why": "class:Reggae",
 "attractions": [
 "Carlos Jones"
+],
+"ageRestricted": false
+},
+{
+"city": "CLE",
+"id": "rZ7HnEZ1A4vEFK",
+"name": "Reggae New Years Eve Eve with Shake Ground and Jah Messengers",
+"date": "2026-12-30",
+"time": "19:00",
+"status": "onsale",
+"venue": "Grog Shop",
+"venueCity": "Cleveland Heights",
+"state": "OH",
+"address": "2785 Euclid Heights Boulevard",
+"lat": 41.508513,
+"lng": -81.580335,
+"url": "https://www.ticketweb.com/event/reggae-new-years-eve-eve-grog-shop-tickets/15067213",
+"priceMin": 19.51,
+"priceMax": 19.51,
+"genres": [
+"Reggae",
+"World"
+],
+"why": "class:Reggae",
+"attractions": [
+"Jah Messengers"
 ],
 "ageRestricted": false
 },
@@ -1537,6 +1590,34 @@
 "Surfer Girl",
 "South Summit",
 "JOBY!"
+],
+"ageRestricted": false
+},
+{
+"city": "CLT",
+"id": "G5eVZ_4D6rqDq",
+"name": "PEPPER: 20 years of No Shame",
+"date": "2027-02-21",
+"time": "20:00",
+"status": "onsale",
+"venue": "Neighborhood Theatre Main Room",
+"venueCity": "Charlotte",
+"state": "NC",
+"address": "511 E 36th St",
+"lat": 35.247447,
+"lng": -80.803888,
+"url": "https://www.ticketmaster.com/pepper-20-years-of-no-shame-charlotte-north-carolina-02-21-2027/event/2D00655EC779DEDD",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Pop",
+"Reggae",
+"Rock"
+],
+"why": "class:Reggae",
+"attractions": [
+"Pepper",
+"Passafire"
 ],
 "ageRestricted": false
 },
@@ -1813,6 +1894,32 @@
 "why": "class:Reggae",
 "attractions": [
 "Irie Love"
+],
+"ageRestricted": false
+},
+{
+"city": "HOU",
+"id": "G5dIZ_fXQOFnw",
+"name": "Badfish - A Tribute To Sublime - Watch Your Mouth 2027 Tour",
+"date": "2027-02-21",
+"time": "19:00",
+"status": "onsale",
+"venue": "House of Blues Houston",
+"venueCity": "Houston",
+"state": "TX",
+"address": "1204 Caroline Street",
+"lat": 29.75377797,
+"lng": -95.36381697,
+"url": "https://www.ticketmaster.com/badfish-a-tribute-to-sublime-watch-houston-texas-02-21-2027/event/3A00654F9A808AB2",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"Badfish - A Tribute To Sublime",
+"Kash'd Out"
 ],
 "ageRestricted": false
 },
@@ -3018,7 +3125,7 @@
 {
 "city": "PDX",
 "id": "rZ7HnEZ1A4v_PS",
-"name": "Bang Bang Experience",
+"name": "BANG BANG EXPERIENCE",
 "date": "2027-01-29",
 "time": "20:00",
 "status": "onsale",
@@ -3850,7 +3957,7 @@
 "lat": 37.80857,
 "lng": -122.26962,
 "url": "https://www.ticketweb.com/event/afrobashmentafrobeats-dancehall-hip-hop-crybaby-tickets/14442524",
-"priceMin": 13.37,
+"priceMin": 0.0,
 "priceMax": 129.24,
 "genres": [
 "Hip-Hop/Rap"
