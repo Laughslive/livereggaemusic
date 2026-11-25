@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-24T10:36:18+00:00",
+"fetched": "2026-11-25T10:39:43+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
 {
@@ -973,29 +973,6 @@ null
 },
 {
 "city": "BOS",
-"id": "rZ7HnEZ1AfZs37",
-"name": "Mood",
-"date": "2026-11-24",
-"time": "21:30",
-"status": "onsale",
-"venue": "Middle East - Corner/Bakery",
-"venueCity": "Cambridge",
-"state": "MA",
-"address": "480 Massachusetts Avenue",
-"lat": 42.363809,
-"lng": -71.101423,
-"url": "https://www.ticketweb.com/event/mood-middle-east-cornerbakery-tickets/14031484",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [],
-"ageRestricted": false
-},
-{
-"city": "BOS",
 "id": "LvZ18Qn8Lu9EIOyyLMpD0",
 "name": "Reggae Fest Boston at Big Night Live",
 "date": "2026-11-27",
@@ -1456,10 +1433,34 @@ null
 },
 {
 "city": "CLE",
+"id": "rZ7HnEZ1A4vsGK",
+"name": "In My Feelings: An R&B - Hip-Hop Joint",
+"date": "2026-12-26",
+"time": "22:00",
+"status": "onsale",
+"venue": "B Side Lounge",
+"venueCity": "Cleveland Heights",
+"state": "OH",
+"address": "2785 Euclid Heights Blvd",
+"lat": 41.5082658,
+"lng": -81.5803633,
+"url": "https://www.ticketweb.com/event/in-my-feelings-an-rb-b-side-lounge-tickets/15071313",
+"priceMin": 25.43,
+"priceMax": 25.43,
+"genres": [
+"Dancehall Reggae",
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [],
+"ageRestricted": false
+},
+{
+"city": "CLE",
 "id": "rZ7HnEZ1A4vEFK",
 "name": "Reggae New Years Eve Eve with Shake Ground and Jah Messengers",
 "date": "2026-12-30",
-"time": "19:00",
+"time": "20:00",
 "status": "onsale",
 "venue": "Grog Shop",
 "venueCity": "Cleveland Heights",
@@ -2873,7 +2874,7 @@ null
 "name": "REGGAE FEST PRESENTS POPCAAN NO BORDERS",
 "date": "2026-12-27",
 "time": "20:00",
-"status": "offsale",
+"status": "onsale",
 "venue": "Barclays Center",
 "venueCity": "Brooklyn",
 "state": "NY",
@@ -2881,6 +2882,32 @@ null
 "lat": 40.68285,
 "lng": -73.97519,
 "url": "https://www.ticketmaster.com/reggae-fest-presents-popcaan-no-borders-brooklyn-new-york-12-27-2026/event/30006569AC3A3084",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"Reggae Fest",
+"Popcaan"
+],
+"ageRestricted": false
+},
+{
+"city": "NYC",
+"id": "1kGZvPr6GA11spD",
+"name": "REGGAE FEST PRESENTS POPCAAN NO BORDERS",
+"date": "2026-12-28",
+"time": "20:00",
+"status": "offsale",
+"venue": "Barclays Center",
+"venueCity": "Brooklyn",
+"state": "NY",
+"address": "620 Atlantic Ave",
+"lat": 40.68285,
+"lng": -73.97519,
+"url": "https://www.ticketmaster.com/reggae-fest-presents-popcaan-no-borders-brooklyn-new-york-12-28-2026/event/300065787A2B15BB",
 "priceMin": null,
 "priceMax": null,
 "genres": [
@@ -3251,6 +3278,30 @@ null
 },
 {
 "city": "PHX",
+"id": "rZ7HnEZ1A4vsed",
+"name": "EARTHSURFACEOPEN // SOUL / REGGAE / HOUSE / AMAPIANO / DANCEHALL",
+"date": "2026-12-11",
+"time": "18:30",
+"status": "offsale",
+"venue": "Valley Bar",
+"venueCity": "Phoenix",
+"state": "AZ",
+"address": "130 N. Central Avenue",
+"lat": 33.449979,
+"lng": -112.074318,
+"url": "https://www.ticketweb.com/event/earthsurfaceopen-soul-reggae-valley-bar-tickets/15071083",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Dance/Electronic",
+"Turntablists"
+],
+"why": "name:reggae",
+"attractions": [],
+"ageRestricted": false
+},
+{
+"city": "PHX",
 "id": "17k8v0G62LK-zAR",
 "name": "Alt. AZ 93-3 Presents The Ugly Sweater Holiday Party",
 "date": "2026-12-11",
@@ -3277,6 +3328,30 @@ null
 "Slightly Stoopid",
 "Codefendants"
 ],
+"ageRestricted": false
+},
+{
+"city": "PHX",
+"id": "rZ7HnEZ1A4vs7d",
+"name": "EARTHSURFACEOPEN // SOUL / REGGAE / HOUSE / AMAPIANO / DANCEHALL",
+"date": "2026-12-12",
+"time": "18:30",
+"status": "offsale",
+"venue": "Valley Bar",
+"venueCity": "Phoenix",
+"state": "AZ",
+"address": "130 N. Central Avenue",
+"lat": 33.449979,
+"lng": -112.074318,
+"url": "https://www.ticketweb.com/event/earthsurfaceopen-soul-reggae-valley-bar-tickets/15071103",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Dance/Electronic",
+"Turntablists"
+],
+"why": "name:reggae",
+"attractions": [],
 "ageRestricted": false
 },
 {
