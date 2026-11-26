@@ -1,62 +1,7 @@
 {
-"fetched": "2026-11-25T10:39:43+00:00",
+"fetched": "2026-11-26T10:39:08+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
-{
-"city": "",
-"id": "ZkDnngzZDdkBCNP2yAdqlnUKJrGje75",
-"name": "Artist Friendly | Re-Run: Ziggy Marley",
-"date": "2026-11-25",
-"time": "10:00",
-"status": "onsale",
-"venue": "Artist Friendly",
-"venueCity": null,
-"state": "CA",
-"address": null,
-"lat": null,
-"lng": null,
-"url": "https://veeps.com/artistfriendly/c6e8e8e5-3f91-4376-bab6-4e678c70210b",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae"
-],
-"why": "artist:Ziggy Marley",
-"attractions": [
-"Ziggy Marley",
-null
-],
-"ageRestricted": false,
-"type": "RG"
-},
-{
-"city": "",
-"id": "vvG17Z_2pblCIW",
-"name": "TYLA - THE A*POP WORLD TOUR",
-"date": "2026-11-25",
-"time": "20:00",
-"status": "onsale",
-"venue": "MGM Music Hall at Fenway",
-"venueCity": "Boston",
-"state": "MA",
-"address": "2 Lansdowne St.",
-"lat": 42.346806,
-"lng": -71.097272,
-"url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-boston-massachusetts-11-25-2026/event/010064F598ACEA3D",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Electro Pop",
-"Pop"
-],
-"why": "artist:Tyla",
-"attractions": [
-"Tyla",
-"Jae Stephens"
-],
-"ageRestricted": false,
-"type": "AF"
-},
 {
 "city": "",
 "id": "k7vGF_2xiQkw5",
@@ -2012,35 +1957,6 @@ null
 },
 {
 "city": "LA",
-"id": "vv1AaZkfsGkeyED2M",
-"name": "Dub Club presents: Kabaka Pyramid (21+)",
-"date": "2026-11-25",
-"time": "21:00",
-"status": "onsale",
-"venue": "Echoplex",
-"venueCity": "Los Angeles",
-"state": "CA",
-"address": "1154 Glendale Blvd",
-"lat": 34.0775847,
-"lng": -118.2606316,
-"url": "https://www.ticketmaster.com/dub-club-presents-kabaka-pyramid-21-los-angeles-california-11-25-2026/event/09006531B99FB3F7",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Amapiano",
-"Club Dance",
-"Dance/Electronic",
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Dub Club",
-"Kabaka Pyramid"
-],
-"ageRestricted": true
-},
-{
-"city": "LA",
 "id": "rZ7HnEZ1AfuzuV",
 "name": "Reggae Sunday (Early Show): Einstein Brown",
 "date": "2026-11-29",
@@ -2114,33 +2030,6 @@ null
 "Reel Big Fish",
 "The Goodwin Club",
 "The Originals"
-],
-"ageRestricted": false
-},
-{
-"city": "LA",
-"id": "rZ7HnEZ1AfadJf",
-"name": "Western Conference & Friends + Siaosi, Keniye, Young Go",
-"date": "2026-12-05",
-"time": "17:00",
-"status": "onsale",
-"venue": "Garden Amphitheatre",
-"venueCity": "Garden Grove",
-"state": "CA",
-"address": "12762 Main Street",
-"lat": 33.777011,
-"lng": -117.940602,
-"url": "https://www.ticketweb.com/event/western-conference-friends-garden-amphitheatre-tickets/14243994",
-"priceMin": 23.39,
-"priceMax": 23.39,
-"genres": [
-"Other",
-"Reggae",
-"Smooth Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"The Western Conference"
 ],
 "ageRestricted": false
 },
@@ -2455,6 +2344,30 @@ null
 },
 {
 "city": "LA",
+"id": "rZ7HnEZ1A4vE7d",
+"name": "Reggae Sunday: Upstream",
+"date": "2027-01-17",
+"time": "19:00",
+"status": "onsale",
+"venue": "Ivan'z House at Mozambique",
+"venueCity": "Laguna Beach",
+"state": "CA",
+"address": "1740 S. Coast Highway",
+"lat": 33.529436,
+"lng": -117.771375,
+"url": "https://www.ticketweb.com/event/reggae-sunday-upstream-ivanz-house-at-mozambique-tickets/15067103",
+"priceMin": 12.83,
+"priceMax": 315.12,
+"genres": [
+"Carribbean",
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [],
+"ageRestricted": false
+},
+{
+"city": "LA",
 "id": "rZ7HnEZ1Afuavf",
 "name": "Surfer Girl - The Midnight Tour with South Summit, JOBY!",
 "date": "2027-02-04",
@@ -2589,9 +2502,34 @@ null
 "ageRestricted": false
 },
 {
+"city": "LA",
+"id": "vv1AaZkfyGkd9Gonu",
+"name": "L.A.B.",
+"date": "2027-02-23",
+"time": "19:00",
+"status": "onsale",
+"venue": "Constellation Room",
+"venueCity": "Santa Ana",
+"state": "CA",
+"address": "3503 South Harbor Boulevard",
+"lat": 33.699879,
+"lng": -117.917493,
+"url": "https://www.ticketmaster.com/lab-santa-ana-california-02-23-2027/event/09006539D7311A8D",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"L.A.B."
+],
+"ageRestricted": false
+},
+{
 "city": "NSH",
 "id": "rZ7HnEZ1A4vNfS",
-"name": "Plainview Vibes Feat. Paradise Daze & Vibright",
+"name": "Reggae Family Christmas Party",
 "date": "2026-12-19",
 "time": "17:00",
 "status": "onsale",
@@ -2601,7 +2539,7 @@ null
 "address": "6790 John Bragg Highway",
 "lat": 35.820643,
 "lng": -86.266806,
-"url": "https://www.ticketweb.com/event/plainview-vibes-feat-paradise-daze-hop-springs-tickets/15063533",
+"url": "https://www.ticketweb.com/event/reggae-family-christmas-party-hop-springs-tickets/15063533",
 "priceMin": 20.97,
 "priceMax": 20.97,
 "genres": [
@@ -2900,7 +2838,7 @@ null
 "name": "REGGAE FEST PRESENTS POPCAAN NO BORDERS",
 "date": "2026-12-28",
 "time": "20:00",
-"status": "offsale",
+"status": "onsale",
 "venue": "Barclays Center",
 "venueCity": "Brooklyn",
 "state": "NY",
