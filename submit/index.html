@@ -84,8 +84,8 @@ document.addEventListener("submit",function(ev){try{if(ev.target.id==="sub")gtag
   </fieldset>
   <p id="suberr" class="err" hidden>Please fill in the fields marked as required (event, date, start time, venue, address, ticket link, your name and contact).</p>
   <button type="submit">Send event</button>
-  <p class="small">This opens your email app with everything filled in, addressed to <a href="mailto:shows@laughslive.com?subject=Show%20submission">shows@laughslive.com</a> — just press send. No email app? <button type="button" id="copybtn" class="linkish">Copy the details</button> and email them to us.</p>
-  <p id="copied" class="small" hidden>Copied. Paste them into an email to <a href="mailto:shows@laughslive.com?subject=Show%20submission">shows@laughslive.com</a>.</p>
+  <p class="small">This opens your email app with everything filled in, addressed to <a href="mailto:shows@livereggaemusic.com?subject=Show%20submission">shows@livereggaemusic.com</a> — just press send. No email app? <button type="button" id="copybtn" class="linkish">Copy the details</button> and email them to us.</p>
+  <p id="copied" class="small" hidden>Copied. Paste them into an email to <a href="mailto:shows@livereggaemusic.com?subject=Show%20submission">shows@livereggaemusic.com</a>.</p>
 </form>
 
 <h2>What we list</h2>
@@ -109,7 +109,7 @@ document.addEventListener("submit",function(ev){try{if(ev.target.id==="sub")gtag
 .subform .bad{border-color:var(--red)!important}
 </style>
 <script>
-(()=>{const f=document.getElementById("sub"),to=f.dataset.to||"shows@laughslive.com";
+(()=>{const f=document.getElementById("sub"),to=f.dataset.to||"shows@livereggaemusic.com";
  const text=()=>[...f.elements].filter(e=>e.name&&e.value.trim()).map(e=>e.name+": "+e.value.trim()).join("\n");
  const ok=()=>{let good=true;[...f.elements].forEach(e=>{if(!e.name)return;const bad=e.required&&!e.value.trim();e.classList.toggle("bad",bad);if(bad)good=false});
    document.getElementById("suberr").hidden=good;return good};

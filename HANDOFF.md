@@ -68,7 +68,7 @@ Background for a new Claude chat picking up this project. Read this, then `tools
   shows, plus any act that headlines 3+ upcoming shows. Rebuilt from scratch each build; tribute bands are skipped.
   Each page carries schema.org MusicEvent data for Google.
 - /submit/ "List your event": a form that opens the visitor's email app addressed to email_shows in data/site.json
-  (shows@laughslive.com for now — change it there when the site gets its own address). No backend.
+  (shows@livereggaemusic.com). No backend.
 - /about/, /privacy/ from tools/pages/. Link previews use icons/og-image.png (1200×630); favicon.ico at the root.
 - The listings show 50 shows at a time with a "Show more" button.
 
@@ -80,8 +80,7 @@ Background for a new Claude chat picking up this project. Read this, then `tools
 2. **Ticketmaster key:** Settings → Secrets and variables → Actions → New repository secret `TM_API_KEY`.
    The same key as LaughsLive is fine. Then run "Ticketmaster reggae feed" from the Actions tab once.
 3. **Domain:** livereggaemusic.com (CNAME file and `data/site.json` are set). Point its DNS at GitHub Pages.
-4. **Email:** set up the addresses and fill them into `data/site.json`.
-   - The Proton plan allows one custom domain, already used by laughslive.com. Either upgrade the plan or use another provider.
+4. **Email:** done — shows@livereggaemusic.com and info@livereggaemusic.com on Proton (DNS at GoDaddy), set in `data/site.json`.
 5. **Search engines and analytics:**
    - Google Search Console: put its verification tag in `tools/head_extra.html`.
    - Cloudflare Web Analytics: put its beacon in `tools/head_extra.html`. The Privacy page already describes it.
