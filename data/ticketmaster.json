@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-26T10:39:08+00:00",
+"fetched": "2026-11-27T10:36:26+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
 {
@@ -1160,6 +1160,29 @@
 },
 {
 "city": "BOS",
+"id": "vv1A8vPjtGA2SWvl",
+"name": "Ladies Love Dancehall vs Soca ( 21+ )",
+"date": "2027-01-09",
+"time": "22:00",
+"status": "onsale",
+"venue": "Big Night Live",
+"venueCity": "Boston",
+"state": "MA",
+"address": "110 Causeway Street ",
+"lat": 42.365977,
+"lng": -71.0617,
+"url": "https://www.ticketmaster.com/ladies-love-dancehall-vs-soca-21-boston-massachusetts-01-09-2027/event/010065729FCFD06B",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"World"
+],
+"why": "name:dancehall",
+"attractions": [],
+"ageRestricted": false
+},
+{
+"city": "BOS",
 "id": "vv1A8vPCaGACL-E9",
 "name": "Bob Marley's B-Day / Reggae Winter Splash '27 ft Mighty Mystic (18+)",
 "date": "2027-02-06",
@@ -1272,30 +1295,6 @@
 "Mihali",
 "Beach Fly"
 ],
-"ageRestricted": false
-},
-{
-"city": "CLE",
-"id": "rZ7HnEZ1Af8UZV",
-"name": "Thanksgiving Night On Coventry",
-"date": "2026-11-26",
-"time": "22:00",
-"status": "onsale",
-"venue": "B Side Lounge",
-"venueCity": "Cleveland Heights",
-"state": "OH",
-"address": "2785 Euclid Heights Blvd",
-"lat": 41.5082658,
-"lng": -81.5803633,
-"url": "https://www.ticketweb.com/event/thanksgiving-night-on-coventry-b-side-lounge-tickets/14436034",
-"priceMin": 25.43,
-"priceMax": 25.43,
-"genres": [
-"Dancehall Reggae",
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [],
 "ageRestricted": false
 },
 {
@@ -3847,6 +3846,31 @@
 "why": "class:Reggae",
 "attractions": [
 "Through the Roots"
+],
+"ageRestricted": false
+},
+{
+"city": "SAN",
+"id": "rZ7HnEZ1AfGP4V",
+"name": "L.A.B - USA / CANADA TOUR 2027 w/ Seven Suns",
+"date": "2027-02-24",
+"time": "20:00",
+"status": "onsale",
+"venue": "Belly Up",
+"venueCity": "Solana Beach",
+"state": "CA",
+"address": "143 S. Cedros Ave",
+"lat": 32.990942,
+"lng": -117.270629,
+"url": "https://www.ticketweb.com/event/lab-usa-belly-up-tickets/14325574",
+"priceMin": 32.55,
+"priceMax": 54.55,
+"genres": [
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"L.A.B."
 ],
 "ageRestricted": false
 },
