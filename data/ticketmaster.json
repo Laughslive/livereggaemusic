@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-27T10:36:26+00:00",
+"fetched": "2026-11-28T10:34:14+00:00",
 "source": "Ticketmaster Discovery API",
 "events": [
 {
@@ -918,31 +918,6 @@
 },
 {
 "city": "BOS",
-"id": "LvZ18Qn8Lu9EIOyyLMpD0",
-"name": "Reggae Fest Boston at Big Night Live",
-"date": "2026-11-27",
-"time": "22:00",
-"status": "onsale",
-"venue": "Big Night Live",
-"venueCity": "Boston",
-"state": "MA",
-"address": "110 Causeway Street ",
-"lat": 42.365977,
-"lng": -71.0617,
-"url": "https://www.universe.com/events/reggae-fest-boston-at-big-night-live-tickets-5RC691?ref=ticketmaster",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Reggae Fest"
-],
-"ageRestricted": false
-},
-{
-"city": "BOS",
 "id": "rZ7HnEZ1AfZsbV",
 "name": "Mood",
 "date": "2026-12-01",
@@ -1086,6 +1061,31 @@
 "Patrice Roberts"
 ],
 "ageRestricted": false
+},
+{
+"city": "BOS",
+"id": "vv177Z_9GknRWU9_",
+"name": "Milk St. Studio's Benefit Concert",
+"date": "2026-12-18",
+"time": "20:00",
+"status": "onsale",
+"venue": "Wally's",
+"venueCity": "Hampton",
+"state": "NH",
+"address": "144 Ashworth Avenue",
+"lat": 42.904746,
+"lng": -70.814375,
+"url": "https://www.ticketmaster.com/milk-st-studios-benefit-concert-hampton-new-hampshire-12-18-2026/event/0100657AAFF765D9",
+"priceMin": null,
+"priceMax": null,
+"genres": [
+"Reggae"
+],
+"why": "class:Reggae",
+"attractions": [
+"Joe Samba"
+],
+"ageRestricted": true
 },
 {
 "city": "BOS",
@@ -2613,32 +2613,6 @@
 },
 {
 "city": "NYC",
-"id": "k7vGF_f1XaeIc",
-"name": "Capleton & Tarrus Riley",
-"date": "2026-11-27",
-"time": "20:00",
-"status": "onsale",
-"venue": "New Jersey Performing Arts Center",
-"venueCity": "Newark",
-"state": "NJ",
-"address": "1 Center Street",
-"lat": 40.739502,
-"lng": -74.16809,
-"url": "https://www.ticketmaster.com/capleton-tarrus-riley-newark-new-jersey-11-27-2026/event/00006542BE242A2D",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Tarrus Riley",
-"Capleton"
-],
-"ageRestricted": false
-},
-{
-"city": "NYC",
 "id": "rZ7HnEZ1Af0o3K",
 "name": "DTM",
 "date": "2026-11-28",
@@ -2985,31 +2959,6 @@
 "ageRestricted": false
 },
 {
-"city": "ORF",
-"id": "vv117Z_38tak3f",
-"name": "The Legendary Wailers ft. Junior Marvin",
-"date": "2026-11-27",
-"time": "20:00",
-"status": "onsale",
-"venue": "Elevation 27",
-"venueCity": "Virginia Beach",
-"state": "VA",
-"address": "600 Nevan Rd",
-"lat": 36.8493416,
-"lng": -76.0194075,
-"url": "https://www.ticketmaster.com/the-legendary-wailers-ft-junior-marvin-virginia-beach-virginia-11-27-2026/event/0100652429246494",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Reggae"
-],
-"why": "class:Reggae",
-"attractions": [
-"Junior Marvin & The Legendary Wailers"
-],
-"ageRestricted": false
-},
-{
 "city": "ORL",
 "id": "Z7r9jZ1AAZMAF",
 "name": "Reggae Fest At The Vanguard - Ages 21+",
@@ -3159,30 +3108,6 @@
 "attractions": [
 "The Movement"
 ],
-"ageRestricted": false
-},
-{
-"city": "PHX",
-"id": "rZ7HnEZ1Af8MOV",
-"name": "EARTHSURFACEOPEN // SOUL / REGGAE / HOUSE / AMAPIANO / DANCEHALL",
-"date": "2026-11-27",
-"time": "18:30",
-"status": "offsale",
-"venue": "Valley Bar",
-"venueCity": "Phoenix",
-"state": "AZ",
-"address": "130 N. Central Avenue",
-"lat": 33.449979,
-"lng": -112.074318,
-"url": "https://www.ticketweb.com/event/earthsurfaceopen-soul-reggae-valley-bar-tickets/14437834",
-"priceMin": null,
-"priceMax": null,
-"genres": [
-"Dance/Electronic",
-"Turntablists"
-],
-"why": "name:reggae",
-"attractions": [],
 "ageRestricted": false
 },
 {
@@ -3517,36 +3442,6 @@
 "attractions": [
 "The Hip Abduction",
 "Surf Hat"
-],
-"ageRestricted": false
-},
-{
-"city": "SAN",
-"id": "rZ7HnEZ1Af1pQf",
-"name": "How The Grouch Stole Christmas Tour - The Grouch & Eligh ft. Amp Live w/ Special Guests Brother Ali and Lyrics Born",
-"date": "2026-11-27",
-"time": "21:00",
-"status": "onsale",
-"venue": "Music Box",
-"venueCity": "San Diego",
-"state": "CA",
-"address": "1337 India Street",
-"lat": 32.71938,
-"lng": -117.16813,
-"url": "https://www.ticketweb.com/event/how-the-grouch-stole-christmas-music-box-tickets/14296694",
-"priceMin": 44.3,
-"priceMax": 44.3,
-"genres": [
-"Alternative Rock",
-"Hip-Hop/Rap",
-"Reggae",
-"Rock",
-"Urban"
-],
-"why": "class:Reggae",
-"attractions": [
-"Brother Ali",
-"Lyrics Born"
 ],
 "ageRestricted": false
 },
@@ -3995,7 +3890,7 @@
 "lng": -122.26962,
 "url": "https://www.ticketweb.com/event/afrobashmentafrobeats-dancehall-hip-hop-crybaby-tickets/14442524",
 "priceMin": 0.0,
-"priceMax": 129.24,
+"priceMax": 30.88,
 "genres": [
 "Hip-Hop/Rap"
 ],
